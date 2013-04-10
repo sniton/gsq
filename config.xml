@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.kromi.gdfqatar"
+        versionCode="10" 
+        version   = "0.0.1">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>GDF Suez - Qatar</name>
+
+    <description>
+        Application de présentation de GDF Suez au Qatar 
+    </description>
+
+    <author href="https://kromi.fr" email="kromi@kromi.fr">
+        Kromi 
+    </author>
+
+    <plugin name="NetworkStatus" value="CDVConnection" />
+
+</widget>

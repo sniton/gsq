@@ -1,0 +1,66 @@
+{
+	"accueil" : {
+		"fond" : "accueil"
+	},
+	"legroupe" : {
+		"parent" : "accueil",
+		"niveau" : 0,
+		"index"  : 1,
+		"fond"   : "vert",
+		"virtual": true
+	},
+		"gdsuezinstitutionnel" : {
+			"parent": "legroupe",
+			"niveau": 1,
+			"index" : 1,
+			"fond"  : "vert",
+			"panier": "fichierpdfexemple"
+		},
+		"presencedanslegolfe" : {
+			"parent"  : "legroupe",
+			"niveau"  : 1,
+			"index"   : 2,
+			"fond"    : "presencedanslegolfe",
+			"template": "presencedanslegolfe"
+		},
+			"saudiarabia" : {
+				"parent"  : "presencedanslegolfe",
+				"niveau"  : 2,
+				"index"   : 1,
+				"fond"    : "saudiarabia",
+				"template": "pays",
+				"datas"   : "pays"
+			},
+			"qatar" : {
+				"parent"  : "presencedanslegolfe",
+				"niveau"  : 2,
+				"index"   : 2,
+				"fond"    : "saudiarabia",
+				"template": "pays",
+				"datas"   : "pays"
+			},
+		"competences" : {
+			"parent": "legroupe",
+			"niveau": 1,
+			"index" : 3
+		},
+	"nossavoirfaire" : {
+		"parent": "accueil",
+		"niveau": 0,
+		"index" : 2,
+		"fond"  : "bleu"
+	},
+	"contacts" : {},
+	"panier" : {
+		"niveau"  : 0,
+		"template": "panier",
+		"onload"  : "onLoadPanier",
+		"disablemenu": true
+	},
+	"paniersend" : {
+		"niveau" : 0,
+		"template" : "paniersend",
+		"disablemenu" : true,
+		"onload" : "onLoadPanierSend"
+	}
+}

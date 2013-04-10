@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Language" content="fr" />
+	<title>GDF Suez</title>
+	<meta name="description" content=""/>
+	<meta name="Date-Creation-yyyymmdd" content="20130415" />
+
+
+<!-- Blocage du zoom pour les appareils mobile si site en responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes">
+
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/960_12_col.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css"/> -->
+    <!-- <link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css"/> -->
+    <!-- <link href="css/global.min.css" rel="stylesheet" type="text/css" /> -->
+    <link rel="stylesheet/less" type="text/css" href="css/global.less" />
+    <script src="js/less-1.3.3.min.js"></script>
+
+    <script src="phonegap.js"></script>
+   
+
+</head>
+<body>
+
+	
+	<div id="wrapper">
+
+
+
+	<!--
+	######## ##     ## ########  ##       
+	   ##    ###   ### ##     ## ##       
+	   ##    #### #### ##     ## ##       
+	   ##    ## ### ## ########  ##       
+	   ##    ##     ## ##        ##       
+	   ##    ##     ## ##        ##       
+	   ##    ##     ## ##        ######## 
+	-->	
+		<div id="templates">
+			<div class="template pays">
+				<div class="pays" data-id="image"><img src="uploads/{{image}}"></div>
+				<div class="right">
+					<div class="texte" data-id="texte">{{{texte}}}</div>
+					<div class="references">
+						<ul>
+						{{#references}}
+							<li>{{name}}</li>
+						{{/references}}
+						</ul>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!-- 
+	########  #######  ##    ## ########   ######  
+	##       ##     ## ###   ## ##     ## ##    ## 
+	##       ##     ## ####  ## ##     ## ##       
+	######   ##     ## ## ## ## ##     ##  ######  
+	##       ##     ## ##  #### ##     ##       ## 
+	##       ##     ## ##   ### ##     ## ##    ## 
+	##        #######  ##    ## ########   ######  
+	 -->
+	    <div id="fonds">
+	    	<div class="fond accueil active"></div>
+	    	<div class="fond vert"></div>
+	    	<div class="fond bleu"></div>
+	    	<div class="fond presencedanslegolfe"></div>
+	    	<div class="fond saudiarabia"></div>
+	    </div>
+
+
+	<!-- 
+	########     ###     ######   ########  ######  
+	##     ##   ## ##   ##    ##  ##       ##    ## 
+	##     ##  ##   ##  ##        ##       ##       
+	########  ##     ## ##   #### ######    ######  
+	##        ######### ##    ##  ##             ## 
+	##        ##     ## ##    ##  ##       ##    ## 
+	##        ##     ##  ######   ########  ######  
+	 -->
+	    <div id="pages">
+	    	<div class="template presencedanslegolfe" data-page="presencedanslegolfe">
+				<div class="terre">
+					<div class="marker qatar" data-pays="qatar"></div>
+					<div class="marker saudiarabia" data-pays="saudiarabia"></div>
+					<div class="marker kuwait"></div>
+					<div class="marker barhain"></div>
+					<div class="marker unitedarabemirates"></div>
+					<div class="marker oman"></div>
+				</div>
+			</div>
+			<div class="template panier" data-page="panier">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<ul>
+					<li class="totalPanier"></li>
+					<li>Technologies <span class="technologies"></span></li>
+					<li>Plaquettes <span class="plaquettes"></span></li>
+					<li>Vidéos <span class="videos"></span></li>
+					<li>Références <span class="references"></span></li>
+				</ul>
+				<dl class="liste"></dl>
+			</div>
+			<div class="template paniersend" data-page="paniersend">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<form action="" id="form_paniersend">
+					<input type="email" class="input_email">
+					<input type="submit" value="envoyer">
+				</form>
+				<div class="etatconnexion"></div>
+			</div>
+	    </div>
+
+		
+
+	<!-- 
+	 #######  ##     ## ######## ########  ##          ###    ##    ## 
+	##     ## ##     ## ##       ##     ## ##         ## ##    ##  ##  
+	##     ## ##     ## ##       ##     ## ##        ##   ##    ####   
+	##     ## ##     ## ######   ########  ##       ##     ##    ##    
+	##     ##  ##   ##  ##       ##   ##   ##       #########    ##    
+	##     ##   ## ##   ##       ##    ##  ##       ##     ##    ##    
+	 #######     ###    ######## ##     ## ######## ##     ##    ##    
+	  -->
+		<div id="overlay"></div>
+
+
+	<!-- 
+	##     ## ######## ##    ## ##     ## 
+	###   ### ##       ###   ## ##     ## 
+	#### #### ##       ####  ## ##     ## 
+	## ### ## ######   ## ## ## ##     ## 
+	##     ## ##       ##  #### ##     ## 
+	##     ## ##       ##   ### ##     ## 
+	##     ## ######## ##    ##  #######  
+	 -->
+		<div id="menu">
+			<div class="niveau2">
+				<div class="background"></div>
+				<div class="links">
+					<div class="linkZone item1" data-page=""></div>
+					<div class="linkZone item2" data-page=""></div>
+					<div class="linkZone item3" data-page=""></div>
+					<div class="linkZone item4" data-page=""></div>
+					<div class="linkZone item5" data-page=""></div>
+					<div class="linkZone item6" data-page=""></div>
+				</div>
+			</div>
+			<div class="niveau1Background">
+				<div class="background"></div>
+			</div>
+			<div class="niveau1">
+				<div class="linkZone item1" data-page=""></div>
+				<div class="linkZone item2" data-page=""></div>
+				<div class="linkZone item3" data-page=""></div>
+				<div class="linkZone item4" data-page=""></div>
+				<div class="linkZone item5" data-page=""></div>
+				<div class="linkZone item6" data-page=""></div>
+			</div>
+			<div class="base">
+				<div class="centre"></div>
+				<div class="overlay overlayGroupe"></div>
+				<div class="overlay overlayNossvoirfaire"></div>
+			</div>
+			<div class="niveau0">
+				<div class="linkZone legroupe" data-page="legroupe"></div>
+				<div class="linkZone nossavoirfaire" data-page="nossavoirfaire"></div>
+			</div>
+		</div>
+
+
+	<!-- 
+	########     ###    ##    ## #### ######## ########  
+	##     ##   ## ##   ###   ##  ##  ##       ##     ## 
+	##     ##  ##   ##  ####  ##  ##  ##       ##     ## 
+	########  ##     ## ## ## ##  ##  ######   ########  
+	##        ######### ##  ####  ##  ##       ##   ##   
+	##        ##     ## ##   ###  ##  ##       ##    ##  
+	##        ##     ## ##    ## #### ######## ##     ## 
+	 -->
+		<div id="panier">
+			<div class="menu">
+				<div class="back"></div>
+				<ul class="items">
+					<li class="item ajouter" data-action="add"><div class="icon"></div></li>
+					<li class="item voir" data-action="see"><div class="icon"><div class="overlay"></div></div></li>
+					<li class="item mail" data-action="send"><div class="icon"><div class="overlay"></div></div></li>
+					<li class="item vider disabled" data-action="empty"><div class="icon"><div class="overlay"></div></div></li>
+				</ul>
+			</div>
+			<div class="button">
+				<div class="overlay"></div>
+			</div>
+		</div>
+
+
+	<!-- 
+	##     ## ########    ###    ########  ######## ########  
+	##     ## ##         ## ##   ##     ## ##       ##     ## 
+	##     ## ##        ##   ##  ##     ## ##       ##     ## 
+	######### ######   ##     ## ##     ## ######   ########  
+	##     ## ##       ######### ##     ## ##       ##   ##   
+	##     ## ##       ##     ## ##     ## ##       ##    ##  
+	##     ## ######## ##     ## ########  ######## ##     ## 
+	 -->
+		<header id="header"></header>
+		
+	</div>
+
+
+
+
+	<script src="js/jquery-1.8.2.min.js"></script>
+<!--	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+	<script type="text/javascript" src="plugins/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>-->
+	<script src="js/jquery.hammer.min.js"></script>
+	<script src="js/mustache.js"></script>
+	<script src="js/global.js"></script>
+  
+
+</body>
+</html>
