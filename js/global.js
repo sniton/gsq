@@ -359,17 +359,6 @@ function onLoadPanierSend(){
 var oNavigation
 function navEvents(){
 	oNavigation = new navigation();
-
-	$('a.linktest').click(function(e){
-		e.preventDefault()
-		var page = $(this).attr('href')
-		oNavigation.navTo(page)
-	})	
-
-	$('svg path').hammer().on('tap', function(e){
-		console.log(e)
-		console.log($(this).attr('id'))
-	})
 }
 
 var navigation = function(){
@@ -387,6 +376,7 @@ var navigation = function(){
 			url: 'configs/arborescence.json',
 			success: function(data){
 				self.arborescence = data
+				console.log(data)
 			}
 		});
 	}
@@ -469,19 +459,21 @@ var navigation = function(){
 	this.refreshMenu = function(page, virtual){
 		console.log("--refreshMenu")
 		var niveau = this.arborescence[page].niveau
-		var index = this.arborescence[page].index
+		// var index = this.arborescence[page].index
+		var angle = this.arborescence[page].angle
+		console.log(angle)
 		if(niveau == 2){
 			$(menu).addClass('isniveau1 isniveau2')
 			this.getPagesByParent(this.arborescence[page].parent)
-			var angle = - (60 * (index - 1))
-			$('.niveau2 .background, .niveau2 .links', menu).css('-webkit-transform', 'rotate('+angle+'deg)')
+			// var angle = - (60 * (index - 1))
+			$('.niveau2 .background, .niveau2 .links', menu).css('-webkit-transform', 'rotate(-'+angle+'deg)')
 		}else if(niveau == 1){
 			$(menu).addClass('isniveau1').removeClass('isniveau2')
-			var angle = - (60 * (index - 1))
-			$('.niveau1Background .background, .niveau1', menu).css('-webkit-transform', 'rotate('+angle+'deg)')
+			// var angle = - (60 * (index - 1))
+			$('.niveau1Background .background, .niveau1', menu).css('-webkit-transform', 'rotate(-'+angle+'deg)')
 		}else if(niveau == 0){
 			$(menu).removeClass('isniveau1 isniveau2')
-			var angle = (180 * (index - 1))
+			// var angle = (180 * (index - 1))
 			$('.base, .niveau0', menu).css('-webkit-transform', 'rotate('+angle+'deg)')
 		}else{
 			$(menu).removeClass('isniveau1 isniveau2 hide disabled')

@@ -5,49 +5,47 @@
 	"legroupe" : {
 		"parent" : "accueil",
 		"niveau" : 0,
-		"index"  : 1,
+		"angle"  : 0,
 		"fond"   : "vert",
 		"virtual": true
 	},
 		"gdsuezinstitutionnel" : {
 			"parent": "legroupe",
 			"niveau": 1,
-			"index" : 1,
+			"angle" : 0,
 			"fond"  : "vert",
 			"panier": "fichierpdfexemple"
 		},
 		"presencedanslegolfe" : {
 			"parent"  : "legroupe",
 			"niveau"  : 1,
-			"index"   : 2,
+			"angle"   : 60,
 			"fond"    : "presencedanslegolfe",
 			"template": "presencedanslegolfe"
 		},
-			"saudiarabia" : {
+			"pays-saudiarabia" : {
 				"parent"  : "presencedanslegolfe",
 				"niveau"  : 2,
-				"index"   : 1,
 				"fond"    : "saudiarabia",
 				"template": "pays",
-				"datas"   : "pays"
+				"datas"   : "pays-saudiarabia"
 			},
-			"qatar" : {
+			"pays-qatar" : {
 				"parent"  : "presencedanslegolfe",
 				"niveau"  : 2,
-				"index"   : 2,
 				"fond"    : "saudiarabia",
 				"template": "pays",
-				"datas"   : "pays"
+				"datas"   : "pays-qatar"
 			},
 		"competences" : {
 			"parent": "legroupe",
 			"niveau": 1,
-			"index" : 3
+			"angle" : 215
 		},
 	"nossavoirfaire" : {
 		"parent": "accueil",
 		"niveau": 0,
-		"index" : 2,
+		"angle" : 180,
 		"fond"  : "bleu"
 	},
 	"contacts" : {},
