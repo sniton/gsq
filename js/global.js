@@ -365,6 +365,11 @@ function navEvents(){
 		var page = $(this).attr('href')
 		oNavigation.navTo(page)
 	})	
+
+	$('svg path').hammer().on('tap', function(e){
+		console.log(e)
+		console.log($(this).attr('id'))
+	})
 }
 
 var navigation = function(){
