@@ -1,5 +1,6 @@
 {
-	"saudiarabia" : {
+	// Pays
+	"pays-saudiarabia" : {
 		"image" : "saudiarabia.png",
 		"texte" : "<h1>In condimentum facilisis porta. Sed nec diam eu diam viverra.</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
 		"references" : [
@@ -8,8 +9,767 @@
 			{"name" : "ref3"}
 		]
 	},
-	"qatar" : {
+	"pays-qatar" : {
 		"image" : "saudiarabia.png",
 		"texte" : "<h1>Qatar</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>"
+	},
+
+
+	// Compétences
+	"competence-multi-technical-maintenance" : {
+		"titre" : "Multi-technical Maintenance ",
+		"texte" : "Through the operation and maintenance of technical facilities, GDF SUEZ has developed a global energy performance offer to guarantee long-term energy savings and reductions in emissions of pollutants and greenhouse gases for its customers.",
+		"societes" : [
+			{"alias" : "cofely-services"},
+			{"alias" : "cofely-besix"},
+			{"alias" : "cofely-axima"},
+			{"alias" : "suez-environnement"},
+			{"alias" : "cofely-ineo"},
+		],
+		"photos" : [
+			{
+				"image" : "competences/piscine-vincennes.jpg",
+				"legende" : "The City of Vincennes' Swimming pool, France"
+			},
+			{
+				"image" : "competences/grand-stade-photo-1-ere-page.jpg",
+				"legende" : "Large stadium in Le Havre, France" 
+			}
+		]
+	},
+
+	"competence-electrical-engineering" : {
+		"titre" : "Electrical Engineering",
+		"texte" : "Contributing to the renovation, construction and maintenance of equipment, adding new technological dimensions and protecting the safety of people and property: these are the challenges which GDF SUEZ takes up by combining key skills and know-how, from electrical engineering (electric systems, lighting) to the integration of information and communication technologies (supervision, smart-grids).",
+		"societes" : [
+			{"alias" : "cofely-ineo"},
+			{"alias" : "tractebel-engineering"},
+			{"alias" : "cofely-services"},
+		],
+		"photos" : [
+			{
+				"image" : "competences/velodrom-5.jpg",
+				"legende" : "The Velodrome Stadium in Marseille, France"
+			},
+			{
+				"image" : "competences/cofely-ineo-bertrand-holsnyder.jpg",
+				"legende" : "La Gaîté Lyrique, Paris, France"
+			}
+		]
+	},
+
+	"competence-illuminations-and-giant-screens" : {
+		"titre" : "Illuminations and giant screens",
+		"texte" : "GDF SUEZ takes part in institutional, sporting, cultural and corporate events throughout the world. Often this activity focuses on the organization of night-time events and the lighting of buildings and monuments of towns and cities.",
+		"societes" : [
+			{"alias" : "etc"},
+			{"alias" : "cofely-ineo"},
+		],
+		"photos" : [
+			{
+				"image" : "competences/arab-games-2012-doha.jpg",
+				"legende" : "Arab Games in Doha, 2012"
+			},
+			{
+				"image" : "competences/beaune.jpg",
+				"legende" : "Management of the lighting plan in the town of Beaune, France"
+			}
+		]
+	},
+
+	"competence-fire-protection" : {
+		"titre" : "Fire Protection",
+		"texte" : "GDF SUEZ supplies its customers with active fire protection systems (sprinklers, hydrants, fire detection and smart control systems).",
+		"societes" : [
+			{"alias" : "cofely-axima"},
+		],
+		"photos" : [
+			{
+				"image" : "competences/protection-incendie.jpg",
+				"legende" : "Fire protection system"
+			},
+			{
+				"image" : "competences/219671.jpg",
+				"legende" : "Fire protection system"
+			}
+		]
+	},
+
+	"competence-renewable-energies" : {
+		"titre" : "Renewable Energies",
+		"texte" : "Building opened to the public have an impact on the local environment through the manner in which its energy is produced. GDF SUEZ achieves optimal performance of its facilities by integrating renewables (solar, geothermics, wind, biomass), water and air treatment and the monitoring of performance indicators.",
+		"societes" : [
+			{"alias" : "cofely-services"},
+			{"alias" : "laborelec"},
+			{"alias" : "tractebel-engineering"},
+		],
+		"photos" : [
+			{
+				"image" : "competences/fourniture-d-energie.jpg",
+				"legende" : "Photovoltaic panels"
+			},
+			{
+				"image" : "competences/1-fourniture-de-l-energie.jpg",
+				"legende" : "Dam"
+			}
+		]
+	},
+
+	"competence-waste-sorting-and-recovery" : {
+		"titre" : "Waste Sorting and Recovery",
+		"texte" : "GDF SUEZ advises its customers and delivers services for the collection, management and reuse of waste. This ranges from site audits and the identification of partners, to training in sorting at source, material supplies, regulatory compliance and the optimized management of collections. GDF SUEZ also provides Total Waste Management and centralized coordination: reuse of organic materials, energy solutions dedicated to biowaste (deconditioning, composting and methanization units).",
+		"societes" : [
+			{"alias" : "sita"},
+		],
+		"photos" : [
+			{
+				"image" : "collecte-dechets-industriel-3.jpg",
+				"legende" : "Industrial waste sorting"
+			},
+			{
+				"image" : "collecte-dechets-industriel-5.jpg",
+				"legende" : "Industrial waste sorting"
+			}
+		]
+	},
+
+	"competence-climate-engineering" : {
+		"titre" : "Climate Engineering",
+		"texte" : "GDF SUEZ provides its broad-based and specialized experience and command of climate engineering to its customers. The application of optimized solutions for equipment provides solutions for energy efficiency as well as noise and comfort factors. The GDF SUEZ Group supports all projects from the design phase through to the operational control of facilities.",
+		"societes" : [
+			{"alias" : "cofely-services"},
+			{"alias" : "cofely-axima"},
+		],
+		"photos" : [
+			{
+				"image" : "centre-national-de-danse.jpg",
+				"legende" : "The National Danse Center in Pantin, France"
+			},
+			{
+				"image" : "philharmonie-6.jpg",
+				"legende" : "The Philarmonie of Paris, France"
+			}
+		]
+	},
+
+	"competence-air-treatment" : {
+		"titre" : "Air Treatment",
+		"texte" : "GDF SUEZ designs and maintains fixed and mobile self-contained systems. The Group continually improves and integrates new energy technologies for the optimized control of flows and the industrialization and qualification of new air treatment processes.",
+		"societes" : [
+			{"alias" : "cofely-services"},
+			{"alias" : "cofely_ineo"},
+		],
+		"photos" : [
+			{
+				"image" : "5-genie-climatique.jpg",
+				"legende" : "Air treatment and air conditioning"
+			},
+			{
+				"image" : "page-5-photo3.jpg",
+				"legende" : "Air treatment and air conditioning"
+			}
+		]
+	},
+
+	"competence-kitchen-refrigeration" : {
+		"titre" : "Kitchen Refrigeration",
+		"texte" : "GDF SUEZ possesses global expertise in the energy and environmental performance of cooling systems, from the design to the maintenance of cooling units.",
+		"societes" : [
+			{"alias" : "cofely-axima"},
+		],
+		"photos" : [
+			{
+				"image" : "3-refrigeration-commerciale.jpg",
+				"legende" : "Kitchen refrigeration system"
+			},
+			{
+				"image" : "3-refrigeration-commerciale-3.jpg",
+				"legende" : "Kitchen refrigeration system"
+			}
+		]
+	},
+
+	"competence-smart-control-and-site-security" : {
+		"titre" : "Smart control and site security",
+		"texte" : "The design of public amenities is constantly evolving, requiring the combination of the feelings of well-being and safety in modern facilities which are optimized to receive the general public. The CCTV, smart access control, as well as information and supervision systems proposed by GDF SUEZ enable the management of the risks associated with events attended by high numbers of people.",
+		"societes" : [
+			{"alias" : "cofely-ineo"},
+			{"alias" : "cofely-services"},
+		],
+		"photos" : [
+			{
+				"image" : "2-pilotage-intelligent-des-fluides-et-des-energies.jpg",
+				"legende" : "Smart control"
+			},
+			{
+				"image" : "videosurveillance.jpg",
+				"legende" : "Videosurveillance"
+			}
+		]
+	},
+
+	"competence-management-and-procurement-of-resources" : {
+		"titre" : "Management and procurement of resources",
+		"texte" : "GDF SUEZ delivers mobile water supply, sea water desalination and purification solutions.",
+		"societes" : [
+			{"alias" : "degremont"},
+			{"alias" : "ondeo-is"},
+			{"alias" : "purite-limited"},
+			{"alias" : "suez-environnement"},
+		],
+		"photos" : [
+			{
+				"image" : "musee-de-la-mer-aquarium-biarritz.jpg",
+				"legende" : "The Museum of the Sea in Biarritz, France"
+			}
+		]
+	},
+
+	"competence-sustainable-mobility-solutions" : {
+		"titre" : "Sustainable Mobility Solutions",
+		"texte" : "GDF SUEZ provides natural gas fuel solutions to meet the needs of all of its customers (local authorities, businesses, fleet operators). The Group delivers a broad range of services, extending from the design, construction and operation-maintenance of service stations to the technically and economically optimized sale of natural gas fuel. The Group's subsidiary GNVert operates more than 140 natural gas fuel stations of all sizes in France, operation and maintenance of more than 40 natural gas stations for heavy goods vehicles and around 100 natural gas stations for light vehicles. In 2011, all of the natural gas fuel stations operated by GNVERT were ISO 14001 certified. ",
+		"societes" : [
+			{"alias" : "cofely-ineo"},
+			{"alias" : "gnvert"},
+		],
+		"photos" : [
+			{
+				"image" : "monoprix-camion-gnv-42-ok.jpg",
+				"legende" : "Distribution of natural gas fuel"
+			},
+			{
+				"image" : "bercy-la-nuit.jpg",
+				"legende" : "Distribution of natural gas fuel"
+			}
+		]
+	},
+
+	"competence-purification-and-industrial-maintenance" : {
+		"titre" : "Purification and industrial maintenance",
+		"texte" : "GDF SUEZ services and maintains fuel distribution and water filtering equipment.",
+		"societes" : [
+			{"alias" : "sita"},
+		],
+		"photos" : [
+			{
+				"image" : "collecte-dechets-industriels.jpg",
+				"legende" : "Industrial waste sorting"
+			}
+		]
+	},
+
+	"competence-design-construction-project-management" : {
+		"titre" : "Design, construction, project management",
+		"texte" : "GDF SUEZ helps to blend facilities into their surroundings, creating a sustainable living environment which adds to the attractiveness of the locality. By being involved right from the design phase, the Group allows to guarantee the long-term future, accessibility and environmental performance of projects. This global approach optimizes initial capital outlay and cuts running costs.",
+		"societes" : [
+			{"alias" : "tractebel-engineering"},
+			{"alias" : "safege"},
+		],
+		"photos" : [
+			{
+				"image" : "musee-des-confluences.jpg",
+				"legende" : "Le Musée des confluences, Lyon, France"
+			},
+			{
+				"image" : "zenith-st-etienne.jpg",
+				"legende" : "St-Etienne's Zenith, France"
+			}
+		]
+	},
+
+	"competence-ensuring-operational-fitness-and-integrated-logistic-support" : {
+		"titre" : "Ensuring operational fitness and integrated logistic support",
+		"texte" : "Through the delivery of local support, responses to operational needs for the fitting out, maintenance and repair of systems and maintenance of user skills, GDF SUEZ applies best practices to develop service solutions tailored to new economic demands related to security. GDF SUEZ ensures the serviceability of complete operational systems in the fields of telecommunications, detection and electronic warfare.",
+		"societes" : [
+			{"alias" : "cofely-ineo"},
+		],
+		"photos" : [
+			{
+				"image" : "img-1158.jgp",
+				"legende" : "Surveillance systems"
+			},
+			{
+				"image" : "pxr-photo-092.jgp",
+				"legende" : "Operational support (supply of spare parts)"
+			}
+		]
+	},
+
+	"competence-perimeter-protection-videosurveillance-and-runway-marking" : {
+		"titre" : "Perimeter protection, videosurveillance and runway marking",
+		"texte" : "GDF SUEZ implements solutions for secure site access and controlled ground markings.",
+		"societes" : [
+			{"alias" : "cofely-ineo"},
+		],
+		"photos" : [
+			{
+				"image" : "balisage-1.jpg",
+				"legende" : "Runway marking"
+			}
+		]
+	},
+
+	"competence-communication-networks-and-dedicated-infrastructures" : {
+		"titre" : "Communication networks and dedicated infrastructures",
+		"texte" : "GDF SUEZ possesses the experience required to integrate the design and construction of solutions for the deployment of communicating networks. These include innovative Hertzian transmission systems covering the complete electromagnetic spectrum, submarine antennae, naval HF communications, copper and/or optical wired networks and IP networks.",
+		"societes" : [
+			{"alias" : "cofely-ineo"},
+		],
+		"photos" : [
+			{
+				"image" : "img-7343.jpg",
+				"legende" : "Surveillance systems "
+			},
+			{
+				"image" : "furet-mob-2002-2.jpg",
+				"legende" : "Mobile operational support"
+			}
+		]
+	},
+
+	"competence-lecture-theatres-classrooms-and-information-technology-training-rooms" : {
+		"titre" : "Lecture theatres, classrooms and Information Technology training rooms",
+		"texte" : "GDF SUEZ delivers services to facilitate access to digital technology for end users: sharing information, Wi-Fi access, audiovisual and video conferences.",
+		"societes" : [
+			{"alias" : "cofely-ineo"},
+		],
+		"photos" : [
+			{
+				"image" : "univesite-bordeaux",
+				"legende" : "Students at the University"
+			},
+			{
+				"image" : "mg-3996.jpg",
+				"legende" : "Students in a lecture theatre"
+			}
+		]
+	},
+
+	"competence-datacenter" : {
+		"titre" : "Datacenter",
+		"texte" : "GDF SUEZ designs, builds and implements data centers and the associated services.",
+		"societes" : [
+			{"alias" : "cofely-services"},
+			{"alias" : "cofely-ineo"},
+		],
+		"photos" : [
+			{
+				"image" : "16.jpg",
+				"legende" : "Datacenter"
+			},
+			{
+				"image" : "20.jpg",
+				"legende" : "Datacenter"
+			}
+		]
+	},
+
+	"competence-thermal-and-classical-soil-remediation-deconstruction" : {
+		"titre" : "Thermal and classical soil remediation / Deconstruction",
+		"texte" : "GDF SUEZ, through its subsidiary SITA Remediation, has proven expertise in the depollution of contamined soil and whole sites. The Group provides packaged solutions for thermal depollution, including large scale technical site surveys and the thermal depollution services, which can also be applied to the deconstruction of contamined industrial plant with a patented process. ",
+		"societes" : [
+			{"alias" : "sita"},
+		],
+		"photos" : [
+			{
+				"image" : "dsc02870.jpg",
+				"legende" : "Thermal soil remediation"
+			},
+			{
+				"image" : "dsc03820.jpg",
+				"legende" : "Thermal soil remediation"
+			}
+		]
+	},
+
+	"competence-global-cultural-event-management" : {
+		"titre" : "Global Cultural Event Management",
+		"texte" : "GDF SUEZ's multimedia experts offer visitors an unforgettable experience, thanks to a range of innovative technological services: audiovisual and multimedia systems, program storage and retrieval, interactive terminals, remote access to cultural information, audio-guides, image projection and illumination.",
+		"societes" : [
+			{"alias" : "culturespaces"},
+			{"alias" : "etc"},
+			{"alias" : "cofely-ineo"},
+		],
+		"photos" : [
+			{
+				"image" : "img-3833.jpg",
+				"legende" : "Château de Versailles, France"
+			},{
+				"image" : "cite-de-l-auto-c-recoura.jpg",
+				"legende" : "Cité de l’Automobile, Schlumpf-Mulhouse, France"
+			}
+		]
+	},
+
+	"competence-interactive-terminal-for-patients" : {
+		"titre" : "Interactive Terminal for Patients",
+		"texte" : "GDF SUEZ has developed a multimedia patient terminal designed to centralize all available sources of patient information in a healthcare establishment. The latest multimedia applications (television and video on demand, radio, telephone, internet) can all be accessed, thanks to this technology, using a touch-sensitive screen. Patient-related information (medical record, prescriptions, medical imaging, test results) is updated in real-time on the terminal via a secure access. ",
+		"societes" : [
+			{"alias" : "cofely-ineo"},
+		],
+		"photos" : [
+			{
+				"image" : "photo1.jpg",
+				"legende" : "Patient in a hospital"
+			},
+			{
+				"image" : "viadesign-portal-adult.jpg",
+				"legende" : "Interactive Terminal for Patients"
+			}
+		]
+	},
+
+	"competence-laundry-expertise" : {
+		"titre" : "Laundry expertise",
+		"texte" : "GDF SUEZ designs and maintains the processes used to clean and disinfect professional work wear for healthcare establishments.",
+		"societes" : [
+			{"alias" : "cofely-services"},
+		],
+		"photos" : [
+			{
+				"image" : "blanchisserie.jpg",
+				"legende" : "A laundry in the Val d'Oise, France"
+			}
+		]
+	},
+
+	"competence-water-purification-systems" : {
+		"titre" : "Water Purification Systems ",
+		"texte" : "GDF SUEZ has developped a renal dialysis system which is a lifesaving medical treatment used to mimic the functions of the kidneys in patients who are experiencing end-stage renal failure. ",
+		"societes" : [
+			{"alias" : "purite-limited"},
+		],
+		"photos" : [
+			{
+				"image" : "royal-london-120-points-purite-plant-room.jpg",
+				"legende" : "Royal London Purite plant room, the United Kingdom"
+			},
+			{
+				"image" : "unit-for-home-dialysis.jpg",
+				"legende" : "Water Purification System"
+			}
+		]
+	},
+
+	"competence-mobile-water-supply-and-treatment-systems" : {
+		"titre" : "Mobile water supply and treatment systems",
+		"texte" : "GDF SUEZ delivers a simple and reliable solution to industrial companies, around the world and in all sectors of activity, which guarantees, with no capital investment, the quality and quantity of their water supply.",
+		"societes" : [
+			{"alias" : "ondeo-is"},
+			{"alias" : "degremont"},
+		],
+		"photos" : [
+			{
+				"image" : "06-096.jpg",
+				"legende" : "Air-transportable military container"
+			},
+			{
+				"image" : "caen-carpiquet-041.jpg",
+				"legende" : "Air-transportable military container"
+			}
+		]
+	},
+
+	"competence-mobility" : {
+		"titre" : "Mobility",
+		"texte" : "GDF SUEZ assists its public and private customers in formulating their strategic choices and master plans, advises its customers in drawing up policy and feasibility studies, carries out detailed studies and manages the whole project. The Group ensures high-quality, sustainable solutions through intelligent integration of infrastructure, buildings, mobility and energy efficiency. GDF SUEZ combines all its competencies in a creative way, thus playing a key role in developing the cities and the environment of the future. The Group seeks the right balance to make our natural and urban environment a sustainable source of progress and development.",
+		"societes" : [
+			{"alias" : "tractebel-engineering"},
+		],
+		"photos" : [
+			{
+				"image" : "??",
+				"legende" : "??"
+			}
+		]
+	},
+
+	"competence-building-and-demolishing-facilities" : {
+		"titre" : "Building and demolishing facilities",
+		"texte" : "GDF SUEZ leads or supports complex projects in a number of different sectors. Its primary objective is to allow its clients to remain centered on their core businesses and improve the dependability and performance of their installations with an ongoing focus for safety and security. GDF SUEZ can relocate industrial facilities anywhere in the world. Indeed, the company masters key competencies such as dismantling, lifting, handling and re-assembling huge industrial systems : production lines, industrial units, infrastructures. Cofely Endel, specialist in industrial transfers has concluded successful projects in Germany, Norway, Netherlands, Spain, Portugal, Switzerland and France.",
+		"societes" : [
+			{"alias" : "cofely-endel"},
+		],
+		"photos" : [
+			{
+				"image" : "photo1",
+				"legende" : "Grand prix de Monaco"
+			},
+			{
+				"image" : "photo2",
+				"legende" : "Grand prix de Monaco"
+			}
+		]
+	},
+
+	//technologies
+
+	"technologie-degres-bleus" : {
+		"titre" : "Degrés Bleus®",
+		"texte" : "Ecological heating of a swimming pool
+The heat from wastewater is recovered using a heat-exchanger located directly within the sewage network adjacent to sports facilities. The recovered energy is transferred to the building’s heating network using a heat pump (installation commissioned by GDF SUEZ in the swimming pool in the town of Levallois). The renewable energy production can also be performed at the outlet of a sewage treatment plant through heat exchange with the treated water. ",
+		"chiffre-cles" : [
+			{
+				"chiffres" : "70%",
+				"legende" : "Savings in greenhouse gas emissions. ",
+				"source" : "Source : Lyonnaise des Eaux"
+			}
+		],
+			"logo" : "degres-bleus",
+			"societes" : [
+				{"alias" : "lyonnaise-des-eaux"}
+			],
+			"photos" : [
+				{
+					"image" : "edsc-0001.jpg",
+					"legende" : "The City of Levallois' swimming pool, France"
+				},
+				{
+					"image" : "000-par1248512.jpg",
+					"legende" : "Palais de l'Elysée, Paris"
+				}
+			]
+	},
+
+	"technologie-vigionella" : {
+		"titre" : "Vigionella",
+		"texte" : "Health monitoring of water
+GDF SUEZ has developed a monitoring system for legionella bacteria, which develop in water and generate infectious diseases. This solution, called Vigionella, is based on features such as continuous temperature measurement and the recording, data back-up and transmission of alerts, with customer access to the application’s indicators. Vigionella is provided through subscription and does not require any specific investment.
+",
+		"chiffre-cles" : [
+			{
+				"chiffres": "100%",
+				"legende" : "Of sites equipped with Vigionella have been protected.",
+				"source" : "Source : Direction of the Cofely Services' exploitations"
+			}
+		],
+			"societes" : [
+				{"alias" : "cofely-services"}
+			],
+			"photos" : [
+				{
+					"image" : "2-pilotage-intelligent-des-fluides-et-des-energies.jpg",
+					"legende" : "Smart control of fluids and energies"
+				}
+			]
+	},
+
+	"technologie-smart-city-dashboard" : {
+		"titre" : "“Smart City Dashboard” ",
+		"texte" : "Energy and fluid monitoring, management and optimization
+Regional administrators are faced with a wide range of different types of information. The understanding of cities and their trends is central to the concerns of local elected officials. GDF SUEZ has developed an open, intuitive, technological platform which incorporates various data types (for municipalities and regions). These are analyzed and correlated to provide information for managing infrastructures, giving alerts, planning and managing events, as well as understanding changes to the environment, rationalizing investments and anticipating major risks.
+",
+		"chiffre-cles" : [
+			{
+				"chiffres": "30%",
+				"legende" : "Savings in sports facilities’ energy bills. ",
+				"source" : "Source : Cofely Ineo"
+			}
+		],
+			"societes" : [
+				{"alias" : "cofely-ineo"}
+			],
+			"photos" : [
+				{
+					"image" : "cofely-ineo-dominique-erhard.jpg",
+					"legende" : "Technological platform "
+				}
+			]
+	},
+
+	"technologie-elena" : {
+		"titre" : "Elena",
+		"texte" : "Smart management of air treatment
+Areas which receive the general public with variable occupancy rates are often ventilated in a constant manner, without truly considering the actual usage of the site. To optimize energy consumption, GDF SUEZ designed the Elena system, which adjusts the ventilation of a room according to its occupancy and the need for atmospheric conditioning. This patented system reconciles temperature control and regulatory requirements while guaranteeing air quality.",
+		"chiffre-cles" : [
+			{
+				"chiffres": "25%",
+				"legende" : "Reduction in air treatment energy consumption",
+				"source" : "Source : Cofely Services - Synergie"
+			}
+		],
+			"societes" : [
+				{"alias" : "cofely-services"}
+			],
+			"photos" : [
+				{
+					"image" : "elena.jpg",
+					"legende" : "Council of Europe"
+				}
+			]
+	},
+
+	"technologie-bio-deconditioner" : {
+		"titre" : "Bio-deconditioner",
+		"texte" : "Reuse of organic packaged waste
+SITA develops and operates bio-deconditioners for packaged food products in order to make sorting operations easier for store personnel and to reduce the volume of waste which is incinerated or landfilled. This process is the ideal solution to separate packaging from organic material. After quality control, the waste is crushed and then centrifuged. The resulting organic substrate is processed using certified biological recycling methods, including methanization, to produce digestate and biogas, or composting, in which the substrate is returned to the soil. Our bio-deconditioning facilities are IC PE certified.",
+		"chiffre-cles" : [
+			{
+				"chiffres": "90%",
+				"legende" : "The percentage of reuse of packaged biowaste using the bio-deconditioner technology (organic reuse and matter).",
+				"source" : "Source : GDF SUEZ"
+			}
+		],
+			"societes" : [
+				{"alias" : "sita"}
+			],
+			"photos" : [
+				{
+					"image" : "biodeconditionneur-chemaudin.jpg",
+					"legende" : "Bio-deconditioner in Chemaudin, France"
+				}
+			]
+	},
+
+	"technologie-co2-and-nh3-technologies" : {
+		"titre" : "CO2 and NH3 technologies",
+		"texte" : "Natural fluids for commercial cooling systems
+The environmental impact of synthetic refrigerants has prompted retailers to turn to natural fluids. Ammonia, together with a cooling medium which produces positive cooling, is usually combined with a cascade CO2 unit for negative refrigeration. The CO2/NH3 duo is the ideal solution for the efficient production of cooling with a limited carbon impact, since greenhouse gas emissions are cut by 80%. CO2 can also be used alone thanks to transcritical technology.
+",
+		"chiffre-cles" : [
+			{
+				"chiffres" : "4,000 t of CO2 equivalent
+",
+				"legende" : "The quantity of greenhouse gas
+emissions that can be prevented in 10 years,
+by replacing a cooling unit that uses
+R404 (HFC) with natural fluids technology
+in an average superstore.",
+				"source" : "Source : Bilan Carbone ® ADEME method" ,
+			}
+		],
+			"societes" : [
+				{"alias" : "cofely-axima-axima-refrigeration"}
+			],
+			"photos" : [
+				{
+					"image" : "page10-techno2.jpg",
+					"legende" : ""
+				}
+			]
+	},
+
+	"technologie-carbon-footprint-of-hypermarkets-and-supermarkets" : {
+		"titre" : "Carbon footprint of hypermarkets and supermarkets",
+		"texte" : "Energy and environmental performance
+GDF SUEZ provides an integrated services solution from a unique territorial network and a combination of key expertise, ranging from cooling, air conditioning and heating, to lighting, energy management and the reuse of waste. A tailor-made approach, managed by a multidisciplinary project team, covering audits, measurement and analysis tools, multi-year work plans, controls, energy supplies and support. A contractually guaranteed reduction in energy consumption and CO2 emissions, while making the stores more comfortable for both customers and staff.",
+		"chiffre-cles" : [
+			{
+				"chiffres" : "250 kWh/year/m2",
+				"legende" : "The average energy savings that can be made by optimizing a superstore, i.e. a 30% to 40% reduction in consumption compared with an existing site (final energy consumption per m² of shop space).",
+				"source" : "Sources : ADEME/PERIFEM – 2010 Study
+« Site commercial à haute efficacité énergétique »" ,
+			}
+		],
+			"societes" : [
+				{"alias" : "gdf-suez"}
+			],
+			"photos" : [
+				{
+					"image" : "2-pilotage-intelligent-des-fluides-et-des-energies.jpg",
+					"legende" : "Smart control of fluids and energies"
+				}
+			]
+	},
+
+	"technologie-multimedia-patient-terminal" : {
+		"titre" : "Multimedia patient terminal",
+		"texte" : "Patient management
+GDF SUEZ's interactive and easy-to-use multimedia patient terminal is designed to centralize all available sources of information about a patient in a healthcare establishment. The latest multimedia applications (television and video on demand, radio, telephone, internet) can all be accessed thanks to this technology, using a touch-sensitive screen. Patient-related information (medical record, prescriptions, medical imaging, test results) is updated in real-time on the terminal via a secure access. ",
+		"chiffre-cles" : [
+			{
+				"chiffres" : "More than 3,400",
+				"legende" : "The number of multimedia patient terminals already deployed in hospitals in France by GDF SUEZ.",
+				"source" : "" ,
+			}
+		],
+			"societes" : [
+				{"alias" : "cofely-ineo"}
+			],
+			"photos" : [
+				{
+					"image" : "cofely-ineo-tmp.jpg",
+					"legende" : "Multimedia patient terminal"
+				}
+			]
+	},
+
+	"technologie-purite-limited" : {
+		"titre" : "Purite Limited",
+		"texte" : "Purite has a team of designers, engineers and scientists to design, build, install and maintain various systems of water purification which meet the specific needs of a healthcare center.
+Purite is specialized in studies, implementation and maintenance of equipment using in two types of markets: Health and Laboratory.
+",
+		"chiffre-cles" : [
+			{
+				"chiffres" : "1275",
+				"legende" : "Dialysis Stations in Europe
+",
+				"source" : "Source : Purite Limited" ,
+			}
+		],
+			"logo" : "purite",
+			"societes" : [
+				{"alias" : "purite"}
+			],
+			"photos" : [
+				{
+					"image" : "royal-london-120-points-purite-plant-room.jpg",
+					"legende" : "Purite Point at the Royal London hospital, The United Kingdom"
+				},
+				{
+					"image" : "birmingham-hospital.jpg",
+					"legende" : "The Birmingham Hospital, The United Kingdom"
+				}
+			]
+	},
+
+	"technologie-vertuoz" : {
+		"titre" : "Vertuoz",
+		"texte" : "Smart management of air treatment
+New information and communications technologies are becoming increasingly important in the optimization of production systems, use of renewables and control of energy consumption. GDF SUEZ has developed a global solution to manage energy efficiency which uses remote measurements, remote surveillance and the remote control of consumption and usage. This technology is based on the flexible and intuitive Vertuoz® control panel solution.",
+		"chiffre-cles" : [
+			{
+				"chiffres" : "More than 1,000",
+				"legende" : "The number of sites in Europe which use the Vertuoz system to achieve 100% efficiency in terms of energy savings.",
+				"source" : "Source : GDF SUEZ" ,
+			}
+		],
+			"societes" : [
+				{"alias" : "cofely-services"}
+			],
+			"photos" : [
+				{
+					"image" : "vertuoztableau-de-bord.jpg",
+					"legende" : "Smart management of air quality control system"
+				}
+			]
+	},
+
+	"technologie-omobile" : {
+		"titre" : "Omobile",
+		"texte" : "GDF SUEZ delivers a simple and reliable solution to industrial companies, all over the world and in all sectors of activity, which guarantees, with no capital investment, the quality and quantity of their water supply.",
+		"chiffre-cles" : [
+			{
+				"chiffres" : "More than 60 units",
+				"legende" : "
+Are in operation all around the world, securing the water supplies of strategic sites: armed forces, electric power plants and refineries.
+
+",
+				"source" : "Source : ONDEO IS" ,
+			}
+		],
+			"societes" : [
+				{"alias" : "ondeo-is"}
+			],
+			"photos" : [
+				{
+					"image" : "omobile-1.jpg",
+					"legende" : "Innovative technology: Omobile"
+				},
+				{
+					"image" : "omobile-2.jpg",
+					"legende" : "Innovative technology: Omobile"
+				}
+			]
 	}
 }
