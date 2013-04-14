@@ -44,10 +44,13 @@ var oSound
 function globalEvents(){
 	$(document).bind('touchmove', false);
 
+	oSound = new sound()
 	oPanier = new panier()	
 
-	oSound = new sound()
 
+	$('#pages .panier .actions .clearall').hammer().on('tap', function(){
+		oPanier.emptyPanier()
+	})
 	$('#form_paniersend').submit(function(e){
 		e.preventDefault()
 		var destinataire = $('.input_email', this).val()
@@ -134,16 +137,78 @@ var panier = function(){
 				})
 
 				// Affichage de la liste dans la page panier
-				var html
-				html += "<dt>Vidéos</dt>"
+				var html = ''
+				html += "<dt>Your contacts</dt>"
+				html += '<dd class="item disabled checked" data-item="allcontacts">Your GDF SUEZ contact for all your projects</dd>'
+				html += "<dt>Videos</dt>"
 				$.each(self.availableItemsByType.video, function(key, value){
-					html += "<dd>"+value.title+"</dd>"
+					html += '<dd class="item">'+value.title+'</dd>'
 				})
-				html += "<dt>Références</dt>"
+				html += "<dt>References</dt>"
 				$.each(self.availableItemsByType.reference, function(key, value){
-					html += '<dd><input type="checkbox" id="panierItem'+key+'">'+value.title+'</dd>'
+					html += '<dd class="item" data-item="'+key+'">'+value.title+'</dd>'
 				})
-				$('#pages .panier .liste').html(html)
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
+				$('#pages .panier .content .liste').html(html)
+
+				// Lancement des évènements
+				$('#pages .panier .content .liste .item:not(.disabled)').hammer().on('tap', function(){
+					console.log('check panier item')
+					$('#log').append('<br>check panier item')
+					var item = $(this).attr('data-item')
+					$(this).toggleClass('checked')
+					if($(this).hasClass('checked')){
+						oPanier.addToPanier(item)
+						oSound.play('paniercheck')
+					}else{
+						oPanier.removeToPanier(item)
+						oSound.play('panieruncheck')
+					}
+				})
+				$('#pages .panier .content .wrapper').tinyscrollbar({invertscroll: true});
 			}
 		});
 
@@ -151,10 +216,10 @@ var panier = function(){
 		$(this.panier).hammer().on("tap", function(e){
 			self.open()
 		})	
-		$('.button', panier).hammer().on("tap", function(e){
+		$('.button', this.panier).hammer().on("tap", function(e){
 			self.close()
 		})	
-		$('.menu .item', panier).hammer().on("tap", function(){
+		$('.menu .item', this.panier).hammer().on("tap", function(){
 			self.lauchAction(this)
 		})
 
@@ -181,7 +246,7 @@ var panier = function(){
 				self.opened = false
 			}, 500)
 			if(oNavigation.currentPage == 'panier' || oNavigation.currentPage == 'paniersend'){
-				oNavigation.navTo('accueil')
+				oNavigation.navTo('home')
 			}
 		}
 	}
@@ -216,16 +281,19 @@ var panier = function(){
 		this.isInPanier(element)
 	}
 	// Actions
-	this.addToPanier = function(){
- 		var item = this.availableItems[this.availableItem]
+	this.addToPanier = function(availableItem){
+		var availableItem = availableItem ? availableItem : this.availableItem
+ 		var item = this.availableItems[availableItem]
 		var type = item.type
-		this.panierList[type][this.availableItem] = item
+		this.panierList[type][availableItem] = item
 		console.log(this.panierList)
 		this.refresh()
 	}
-	this.removeToPanier = function(item){
-		var type = this.availableItems[item].type
-		delete this.panierList[type][item]
+	this.removeToPanier = function(availableItem){
+		var availableItem = availableItem ? availableItem : this.availableItem
+ 		var item = this.availableItems[availableItem]
+ 		var type = item.type
+		delete this.panierList[type][availableItem]
 		console.log(this.panierList)
 		this.refresh()
 	}
@@ -287,11 +355,12 @@ var panier = function(){
 	this.refresh = function(){
 		// Comptage des références
 		var references = Object.keys(this.panierList.reference).length
-		$('#pages .panier .references').text(references)
+		$('#pages .panier .facettes .references').text(references)
 
 		// Comptage du total
-		this.totalPanierItems = references
-		$('#pages .panier .totalPanier').text(this.totalPanierItems)
+		this.totalPanierItems = references + 1
+		var totalpanier = this.totalPanierItems < 10 ? "0"+this.totalPanierItems : this.totalPanierItems ;
+		$('#pages .panier .counter').text(totalpanier)
 
 		// Mise à jour de la liste des items dans le panier
 		$('#pages .panier input').attr('checked', false)
@@ -356,20 +425,24 @@ function onLoadPanierSend(){
 ##   ### ##     ##   ## ##   
 ##    ## ##     ##    ###    
 */
+var inNavAction = false;
 var oNavigation
 function navEvents(){
 	oNavigation = new navigation();
 }
 
 var navigation = function(){
-	var currentPage = 'accueil';
 	var self = this
+	var currentPage
 	var arborescence
 	var currentFond;
 	var menu = $('#menu')
-	var currentMenuLinks = new Array
+	// var currentMenuLinks = new Array
 	var menuIsHide = false
 
+	this.construct = function(){
+		this.currentPage = 'home'
+	}
 	this.loadArborescence = function(){
 		$.ajax({
 			dataType: "json",
@@ -380,27 +453,21 @@ var navigation = function(){
 			}
 		});
 	}
-	this.menuEvents = function(){
+	this.niveau0Events = function(){
 		$('.niveau0 .linkZone', menu).hammer().on('tap', function(){
-			var page = $(this).attr('data-page')
-			self.navTo(page)
-		})
-		$('.niveau1 .linkZone, .niveau2 .linkZone', menu).hammer().on('tap', function(){
-			var index = $(this).attr('data-index')
-			var page = $(this).attr('data-page')
-			self.navTo(page)
-		}).on('swipe', function(e){
-			console.log(menuIsHide)
-			if(menuIsHide){
-				var direction = e.gesture.direction
-				if(direction == 'left'){
-					$(this).next('.linkZone').trigger('tap')
-				}else if(direction =='right'){
-					$(this).prev('.linkZone').trigger('tap')
-				}
+			if(!inNavAction){
+				inNavAction = true;
+				var page = $(this).attr('data-page')
+				$('#log').append('<br>niveau0 event + '+page)
+				self.navTo(page)	
+				setTimeout(function(){
+					inNavAction = false;
+				},500)
 			}
+
 		})
 		$(menu).hammer().on('swipe', function(e){
+			console.log('swipe on menu')
 			var direction = e.gesture.direction
 			if(direction == 'down'){
 				self.hideMenu()
@@ -409,10 +476,46 @@ var navigation = function(){
 			}
 		})
 	}
+	this.niveau1and2Events = function(){
+		$('.niveau1 .linkZone, .niveau2 .linkZone', menu).hammer().off('tap swipe').on('tap', function(){
+			inNavAction = true
+			var page = $(this).attr('data-page')
+			self.navTo(page)
+			setTimeout(function(){
+				inNavAction = false
+			},300)
+		}).on('swipe', function(e){
+			if(menuIsHide){
+				console.log('swipe on nav')
+				console.log(menuIsHide)
+				console.log(this)
+				var direction = e.gesture.direction
+				var index = $(this).attr('data-index')
+				if(direction == 'left'){
+					index++
+				}else if(direction =='right'){
+					index--
+				}
+				if(direction == 'left' || direction =='right'){
+					console.log($(this).parent().find('.linkZone[data-index='+index+']'))
+					var page = $(this).parent().find('.linkZone[data-index='+index+']').attr('data-page')
+					self.navTo(page)
+				}
+			}
+		})
+	}
 	this.navTo = function(page){
-		this.changeFond(this.arborescence[page].fond)
-		this.changePage(page)
-		oPanier.setAvailable(this.arborescence[page].panier)
+		console.log('--navTo')
+		console.log(page)
+		console.log(this.arborescence[page])
+		var redirect = this.arborescence[page].redirect
+		if(redirect){
+			this.navTo(redirect)
+		}else{
+			this.changeFond(this.arborescence[page].fond)
+			this.changePage(page)
+			oPanier.setAvailable(this.arborescence[page].panier)
+		}
 	}
 	this.changeFond = function(fond){
 		if(fond != this.currentFond){
@@ -426,6 +529,10 @@ var navigation = function(){
 		if(page != this.currentPage){
 			var virtual = this.arborescence[page].virtual
 			if(!virtual){
+				var onUnloadFunction = self.arborescence[this.currentPage].onunload
+				if(onUnloadFunction){
+					window[onUnloadFunction]()
+				}
 				$('#pages .template.active').removeClass('active')
 				var template = this.arborescence[page].template
 				if(template){
@@ -433,15 +540,17 @@ var navigation = function(){
 						console.log("la page n'existe pas, il faut la charger")
 						var datas = self.arborescence[page].datas
 						if(datas){
-							oDatas.pushDatasToTemplate(page, template)
+							oDatas.pushDatasToTemplate(datas, template)
 						}
 					}
-					var onLoadFunction = this.arborescence[page].onload
-					if(onLoadFunction){
-						window[onLoadFunction]()
-					}
 					setTimeout(function(){
+						console.log('add class active to page')
+						console.log($('#pages .template[data-page='+page+']'))
 						$('#pages .template[data-page='+page+']').addClass('active')
+						var onLoadFunction = self.arborescence[page].onload
+						if(onLoadFunction){
+							window[onLoadFunction]()
+						}
 					}, 700)
 				}else{
 					console.log("error: le template n'existe pas")
@@ -459,66 +568,114 @@ var navigation = function(){
 	this.refreshMenu = function(page, virtual){
 		console.log("--refreshMenu")
 		var niveau = this.arborescence[page].niveau
-		// var index = this.arborescence[page].index
 		var angle = this.arborescence[page].angle
+		var reversemenu = this.arborescence[page].reversemenu
+		console.log(niveau)
 		console.log(angle)
+		console.log(reversemenu)
 		if(niveau == 2){
+			if(!$(menu).hasClass('isniveau2')){
+				$('.niveau2', menu).css('-webkit-transform', 'scale(0)')
+			}
 			$(menu).addClass('isniveau1 isniveau2')
-			this.getPagesByParent(this.arborescence[page].parent)
-			// var angle = - (60 * (index - 1))
-			$('.niveau2 .background, .niveau2 .links', menu).css('-webkit-transform', 'rotate(-'+angle+'deg)')
+			this.loadMenu(this.arborescence[page].parent)
+			setTimeout(function(){
+				$('.niveau2', menu).css('-webkit-transform', 'scale(1) rotate('+angle+'deg)')
+			},310)
 		}else if(niveau == 1){
+			if($(menu).hasClass('isniveau2')){
+				$('.niveau2', menu).css('-webkit-transform', 'scale(1) rotate(0deg)')
+				setTimeout(function(){
+					$('.niveau2', menu).css('-webkit-transform', 'scale(0) rotate(0deg)')
+					setTimeout(function(){
+						$('.niveau2', menu).css('-webkit-transform', '')
+					},310)
+				},310)
+			}
 			$(menu).addClass('isniveau1').removeClass('isniveau2')
-			// var angle = - (60 * (index - 1))
-			$('.niveau1Background .background, .niveau1', menu).css('-webkit-transform', 'rotate(-'+angle+'deg)')
+			$('.niveau1', menu).css('-webkit-transform', 'scale(1) rotate('+angle+'deg)')
 		}else if(niveau == 0){
+			if($(menu).hasClass('isniveau2')){
+				$('.niveau2', menu).css('-webkit-transform', 'scale(0) rotate(0deg)')
+				setTimeout(function(){
+					$('.niveau2', menu).css('-webkit-transform', '')
+				},310)
+			}
+			if($(menu).hasClass('isniveau1')){
+				$('.niveau1', menu).css('-webkit-transform', 'scale(1) rotate(0deg)')
+			}
 			$(menu).removeClass('isniveau1 isniveau2')
-			// var angle = (180 * (index - 1))
-			$('.base, .niveau0', menu).css('-webkit-transform', 'rotate('+angle+'deg)')
 		}else{
-			$(menu).removeClass('isniveau1 isniveau2 hide disabled')
+			$(menu).removeClass('isniveau1 isniveau2 hide')
+		}
+		if(reversemenu){
+			$(menu).addClass('reversed')
+			$('#log').append('<br>add reversed class')
+		}else{
+			$(menu).removeClass('reversed')
+			$('#log').append('<br>remove reversed class')
 		}
 		if(virtual){
-			this.getPagesByParent(page)
-		}else if(page != 'accueil'){
+			this.loadMenu(page)
+		}else if(page != 'home'){
 			setTimeout(function(){
 				self.hideMenu()
 			},300)
 		}
 	}
-	this.getPagesByParent = function(parent){
-		console.log(parent)
-		var niveau = this.arborescence[parent].niveau+1
-		if(currentMenuLinks[niveau] != parent){
-			console.log("--getPagesByParent")
-			var pages = new Array;
-			var index = 1
-			$.each(this.arborescence, function(page, data){
-				if(data.parent == parent){
-					console.log("page enfant trouvée")
-					console.log(page)
-					$('.niveau'+niveau+' .linkZone.item'+index, self.menu).attr('data-page', page).text(page)
-					index++
-				}
-			})
-			currentMenuLinks[niveau] = parent
-			console.log(currentMenuLinks)
-		}
-		$(menu).addClass('isniveau'+niveau)
+	this.loadMenu = function(page){
+		console.log('--loadMenu')
+		var menuName = this.arborescence[page].menu
+		var niveau = this.arborescence[page].niveau+1
+		console.log(menuName+' '+niveau)
+		$.ajax({
+			url: 'configs/menus/'+menuName+'.html',
+			success: function(data){
+				$('.niveau'+niveau, menu).html(data)
+				$(menu).addClass('isniveau'+niveau)
+				$('.niveau'+niveau, menu).css('-webkit-transform', 'scale(1)')
+				self.niveau1and2Events()
+			}
+		});
 	}
+	// this.getPagesByParent = function(parent){
+	// 	console.log(parent)
+	// 	var niveau = this.arborescence[parent].niveau+1
+	// 	if(currentMenuLinks[niveau] != parent){
+	// 		console.log("--getPagesByParent")
+	// 		var pages = new Array;
+	// 		var index = 1
+	// 		$.each(this.arborescence, function(page, data){
+	// 			if(data.parent == parent){
+	// 				console.log("page enfant trouvée")
+	// 				console.log(page)
+	// 				$('.niveau'+niveau+' .linkZone.item'+index, self.menu).attr('data-page', page).text(page)
+	// 				index++
+	// 			}
+	// 		})
+	// 		currentMenuLinks[niveau] = parent
+	// 		console.log(currentMenuLinks)
+	// 	}
+	// 	$(menu).addClass('isniveau'+niveau)
+	// }
 	this.showMenu = function(){
 		$(menu).removeClass('hide')
 		menuIsHide = false
 		oSound.play('panieropen')
 	}
 	this.hideMenu = function(){
-		$(menu).addClass('hide')
-		menuIsHide = true
-		oSound.play('panieropen')
+
+		if($(menu).hasClass('isniveau1') || $(menu).hasClass('isniveau2')){
+			$(menu).addClass('hide')
+			menuIsHide = true
+			oSound.play('panieropen')
+		}
 	}
 
+	this.construct()
 	this.loadArborescence()
-	this.menuEvents()
+	this.niveau0Events()
+	this.niveau1and2Events()
 }
 
 
@@ -534,34 +691,115 @@ var navigation = function(){
 
 var oDatas
 function contentEvents(){
-	$('.template.presencedanslegolfe .marker').hammer().on('tap', function(){
+	oDatas = new datas()
+
+	$('#pages .gulf-presence .marker, .template.gulf-presence .zoomqatar').hammer().on('tap', function(){
 		var pays = $(this).attr('data-pays')
-		oNavigation.navTo(pays)
+		oNavigation.navTo("pays-"+pays)
 	})
 
-	oDatas = new datas()
+	$('#pages .city-of-tomorrow .marker').hammer().on('tap', function(){
+		var id = $(this).attr('data-popin')
+		console.log(id)
+		$('#pages .city-of-tomorrow .popin'+id).addClass('active').siblings().removeClass('active')
+	})
+	$('#pages .city-of-tomorrow .popin').hammer().on('tap', function(){
+		$(this).removeClass('active')
+	})
+	$('#pages .activities .marker').hammer().on('tap', function(){
+		var page = $(this).attr('data-page')
+		oNavigation.navTo(page)
+	})
 }
 
 var datas = function(){
 	var self = this
-	var datas
+	var loadedDatas
 
 	this.loadDatas = function(){
+		console.log('--loadDatas')
 		$.ajax({
 			dataType: "json",
 			url: 'configs/data.json',
 			success: function(data){
-				self.datas = data
+				console.log('success load datas')
+				// console.log(data)
+				self.loadedDatas = data
 			}
 		});
 	}
 	this.pushDatasToTemplate = function(page, template){
 		console.log("--pushDatasToTemplate")
-		console.log(this.datas[page])
+		console.log(page)
+		console.log(this.loadedDatas)
+		console.log(this.loadedDatas[page])
 		var view = $('#templates .template.'+template).html()
-		var output = Mustache.render(view, this.datas[page])
+		var output = Mustache.render(view, this.loadedDatas[page])
 		var page = $('<div class="template '+template+'" data-page="'+page+'"></div>').html(output).appendTo('#pages')
 	}
 
 	this.loadDatas()
+}
+
+var oGdfsuezSlider = null
+function onLoadGdfsuez(){
+	if(!oGdfsuezSlider)	oGdfsuezSlider = new gdfsuezSlider()
+	oGdfsuezSlider.next()
+}
+function onUnloadGdfsuez(){
+	oGdfsuezSlider.hide()
+}
+var gdfsuezSlider = function(){
+	var self = this
+	var page
+	var currentSlide
+	var nbSlides
+
+	this.app = function(){
+		page = $('#pages .gdfsuez')
+		currentSlide = 0
+
+		nbSlides = $('.slide', page).length
+
+		$(page).hammer().on('swipeleft', function(){
+			console.log('next')
+			self.next()
+		}).on('swiperight', function(){
+			console.log('prev')
+			self.prev()
+		})
+	}
+	this.next = function(){
+		if(currentSlide < nbSlides){
+			$('.slide.slide'+currentSlide, page).addClass('prev')
+			currentSlide++
+			$('.slide.slide'+currentSlide, page).removeClass('next')
+			self.pagination()
+		}
+	}
+	this.prev = function(){
+		if(currentSlide > 1){
+			$('.slide.slide'+currentSlide, page).addClass('next')
+			currentSlide--
+			$('.slide.slide'+currentSlide, page).removeClass('prev')
+			self.pagination()
+		}
+	}
+	this.pagination = function(){
+		var numero = currentSlide < 10 ? "0"+currentSlide : currentSlide
+		$('.pagination', page).html('<span>'+numero+'/</span>'+nbSlides)
+	}
+	this.hide = function(){
+		$('.slide', page).removeClass('prev').addClass('next')
+		currentSlide = 0
+	}
+
+	this.app()
+}
+function onLoadInfographics(){
+	console.log('--onLoadInfographics')
+	$('#pages .infographics .marker').hammer().on('tap', function(){
+		var page = $(this).attr('data-page')
+		oNavigation.navTo(page)
+	})
 }

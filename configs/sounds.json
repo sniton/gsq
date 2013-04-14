@@ -1,4 +1,6 @@
 {
 	"panieropen" : "panier-open.mp3",
-	"panieradd" : "panier-add.mp3"
+	"panieradd" : "panier-add.wav",
+	"paniercheck" : "panier-check.wav",
+	"panieruncheck" : "panier-unckeck.wav"
 }

@@ -314,20 +314,73 @@ nav .pagination a {font-size:16px; padding:8px 12px; }
 
 
 // Fonts
+@font-face {
+  font-family: 'HelveticaNeueLTStd55Roman';
+  src: url('fonts/helveticaneueltstd-roman.eot');
+  src: url('fonts/helveticaneueltstd-roman.eot') format('embedded-opentype'),
+       url('fonts/helveticaneueltstd-roman.woff') format('woff'),
+       url('fonts/helveticaneueltstd-roman.ttf') format('truetype'),
+       url('fonts/helveticaneueltstd-roman.svg#HelveticaNeueLTStd55Roman') format('svg');
+}
+@font-face {
+  font-family: 'HelveticaNeueLTStd75Bold';
+  src: url('fonts/helveticaneueltstd-bd.eot');
+  src: url('fonts/helveticaneueltstd-bd.eot') format('embedded-opentype'),
+       url('fonts/helveticaneueltstd-bd.woff') format('woff'),
+       url('fonts/helveticaneueltstd-bd.ttf') format('truetype'),
+       url('fonts/helveticaneueltstd-bd.svg#HelveticaNeueLTStd75Bold') format('svg');
+}
+.bold {font-family: 'HelveticaNeueLTStd75Bold', 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', 'Arial', 'sans-serif'; font-weight: normal;}
+@font-face {
+  font-family: 'HelveticaNeueLTStd45Light';
+  src: url('fonts/helveticaneueltstd-lt.eot');
+  src: url('fonts/helveticaneueltstd-lt.eot') format('embedded-opentype'),
+       url('fonts/helveticaneueltstd-lt.woff') format('woff'),
+       url('fonts/helveticaneueltstd-lt.ttf') format('truetype'),
+       url('fonts/helveticaneueltstd-lt.svg#HelveticaNeueLTStd45Light') format('svg');
+}
+.lite {font-family: 'HelveticaNeueLTStd45Light', 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', 'Arial', 'sans-serif'; font-weight: normal;}
+@font-face {
+  font-family: 'HelveticaNeueLTStd35Thin';
+  src: url('fonts/helveticaneueltstd-th.eot');
+  src: url('fonts/helveticaneueltstd-th.eot') format('embedded-opentype'),
+       url('fonts/helveticaneueltstd-th.woff') format('woff'),
+       url('fonts/helveticaneueltstd-th.ttf') format('truetype'),
+       url('fonts/helveticaneueltstd-th.svg#HelveticaNeueLTStd35Thin') format('svg');
+}
+.thin {font-family: 'HelveticaNeueLTStd35Thin', 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', 'Arial', 'sans-serif'; font-weight: normal;}
 
-
-
-// Tailles de police
-.fz11 {font-size: 0.846em;}
 
 
 
 // Couleurs
+@vert : #92d339;
+@bleuciel : #00B4D2;
+@bleumarine : #302783;
+
+
 @pageTransitionDuration : 700ms;
 @fondTransitionDuration : 1400ms;
 
 
 
+.tinyscrollbar {clear: both; margin: 20px 0 10px; }
+.tinyscrollbar .viewport { width: auto; height: auto; overflow: hidden; position: relative; }
+.tinyscrollbar .overview { list-style: none; position: absolute; left: 0; top: 0; }
+.tinyscrollbar .thumb .end,
+.tinyscrollbar .thumb { background-color: @bleuciel; }
+.tinyscrollbar .scrollbar { position: relative; float: right; width: 6px; }
+.tinyscrollbar .track { background-color: #fff; height: 100%; width:6px; position: relative; padding: 0; .border-radius(3px) }
+.tinyscrollbar .thumb { height: 20px; width: 6px; cursor: pointer; overflow: hidden; position: absolute; top: 0; .border-radius(3px); }
+.tinyscrollbar .thumb .end { display: none;}
+.tinyscrollbar .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+
+
+
+
+body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', 'Arial', 'sans-serif';}
 
 
 #wrapper {position: relative; width: 100%; max-width: 1024px; height: 100%; max-height: 748px; overflow: hidden;}
@@ -360,11 +413,12 @@ nav .pagination a {font-size:16px; padding:8px 12px; }
 #fonds {width: 100%;height: 100%;
   .fond {position: absolute; top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%; -webkit-opacity:0; -webkit-transition: -webkit-opacity @fondTransitionDuration;}
   .fond.active {-webkit-opacity:1; }
-  .fond.accueil {background-color: #f00;}
-  .fond.vert {background-color: #0f0;}
-  .fond.bleu {background-color: #00f;}
-  .fond.presencedanslegolfe {background-color: #0f143c;}
-  .fond.saudiarabia {background-image: url(../uploads/fonds/saudiarabia.jpg)}
+  .fond.home {background-image: url(../uploads/fonds/home.jpg);}
+  .fond.white {background-color: #fff;}
+  .fond.gulf-presence {background-image: url(../uploads/fonds/gulf-presence.jpg);}
+  .fond.city-of-tomorrow {background-image: url(../uploads/fonds/city-of-tomorrow.jpg);}
+  .fond.activities {background-image: url(../uploads/fonds/activities.jpg);}
+  .fond.sports-facilities {background-image: url(../uploads/fonds/sports-facilities.jpg);}
 }
 
 
@@ -380,33 +434,129 @@ nav .pagination a {font-size:16px; padding:8px 12px; }
 #pages {position: absolute;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%; z-index: 100;
   .template {position: absolute;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%; z-index: 101; pointer-events:none;}
   .template.active {z-index: 102; pointer-events:auto;}
-  .template.presencedanslegolfe {
-    .terre {position: absolute;bottom: 0;left: 0;width: 1024px;height: 1362px; background-image: url(../uploads/mapmonde.png); -webkit-opacity : 0; -webkit-transform: translate3D(0,300px,0) scale(1.3) rotate(7deg); -webkit-transition: -webkit-opacity @pageTransitionDuration linear, -webkit-transform @pageTransitionDuration ease-out;
-      .marker {position: absolute; -webkit-transform: translate3D(0,-150px,0); -webkit-opacity : 0;  -webkit-transition: none; cursor: pointer;}
-      .marker.qatar {bottom: 360px;left: 524px;width: 127px;height: 88px; background-image: url(../uploads/marker-qatar.png);}
-      .marker.saudiarabia {bottom: 288px;left: 255px;width: 131px;height: 52px; background-image: url(../uploads/marker-saudiarabia.png);}
-      .marker.kuwait {bottom: 437px;left: 410px;width: 81px;height: 52px; background-image: url(../uploads/marker-kuwait.png);}
-      .marker.barhain {bottom: 417px;left: 458px;width: 91px;height: 112px; background-image: url(../uploads/marker-barhain.png); }
-      .marker.unitedarabemirates {bottom: 284px;left: 636px;width: 131px;height: 71px; background-image: url(../uploads/marker-unitedarabemirates.png);}
-      .marker.oman {bottom: 183px;left: 688px;width: 71px;height: 52px; background-image: url(../uploads/marker-oman.png);}
+
+  .template.gdfsuez {
+    .slide {position: absolute; top: 0;left: 0;width: 100%;height: 100%; -webkit-transition: -webkit-transform 300ms ease}
+    .slide.prev {-webkit-transform: translate3d(-100%, 0, 0);}
+    .slide.next {-webkit-transform: translate3d(100%, 0, 0);}
+    .slide1 {background-image: url(../uploads/gdfsuez/slide1.jpg);}
+    .slide2 {background-image: url(../uploads/gdfsuez/slide2.jpg);}
+    .slide3 {background-image: url(../uploads/gdfsuez/slide3.jpg);
+      .marker {width: 47px;height: 47px;.border-radius(50%); position: absolute; top: 300px; left: 300px; background: @vert url(../images/asterisk.png) center center no-repeat; cursor: pointer;}
+      .marker1 {top: 308px; left: 247px}
+      .marker2 {top: 540px; left: 307px;}
+      .marker3 {top: 497px; left: 507px;}
+      .marker4 {top: 387px; left: 587px;}
+      .marker5 {top: 417px; left: 807px;}
+    }
+    .slide4 {background-image: url(../uploads/gdfsuez/slide4.jpg);}
+    .slide5 {background-image: url(../uploads/gdfsuez/slide5.jpg);}
+    .slide6 {background-image: url(../uploads/gdfsuez/slide6.jpg);}
+    .slide7 {background-image: url(../uploads/gdfsuez/slide7.jpg);}
+    .slide8 {background-image: url(../uploads/gdfsuez/slide8.jpg);}
+    .slide9 {background-image: url(../uploads/gdfsuez/slide9.jpg);}
+    .slide10 {background-image: url(../uploads/gdfsuez/slide10.jpg);}
+    .slide11 {background-image: url(../uploads/gdfsuez/slide11.jpg);}
+    .slide12 {background-image: url(../uploads/gdfsuez/slide12.jpg);}
+    .pagination {font-size: 20px; position: absolute;bottom: 45px;right: 42px; -webkit-transform: translate3d(150px, 0, 0);-webkit-transition: -webkit-transform 300ms ease;
+      span {font-size: 26px; .bold}
     }
   }
-  .template.presencedanslegolfe.active {
-    .terre {-webkit-opacity : 1; -webkit-transform: translate3D(0,0,0) scale(1) rotate(0deg);
-      .marker {-webkit-transform: translate3D(0,0,0); -webkit-opacity : 1; -webkit-transition: -webkit-opacity 300ms linear 710ms,  -webkit-transform 300ms ease-out 710ms;}
-      .marker.saudiarabia { -webkit-transition-delay: 730ms;}
-      .marker.kuwait {-webkit-transition-delay: 750ms;}
-      .marker.barhain {-webkit-transition-delay: 770ms;}
-      .marker.unitedarabemirates {-webkit-transition-delay: 790ms;}
-      .marker.oman {-webkit-transition-delay: 800ms;}
+  .template.gdfsuez.active {
+    .pagination {-webkit-transform: translate3d(0, 0, 0);}
+  }
+  .template.city-of-tomorrow {
+    .marker {position: absolute;top: 400px;left: 400px; display: none;
+      .texte {height: 23px;padding: 0 5px; clear: both; color: #fff; font-size: 18px; line-height: 23px;}
+      .texte.indent {margin-left: 17px;}
     }
+    .marker1 .texte {background-color: rgba(70,186,241,1);}
+    .marker1 .texte.opacity45 {background-color: rgba(70,186,241, 0.45);}
+    .marker1 .texte.opacity70 {background-color: rgba(70,186,241, 0.70);}
+
+    .popin {position: absolute; top: 35%;left: 50%; width: 480px; margin-left: -240px; background-color: #fff; padding: 60px 50px; line-height: 1.9em; -webkit-transform: translate3d(0,-600px,0); -webkit-transition: -webkit-transform 300ms;
+      .close {width: 26px;height: 26px; .border-radius(50%); border: solid 2px #464749; position: absolute; top: 10px; right: 10px; background: url(../images/icon-close.png) center center no-repeat;}
+      .titre {font-size: 25px; .bold; margin-bottom: 25px;}
+      .texte {color: #464749; font-size: 24px;}
+    }
+    .popin.active {-webkit-transform: translate3d(0,0,0);}
+  }
+  .template.city-of-tomorrow.active {
+    .marker {display: block;}
+  }
+  .template.gulf-presence {
+    .zoomqatar {position: absolute; width: 248px;height: 248px; background: #c6c6c6 url(../uploads/gulf-presence/qatar.png) center center no-repeat; .border-radius(50%); top: 310px;left: 540px;-webkit-transform: scale(0); -webkit-transition: -webkit-transform 300ms; cursor: pointer;}
+    .marker {position: absolute; -webkit-transform: translate3D(0,-150px,0); -webkit-opacity : 0; -webkit-transition: -webkit-opacity 300ms linear, -webkit-transform 300ms ease-out; cursor: pointer;}
+    .marker.qatar {bottom: 306px; left: 634px;width: 125px;height: 263px;  background-image: url(../uploads/gulf-presence/marker-qatar.png);}
+    .marker.saudiarabia {bottom: 258px; left: 285px;width: 116px;height: 114px; background-image: url(../uploads/gulf-presence/marker-saudiarabia.png);}
+    .marker.kuwait {bottom: 582px; left: 408px;width: 81px;height: 96px; background-image: url(../uploads/gulf-presence/marker-kuwait.png);}
+    .marker.barhain {bottom: 421px; left: 539px;width: 89px;height: 119px; background-image: url(../uploads/gulf-presence/marker-barhain.png); }
+    .marker.unitedarabemirates {bottom: 381px; left: 803px;width: 169px;height: 192px; background-image: url(../uploads/gulf-presence/marker-unitedarabemirates.png);}
+    .marker.oman {bottom: 145px; left: 848px;width: 73px;height: 97px; background-image: url(../uploads/gulf-presence/marker-oman.png);}
+  }
+  .template.gulf-presence.active {
+    .zoomqatar {-webkit-transform: scale(1);}
+    .marker {-webkit-transform: translate3d(0,0,0); -webkit-opacity : 1;}
+    .marker.saudiarabia { -webkit-transition-delay: 30ms;}
+    .marker.kuwait {-webkit-transition-delay: 50ms;}
+    .marker.barhain {-webkit-transition-delay: 70ms;}
+    .marker.unitedarabemirates {-webkit-transition-delay: 90ms;}
+    .marker.oman {-webkit-transition-delay: 100ms;}
   }
   .template.pays {
-    .pays {position: absolute; top: 187px;left: 40px; -webkit-transform: translate3D(-600px,0,0); -webkit-transition: -webkit-transform @pageTransitionDuration ease-out; }
-    .right {position: absolute;top: 188px;left: 613px; width: 372px; -webkit-transform: translate3D(600px,0,0); -webkit-transition: -webkit-transform @pageTransitionDuration ease-out; }
+    .pays {position: absolute; top: 116px;left: 92px; -webkit-transform: translate3d(-600px,0,0); -webkit-transition: -webkit-transform @pageTransitionDuration ease-out; width: 570px;height: 570px; .border-radius(50%); background-color: #ebebeb; border: solid 10px #ccc; 
+      .wrapper {width: 316px;height: 316px; .border-radius(50%); margin: 127px; background-color: #ccc; background-position: center center; background-repeat: no-repeat;}
+    }
+    .right {position: absolute;top: 188px;left: 613px; width: 372px; -webkit-transform: translate3d(600px,0,0); -webkit-transition: -webkit-transform @pageTransitionDuration ease-out; }
   }
   .template.pays.active {
     .pays, .right { -webkit-transform: translate3D(0,0,0);}
+  }
+  .template.activities {
+    .marker {position: absolute; top: 400px;left: 400px;-webkit-transform: translate3D(0,-150px,0); -webkit-opacity : 0;-webkit-transition: -webkit-opacity 300ms linear, -webkit-transform 300ms ease-out; cursor: pointer;
+      &.sports-facilities {width: 201px;height: 284px;background-image: url(../uploads/activities/marker-sports-facilities.png);top: 222px;left: 525px;}
+      &.security-infrastructures {width: 171px;height: 236px;background-image: url(../uploads/activities/marker-security-infrastructures.png);top: 205px;left: 846px;}
+    }
+  }
+  .template.activities.active {
+    .marker {-webkit-transform: translate3d(0,0,0); -webkit-opacity : 1; 
+      &.security-infrastructures {-webkit-transition-delay: 30ms;}
+    }
+  }
+  .template.infographics {
+    .marker {position: absolute;width: 47px;height: 47px;background-image: url(../images/mire.png); cursor: pointer;}
+  }
+  .template.panier {
+    .titre {font-size: 50px; color: @bleumarine; .bold; position: absolute; top: 96px;left: 152px; vertical-align: baseline; -webkit-opacity : 0; -webkit-transition: -webkit-opacity @pageTransitionDuration ease-out; 
+      span {.lite; font-size: 36px;}
+    }
+    .content {width: 730px;height: 450px;background-color: #6b6c6e; position: absolute; top: 178px; left: 253px; color: #fff;font-size: 18px; overflow: hidden;-webkit-transition: -webkit-transform @pageTransitionDuration ease-out; -webkit-transform: translate3d(1000px,0,0);
+      .wrapper {margin: 30px 20px 30px 0;}
+        .viewport {height: 390px;}
+        dl {margin-left: 170px;
+          dt {margin-top: 20px; .bold; text-transform: uppercase;}
+          dt:first-child {margin-top: 0;}
+          dd {height: 22px;line-height: 22px; .lite; padding-left: 58px; background: url(../images/panier-check.png) left center no-repeat; margin-top: 5px; cursor: pointer;}
+          dd.checked {background-image: url(../images/panier-check-checked.png);}
+        }
+    }
+    .facettes {width: 200px;height: 132px; position: absolute; top: 337px;left: 188px; background-color: #ddd; text-align: right;-webkit-transition: -webkit-transform @pageTransitionDuration ease-out;  -webkit-transform: translate3d(-600px,100px,0);
+      ul {margin-top: 40px; padding: 0 13px;
+        li {font-size: 18px; .lite; color: #6b6b6d; line-height: 0.7em;
+          span {.bold; display: inline-block; width: 30px; }
+        }
+      }
+    }
+    .counter {width: 200px;height: 200px; position: absolute;top: 158px;left: 152px; background: #00b4d2 url(../images/panier-counter.png) center center no-repeat; text-align: center;.thin; color: #00b4d2; font-size: 126px; line-height: 230px;letter-spacing: 0.05em; text-indent: 10px;-webkit-transition: -webkit-transform @pageTransitionDuration ease-out;  -webkit-transform: translate3d(-600px,0,0);}
+    .actions {width: 138px;height: 90px; position: absolute;top: 561px;left: 178px; border: solid 10px #fff; background-color: #00b4d2;-webkit-transition: -webkit-transform @pageTransitionDuration ease-out;  -webkit-transform: translate3d(200px,300px,0);
+      .button {width: 119px;height: 31px; background-repeat: no-repeat; margin: 10px auto 10px; cursor: pointer;}
+      .button.checkall {background-image: url(../images/btn-checkall.png);}
+      .button.clearall {background-image: url(../images/btn-clearall.png);}
+    }
+  }
+  .template.panier.active {
+    .titre {-webkit-opacity : 1;}
+    .content, .facettes, .counter, .actions {-webkit-transform: translate3d(0,0,0);}
   }
 }
 
@@ -420,57 +570,39 @@ nav .pagination a {font-size:16px; padding:8px 12px; }
 ##     ## ##       ##   ### ##     ## 
 ##     ## ######## ##    ##  #######  
 */
-#menu {position: absolute; width: 342px;height: 342px; top: 50%;left: 50%;margin: -171px 0 0 -171px; z-index: 300; -webkit-transition: top 300ms ease, margin-top 300ms ease;
+#menu {position: absolute; width: 308px;height: 308px; top: 50%;left: 50%;margin: -154px 0 0 -154px; z-index: 300; -webkit-transition: -webkit-transform 300ms ease, margin-top 300ms ease;
   .linkZone {text-align: center;line-height: 50px;}
-  .niveau2 {position: absolute;width: 542px;height: 542px;top: 50%;left: 50%;margin: -271px 0 0 -271px;  -webkit-transform: scale(0); -webkit-transition: -webkit-transform 700ms ease;
-    .background {width: 542px;height: 542px;background-color: #009d92; border-radius: 50%; -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.75);-webkit-transition: -webkit-transform 700ms ease;
-    }
-    .links {position: absolute;width: 40px;height: 40px;top: 50%;left: 50%;margin: -20px 0 0 -20px;-webkit-transition: -webkit-transform 700ms ease;
-      .linkZone {position: absolute; width: 204px;height: 50px; border: solid 1px #0f0; top: -245px;left: 50%;margin-left: -102px; -webkit-transform-origin: center 265px;}
-      .linkZone.item2 {-webkit-transform: rotate(60deg);}
-      .linkZone.item3 {-webkit-transform: rotate(120deg);}
-      .linkZone.item4 {-webkit-transform: rotate(180deg);}
-      .linkZone.item5 {-webkit-transform: rotate(240deg);}
-      .linkZone.item6 {-webkit-transform: rotate(300deg);}
+  .niveau2 {position: absolute;width: 494px;height: 494px;top: 50%;left: 50%;margin: -247px 0 0 -247px; -webkit-transform: scale(0); -webkit-transition: -webkit-transform 300ms ease;}
+  .niveau1 {position: absolute;width: 400px;height: 400px;top: 50%;left: 50%;margin: -200px 0 0 -200px;-webkit-transform: scale(0); -webkit-transition: -webkit-transform 300ms ease; 
+    svg {
+      .texte {pointer-events:none;}
     }
   }
-  .niveau1Background {position: absolute;width: 442px;height: 442px;top: 50%;left: 50%;margin: -221px 0 0 -221px; -webkit-transform: scale(0); -webkit-transition: -webkit-transform 300ms ease; pointer-events:none;
-    .background {width: 442px;height: 442px;background-color: #009d92; border-radius: 50%; -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.75);-webkit-transition: -webkit-transform 300ms ease;}
+  .base {position: absolute; top: 0;left: 0;right: 0;bottom: 0;width: 308px;height: 308px; background-image: url(../images/menu-base.png);  pointer-events:none;
+    .centre {width: 256px;height: 256px; background-image: url(../images/menu-centre.png);margin: 26px; float: left;-webkit-transition: -webkit-transform 300ms ease;}
   }
-  .niveau1 {position: absolute;width: 40px;height: 40px;top: 50%;left: 50%;margin: -20px 0 0 -20px;-webkit-transition: -webkit-transform 300ms ease; display: none;
-    svg {margin: -200px 0 0 -200px; 
-      text {pointer-events:none;}
-    }
-    .linkZone {position: absolute; width: 190px;height: 50px; border: solid 1px #0f0; top: -190px;left: 50%;margin-left: -95px; -webkit-transform-origin: center 210px;}
-    .linkZone.item2 {-webkit-transform: rotate(60deg);}
-    .linkZone.item3 {-webkit-transform: rotate(120deg);}
-    .linkZone.item4 {-webkit-transform: rotate(180deg);}
-    .linkZone.item5 {-webkit-transform: rotate(240deg);}
-    .linkZone.item6 {-webkit-transform: rotate(300deg);}
-  }
-  .base {position: absolute; top: 0;left: 0;right: 0;bottom: 0;width: 342px;height: 342px; background-color: #c2c2c1; border-radius: 50%; -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.75); -webkit-transition: -webkit-transform 300ms ease; pointer-events:none;
-    .centre {width: 306px;height: 306px; background-color: #000; border-radius: 50%; margin: 18px; float: left;}
-    .overlay {position: absolute;}
-  }
-  .niveau0 {position: absolute;top: 50%;left: 50%; width: 200px;height: 200px; margin: -100px 0 0 -100px;-webkit-transition: -webkit-transform 300ms ease; 
-    .linkZone {position: absolute;width: 200px;height: 50px; border: solid 1px #00f;left: 50%; margin-left: -100px;}
-    .linkZone.legroupe {top: 0;}
-    .linkZone.nossavoirfaire {bottom: 0;}
+  .niveau0 {position: absolute;top: 50%;left: 50%; width: 150px;height: 180px; margin: -90px 0 0 -75px;-webkit-transition: -webkit-transform 300ms ease; 
+    .linkZone {position: absolute;width: 150px;height: 70px; left: 0 ; background-repeat: no-repeat; background-position: center center;}
+    .linkZone.group {top: 0; background-image: url(../images/menu-item-group.png);}
+    .linkZone.savoirfaire {bottom: 0; background-image: url(../images/menu-item-savoirfaire.png);}
   }
 }
-#menu.hide {top: 100%;}
+// #menu.hide {-webkit-transform: translate3d(0, 610px, 0);}
 #menu.isniveau1, #menu.isniveau2 {
-  .niveau1Background {-webkit-transform: scale(1); }
-  .niveau1 {display: block;}
+  // .niveau1Background {-webkit-transform: scale(1); }
+  // .niveau1 {-webkit-transform: scale(1); }
 }
 #menu.isniveau2 {
-  .niveau2 {-webkit-transform: scale(1); }
+  // .niveau2 {-webkit-transform: scale(1); }
 }
-#menu.hide.isniveau1 {
-  margin-top: -18px;
+#menu.hide.isniveau1 {-webkit-transform: translate3d(0, 475px, 0)}
+#menu.disabled {-webkit-transform: translate3d(0, 610px, 0)}
+#menu.reversed {
+  .base .centre, .niveau0{-webkit-transform: rotate(180deg)}
+  .niveau0 {
+     .linkZone {-webkit-transform: rotate(180deg)}
+  }
 }
-#menu.disabled {margin-top: 10px;}
-
 
 /*
 ########     ###    ##    ## #### ######## ########  
@@ -481,42 +613,24 @@ nav .pagination a {font-size:16px; padding:8px 12px; }
 ##        ##     ## ##   ###  ##  ##       ##    ##  
 ##        ##     ## ##    ## #### ######## ##     ## */
 
-#panier {position: absolute;width: 53px;height: 44px;  top: 137px;left: 0; z-index: 400;
-  .button {width: 53px;height: 44px; background-image: url(../images/panier-button.png); position: relative; cursor: pointer;
-    .overlay {width: 53px;height: 44px; background-image: url(../images/panier-button-active.png); position: absolute;top: 0;left: 0; -webkit-opacity :0; -webkit-transition: -webkit-opacity 700ms ease;}
+#panier {position: absolute;width: 52px;height: 40px; top: 138px;left: 0; z-index: 400; 
+  .button {width: 40px;height: 40px; background: #848484 url(../images/icon-panier.png) center center no-repeat; position: relative; cursor: pointer; float: right; .border-radius(50%);
+    .trait {width: 14px;height: 6px;background-image: url(../images/tool-button-trait.png); position: absolute; left: -14px;top: 17px;}
   }
-  .menu {position: absolute; width: 96px;height: 96px; background-color: rgba(0,0,0,0.35); border: solid 6px #3f4f4f; border-radius : 50%; top: -32px; left: -22px; -webkit-transform: scale(0); -webkit-transition: -webkit-transform 500ms ease;
-    .items {position: absolute; width: 40px;height: 40px; top: 28px;left: 28px;
-      .item {width: 39px;height: 40px; position: absolute; top: -48px;left: 0; -webkit-transform-origin:center 68px;  -webkit-transition: -webkit-transform 1s ease 300ms; cursor: pointer;
-        .icon {width: 39px;height: 40px; position: relative;
-          .overlay {position: absolute; width: 59px;height: 58px; top: -9px; left: -10px; -webkit-opacity: 0; -webkit-transition: -webkit-opacity 300ms ease;}
-        }
-      }
-      .item.active .icon .overlay {-webkit-opacity: 1; }
-      .item.ajouter {-webkit-transform: rotate(-90deg);
-        .icon {background-image: url(../images/panier-icon-ajouter.png);}
-      }
-      .item.voir { -webkit-transform: rotate(-90deg);
-        .icon {background-image: url(../images/panier-icon-voir.png);-webkit-transform: rotate(-60deg);
-          .overlay {background-image: url(../images/panier-icon-voir-active.png);}
-        }
-      }
-      .item.mail {-webkit-transform: rotate(-90deg);
-        .icon {background-image: url(../images/panier-icon-mail.png); -webkit-transform: rotate(-120deg);
-          .overlay {background-image: url(../images/panier-icon-mail-active.png);}
-        }
-      }
-      .item.vider {-webkit-transform: rotate(-90deg);
-        .icon {background-image: url(../images/panier-icon-vider.png);  -webkit-transform: rotate(-180deg);
-          .overlay {background-image: url(../images/panier-icon-vider-active.png);}
-        }
-      }
+  .menu {position: absolute; width: 100px;height: 100px; background-color: #e6e6e6; border: solid 3px #898989; border-radius : 50%; top: -30px; left: -18px; -webkit-transform: scale(0); -webkit-transition: -webkit-transform 500ms ease;
+    .items {position: absolute; width: 40px;height: 40px; top: 30px;left: 30px;
+      .item {width: 40px;height: 40px; position: absolute;background-color: #848484; background-repeat: no-repeat; background-position: center center; top: -50px;left: 0; -webkit-transform-origin:center 70px;  -webkit-transition: -webkit-transform 1s ease 300ms; cursor: pointer;.border-radius(50%);}
+      .item.active {background-color: @bleuciel; }
+      .item.ajouter {-webkit-transform: rotate(-90deg);background-image: url(../images/icon-ajouter.png);}
+      .item.voir {-webkit-transform: rotate(-90deg);background-image: url(../images/icon-voir.png);}
+      .item.mail {-webkit-transform: rotate(-90deg);background-image: url(../images/icon-mail.png);}
+      .item.vider {-webkit-transform: rotate(-90deg);background-image: url(../images/icon-vider.png);}
     }
   }
 }
 #panier.active {
-  .button {
-    .overlay {-webkit-opacity : 1}
+  .button {background-color: #fff; background-image: url(../images/icon-panier-active.png); .box-shadow(0 0 20px 0 rgba(0,0,0,0.3));
+    .trait {background-image: url(../images/tool-button-trait-active.png);}
   }
   .menu {-webkit-transform: scale(1);
     .items {
@@ -528,13 +642,14 @@ nav .pagination a {font-size:16px; padding:8px 12px; }
   }
 }
 #panier.available {
-  .button {
-    .overlay {-webkit-animation: panierbutton 700ms ease infinite alternate;}
-  }
+  .button {-webkit-animation: panierbutton 700ms ease infinite alternate;}
+}
+#panier.active.available {
+  .button {-webkit-animation: none;}
 }
 @-webkit-keyframes panierbutton{
-  from {-webkit-opacity :0;}
-  to {-webkit-opacity :1;}
+  from {background-color: #848484;}
+  to {background-color: @bleuciel;}
 }
 
 
@@ -548,7 +663,10 @@ nav .pagination a {font-size:16px; padding:8px 12px; }
 ##     ## ##       ##     ## ##     ## ##       ##    ##  
 ##     ## ######## ##     ## ########  ######## ##     ## 
 */
-#header {position: absolute; top: 0;left: 0;right: 0; width: 100%; height: 88px; z-index: 500; background-image: url(../images/header.png); pointer-events: none;}
+#logo {width: 171px;height: 48px;background-image: url(../images/logo-gdfsuez.png); position: absolute;z-index: 500; top: 35px;right: 41px;}
+#header {position: absolute; bottom: 0;left: 0;right: 0; width: 100%; height: 30px; z-index: 500; background: #fff url(../images/header-background.png);
+  .slogan {.bold; color:#e5172e; font-size: 18px; background-color: #fff; padding: 0 5px; float: right; height: 30px;line-height: 30px; margin-right: 32px;}
+}
 
 
 /* ==========================================================================

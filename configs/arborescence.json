@@ -1,64 +1,104 @@
 {
-	"accueil" : {
-		"fond" : "accueil"
+	"home" : {
+		"fond" : "home"
 	},
-	"legroupe" : {
-		"parent" : "accueil",
+	"group" : {
+		"parent" : "home",
+		"menu"   : "group",
 		"niveau" : 0,
-		"angle"  : 0,
-		"fond"   : "vert",
 		"virtual": true
 	},
-		"gdsuezinstitutionnel" : {
-			"parent": "legroupe",
-			"niveau": 1,
-			"angle" : 0,
-			"fond"  : "vert",
-			"panier": "fichierpdfexemple"
-		},
-		"presencedanslegolfe" : {
-			"parent"  : "legroupe",
+		"gdfsuez" : {
+			"parent"  : "group",
 			"niveau"  : 1,
-			"angle"   : 60,
-			"fond"    : "presencedanslegolfe",
-			"template": "presencedanslegolfe"
+			"angle"   : 0,
+			"fond"    : "white",
+			"template": "gdfsuez",
+			"onload"  : "onLoadGdfsuez",
+			"onunload": "onUnloadGdfsuez",
+			"panier" : "test"
+		},
+		"gulf-presence" : {
+			"parent"  : "group",
+			"menu"    : "gulf-presence",
+			"niveau"  : 1,
+			"angle"   : -70,
+			"fond"    : "gulf-presence",
+			"template": "gulf-presence"
 		},
 			"pays-saudiarabia" : {
-				"parent"  : "presencedanslegolfe",
+				"parent"  : "gulf-presence",
 				"niveau"  : 2,
+				"angle"   : 112,
 				"fond"    : "saudiarabia",
 				"template": "pays",
 				"datas"   : "pays-saudiarabia"
 			},
 			"pays-qatar" : {
-				"parent"  : "presencedanslegolfe",
+				"parent"  : "gulf-presence",
 				"niveau"  : 2,
+				"angle"   : 0,
 				"fond"    : "saudiarabia",
 				"template": "pays",
 				"datas"   : "pays-qatar"
 			},
-		"competences" : {
-			"parent": "legroupe",
+		"capabilities" : {
+			"parent": "group",
 			"niveau": 1,
-			"angle" : 215
+			"angle" : 67
 		},
-	"nossavoirfaire" : {
-		"parent": "accueil",
-		"niveau": 0,
-		"angle" : 180,
-		"fond"  : "bleu"
+	"savoirfaire" : {
+		"parent"    : "home",
+		"menu"      : "savoirfaire",
+		"niveau"    : 0,
+		"virtual"   : true,
+		"reversemenu": true
 	},
+		"city-of-tomorrow" : {
+			"parent"    : "savoirfaire",
+			"niveau"    : 1,
+			"angle"     : 30,
+			"fond"      : "city-of-tomorrow",
+			"template"  : "city-of-tomorrow",
+			"reversemenu": true
+		},
+		"activities" : {
+			"parent"    : "savoirfaire",
+			"niveau"    : 1,
+			"angle"     : -50,
+			"fond"      : "activities",
+			"template"  : "activities",
+			"reversemenu": true
+		},
+			"sports-facilities" : {
+				"parent"     : "activities",
+				"niveau"     : 1,
+				"redirect"   : "sf-infographics",
+				"menu"       : "sports-facilities",
+				"reversemenu": true
+			},
+				"sf-infographics" : {
+					"parent"     : "sports-facilities",
+					"niveau"     : 2,
+					"angle"      : 0,
+					"fond"       : "sports-facilities",
+					"template"   : "infographics",
+					"datas"      : "sf-infographics",
+					"onload"     : "onLoadInfographics",
+					"reversemenu": true
+				},
 	"contacts" : {},
 	"panier" : {
-		"niveau"  : 0,
-		"template": "panier",
-		"onload"  : "onLoadPanier",
+		"niveau"     : 0,
+		"template"   : "panier",
+		"onload"     : "onLoadPanier",
+		"fond"       : "white",
 		"disablemenu": true
 	},
 	"paniersend" : {
-		"niveau" : 0,
-		"template" : "paniersend",
-		"disablemenu" : true,
-		"onload" : "onLoadPanierSend"
+		"niveau"     : 0,
+		"template"   : "paniersend",
+		"disablemenu": true,
+		"onload"     : "onLoadPanierSend"
 	}
 }

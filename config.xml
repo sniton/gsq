@@ -7,10 +7,10 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>GDF Suez - Qatar</name>
+    <name>GDF SUEZ Qatar </name>
 
     <description>
-        Application de présentation de GDF Suez au Qatar 
+        GDF SUEZ Qatar
     </description>
 
     <author href="https://kromi.fr" email="kromi@kromi.fr">
@@ -18,5 +18,7 @@
     </author>
 
     <plugin name="NetworkStatus" value="CDVConnection" />
+
+    <preference name="orientation" value="landscape" />
 
 </widget>
