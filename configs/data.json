@@ -3107,6 +3107,28 @@
 			}
 		]
 	},
+	"sf-technologies" : {
+		"technologies" : [
+			{
+				"index" : 1,
+				"titre" : "Vigionella",
+				"photo" : "",
+				"alias" : "technologie-vigionella"
+			},
+			{
+				"index" : 2,
+				"titre" : "“Smart City Dashboard”",
+				"photo" : "",
+				"alias" : "technologie-smart-city-dashboard"
+			},
+			{
+				"index" : 3,
+				"titre" : "Elena",
+				"photo" : "",
+				"alias" : "technologie-elena"
+			}
+		]
+	},
 	"sf-infographics" : {
 		"markers" : [
 			{

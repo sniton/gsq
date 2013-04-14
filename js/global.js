@@ -437,11 +437,12 @@ var navigation = function(){
 	var arborescence
 	var currentFond;
 	var menu = $('#menu')
-	// var currentMenuLinks = new Array
+	var currentMenus = new Array
 	var menuIsHide = false
 
 	this.construct = function(){
 		this.currentPage = 'home'
+		this.currentMenus = [null, null]
 	}
 	this.loadArborescence = function(){
 		$.ajax({
@@ -468,6 +469,7 @@ var navigation = function(){
 		})
 		$(menu).hammer().on('swipe', function(e){
 			console.log('swipe on menu')
+			$('#log').append('<br>swipe on menu')
 			var direction = e.gesture.direction
 			if(direction == 'down'){
 				self.hideMenu()
@@ -487,6 +489,7 @@ var navigation = function(){
 		}).on('swipe', function(e){
 			if(menuIsHide){
 				console.log('swipe on nav')
+				$('#log').append('<br>swipe on nav')
 				console.log(menuIsHide)
 				console.log(this)
 				var direction = e.gesture.direction
@@ -502,6 +505,9 @@ var navigation = function(){
 					self.navTo(page)
 				}
 			}
+		})
+		$('.niveau2 .linkZone', menu).mouseover(function(){
+			console.log('over')
 		})
 	}
 	this.navTo = function(page){
@@ -574,36 +580,16 @@ var navigation = function(){
 		console.log(angle)
 		console.log(reversemenu)
 		if(niveau == 2){
-			if(!$(menu).hasClass('isniveau2')){
-				$('.niveau2', menu).css('-webkit-transform', 'scale(0)')
-			}
 			$(menu).addClass('isniveau1 isniveau2')
 			this.loadMenu(this.arborescence[page].parent)
-			setTimeout(function(){
-				$('.niveau2', menu).css('-webkit-transform', 'scale(1) rotate('+angle+'deg)')
-			},310)
+			$('.niveau2', menu).css('-webkit-transform', 'scale(1) rotate('+angle+'deg)')
 		}else if(niveau == 1){
-			if($(menu).hasClass('isniveau2')){
-				$('.niveau2', menu).css('-webkit-transform', 'scale(1) rotate(0deg)')
-				setTimeout(function(){
-					$('.niveau2', menu).css('-webkit-transform', 'scale(0) rotate(0deg)')
-					setTimeout(function(){
-						$('.niveau2', menu).css('-webkit-transform', '')
-					},310)
-				},310)
-			}
+			$('.niveau2', menu).css('-webkit-transform', 'scale(0) rotate(0deg)')
 			$(menu).addClass('isniveau1').removeClass('isniveau2')
 			$('.niveau1', menu).css('-webkit-transform', 'scale(1) rotate('+angle+'deg)')
 		}else if(niveau == 0){
-			if($(menu).hasClass('isniveau2')){
-				$('.niveau2', menu).css('-webkit-transform', 'scale(0) rotate(0deg)')
-				setTimeout(function(){
-					$('.niveau2', menu).css('-webkit-transform', '')
-				},310)
-			}
-			if($(menu).hasClass('isniveau1')){
-				$('.niveau1', menu).css('-webkit-transform', 'scale(1) rotate(0deg)')
-			}
+			$('.niveau2, .niveau1', menu).css('-webkit-transform', 'scale(0) rotate(0deg)')
+
 			$(menu).removeClass('isniveau1 isniveau2')
 		}else{
 			$(menu).removeClass('isniveau1 isniveau2 hide')
@@ -628,15 +614,25 @@ var navigation = function(){
 		var menuName = this.arborescence[page].menu
 		var niveau = this.arborescence[page].niveau+1
 		console.log(menuName+' '+niveau)
-		$.ajax({
-			url: 'configs/menus/'+menuName+'.html',
-			success: function(data){
-				$('.niveau'+niveau, menu).html(data)
-				$(menu).addClass('isniveau'+niveau)
-				$('.niveau'+niveau, menu).css('-webkit-transform', 'scale(1)')
-				self.niveau1and2Events()
-			}
-		});
+		if(self.currentMenus[niveau-1] != menuName){
+			$.ajax({
+				url: 'configs/menus/'+menuName+'.html',
+				success: function(data){
+					setTimeout(function(){
+						var sousmenu = $(data).find('g.niveau'+niveau)
+						$('.niveau'+niveau, menu).replaceWith(sousmenu)
+						self.niveau1and2Events()
+						$(menu).addClass('isniveau'+niveau)
+						$('.niveau'+niveau, menu).css('-webkit-transform', 'scale(0) rotate(0deg)')
+						setTimeout(function(){
+							$('.niveau'+niveau, menu).css('-webkit-transform', 'scale(1) rotate(0deg)')
+						},100)
+						self.currentMenus[niveau-1] = menuName
+						console.log(self.currentMenus)
+					},100)
+				}
+			});
+		}
 	}
 	// this.getPagesByParent = function(parent){
 	// 	console.log(parent)
@@ -802,4 +798,7 @@ function onLoadInfographics(){
 		var page = $(this).attr('data-page')
 		oNavigation.navTo(page)
 	})
+}
+function onLoadTechnologies(){
+
 }

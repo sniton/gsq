@@ -77,6 +77,16 @@
 				"menu"       : "sports-facilities",
 				"reversemenu": true
 			},
+				"sf-technologies" : {
+					"parent"     : "sports-facilities",
+					"niveau"     : 2,
+					"angle"      : 63,
+					"fond"       : "technologies",
+					"template"   : "technologies3",
+					"datas"      : "sf-technologies",
+					"onload"     : "onLoadTechnologies",
+					"reversemenu": true
+				},
 				"sf-infographics" : {
 					"parent"     : "sports-facilities",
 					"niveau"     : 2,

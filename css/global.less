@@ -323,6 +323,15 @@ nav .pagination a {font-size:16px; padding:8px 12px; }
        url('fonts/helveticaneueltstd-roman.svg#HelveticaNeueLTStd55Roman') format('svg');
 }
 @font-face {
+  font-family: 'HelveticaNeueLTStd65Medium';
+  src: url('fonts/helveticaneueltstd-md.eot');
+  src: url('fonts/helveticaneueltstd-md.eot') format('embedded-opentype'),
+       url('fonts/helveticaneueltstd-md.woff') format('woff'),
+       url('fonts/helveticaneueltstd-md.ttf') format('truetype'),
+       url('fonts/helveticaneueltstd-md.svg#HelveticaNeueLTStd65Medium') format('svg');
+}
+.medium {font-family: 'HelveticaNeueLTStd65Medium', 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', 'Arial', 'sans-serif'; font-weight: normal;}
+@font-face {
   font-family: 'HelveticaNeueLTStd75Bold';
   src: url('fonts/helveticaneueltstd-bd.eot');
   src: url('fonts/helveticaneueltstd-bd.eot') format('embedded-opentype'),
@@ -419,6 +428,7 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
   .fond.city-of-tomorrow {background-image: url(../uploads/fonds/city-of-tomorrow.jpg);}
   .fond.activities {background-image: url(../uploads/fonds/activities.jpg);}
   .fond.sports-facilities {background-image: url(../uploads/fonds/sports-facilities.jpg);}
+  .fond.technologies {background-image: url(../uploads/fonds/technologies.jpg);}
 }
 
 
@@ -504,7 +514,7 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
     .marker.oman {-webkit-transition-delay: 100ms;}
   }
   .template.pays {
-    .pays {position: absolute; top: 116px;left: 92px; -webkit-transform: translate3d(-600px,0,0); -webkit-transition: -webkit-transform @pageTransitionDuration ease-out; width: 570px;height: 570px; .border-radius(50%); background-color: #ebebeb; border: solid 10px #ccc; 
+    .pays {position: absolute; top: 116px;left: 92px; -webkit-transform: translate3d(-700px,0,0); -webkit-transition: -webkit-transform @pageTransitionDuration ease-out; width: 570px;height: 570px; .border-radius(50%); background-color: #ebebeb; border: solid 10px #ccc; 
       .wrapper {width: 316px;height: 316px; .border-radius(50%); margin: 127px; background-color: #ccc; background-position: center center; background-repeat: no-repeat;}
     }
     .right {position: absolute;top: 188px;left: 613px; width: 372px; -webkit-transform: translate3d(600px,0,0); -webkit-transition: -webkit-transform @pageTransitionDuration ease-out; }
@@ -524,7 +534,30 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
     }
   }
   .template.infographics {
-    .marker {position: absolute;width: 47px;height: 47px;background-image: url(../images/mire.png); cursor: pointer;}
+    .marker {position: absolute;width: 47px;height: 47px;background-image: url(../images/mire.png); cursor: pointer; display: none;}
+  }
+  .template.infographics.active {
+    .marker {display: block;}
+  }
+  .template.technologies2, .template.technologies3 {
+    .marker {position: absolute; width: 190px;height: 190px; .border-radius(50%); cursor: pointer; background-color: #f00; display: none;
+      .cursors {width: 194px;height: 32px; background: url(../images/technologies-cursors.png) center center no-repeat; position: absolute; top: 50%;left: 50%;margin: -15px 0 0 -97px; pointer-events:none;}
+      .titre {position: absolute; .medium; font-size: 24px;color: #464749;}
+    }
+  }
+  .template.technologies3 {
+    .marker1 {top: 414px; left: 362px;
+      .titre {top: 120px; right: 200px; text-align: right;}
+    }
+    .marker2 {top: 180px; left: 480px;
+      .titre {top: 40px; left: 200px; width: 340px;}
+    }
+    .marker3 {top: 330px; left: 678px;
+      .titre {top: 50px; left: 200px; width: 160px;}
+    }
+  }
+  .template.technologies2.active, .template.technologies3.active {
+    .marker {display: block;}
   }
   .template.panier {
     .titre {font-size: 50px; color: @bleumarine; .bold; position: absolute; top: 96px;left: 152px; vertical-align: baseline; -webkit-opacity : 0; -webkit-transition: -webkit-opacity @pageTransitionDuration ease-out; 
@@ -572,11 +605,15 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
 */
 #menu {position: absolute; width: 308px;height: 308px; top: 50%;left: 50%;margin: -154px 0 0 -154px; z-index: 300; -webkit-transition: -webkit-transform 300ms ease, margin-top 300ms ease;
   .linkZone {text-align: center;line-height: 50px;}
-  .niveau2 {position: absolute;width: 494px;height: 494px;top: 50%;left: 50%;margin: -247px 0 0 -247px; -webkit-transform: scale(0); -webkit-transition: -webkit-transform 300ms ease;}
-  .niveau1 {position: absolute;width: 400px;height: 400px;top: 50%;left: 50%;margin: -200px 0 0 -200px;-webkit-transform: scale(0); -webkit-transition: -webkit-transform 300ms ease; 
-    svg {
-      .texte {pointer-events:none;}
-    }
+  // .niveau2 {position: absolute;width: 494px;height: 494px;top: 50%;left: 50%;margin: -247px 0 0 -247px;/* -webkit-transform: scale(0);*/ -webkit-transition: -webkit-transform 300ms ease;
+  //   .wrapper {width: 494px;height: 494px;-webkit-transition: -webkit-transform 300ms ease;}
+  // }
+  // svg.niveau1 {position: absolute;width: 400px;height: 400px; position: absolute;top: 50%;left: 50%;margin: -200px 0 0 -200px;/*-webkit-transform: scale(0);*/ -webkit-transition: -webkit-transform 300ms ease;
+  //     .texte {pointer-events:none;}
+  //   }
+  svg.sousmenus {position: absolute;width: 494px;height: 494px;top: 50%;left: 50%;margin: -247px 0 0 -247px;
+    .niveau1, .niveau2 {-webkit-transform-origin: 50% 50%;-webkit-transform: scale(0);-webkit-transition: -webkit-transform 300ms ease;}
+    .texte {pointer-events:none;}
   }
   .base {position: absolute; top: 0;left: 0;right: 0;bottom: 0;width: 308px;height: 308px; background-image: url(../images/menu-base.png);  pointer-events:none;
     .centre {width: 256px;height: 256px; background-image: url(../images/menu-centre.png);margin: 26px; float: left;-webkit-transition: -webkit-transform 300ms ease;}
@@ -586,14 +623,6 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
     .linkZone.group {top: 0; background-image: url(../images/menu-item-group.png);}
     .linkZone.savoirfaire {bottom: 0; background-image: url(../images/menu-item-savoirfaire.png);}
   }
-}
-// #menu.hide {-webkit-transform: translate3d(0, 610px, 0);}
-#menu.isniveau1, #menu.isniveau2 {
-  // .niveau1Background {-webkit-transform: scale(1); }
-  // .niveau1 {-webkit-transform: scale(1); }
-}
-#menu.isniveau2 {
-  // .niveau2 {-webkit-transform: scale(1); }
 }
 #menu.hide.isniveau1 {-webkit-transform: translate3d(0, 475px, 0)}
 #menu.disabled {-webkit-transform: translate3d(0, 610px, 0)}

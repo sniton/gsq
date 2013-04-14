@@ -3,11 +3,11 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.kromi.gdfqatar"
         versionCode="10" 
-        version   = "0.0.1">
+        version   = "0.5.3">
 
     <!-- versionCode is optional and Android only -->
 
-    <name>GDF SUEZ Qatar </name>
+    <name>GDF SUEZ</name>
 
     <description>
         GDF SUEZ Qatar
