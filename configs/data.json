@@ -2,32 +2,139 @@
 	"pays-saudiarabia" : {
 		"image" : "saudiarabia.png",
 		"texte" : "<h1>In condimentum facilisis porta. Sed nec diam eu diam viverra.</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
-		"societes" : [
-			{"alias" : "cofely-ineo"},
-			{"alias" : "tractebel-engineering"},
-			{"alias" : "cofely-services"}
-		],
 		"references" : [
-			{"name" : "ref1"},
-			{"name" : "ref2"},
-			{"name" : "ref3"}
+			{
+				"index" : 1,
+				"alias" : "references-dam-in-jeddah"
+			},
+			{
+				"index" : 2,
+				"photo" : "164956.jpg",
+				"alias" : "references-water-treatment-plants"
+			},
+			{
+				"index" : 3,
+				"photo" : "se-20110316-usa-069-2.jpg",
+				"alias" : "references-fujairahseawater-reverse-osmosis-plant"
+			},
+			{
+				"index" : 4,
+				"photo" : "164936.jpg",
+				"alias" : "references-interconnection-of-four-gulf-states-power-systems"
+			}
+		]
+	},
+	"pays-oman" : {
+		"image" : "oman.png",
+		"texte" : "<h1>In condimentum facilisis porta. Sed nec diam eu diam viverra.</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
+		"references" : [
+			{
+				"index" : 1,
+				"alias" : "references-water-supply-to-al-khoud-reservoir-sultanate-of-oman"
+			},
+			{
+				"index" : 2,
+				"alias" : "references-dams-in-sultanate-of-oman"
+			},
+			{
+				"index" : 3,
+				"alias" : "references-fishery-harbour-at-barka"
+			},
+			{
+				"index" : 4,
+				"photo" : "228992-2.jpg",
+				"alias" : "references-headquartered-in-barka"
+			},
+			{
+				"index" : 5,
+				"photo" : "229905-1",
+				"alias" : "references-barka-ii-plant"
+			},
+			{
+				"index" : 6,
+				"photo" : "229018-1.jpg",
+				"alias" : "references-barka-iii-and-sohar-ii"
+			}
 		]
 	},
 	"pays-qatar" : {
-		"image" : "saudiarabia.png",
+		"image" : "qatar.png",
 		"texte" : "<h1>Qatar</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
-		"societes" : [
-			{"alias" : "cofely-ineo"},
-			{"alias" : "tractebel-engineering"},
-			{"alias" : "cofely-services"}
-		],
 		"references" : [
-			{"name" : "ref1"},
-			{"name" : "ref2"},
-			{"name" : "ref3"},
-			{"name" : "ref4"},
-			{"name" : "ref5"},
-			{"name" : "ref6"}
+			{
+				"index" : 1,
+				"alias" : "references-lusail-marina-district"
+			},
+			{
+				"index" : 2,
+				"photo" : "164936.jpg",
+				"alias" : "references-interconnection-of-four-gulf-states-power-systems"
+			},
+			{
+				"index" : 3,
+				"alias" : "references-qatalum-qatar"
+			},
+			{
+				"index" : 4,
+				"photo" : "221058.jpg",
+				"alias" : "references-barwa-city-wastewater-treatment-plant"
+			},
+			{
+				"index" : 5,
+				"photo" : "06-096-02.jpg",
+				"alias" : "references-qatargas-refinery-qg1"
+			},
+			{
+				"index" : 6,
+				"photo" : "238458.jpg",
+				"alias" : "references-doha-west-wastewater-treatment-plant"
+			}
+		]
+	},
+	"pays-united-arab-emirates" : {
+		"image" : "united-arab-emirates.png",
+		"texte" : "<h1>In condimentum facilisis porta. Sed nec diam eu diam viverra.</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
+		"references" : [
+			{
+				"index" : 1,
+				"alias" : "references-al-gurm-resort-client-aldar"
+			},
+			{
+				"index" : 2,
+				"alias" : "references-al-raha-gardens"
+			},
+			{
+				"index" : 3,
+				"alias" : "references-baggage-handling-systems-client-adac"
+			},
+			{
+				"index" : 4,
+				"alias" : "references-burj-khalifa-client-emaar"
+			},
+			{
+				"index" : 5,
+				"alias" : "references-8-boulevard-walk"
+			},
+			{
+				"index" : 6,
+				"alias" : "references-al-sufouh-tramway"
+			}
+		]
+	},
+	"pays-bahrain" : {
+		"image" : "bahrain.png",
+		"texte" : "<h1>In condimentum facilisis porta. Sed nec diam eu diam viverra.</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "se-20110319-esp-065.jpg",
+				"alias" : "references-al-dur-iwppl-bahrain"
+			},
+			{
+				"index" : 2,
+				"photo" : "164936.jpg",
+				"alias" : "references-interconnection-of-four-gulf-states-power-systems"
+			}
 		]
 	},
 	"capabilitie-multi-technical-maintenance" : {
@@ -890,7 +997,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "img-0371",
+				"image" : "img-0371.jpg",
 				"legende" : "Kitchen Refrigeration"
 			}
 		]
@@ -947,7 +1054,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "222111",
+				"image" : "222111.jpg",
 				"legende" : "TRADUCTION"
 			}
 		]
@@ -1060,7 +1167,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "birmingham-hospital",
+				"image" : "birmingham-hospital.jpg",
 				"legende" : "The Birmingham Hospital, The United Kingdom"
 			}
 		]
@@ -1154,7 +1261,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "cofely-02207-a5",
+				"image" : "cofely-02207-a5.jpg",
 				"legende" : "TRADUCTION"
 			}
 		]
@@ -1466,7 +1573,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "universite-de-bordeaux",
+				"image" : "universite-de-bordeaux.jpg",
 				"legende" : "Students at the University"
 			}
 		]
@@ -1618,12 +1725,6 @@
 		],
 		"pays" : [
 				{"alias" : ""}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-golf-de-poitou-charentes " : {
@@ -1637,12 +1738,6 @@
 		],
 		"pays" : [
 				{"alias" : ""}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-water-supply-to-al-khoud-reservoir-sultanate-of-oman " : {
@@ -1656,12 +1751,6 @@
 		],
 		"pays" : [
 				{"alias" : "oman"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-dams-in-sultanate-of-oman " : {
@@ -1675,12 +1764,6 @@
 		],
 		"pays" : [
 				{"alias" : "oman"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-dams-in-lebanon " : {
@@ -1694,12 +1777,6 @@
 		],
 		"pays" : [
 				{"alias" : "lebanon"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-le-mont-st-michel " : {
@@ -1713,12 +1790,6 @@
 		],
 		"pays" : [
 				{"alias" : ""}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-stade-municipale-capbreton " : {
@@ -1732,12 +1803,6 @@
 		],
 		"pays" : [
 				{"alias" : ""}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-fishery-harbour-at-barka " : {
@@ -1751,12 +1816,6 @@
 		],
 		"pays" : [
 				{"alias" : "oman"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-dam-in-jeddah " : {
@@ -1770,12 +1829,6 @@
 		],
 		"pays" : [
 				{"alias" : "saudi-arabia"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-coupe-du-monde-1988 " : {
@@ -1789,12 +1842,6 @@
 		],
 		"pays" : [
 				{"alias" : ""}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-lusail-marina-district " : {
@@ -1808,12 +1855,6 @@
 		],
 		"pays" : [
 				{"alias" : "qatar"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-zenith-de-st-etienne " : {
@@ -1830,7 +1871,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "zenith-st-etienne",
+				"image" : "zenith-st-etienne.jpg",
 				"legende" : "Zénith de St Etienne, France"
 			}
 		]
@@ -1846,12 +1887,6 @@
 		],
 		"pays" : [
 				{"alias" : ""}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-aeroport-de-roissy-charles-de-gaulle " : {
@@ -1907,7 +1942,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "img-0092",
+				"image" : "img-0092.jpg",
 				"legende" : "Fire protection system"
 			}
 		]
@@ -1986,7 +2021,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "4-protection-incendie",
+				"image" : "4-protection-incendie.jpg",
 				"legende" : "Fire protection system"
 			}
 		]
@@ -2064,7 +2099,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "velodrom-5",
+				"image" : "velodrom-5.jpg",
 				"legende" : "TRADUCTION"
 			}
 		]
@@ -2251,15 +2286,9 @@
 		],
 		"pays" : [
 				{"alias" : "abu-dhabi"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
-	"references-nuri-khalifa-client-emaar " : {
+	"references-burj-khalifa-client-emaar " : {
 		"titre" : "Burj Khalifa – Client Emaar, Dubaï",
 		"texte" : "GDF SUEZ (in a JV with FARNEK AviReal) was awarded a 5-year contract for Hard Services delivery to the Burj  Khalifa Tower in 2009. ",
 		"competences" : [
@@ -2270,12 +2299,6 @@
 		],
 		"pays" : [
 				{"alias" : "dubai"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-al-gurm-resort-client-aldar " : {
@@ -2289,12 +2312,6 @@
 		],
 		"pays" : [
 				{"alias" : "abu-dhabi"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-zayeed-university " : {
@@ -2307,13 +2324,7 @@
 			{"alias" : "cofely-besix"}
 		],
 		"pays" : [
-				{"alias" : ""}
-		],
-		"photos" : [
-			{
-				"image" : "abu-dhabi",
-				"legende" : ""
-			}
+				{"alias" : "abu-dhabi"}
 		]
 	},
 	"references-al-rayyana-sorouh " : {
@@ -2327,12 +2338,6 @@
 		],
 		"pays" : [
 				{"alias" : "abu-dhabi"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-cofely-refrigeration-quantum-chillers " : {
@@ -2346,12 +2351,6 @@
 		],
 		"pays" : [
 				{"alias" : "dudai"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-8-boulevard-walk " : {
@@ -2365,12 +2364,6 @@
 		],
 		"pays" : [
 				{"alias" : "dubai"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-al-raha-gardens " : {
@@ -2384,12 +2377,6 @@
 		],
 		"pays" : [
 				{"alias" : "abu-dhabi"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-corporate-office-client-proctor-and-gamble " : {
@@ -2403,12 +2390,6 @@
 		],
 		"pays" : [
 				{"alias" : "dubai"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-baggage-handling-systems-client-adac " : {
@@ -2422,12 +2403,6 @@
 		],
 		"pays" : [
 				{"alias" : "abu-dhabi"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-al-dur-iwppl-bahrain " : {
@@ -2536,12 +2511,6 @@
 		],
 		"pays" : [
 				{"alias" : "irak"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-nuclear-power-in-jordan " : {
@@ -2555,12 +2524,6 @@
 		],
 		"pays" : [
 				{"alias" : "jordan"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-red-sea-dead-sea-water-canal-study-program " : {
@@ -2574,12 +2537,6 @@
 		],
 		"pays" : [
 				{"alias" : "jordan"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-wadi-ma-in-desalination-plant " : {
@@ -2749,12 +2706,6 @@
 		],
 		"pays" : [
 				{"alias" : "qatar"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-barwa-city-wastewater-treatment-plant " : {
@@ -2806,12 +2757,6 @@
 		],
 		"pays" : [
 				{"alias" : "turkey"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-12-water-treatment-and-waste-water-treatment-plant " : {
@@ -2844,12 +2789,6 @@
 		],
 		"pays" : [
 				{"alias" : "turkey"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-al-sufouh-tramway " : {
@@ -2863,12 +2802,6 @@
 		],
 		"pays" : [
 				{"alias" : "dubai"}
-		],
-		"photos" : [
-			{
-				"image" : "",
-				"legende" : ""
-			}
 		]
 	},
 	"references-waste-collection-management " : {
@@ -3102,8 +3035,375 @@
 		],
 		"photos" : [
 			{
-				"image" : "wind-turbines-5465",
+				"image" : "wind-turbines-5465.jpg",
 				"legende" : "Wind turbines"
+			}
+		]
+	},
+	"ce-technologies" : {
+		"technologies" : [
+			{
+				"index" : 1,
+				"titre" : "Degrés Bleus®",
+				"photo" : "edsc-0001.jpg",
+				"alias" : "technologie-degres-bleus"
+			},
+			{
+				"index" : 2,
+				"titre" : "“Smart City Dashboard”",
+				"photo" : "cofely-ineo-dominique-erhard.jpg",
+				"alias" : "technologie-smart-city-dashboard"
+			},
+			{
+				"index" : 3,
+				"titre" : "Elena",
+				"photo" : "elena.jpg",
+				"alias" : "technologie-elena"
+			}
+		]
+	},
+	"ce-infographics" : {
+		"markers" : [
+			{
+				"capabilitie" : "capabilitie-electrical-engineering",
+				"top" : 384,
+				"left" : 258
+			},
+			{
+				"capabilitie" : "capabilitie-illuminations-and-giant-screens",
+				"top" : 257,
+				"left" : 307
+			},
+			{
+				"capabilitie" : "capabilitie-multi-technical-maintenance",
+				"top" : 248,
+				"left" : 585
+			},
+			{
+				"capabilitie" : "capabilitie-climate-engineering",
+				"top" : 198,
+				"left" : 710
+			},
+			{
+				"capabilitie" : "capabilitie-renewable-energies",
+				"top" : 160,
+				"left" : 726
+			},
+			{
+				"capabilitie" : "capabilitie-fire-protection",
+				"top" : 209,
+				"left" : 777
+			},
+			{
+				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"top" : 222,
+				"left" : 938
+			},
+			{
+				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"top" : 357,
+				"left" : 901
+			},
+			{
+				"capabilitie" : "capabilitie-design-construction-project-management",
+				"top" : 119,
+				"left" : 875
+			},
+			{
+				"capabilitie" : "capabilitie-management-and-procurement-of-resources",
+				"top" : 480,
+				"left" : 747
+			},
+			{
+				"capabilitie" : "capabilitie-global-cultural-event-management",
+				"top" : 384,
+				"left" : 468
+			},
+			{
+				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"top" : 565,
+				"left" : 84
+			},
+			{
+				"capabilitie" : "capabilitie-air-treatment",
+				"top" : 480,
+				"left" : 112
+			}
+		]
+	},
+	"uc-technologies" : {
+		"technologies" : [
+			{
+				"index" : 1,
+				"titre" : "Vertuoz",
+				"photo" : "vertuoztableau-de-bord.jpg",
+				"alias" : "technologie-vertuoz"
+			}
+		]
+	},
+	"uc-infographics" : {
+		"markers" : [
+			{
+				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"top" : 238,
+				"left" : 127
+			},
+			{
+				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"top" : 223,
+				"left" : 165
+			},
+			{
+				"capabilitie" : "capabilitie-lecture-theatres-classrooms-and-information-technology-training-rooms",
+				"top" : 348,
+				"left" : 460
+			},
+			{
+				"capabilitie" : "capabilitie-design-construction-project-management",
+				"top" : 43,
+				"left" : 720
+			},
+			{
+				"capabilitie" : "capabilitie-air-treatment",
+				"top" : 266,
+				"left" : 714
+			},
+			{
+				"capabilitie" : "capabilitie-renewable-energies",
+				"top" : 298,
+				"left" : 831
+			},
+			{
+				"capabilitie" : "capabilitie-datacenter",
+				"top" : 341,
+				"left" : 945
+			},
+			{
+				"capabilitie" : "capabilitie-kitchen-refrigeration",
+				"top" : 507,
+				"left" : 939
+			},
+			{
+				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"top" : 552,
+				"left" : 758
+			},
+			{
+				"capabilitie" : "capabilitie-multi-technical-maintenance",
+				"top" : 504,
+				"left" : 739
+			},
+			{
+				"capabilitie" : "capabilitie-illuminations-and-giant-screens",
+				"top" : 423,
+				"left" : 776
+			},
+			{
+				"capabilitie" : "capabilitie-mobility",
+				"top" : 361,
+				"left" : 381
+			},
+			{
+				"capabilitie" : "capabilitie-climate-engineering",
+				"top" : 260,
+				"left" : 160
+			},
+			{
+				"capabilitie" : "capabilitie-fire-protection",
+				"top" : 209,
+				"left" : 85
+			}
+		]
+	},
+	"ms-technologies" : {
+		"technologies" : [
+			{
+				"index" : 1,
+				"titre" : "Vigionella",
+				"photo" : "2-pilotage-intelligent-des-fluides-et-des-energies.jpg",
+				"alias" : "technologie-vigionella"
+			},
+			{
+				"index" : 2,
+				"titre" : "Multimedia patient terminal",
+				"photo" : "cofely-ineo-tmp.jpg",
+				"alias" : "technologie-multimedia-patient-terminal"
+			},
+			{
+				"index" : 3,
+				"titre" : "Purite Limited",
+				"photo" : "royal-london-120-points-purite-plant-room.jpg",
+				"alias" : "technologie-purite-limited"
+			}
+		]
+	},
+	"ms-infographics" : {
+		"markers" : [
+			{
+				"capabilitie" : "capabilitie-design-construction-project-management",
+				"top" : 68,
+				"left" : 100
+			},
+			{
+				"capabilitie" : "capabilitie-renewable-energies",
+				"top" : 176,
+				"left" : 495
+			},
+			{
+				"capabilitie" : "capabilitie-air-treatment",
+				"top" : 176,
+				"left" : 595
+			},
+			{
+				"capabilitie" : "capabilitie-kitchen-refrigeration",
+				"top" : 352,
+				"left" : 768
+			},
+			{
+				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"top" : 320,
+				"left" : 964
+			},
+			{
+				"capabilitie" : "capabilitie-management-and-procurement-of-resources",
+				"top" : 414,
+				"left" : 948
+			},
+			{
+				"capabilitie" : "capabilitie-laundry-expertise",
+				"top" : 336,
+				"left" : 870
+			},
+			{
+				"capabilitie" : "capabilitie-climate-engineering",
+				"top" : 418,
+				"left" : 825
+			},
+			{
+				"capabilitie" : "capabilitie-multi-technical-maintenance",
+				"top" : 371,
+				"left" : 819
+			},
+			{
+				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"top" : 517,
+				"left" : 746
+			},
+			{
+				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"top" : 384,
+				"left" : 512
+			},
+			{
+				"capabilitie" : "capabilitie-water-purification-systems",
+				"top" : 328,
+				"left" : 408
+			},
+			{
+				"capabilitie" : "capabilitie-electrical-engineering",
+				"top" : 366,
+				"left" : 411
+			},
+			{
+				"capabilitie" : "capabilitie-fire-protection",
+				"top" : 339,
+				"left" : 182
+			},
+			{
+				"capabilitie" : "capabilitie-interactive-terminal-for-patients",
+				"top" : 315,
+				"left" : 305
+			}
+		]
+	},
+	"cc-technologies" : {
+		"technologies" : [
+			{
+				"index" : 1,
+				"titre" : "Bio-deconditioner",
+				"photo" : "biodeconditionneur-chemaudin.jpg",
+				"alias" : "technologie-bio-deconditioner"
+			},
+			{
+				"index" : 2,
+				"titre" : "CO2 and NH3 technologies",
+				"photo" : "page10-techno2.jpg",
+				"alias" : "technologie-co2-and-nh3-technologies"
+			},
+			{
+				"index" : 3,
+				"titre" : "Carbon footprint of hypermarkets and supermarkets",
+				"photo" : "2-pilotage-intelligent-des-fluides-et-des-energies.jpg",
+				"alias" : "technologie-carbon-footprint-of-hypermarkets-and-supermarkets"
+			}
+		]
+	},
+	"cc-infographics" : {
+		"markers" : [
+			{
+				"capabilitie" : "capabilitie-fire-protection",
+				"top" : 219,
+				"left" : 130
+			},
+			{
+				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"top" : 306,
+				"left" : 381
+			},
+			{
+				"capabilitie" : "capabilitie-kitchen-refrigeration",
+				"top" : 368,
+				"left" : 562
+			},
+			{
+				"capabilitie" : "capabilitie-air-treatment",
+				"top" : 223,
+				"left" : 599
+			},
+			{
+				"capabilitie" : "capabilitie-electrical-engineering",
+				"top" : 229,
+				"left" : 794
+			},
+			{
+				"capabilitie" : "capabilitie-multi-technical-maintenance",
+				"top" : 540,
+				"left" : 654
+			},
+			{
+				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"top" : 529,
+				"left" : 539
+			},
+			{
+				"capabilitie" : "capabilitie-purification-and-industrial-maintenance",
+				"top" : 534,
+				"left" : 441
+			},
+			{
+				"capabilitie" : "capabilitie-management-and-procurement-of-resources",
+				"top" : 496,
+				"left" : 158
+			},
+			{
+				"capabilitie" : "capabilitie-design-construction-project-management",
+				"top" : 94,
+				"left" : 313
+			},
+			{
+				"capabilitie" : "capabilitie-climate-engineering",
+				"top" : 301,
+				"left" : 126
+			},
+			{
+				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"top" : 294,
+				"left" : 20
+			},
+			{
+				"capabilitie" : "capabilitie-renewable-energies",
+				"top" : 237,
+				"left" : 396
 			}
 		]
 	},
@@ -3112,19 +3412,19 @@
 			{
 				"index" : 1,
 				"titre" : "Vigionella",
-				"photo" : "",
+				"photo" : "2-pilotage-intelligent-des-fluides-et-des-energies.jpg",
 				"alias" : "technologie-vigionella"
 			},
 			{
 				"index" : 2,
 				"titre" : "“Smart City Dashboard”",
-				"photo" : "",
+				"photo" : "cofely-ineo-dominique-erhard.jpg",
 				"alias" : "technologie-smart-city-dashboard"
 			},
 			{
 				"index" : 3,
 				"titre" : "Elena",
-				"photo" : "",
+				"photo" : "elena.jpg",
 				"alias" : "technologie-elena"
 			}
 		]
@@ -3133,8 +3433,182 @@
 		"markers" : [
 			{
 				"capabilitie" : "capabilitie-multi-technical-maintenance",
-				"top" : 400,
-				"left" : 400
+				"top" : 263,
+				"left" : 209
+			},
+			{
+				"capabilitie" : "capabilitie-electrical-engineering",
+				"top" : 130,
+				"left" : 309
+			},
+			{
+				"capabilitie" : "capabilitie-illuminations-and-giant-screens",
+				"top" : 160,
+				"left" : 372
+			},
+			{
+				"capabilitie" : "capabilitie-air-treatment",
+				"top" : 352,
+				"left" : 413
+			}
+			{
+				"capabilitie" : "capabilitie-renewable-energies",
+				"top" : 439,
+				"left" : 457
+			},
+			{
+				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"top" : 431,
+				"left" : 725
+			},
+			{
+				"capabilitie" : "capabilitie-climate-engineering",
+				"top" : 431,
+				"left" : 930
+			},
+			{
+				"capabilitie" : "capabilitie-design-construction-project-management",
+				"top" : 78,
+				"left" : 656
+			},
+			{
+				"capabilitie" : "capabilitie-mobile-water-supply-and-treatment-systems",
+				"top" : 565,
+				"left" : 512
+			},
+			{
+				"capabilitie" : "capabilitie-management-and-procurement-of-resources",
+				"top" : 580,
+				"left" : 434
+			},
+			{
+				"capabilitie" : "capabilitie-kitchen-refrigeration",
+				"top" : 495,
+				"left" : 335
+			},
+			{
+				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"top" : 532,
+				"left" : 168
+			},
+			{
+				"capabilitie" : "capabilitie-global-cultural-event-management",
+				"top" : 364,
+				"left" : 477
+			},
+			{
+				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"top" : 272,
+				"left" : 60
+			},
+			{
+				"capabilitie" : "capabilitie-mobility",
+				"top" : 333,
+				"left" : 209
+			},
+			{
+				"capabilitie" : "capabilitie-fire-protection",
+				"top" : 154,
+				"left" : 151
+			}
+		]
+	},
+	"si-technologies" : {
+		"technologies" : [
+			{
+				"index" : 1,
+				"titre" : "Omobile",
+				"photo" : "omobile-1.jpg",
+				"alias" : "technologie-omobile"
+			}
+		]
+	},
+	"ms-infographics" : {
+		"markers" : [
+			{
+				"capabilitie" : "capabilitie-renewable-energies",
+				"top" : 187,
+				"left" : 74
+			},
+			{
+				"capabilitie" : "capabilitie-air-treatment",
+				"top" : 209,
+				"left" : 112
+			},
+			{
+				"capabilitie" : "capabilitie-ensuring-operational-fitness-and-integrated-logistic-support",
+				"top" : 364,
+				"left" : 280
+			},
+			{
+				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"top" : 296,
+				"left" : 343
+			},
+			{
+				"capabilitie" : "capabilitie-management-and-procurement-of-resources",
+				"top" : 221,
+				"left" : 545
+			},
+			{
+				"capabilitie" : "capabilitie-mobile-water-supply-and-treatment-systems",
+				"top" : 337,
+				"left" : 630
+			},
+			{
+				"capabilitie" : "capabilitie-perimeter-protection-videosurveillance-and-runway-marking",
+				"top" : 578,
+				"left" : 672
+			},
+			{
+				"capabilitie" : "capabilitie-multi-technical-maintenance",
+				"top" : 373,
+				"left" : 634
+			},
+			{
+				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"top" : 532,
+				"left" : 447
+			},
+			{
+				"capabilitie" : "capabilitie-fire-protection",
+				"top" : 363,
+				"left" : 415
+			},
+			{
+				"capabilitie" : "capabilitie-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives",
+				"top" : 597,
+				"left" : 252
+			},
+			{
+				"capabilitie" : "capabilitie-design-construction-project-management",
+				"top" : 80,
+				"left" : 573
+			},
+			{
+				"capabilitie" : "capabilitie-purification-and-industrial-maintenance",
+				"top" : 506,
+				"left" : 122
+			},
+			{
+				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"top" : 448,
+				"left" : 124
+			},
+			{
+				"capabilitie" : "capabilitie-climate-engineering",
+				"top" : 371,
+				"left" : 202
+			},
+			{
+				"capabilitie" : "capabilitie-kitchen-refrigeration",
+				"top" : 264,
+				"left" : 210
+			},
+			{
+				"capabilitie" : "capabilitie-communication-networks-and-dedicated-infrastructures",
+				"top" : 265,
+				"left" : 112
 			}
 		]
 	}
