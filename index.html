@@ -44,17 +44,17 @@
 		<div id="templates">
 			<div class="template pays">
 				<div class="pays">
+					{{#references}}
+						<div class="reference reference{{index}}" data-page="{{alias}}">
+							<div class="mask" style="background-image: url(uploads/references/{{photo}});"></div>
+							<div class="trait"></div>
+						</div>
+					{{/references}}
 					<div class="wrapper" style="background-image: url(uploads/pays/{{image}});"></div>
 				</div>
 				<div class="right">
+					<div class="titre">{{titre}}</div>
 					<div class="texte">{{{texte}}}</div>
-					<div class="references">
-						<ul>
-						{{#references}}
-							<li>{{name}}</li>
-						{{/references}}
-						</ul>	
-					</div>
 				</div>
 			</div>
 			<div class="template infographics">
@@ -62,7 +62,47 @@
 					<div class="marker" style="top:{{top}}px; left:{{left}}px" data-page="{{capabilitie}}"></div>
 				{{/markers}}
 			</div>
+			<div class="template capability">
+				<div class="titre">{{titre}}</div>
+				<div class="wrapper">
+					<div class="texte">{{{texte}}}</div>
+					<div class="photos">
+						{{#photos}}
+							<div class="photo" style="background-image: url(uploads/capabilities/{{image}});"></div>
+						{{/photos}}
+					</div>
+					<!-- {{#references}}
+						<div class="reference reference{{index}}" style="background-image: url(uploads/references/{{photo}});" data-page="{{alias}}">
+							<div class="cursors"></div>
+						</div>
+					{{/references}} -->
+				</div>
+			</div>
+			<div class="template technologies1">
+				{{#technologies}}
+					<div class="marker marker{{index}}" data-page="{{alias}}">
+						<div class="titre">{{titre}}</div>
+						<div class="cursors"></div>
+					</div>
+				{{/technologies}}
+			</div>
+			<div class="template technologies2">
+				{{#technologies}}
+					<div class="marker marker{{index}}" data-page="{{alias}}">
+						<div class="titre">{{titre}}</div>
+						<div class="cursors"></div>
+					</div>
+				{{/technologies}}
+			</div>
 			<div class="template technologies3">
+				{{#technologies}}
+					<div class="marker marker{{index}}" data-page="{{alias}}">
+						<div class="titre">{{titre}}</div>
+						<div class="cursors"></div>
+					</div>
+				{{/technologies}}
+			</div>
+			<div class="template technologies4">
 				{{#technologies}}
 					<div class="marker marker{{index}}" data-page="{{alias}}">
 						<div class="titre">{{titre}}</div>
@@ -84,11 +124,17 @@
 	    <div id="fonds">
 	    	<div class="fond home active"></div>
 	    	<div class="fond white"></div>
-	    	<div class="fond gulf-presence"></div>
 	    	<div class="fond city-of-tomorrow"></div>
 	    	<div class="fond activities"></div>
 	    	<div class="fond sports-facilities"></div>
+	    	<div class="fond security-infrastructures"></div>
+	    	<div class="fond commercial-centers"></div>
+	    	<div class="fond cultural-equipment"></div>
+	    	<div class="fond medical-services"></div>
+	    	<div class="fond university-campus"></div>
 	    	<div class="fond technologies"></div>
+	    	<div class="fond capabilities"></div>
+	    	<div class="fond gulf-presence"></div>
 	    </div>
 
 
@@ -102,6 +148,35 @@
 	##        ##     ##  ######   ########  ######  
 	 -->
 	    <div id="pages">
+	    	<div class="template capabilities" data-page="capabilities">
+				<div class="marker marker1" data-page="capability-multi-technical-maintenance"></div>
+				<div class="marker marker2" data-page="capability-electrical-engineering"></div>
+				<div class="marker marker3" data-page="capability-illuminations-and-giant-screens"></div>
+				<div class="marker marker4" data-page="capability-fire-protection"></div>
+				<div class="marker marker5" data-page="capability-renewable-energies"></div>
+				<div class="marker marker6" data-page="capability-waste-sorting-and-recovery"></div>
+				<div class="marker marker7" data-page="capability-climate-engineering"></div>
+				<div class="marker marker8" data-page="capability-air-treatment"></div>
+				<div class="marker marker9" data-page="capability-kitchen-refrigeration"></div>
+				<div class="marker marker10" data-page="capability-smart-control-and-site-security"></div>
+				<div class="marker marker11" data-page="capability-management-and-procurement-of-resources"></div>
+				<div class="marker marker12" data-page="capability-sustainable-mobility-solutions"></div>
+				<div class="marker marker13" data-page="capability-purification-and-industrial-maintenance"></div>
+				<div class="marker marker14" data-page="capability-design-construction-project-management"></div>
+				<div class="marker marker15" data-page="capability-ensuring-operational-fitness-and-integrated-logistic-support"></div>
+				<div class="marker marker16" data-page="capability-perimeter-protection-videosurveillance-and-runway-marking"></div>
+				<div class="marker marker17" data-page="capability-communication-networks-and-dedicated-infrastructures"></div>
+				<div class="marker marker18" data-page="capability-lecture-theatres-classrooms-and-information-technology"></div>
+				<div class="marker marker19" data-page="capability-datacenter"></div>
+				<div class="marker marker20" data-page="capability-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives"></div>
+				<div class="marker marker21" data-page="capability-global-cultural-event-management"></div>
+				<div class="marker marker22" data-page="capability-interactive-terminal-for-patients"></div>
+				<div class="marker marker23" data-page="capability-laundry-expertise"></div>
+				<div class="marker marker24" data-page="capability-water-purification-systems"></div>
+				<div class="marker marker25" data-page="capability-mobile-water-supply-and-treatment-systems"></div>
+				<div class="marker marker26" data-page="capability-mobility"></div>
+				<div class="marker marker27" data-page="capability-building-and-demolishing-facilities"></div>
+			</div>
 	    	<div class="template gdfsuez" data-page="gdfsuez">
 	    		<div class="slide next slide1"></div>
 	    		<div class="slide next slide2"></div>
@@ -127,18 +202,13 @@
 	    		<div class="zoomqatar" data-pays="qatar"></div>
 				<div class="marker qatar" data-pays="qatar"></div>
 				<div class="marker saudiarabia" data-pays="saudiarabia"></div>
-				<div class="marker kuwait"></div>
-				<div class="marker barhain"></div>
-				<div class="marker unitedarabemirates"></div>
-				<div class="marker oman"></div>
+				<div class="marker kuwait" data-pays="kuwait"></div>
+				<div class="marker bahrain" data-pays="bahrain"></div>
+				<div class="marker unitedarabemirates" data-pays="unitedarabemirates"></div>
+				<div class="marker oman" data-pays="oman"></div>
 			</div>
 			<div class="template city-of-tomorrow" data-page="city-of-tomorrow">
-				<div class="marker marker1" data-popin="1">
-					<div class="texte">Information</div>
-					<div class="texte opacity45 indent">and communications</div>
-					<div class="texte opacity70 indent">networks</div>
-					<div class="clear"></div>
-				</div>
+				<div class="marker marker1" data-popin="1"></div>
 				<div class="popin popin1">
 					<div class="close"></div>
 					<div class="titre">Information and communications networks</div>
@@ -148,6 +218,10 @@
 			<div class="template activities" data-page="activities">
 				<div class="marker security-infrastructures" data-page="security-infrastructures"></div>
 				<div class="marker sports-facilities" data-page="sports-facilities"></div>
+				<div class="marker commercial-centers" data-page="commercial-centers"></div>
+				<div class="marker cultural-equipment" data-page="cultural-equipment"></div>
+				<div class="marker medical-services" data-page="medical-services"></div>
+				<div class="marker university-campus" data-page="university-campus"></div>
 			</div>
 			<div class="template panier" data-page="panier">
 				<div class="titre"><span class="small">SHOPPING</span>BASKET</div>
@@ -225,6 +299,7 @@
 				<g class="niveau2"></g>
 				<g class="niveau1"></g>
 			</svg>
+			<div class="filets"></div>
 			<div class="base">
 				<div class="centre"></div>
 			</div>
@@ -271,6 +346,8 @@
 		<div id="logo"></div>
 		<header id="header">
 			<div class="slogan">150 YEARS OF SERVICES IN PUBLIC UTILITIES</div>
+			<div class="backLink" data-page=""></div>
+			<div class="menuLink"></div>
 		</header>
 
 		<!-- <div id="log" style="z-index: 1000; position: absolute; top: 0;right: 0;padding: 5px; background-color: #fff; border: solid 1px #eee"></div> -->

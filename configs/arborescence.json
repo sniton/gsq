@@ -8,6 +8,13 @@
 		"niveau" : 0,
 		"virtual": true
 	},
+		"capabilities" : {
+			"parent"  : "group",
+			"niveau"  : 1,
+			"angle"   : 67,
+			"fond"    : "capabilities",
+			"template": "capabilites"
+		},
 		"gdfsuez" : {
 			"parent"  : "group",
 			"niveau"  : 1,
@@ -32,21 +39,54 @@
 				"angle"   : 112,
 				"fond"    : "saudiarabia",
 				"template": "pays",
+				"onload"  : "onLoadPays",
 				"datas"   : "pays-saudiarabia"
+			},
+			"pays-kuwait" : {
+				"parent"  : "gulf-presence",
+				"niveau"  : 2,
+				"angle"   : 69,
+				"fond"    : "kuwait",
+				"template": "pays",
+				"onload"  : "onLoadPays",
+				"datas"   : "pays-kuwait"
+			},
+			"pays-bahrain" : {
+				"parent"  : "gulf-presence",
+				"niveau"  : 2,
+				"angle"   : 34,
+				"fond"    : "bahrain",
+				"template": "pays",
+				"onload"  : "onLoadPays",
+				"datas"   : "pays-bahrain"
 			},
 			"pays-qatar" : {
 				"parent"  : "gulf-presence",
 				"niveau"  : 2,
 				"angle"   : 0,
-				"fond"    : "saudiarabia",
+				"fond"    : "qatar",
 				"template": "pays",
+				"onload"  : "onLoadPays",
 				"datas"   : "pays-qatar"
 			},
-		"capabilities" : {
-			"parent": "group",
-			"niveau": 1,
-			"angle" : 67
-		},
+			"pays-united-arab-emirates" : {
+				"parent"  : "gulf-presence",
+				"niveau"  : 2,
+				"angle"   : -60,
+				"fond"    : "united-arab-emirates",
+				"template": "pays",
+				"onload"  : "onLoadPays",
+				"datas"   : "pays-united-arab-emirates"
+			},
+			"pays-oman" : {
+				"parent"  : "gulf-presence",
+				"niveau"  : 2,
+				"angle"   : -120,
+				"fond"    : "oman",
+				"template": "pays",
+				"onload"  : "onLoadPays",
+				"datas"   : "pays-oman"
+			},
 	"savoirfaire" : {
 		"parent"    : "home",
 		"menu"      : "savoirfaire",
@@ -82,7 +122,7 @@
 					"niveau"     : 2,
 					"angle"      : 63,
 					"fond"       : "technologies",
-					"template"   : "technologies3",
+					"template"   : "technologies1",
 					"datas"      : "sf-technologies",
 					"onload"     : "onLoadTechnologies",
 					"reversemenu": true
@@ -94,6 +134,114 @@
 					"fond"       : "sports-facilities",
 					"template"   : "infographics",
 					"datas"      : "sf-infographics",
+					"onload"     : "onLoadInfographics",
+					"reversemenu": true
+				},
+			"university-campus" : {
+				"parent"     : "activities",
+				"niveau"     : 1,
+				"redirect"   : "uc-infographics",
+				"menu"       : "university-campus",
+				"reversemenu": true
+			},
+				"uc-technologies" : {
+					"parent"     : "university-campus",
+					"niveau"     : 2,
+					"angle"      : 63,
+					"fond"       : "technologies",
+					"template"   : "technologies1",
+					"datas"      : "uc-technologies",
+					"onload"     : "onLoadTechnologies",
+					"reversemenu": true
+				},
+				"uc-infographics" : {
+					"parent"     : "university-campus",
+					"niveau"     : 2,
+					"angle"      : 0,
+					"fond"       : "university-campus",
+					"template"   : "infographics",
+					"datas"      : "uc-infographics",
+					"onload"     : "onLoadInfographics",
+					"reversemenu": true
+				},
+			"medical-services" : {
+				"parent"     : "activities",
+				"niveau"     : 1,
+				"redirect"   : "ms-infographics",
+				"menu"       : "medical-services",
+				"reversemenu": true
+			},
+				"ms-technologies" : {
+					"parent"     : "medical-services",
+					"niveau"     : 2,
+					"angle"      : 63,
+					"fond"       : "technologies",
+					"template"   : "technologies3",
+					"datas"      : "ms-technologies",
+					"onload"     : "onLoadTechnologies",
+					"reversemenu": true
+				},
+				"ms-infographics" : {
+					"parent"     : "medical-services",
+					"niveau"     : 2,
+					"angle"      : 0,
+					"fond"       : "medical-services",
+					"template"   : "infographics",
+					"datas"      : "ms-infographics",
+					"onload"     : "onLoadInfographics",
+					"reversemenu": true
+				},
+			"commercial-centers" : {
+				"parent"     : "activities",
+				"niveau"     : 1,
+				"redirect"   : "cc-infographics",
+				"menu"       : "commercial-centers",
+				"reversemenu": true
+			},
+				"cc-technologies" : {
+					"parent"     : "commercial-centers",
+					"niveau"     : 2,
+					"angle"      : 63,
+					"fond"       : "technologies",
+					"template"   : "technologies3",
+					"datas"      : "cc-technologies",
+					"onload"     : "onLoadTechnologies",
+					"reversemenu": true
+				},
+				"cc-infographics" : {
+					"parent"     : "commercial-centers",
+					"niveau"     : 2,
+					"angle"      : 0,
+					"fond"       : "commercial-centers",
+					"template"   : "infographics",
+					"datas"      : "cc-infographics",
+					"onload"     : "onLoadInfographics",
+					"reversemenu": true
+				},
+			"cultural-equipment" : {
+				"parent"     : "activities",
+				"niveau"     : 1,
+				"redirect"   : "ce-infographics",
+				"menu"       : "cultural-equipment",
+				"reversemenu": true
+			},
+				"ce-technologies" : {
+					"parent"     : "cultural-equipment",
+					"niveau"     : 2,
+					"angle"      : 63,
+					"fond"       : "technologies",
+					"template"   : "technologies3",
+					"datas"      : "ce-technologies",
+					"onload"     : "onLoadTechnologies",
+					"reversemenu": true
+				},
+				"ce-infographics" : {
+					"parent"     : "cultural-equipment",
+					"niveau"     : 2,
+					"angle"      : 0,
+					"fond"       : "cultural-equipment",
+					"template"   : "infographics",
+					"datas"      : "ce-infographics",
 					"onload"     : "onLoadInfographics",
 					"reversemenu": true
 				},
@@ -110,5 +258,12 @@
 		"template"   : "paniersend",
 		"disablemenu": true,
 		"onload"     : "onLoadPanierSend"
+	},
+	"capability-multi-technical-maintenance" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-multi-technical-maintenance"
 	}
 }

@@ -137,7 +137,7 @@
 			}
 		]
 	},
-	"capabilitie-multi-technical-maintenance" : {
+	"capability-multi-technical-maintenance" : {
 		"titre" : "Multi-technical Maintenance ",
 		"texte" : "Through the operation and maintenance of technical facilities, GDF SUEZ has developed a global energy performance offer to guarantee long-term energy savings and reductions in emissions of pollutants and greenhouse gases for its customers.",
 		"societes" : [
@@ -149,16 +149,16 @@
 		],
 		"photos" : [
 			{
-				"image" : "competences/piscine-vincennes.jpg",
+				"image" : "piscine-vincennes.jpg",
 				"legende" : "The City of Vincennes' Swimming pool, France"
 			},
 			{
-				"image" : "competences/grand-stade-photo-1-ere-page.jpg",
+				"image" : "grand-stade-photo-1-ere-page.jpg",
 				"legende" : "Large stadium in Le Havre, France" 
 			}
 		]
 	},
-	"capabilitie-electrical-engineering" : {
+	"capability-electrical-engineering" : {
 		"titre" : "Electrical Engineering",
 		"texte" : "Contributing to the renovation, construction and maintenance of equipment, adding new technological dimensions and protecting the safety of people and property: these are the challenges which GDF SUEZ takes up by combining key skills and know-how, from electrical engineering (electric systems, lighting) to the integration of information and communication technologies (supervision, smart-grids).",
 		"societes" : [
@@ -168,16 +168,16 @@
 		],
 		"photos" : [
 			{
-				"image" : "competences/velodrom-5.jpg",
+				"image" : "velodrom-5.jpg",
 				"legende" : "The Velodrome Stadium in Marseille, France"
 			},
 			{
-				"image" : "competences/cofely-ineo-bertrand-holsnyder.jpg",
+				"image" : "cofely-ineo-bertrand-holsnyder.jpg",
 				"legende" : "La Gaîté Lyrique, Paris, France"
 			}
 		]
 	},
-	"capabilitie-illuminations-and-giant-screens" : {
+	"capability-illuminations-and-giant-screens" : {
 		"titre" : "Illuminations and giant screens",
 		"texte" : "GDF SUEZ takes part in institutional, sporting, cultural and corporate events throughout the world. Often this activity focuses on the organization of night-time events and the lighting of buildings and monuments of towns and cities.",
 		"societes" : [
@@ -186,16 +186,16 @@
 		],
 		"photos" : [
 			{
-				"image" : "competences/arab-games-2012-doha.jpg",
+				"image" : "arab-games-2012-doha.jpg",
 				"legende" : "Arab Games in Doha, 2012"
 			},
 			{
-				"image" : "competences/beaune.jpg",
+				"image" : "beaune.jpg",
 				"legende" : "Management of the lighting plan in the town of Beaune, France"
 			}
 		]
 	},
-	"capabilitie-fire-protection" : {
+	"capability-fire-protection" : {
 		"titre" : "Fire Protection",
 		"texte" : "GDF SUEZ supplies its customers with active fire protection systems (sprinklers, hydrants, fire detection and smart control systems).",
 		"societes" : [
@@ -203,16 +203,16 @@
 		],
 		"photos" : [
 			{
-				"image" : "competences/protection-incendie.jpg",
+				"image" : "protection-incendie.jpg",
 				"legende" : "Fire protection system"
 			},
 			{
-				"image" : "competences/219671.jpg",
+				"image" : "219671.jpg",
 				"legende" : "Fire protection system"
 			}
 		]
 	},
-	"capabilitie-renewable-energies" : {
+	"capability-renewable-energies" : {
 		"titre" : "Renewable Energies",
 		"texte" : "Building opened to the public have an impact on the local environment through the manner in which its energy is produced. GDF SUEZ achieves optimal performance of its facilities by integrating renewables (solar, geothermics, wind, biomass), water and air treatment and the monitoring of performance indicators.",
 		"societes" : [
@@ -222,16 +222,16 @@
 		],
 		"photos" : [
 			{
-				"image" : "competences/fourniture-d-energie.jpg",
+				"image" : "fourniture-d-energie.jpg",
 				"legende" : "Photovoltaic panels"
 			},
 			{
-				"image" : "competences/1-fourniture-de-l-energie.jpg",
+				"image" : "1-fourniture-de-l-energie.jpg",
 				"legende" : "Dam"
 			}
 		]
 	},
-	"capabilitie-waste-sorting-and-recovery" : {
+	"capability-waste-sorting-and-recovery" : {
 		"titre" : "Waste Sorting and Recovery",
 		"texte" : "GDF SUEZ advises its customers and delivers services for the collection, management and reuse of waste. This ranges from site audits and the identification of partners, to training in sorting at source, material supplies, regulatory compliance and the optimized management of collections. GDF SUEZ also provides Total Waste Management and centralized coordination: reuse of organic materials, energy solutions dedicated to biowaste (deconditioning, composting and methanization units).",
 		"societes" : [
@@ -248,7 +248,7 @@
 			}
 		]
 	},
-	"capabilitie-climate-engineering" : {
+	"capability-climate-engineering" : {
 		"titre" : "Climate Engineering",
 		"texte" : "GDF SUEZ provides its broad-based and specialized experience and command of climate engineering to its customers. The application of optimized solutions for equipment provides solutions for energy efficiency as well as noise and comfort factors. The GDF SUEZ Group supports all projects from the design phase through to the operational control of facilities.",
 		"societes" : [
@@ -266,7 +266,7 @@
 			}
 		]
 	},
-	"capabilitie-air-treatment" : {
+	"capability-air-treatment" : {
 		"titre" : "Air Treatment",
 		"texte" : "GDF SUEZ designs and maintains fixed and mobile self-contained systems. The Group continually improves and integrates new energy technologies for the optimized control of flows and the industrialization and qualification of new air treatment processes.",
 		"societes" : [
@@ -284,7 +284,7 @@
 			}
 		]
 	},
-	"capabilitie-kitchen-refrigeration" : {
+	"capability-kitchen-refrigeration" : {
 		"titre" : "Kitchen Refrigeration",
 		"texte" : "GDF SUEZ possesses global expertise in the energy and environmental performance of cooling systems, from the design to the maintenance of cooling units.",
 		"societes" : [
@@ -301,7 +301,7 @@
 			}
 		]
 	},
-	"capabilitie-smart-control-and-site-security" : {
+	"capability-smart-control-and-site-security" : {
 		"titre" : "Smart control and site security",
 		"texte" : "The design of public amenities is constantly evolving, requiring the combination of the feelings of well-being and safety in modern facilities which are optimized to receive the general public. The CCTV, smart access control, as well as information and supervision systems proposed by GDF SUEZ enable the management of the risks associated with events attended by high numbers of people.",
 		"societes" : [
@@ -319,7 +319,7 @@
 			}
 		]
 	},
-	"capabilitie-management-and-procurement-of-resources" : {
+	"capability-management-and-procurement-of-resources" : {
 		"titre" : "Management and procurement of resources",
 		"texte" : "GDF SUEZ delivers mobile water supply, sea water desalination and purification solutions.",
 		"societes" : [
@@ -335,7 +335,7 @@
 			}
 		]
 	},
-	"capabilitie-sustainable-mobility-solutions" : {
+	"capability-sustainable-mobility-solutions" : {
 		"titre" : "Sustainable Mobility Solutions",
 		"texte" : "GDF SUEZ provides natural gas fuel solutions to meet the needs of all of its customers (local authorities, businesses, fleet operators). The Group delivers a broad range of services, extending from the design, construction and operation-maintenance of service stations to the technically and economically optimized sale of natural gas fuel. The Group's subsidiary GNVert operates more than 140 natural gas fuel stations of all sizes in France, operation and maintenance of more than 40 natural gas stations for heavy goods vehicles and around 100 natural gas stations for light vehicles. In 2011, all of the natural gas fuel stations operated by GNVERT were ISO 14001 certified. ",
 		"societes" : [
@@ -353,7 +353,7 @@
 			}
 		]
 	},
-	"capabilitie-purification-and-industrial-maintenance" : {
+	"capability-purification-and-industrial-maintenance" : {
 		"titre" : "Purification and industrial maintenance",
 		"texte" : "GDF SUEZ services and maintains fuel distribution and water filtering equipment.",
 		"societes" : [
@@ -366,7 +366,7 @@
 			}
 		]
 	},
-	"capabilitie-design-construction-project-management" : {
+	"capability-design-construction-project-management" : {
 		"titre" : "Design, construction, project management",
 		"texte" : "GDF SUEZ helps to blend facilities into their surroundings, creating a sustainable living environment which adds to the attractiveness of the locality. By being involved right from the design phase, the Group allows to guarantee the long-term future, accessibility and environmental performance of projects. This global approach optimizes initial capital outlay and cuts running costs.",
 		"societes" : [
@@ -384,7 +384,7 @@
 			}
 		]
 	},
-	"capabilitie-ensuring-operational-fitness-and-integrated-logistic-support" : {
+	"capability-ensuring-operational-fitness-and-integrated-logistic-support" : {
 		"titre" : "Ensuring operational fitness and integrated logistic support",
 		"texte" : "Through the delivery of local support, responses to operational needs for the fitting out, maintenance and repair of systems and maintenance of user skills, GDF SUEZ applies best practices to develop service solutions tailored to new economic demands related to security. GDF SUEZ ensures the serviceability of complete operational systems in the fields of telecommunications, detection and electronic warfare.",
 		"societes" : [
@@ -401,7 +401,7 @@
 			}
 		]
 	},
-	"capabilitie-perimeter-protection-videosurveillance-and-runway-marking" : {
+	"capability-perimeter-protection-videosurveillance-and-runway-marking" : {
 		"titre" : "Perimeter protection, videosurveillance and runway marking",
 		"texte" : "GDF SUEZ implements solutions for secure site access and controlled ground markings.",
 		"societes" : [
@@ -414,7 +414,7 @@
 			}
 		]
 	},
-	"capabilitie-communication-networks-and-dedicated-infrastructures" : {
+	"capability-communication-networks-and-dedicated-infrastructures" : {
 		"titre" : "Communication networks and dedicated infrastructures",
 		"texte" : "GDF SUEZ possesses the experience required to integrate the design and construction of solutions for the deployment of communicating networks. These include innovative Hertzian transmission systems covering the complete electromagnetic spectrum, submarine antennae, naval HF communications, copper and/or optical wired networks and IP networks.",
 		"societes" : [
@@ -431,7 +431,7 @@
 			}
 		]
 	},
-	"capabilitie-lecture-theatres-classrooms-and-information-technology-training-rooms" : {
+	"capability-lecture-theatres-classrooms-and-information-technology-training-rooms" : {
 		"titre" : "Lecture theatres, classrooms and Information Technology training rooms",
 		"texte" : "GDF SUEZ delivers services to facilitate access to digital technology for end users: sharing information, Wi-Fi access, audiovisual and video conferences.",
 		"societes" : [
@@ -448,7 +448,7 @@
 			}
 		]
 	},
-	"capabilitie-datacenter" : {
+	"capability-datacenter" : {
 		"titre" : "Datacenter",
 		"texte" : "GDF SUEZ designs, builds and implements data centers and the associated services.",
 		"societes" : [
@@ -466,7 +466,7 @@
 			}
 		]
 	},
-	"capabilitie-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives" : {
+	"capability-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives" : {
 		"titre" : "Thermal and classical soil remediation / Deconstruction / Removal of explosives ",
 		"texte" : "GDF SUEZ, through its subsidiary SITA Remediation, has proven expertise in the depollution of contamined soil and whole sites. The Group provides packaged solutions for thermal depollution, including large scale technical site surveys and the thermal depollution services, which can also be applied to the deconstruction of contamined industrial plant with a patented process. ",
 		"societes" : [
@@ -483,7 +483,7 @@
 			}
 		]
 	},
-	"capabilitie-global-cultural-event-management" : {
+	"capability-global-cultural-event-management" : {
 		"titre" : "Global Cultural Event Management",
 		"texte" : "GDF SUEZ's multimedia experts offer visitors an unforgettable experience, thanks to a range of innovative technological services: audiovisual and multimedia systems, program storage and retrieval, interactive terminals, remote access to cultural information, audio-guides, image projection and illumination.",
 		"societes" : [
@@ -501,7 +501,7 @@
 			}
 		]
 	},
-	"capabilitie-interactive-terminal-for-patients" : {
+	"capability-interactive-terminal-for-patients" : {
 		"titre" : "Interactive Terminal for Patients",
 		"texte" : "GDF SUEZ has developed a multimedia patient terminal designed to centralize all available sources of patient information in a healthcare establishment. The latest multimedia applications (television and video on demand, radio, telephone, internet) can all be accessed, thanks to this technology, using a touch-sensitive screen. Patient-related information (medical record, prescriptions, medical imaging, test results) is updated in real-time on the terminal via a secure access. ",
 		"societes" : [
@@ -518,7 +518,7 @@
 			}
 		]
 	},
-	"capabilitie-laundry-expertise" : {
+	"capability-laundry-expertise" : {
 		"titre" : "Laundry expertise",
 		"texte" : "GDF SUEZ designs and maintains the processes used to clean and disinfect professional work wear for healthcare establishments.",
 		"societes" : [
@@ -531,7 +531,7 @@
 			}
 		]
 	},
-	"capabilitie-water-purification-systems" : {
+	"capability-water-purification-systems" : {
 		"titre" : "Water Purification Systems ",
 		"texte" : "GDF SUEZ has developped a renal dialysis system which is a lifesaving medical treatment used to mimic the functions of the kidneys in patients who are experiencing end-stage renal failure. ",
 		"societes" : [
@@ -548,7 +548,7 @@
 			}
 		]
 	},
-	"capabilitie-mobile-water-supply-and-treatment-systems" : {
+	"capability-mobile-water-supply-and-treatment-systems" : {
 		"titre" : "Mobile water supply and treatment systems",
 		"texte" : "GDF SUEZ delivers a simple and reliable solution to industrial companies, around the world and in all sectors of activity, which guarantees, with no capital investment, the quality and quantity of their water supply.",
 		"societes" : [
@@ -566,7 +566,7 @@
 			}
 		]
 	},
-	"capabilitie-mobility" : {
+	"capability-mobility" : {
 		"titre" : "Mobility",
 		"texte" : "GDF SUEZ assists its public and private customers in formulating their strategic choices and master plans, advises its customers in drawing up policy and feasibility studies, carries out detailed studies and manages the whole project. The Group ensures high-quality, sustainable solutions through intelligent integration of infrastructure, buildings, mobility and energy efficiency. GDF SUEZ combines all its competencies in a creative way, thus playing a key role in developing the cities and the environment of the future. The Group seeks the right balance to make our natural and urban environment a sustainable source of progress and development.",
 		"societes" : [
@@ -579,7 +579,7 @@
 			}
 		]
 	},
-	"capabilitie-building-and-demolishing-facilities" : {
+	"capability-building-and-demolishing-facilities" : {
 		"titre" : "Building and demolishing facilities",
 		"texte" : "GDF SUEZ leads or supports complex projects in a number of different sectors. Its primary objective is to allow its clients to remain centered on their core businesses and improve the dependability and performance of their installations with an ongoing focus for safety and security. GDF SUEZ can relocate industrial facilities anywhere in the world. Indeed, the company masters key competencies such as dismantling, lifting, handling and re-assembling huge industrial systems : production lines, industrial units, infrastructures. Cofely Endel, specialist in industrial transfers has concluded successful projects in Germany, Norway, Netherlands, Spain, Portugal, Switzerland and France.",
 		"societes" : [
@@ -3065,67 +3065,67 @@
 	"ce-infographics" : {
 		"markers" : [
 			{
-				"capabilitie" : "capabilitie-electrical-engineering",
+				"capabilitie" : "capability-electrical-engineering",
 				"top" : 384,
 				"left" : 258
 			},
 			{
-				"capabilitie" : "capabilitie-illuminations-and-giant-screens",
+				"capabilitie" : "capability-illuminations-and-giant-screens",
 				"top" : 257,
 				"left" : 307
 			},
 			{
-				"capabilitie" : "capabilitie-multi-technical-maintenance",
+				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 248,
 				"left" : 585
 			},
 			{
-				"capabilitie" : "capabilitie-climate-engineering",
+				"capabilitie" : "capability-climate-engineering",
 				"top" : 198,
 				"left" : 710
 			},
 			{
-				"capabilitie" : "capabilitie-renewable-energies",
+				"capabilitie" : "capability-renewable-energies",
 				"top" : 160,
 				"left" : 726
 			},
 			{
-				"capabilitie" : "capabilitie-fire-protection",
+				"capabilitie" : "capability-fire-protection",
 				"top" : 209,
 				"left" : 777
 			},
 			{
-				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 222,
 				"left" : 938
 			},
 			{
-				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 357,
 				"left" : 901
 			},
 			{
-				"capabilitie" : "capabilitie-design-construction-project-management",
+				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 119,
 				"left" : 875
 			},
 			{
-				"capabilitie" : "capabilitie-management-and-procurement-of-resources",
+				"capabilitie" : "capability-management-and-procurement-of-resources",
 				"top" : 480,
 				"left" : 747
 			},
 			{
-				"capabilitie" : "capabilitie-global-cultural-event-management",
+				"capabilitie" : "capability-global-cultural-event-management",
 				"top" : 384,
 				"left" : 468
 			},
 			{
-				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 565,
 				"left" : 84
 			},
 			{
-				"capabilitie" : "capabilitie-air-treatment",
+				"capabilitie" : "capability-air-treatment",
 				"top" : 480,
 				"left" : 112
 			}
@@ -3144,72 +3144,72 @@
 	"uc-infographics" : {
 		"markers" : [
 			{
-				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 238,
 				"left" : 127
 			},
 			{
-				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 223,
 				"left" : 165
 			},
 			{
-				"capabilitie" : "capabilitie-lecture-theatres-classrooms-and-information-technology-training-rooms",
+				"capabilitie" : "capability-lecture-theatres-classrooms-and-information-technology-training-rooms",
 				"top" : 348,
 				"left" : 460
 			},
 			{
-				"capabilitie" : "capabilitie-design-construction-project-management",
+				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 43,
 				"left" : 720
 			},
 			{
-				"capabilitie" : "capabilitie-air-treatment",
+				"capabilitie" : "capability-air-treatment",
 				"top" : 266,
 				"left" : 714
 			},
 			{
-				"capabilitie" : "capabilitie-renewable-energies",
+				"capabilitie" : "capability-renewable-energies",
 				"top" : 298,
 				"left" : 831
 			},
 			{
-				"capabilitie" : "capabilitie-datacenter",
+				"capabilitie" : "capability-datacenter",
 				"top" : 341,
 				"left" : 945
 			},
 			{
-				"capabilitie" : "capabilitie-kitchen-refrigeration",
+				"capabilitie" : "capability-kitchen-refrigeration",
 				"top" : 507,
 				"left" : 939
 			},
 			{
-				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 552,
 				"left" : 758
 			},
 			{
-				"capabilitie" : "capabilitie-multi-technical-maintenance",
+				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 504,
 				"left" : 739
 			},
 			{
-				"capabilitie" : "capabilitie-illuminations-and-giant-screens",
+				"capabilitie" : "capability-illuminations-and-giant-screens",
 				"top" : 423,
 				"left" : 776
 			},
 			{
-				"capabilitie" : "capabilitie-mobility",
+				"capabilitie" : "capability-mobility",
 				"top" : 361,
 				"left" : 381
 			},
 			{
-				"capabilitie" : "capabilitie-climate-engineering",
+				"capabilitie" : "capability-climate-engineering",
 				"top" : 260,
 				"left" : 160
 			},
 			{
-				"capabilitie" : "capabilitie-fire-protection",
+				"capabilitie" : "capability-fire-protection",
 				"top" : 209,
 				"left" : 85
 			}
@@ -3240,77 +3240,77 @@
 	"ms-infographics" : {
 		"markers" : [
 			{
-				"capabilitie" : "capabilitie-design-construction-project-management",
+				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 68,
 				"left" : 100
 			},
 			{
-				"capabilitie" : "capabilitie-renewable-energies",
+				"capabilitie" : "capability-renewable-energies",
 				"top" : 176,
 				"left" : 495
 			},
 			{
-				"capabilitie" : "capabilitie-air-treatment",
+				"capabilitie" : "capability-air-treatment",
 				"top" : 176,
 				"left" : 595
 			},
 			{
-				"capabilitie" : "capabilitie-kitchen-refrigeration",
+				"capabilitie" : "capability-kitchen-refrigeration",
 				"top" : 352,
 				"left" : 768
 			},
 			{
-				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 320,
 				"left" : 964
 			},
 			{
-				"capabilitie" : "capabilitie-management-and-procurement-of-resources",
+				"capabilitie" : "capability-management-and-procurement-of-resources",
 				"top" : 414,
 				"left" : 948
 			},
 			{
-				"capabilitie" : "capabilitie-laundry-expertise",
+				"capabilitie" : "capability-laundry-expertise",
 				"top" : 336,
 				"left" : 870
 			},
 			{
-				"capabilitie" : "capabilitie-climate-engineering",
+				"capabilitie" : "capability-climate-engineering",
 				"top" : 418,
 				"left" : 825
 			},
 			{
-				"capabilitie" : "capabilitie-multi-technical-maintenance",
+				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 371,
 				"left" : 819
 			},
 			{
-				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 517,
 				"left" : 746
 			},
 			{
-				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 384,
 				"left" : 512
 			},
 			{
-				"capabilitie" : "capabilitie-water-purification-systems",
+				"capabilitie" : "capability-water-purification-systems",
 				"top" : 328,
 				"left" : 408
 			},
 			{
-				"capabilitie" : "capabilitie-electrical-engineering",
+				"capabilitie" : "capability-electrical-engineering",
 				"top" : 366,
 				"left" : 411
 			},
 			{
-				"capabilitie" : "capabilitie-fire-protection",
+				"capabilitie" : "capability-fire-protection",
 				"top" : 339,
 				"left" : 182
 			},
 			{
-				"capabilitie" : "capabilitie-interactive-terminal-for-patients",
+				"capabilitie" : "capability-interactive-terminal-for-patients",
 				"top" : 315,
 				"left" : 305
 			}
@@ -3341,67 +3341,67 @@
 	"cc-infographics" : {
 		"markers" : [
 			{
-				"capabilitie" : "capabilitie-fire-protection",
+				"capabilitie" : "capability-fire-protection",
 				"top" : 219,
 				"left" : 130
 			},
 			{
-				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 306,
 				"left" : 381
 			},
 			{
-				"capabilitie" : "capabilitie-kitchen-refrigeration",
+				"capabilitie" : "capability-kitchen-refrigeration",
 				"top" : 368,
 				"left" : 562
 			},
 			{
-				"capabilitie" : "capabilitie-air-treatment",
+				"capabilitie" : "capability-air-treatment",
 				"top" : 223,
 				"left" : 599
 			},
 			{
-				"capabilitie" : "capabilitie-electrical-engineering",
+				"capabilitie" : "capability-electrical-engineering",
 				"top" : 229,
 				"left" : 794
 			},
 			{
-				"capabilitie" : "capabilitie-multi-technical-maintenance",
+				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 540,
 				"left" : 654
 			},
 			{
-				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 529,
 				"left" : 539
 			},
 			{
-				"capabilitie" : "capabilitie-purification-and-industrial-maintenance",
+				"capabilitie" : "capability-purification-and-industrial-maintenance",
 				"top" : 534,
 				"left" : 441
 			},
 			{
-				"capabilitie" : "capabilitie-management-and-procurement-of-resources",
+				"capabilitie" : "capability-management-and-procurement-of-resources",
 				"top" : 496,
 				"left" : 158
 			},
 			{
-				"capabilitie" : "capabilitie-design-construction-project-management",
+				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 94,
 				"left" : 313
 			},
 			{
-				"capabilitie" : "capabilitie-climate-engineering",
+				"capabilitie" : "capability-climate-engineering",
 				"top" : 301,
 				"left" : 126
 			},
 			{
-				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 294,
 				"left" : 20
 			},
 			{
-				"capabilitie" : "capabilitie-renewable-energies",
+				"capabilitie" : "capability-renewable-energies",
 				"top" : 237,
 				"left" : 396
 			}
@@ -3432,88 +3432,88 @@
 	"sf-infographics" : {
 		"markers" : [
 			{
-				"capabilitie" : "capabilitie-multi-technical-maintenance",
+				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 263,
 				"left" : 209
 			},
 			{
-				"capabilitie" : "capabilitie-electrical-engineering",
+				"capabilitie" : "capability-electrical-engineering",
 				"top" : 130,
 				"left" : 309
 			},
 			{
-				"capabilitie" : "capabilitie-illuminations-and-giant-screens",
+				"capabilitie" : "capability-illuminations-and-giant-screens",
 				"top" : 160,
 				"left" : 372
 			},
 			{
-				"capabilitie" : "capabilitie-air-treatment",
+				"capabilitie" : "capability-air-treatment",
 				"top" : 352,
 				"left" : 413
-			}
+			},
 			{
-				"capabilitie" : "capabilitie-renewable-energies",
+				"capabilitie" : "capability-renewable-energies",
 				"top" : 439,
 				"left" : 457
 			},
 			{
-				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 431,
 				"left" : 725
 			},
 			{
-				"capabilitie" : "capabilitie-climate-engineering",
+				"capabilitie" : "capability-climate-engineering",
 				"top" : 431,
 				"left" : 930
 			},
 			{
-				"capabilitie" : "capabilitie-design-construction-project-management",
+				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 78,
 				"left" : 656
 			},
 			{
-				"capabilitie" : "capabilitie-mobile-water-supply-and-treatment-systems",
+				"capabilitie" : "capability-mobile-water-supply-and-treatment-systems",
 				"top" : 565,
 				"left" : 512
 			},
 			{
-				"capabilitie" : "capabilitie-management-and-procurement-of-resources",
+				"capabilitie" : "capability-management-and-procurement-of-resources",
 				"top" : 580,
 				"left" : 434
 			},
 			{
-				"capabilitie" : "capabilitie-kitchen-refrigeration",
+				"capabilitie" : "capability-kitchen-refrigeration",
 				"top" : 495,
 				"left" : 335
 			},
 			{
-				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 532,
 				"left" : 168
 			},
 			{
-				"capabilitie" : "capabilitie-global-cultural-event-management",
+				"capabilitie" : "capability-global-cultural-event-management",
 				"top" : 364,
 				"left" : 477
 			},
 			{
-				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 272,
 				"left" : 60
 			},
 			{
-				"capabilitie" : "capabilitie-mobility",
+				"capabilitie" : "capability-mobility",
 				"top" : 333,
 				"left" : 209
 			},
 			{
-				"capabilitie" : "capabilitie-fire-protection",
+				"capabilitie" : "capability-fire-protection",
 				"top" : 154,
 				"left" : 151
 			}
 		]
 	},
-	"si-technologies" : {
+	"sf-technologies" : {
 		"technologies" : [
 			{
 				"index" : 1,
@@ -3526,87 +3526,87 @@
 	"ms-infographics" : {
 		"markers" : [
 			{
-				"capabilitie" : "capabilitie-renewable-energies",
+				"capabilitie" : "capability-renewable-energies",
 				"top" : 187,
 				"left" : 74
 			},
 			{
-				"capabilitie" : "capabilitie-air-treatment",
+				"capabilitie" : "capability-air-treatment",
 				"top" : 209,
 				"left" : 112
 			},
 			{
-				"capabilitie" : "capabilitie-ensuring-operational-fitness-and-integrated-logistic-support",
+				"capabilitie" : "capability-ensuring-operational-fitness-and-integrated-logistic-support",
 				"top" : 364,
 				"left" : 280
 			},
 			{
-				"capabilitie" : "capabilitie-smart-control-and-site-security",
+				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 296,
 				"left" : 343
 			},
 			{
-				"capabilitie" : "capabilitie-management-and-procurement-of-resources",
+				"capabilitie" : "capability-management-and-procurement-of-resources",
 				"top" : 221,
 				"left" : 545
 			},
 			{
-				"capabilitie" : "capabilitie-mobile-water-supply-and-treatment-systems",
+				"capabilitie" : "capability-mobile-water-supply-and-treatment-systems",
 				"top" : 337,
 				"left" : 630
 			},
 			{
-				"capabilitie" : "capabilitie-perimeter-protection-videosurveillance-and-runway-marking",
+				"capabilitie" : "capability-perimeter-protection-videosurveillance-and-runway-marking",
 				"top" : 578,
 				"left" : 672
 			},
 			{
-				"capabilitie" : "capabilitie-multi-technical-maintenance",
+				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 373,
 				"left" : 634
 			},
 			{
-				"capabilitie" : "capabilitie-sustainable-mobility-solutions",
+				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 532,
 				"left" : 447
 			},
 			{
-				"capabilitie" : "capabilitie-fire-protection",
+				"capabilitie" : "capability-fire-protection",
 				"top" : 363,
 				"left" : 415
 			},
 			{
-				"capabilitie" : "capabilitie-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives",
+				"capabilitie" : "capability-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives",
 				"top" : 597,
 				"left" : 252
 			},
 			{
-				"capabilitie" : "capabilitie-design-construction-project-management",
+				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 80,
 				"left" : 573
 			},
 			{
-				"capabilitie" : "capabilitie-purification-and-industrial-maintenance",
+				"capabilitie" : "capability-purification-and-industrial-maintenance",
 				"top" : 506,
 				"left" : 122
 			},
 			{
-				"capabilitie" : "capabilitie-waste-sorting-and-recovery",
+				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 448,
 				"left" : 124
 			},
 			{
-				"capabilitie" : "capabilitie-climate-engineering",
+				"capabilitie" : "capability-climate-engineering",
 				"top" : 371,
 				"left" : 202
 			},
 			{
-				"capabilitie" : "capabilitie-kitchen-refrigeration",
+				"capabilitie" : "capability-kitchen-refrigeration",
 				"top" : 264,
 				"left" : 210
 			},
 			{
-				"capabilitie" : "capabilitie-communication-networks-and-dedicated-infrastructures",
+				"capabilitie" : "capability-communication-networks-and-dedicated-infrastructures",
 				"top" : 265,
 				"left" : 112
 			}

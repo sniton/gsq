@@ -148,50 +148,6 @@ var panier = function(){
 				$.each(self.availableItemsByType.reference, function(key, value){
 					html += '<dd class="item" data-item="'+key+'">'+value.title+'</dd>'
 				})
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
-				html += '<dd class="item" data-item="fichierpdfexemple">test scroll</dd>'
 				$('#pages .panier .content .liste').html(html)
 
 				// Lancement des évènements
@@ -454,7 +410,7 @@ var navigation = function(){
 			}
 		});
 	}
-	this.niveau0Events = function(){
+	this.defaultEvents = function(){
 		$('.niveau0 .linkZone', menu).hammer().on('tap', function(){
 			if(!inNavAction){
 				inNavAction = true;
@@ -476,6 +432,14 @@ var navigation = function(){
 			}else if(direction == 'up'){
 				self.showMenu()
 			}
+		})
+		$('header#header .backLink').hammer().on('tap', function(){
+			var page = $(this).attr('data-page')
+			$(this).attr('data-page', '').removeClass('active')
+			self.navTo(page)
+		})
+		$('header#header .menuLink').hammer().on('tap', function(){
+			self.showMenu()
 		})
 	}
 	this.niveau1and2Events = function(){
@@ -510,7 +474,7 @@ var navigation = function(){
 			console.log('over')
 		})
 	}
-	this.navTo = function(page){
+	this.navTo = function(page, backLink, backLinkText){
 		console.log('--navTo')
 		console.log(page)
 		console.log(this.arborescence[page])
@@ -518,13 +482,18 @@ var navigation = function(){
 		if(redirect){
 			this.navTo(redirect)
 		}else{
+			if(backLink){
+				$('header#header .backLink').attr('data-page', backLink).text(backLinkText).addClass('active')
+			}
 			this.changeFond(this.arborescence[page].fond)
 			this.changePage(page)
 			oPanier.setAvailable(this.arborescence[page].panier)
 		}
 	}
 	this.changeFond = function(fond){
-		if(fond != this.currentFond){
+		console.log('--changeFond')
+		console.log(fond+' ' +this.currentFond)
+		if(fond && fond != this.currentFond){
 			$('#fonds .fond.active').removeClass('active')
 			$('#fonds .fond.'+fond).addClass('active')
 			this.currentFond = fond;
@@ -582,7 +551,9 @@ var navigation = function(){
 		if(niveau == 2){
 			$(menu).addClass('isniveau1 isniveau2')
 			this.loadMenu(this.arborescence[page].parent)
-			$('.niveau2', menu).css('-webkit-transform', 'scale(1) rotate('+angle+'deg)')
+			setTimeout(function(){
+				$('.niveau2', menu).css('-webkit-transform', 'scale(1) rotate('+angle+'deg)')
+			},100)
 		}else if(niveau == 1){
 			$('.niveau2', menu).css('-webkit-transform', 'scale(0) rotate(0deg)')
 			$(menu).addClass('isniveau1').removeClass('isniveau2')
@@ -626,10 +597,10 @@ var navigation = function(){
 						$('.niveau'+niveau, menu).css('-webkit-transform', 'scale(0) rotate(0deg)')
 						setTimeout(function(){
 							$('.niveau'+niveau, menu).css('-webkit-transform', 'scale(1) rotate(0deg)')
-						},100)
+						},10)
 						self.currentMenus[niveau-1] = menuName
 						console.log(self.currentMenus)
-					},100)
+					},10)
 				}
 			});
 		}
@@ -658,6 +629,7 @@ var navigation = function(){
 		$(menu).removeClass('hide')
 		menuIsHide = false
 		oSound.play('panieropen')
+		$('header#header .menuLink').removeClass('active')
 	}
 	this.hideMenu = function(){
 
@@ -665,12 +637,13 @@ var navigation = function(){
 			$(menu).addClass('hide')
 			menuIsHide = true
 			oSound.play('panieropen')
+			$('header#header .menuLink').addClass('active')
 		}
 	}
 
 	this.construct()
 	this.loadArborescence()
-	this.niveau0Events()
+	this.defaultEvents()
 	this.niveau1and2Events()
 }
 
@@ -705,6 +678,10 @@ function contentEvents(){
 	$('#pages .activities .marker').hammer().on('tap', function(){
 		var page = $(this).attr('data-page')
 		oNavigation.navTo(page)
+	})
+	$('#pages .capabilities .marker').hammer().on('tap', function(){
+		var page = $(this).attr('data-page')
+		oNavigation.navTo(page, 'capabilities', "< Back to Capabilities")
 	})
 }
 
@@ -791,6 +768,12 @@ var gdfsuezSlider = function(){
 	}
 
 	this.app()
+}
+function onLoadPays(){
+	$('#pages .pays .reference').hammer().on('tap', function(){
+		var page = $(this).attr('data-page')
+		oNavigation.navTo(page)
+	})
 }
 function onLoadInfographics(){
 	console.log('--onLoadInfographics')
