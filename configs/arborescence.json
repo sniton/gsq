@@ -22,8 +22,7 @@
 			"fond"    : "white",
 			"template": "gdfsuez",
 			"onload"  : "onLoadGdfsuez",
-			"onunload": "onUnloadGdfsuez",
-			"panier" : "test"
+			"onunload": "onUnloadGdfsuez"
 		},
 		"gulf-presence" : {
 			"parent"  : "group",

@@ -230,11 +230,11 @@ var panier = function(){
 		if(element){
 			this.panier.addClass('available')
 			this.availableItem = element
+			this.isInPanier(element)
 		}else{
 			this.panier.removeClass('available')
 			this.availableItem = null;
 		}
-		this.isInPanier(element)
 	}
 	// Actions
 	this.addToPanier = function(availableItem){
@@ -533,6 +533,7 @@ var navigation = function(){
 			}
 			if(this.arborescence[page].disablemenu){
 				$(menu).addClass('disabled')
+				$('header#header .menuLink').removeClass('active')
 			}else{
 				$(menu).removeClass('disabled')
 			}
@@ -662,6 +663,9 @@ var oDatas
 function contentEvents(){
 	oDatas = new datas()
 
+	$('#pages .gdfsuez .slide3 .marker').hammer().on('tap', function(){
+		$(this).toggleClass('active').siblings().removeClass('active')
+	})
 	$('#pages .gulf-presence .marker, .template.gulf-presence .zoomqatar').hammer().on('tap', function(){
 		var pays = $(this).attr('data-pays')
 		oNavigation.navTo("pays-"+pays)

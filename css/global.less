@@ -510,12 +510,18 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
     .slide1 {background-image: url(../uploads/gdfsuez/slide1.jpg);}
     .slide2 {background-image: url(../uploads/gdfsuez/slide2.jpg);}
     .slide3 {background-image: url(../uploads/gdfsuez/slide3.jpg);
-      .marker {width: 47px;height: 47px;.border-radius(50%); position: absolute; background: @vert url(../images/asterisk.png) center center no-repeat; cursor: pointer;}
-      .marker1 {top: 308px; left: 247px}
-      .marker2 {top: 540px; left: 307px;}
-      .marker3 {top: 497px; left: 507px;}
-      .marker4 {top: 387px; left: 587px;}
-      .marker5 {top: 417px; left: 807px;}
+      .marker {width: 48px;height: 48px;.border-radius(50%); position: absolute; background: @vert url(../images/asterisk.png) center center no-repeat; cursor: pointer; top: 50%;left: 50%; margin: -24px 0 0 -24px;-webkit-transition: all 300ms ease}
+      .marker.active {width: 382px; height: 382px; margin: -191px 0 0 -191px; z-index: 101;}
+      .marker1 {-webkit-transform: translate3d(-246px, -47px,0)}
+      .marker2 {-webkit-transform: translate3d(-185px, 188px,0)}
+      .marker3 {-webkit-transform: translate3d(19px, 149px,0)}
+      .marker4 {-webkit-transform: translate3d(21px, 13px,0)}
+      .marker5 {-webkit-transform: translate3d(321px, 70px,0)}
+      .marker1.active {-webkit-transform: translate3d(0,0,0); background-image: url(../uploads/gdfsuez/marker1.png);}
+      .marker2.active {-webkit-transform: translate3d(0,0,0); background-image: url(../uploads/gdfsuez/marker2.png);}
+      .marker3.active {-webkit-transform: translate3d(0,0,0); background-image: url(../uploads/gdfsuez/marker3.png);}
+      .marker4.active {-webkit-transform: translate3d(0,0,0); background-image: url(../uploads/gdfsuez/marker4.png);}
+      .marker5.active {-webkit-transform: translate3d(0,0,0); background-image: url(../uploads/gdfsuez/marker5.png);}
     }
     .slide4 {background-image: url(../uploads/gdfsuez/slide4.jpg);}
     .slide5 {background-image: url(../uploads/gdfsuez/slide5.jpg);}
@@ -743,7 +749,7 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
 }
 #menu.isniveau1 .filets, #menu.isniveau2 .filets {-webkit-transform: scale(0);}
 #menu.hide.isniveau1 {-webkit-transform: translate3d(0, 470px, 0)}
-#menu.disabled {-webkit-transform: translate3d(0, 610px, 0)}
+#menu.disabled {-webkit-transform: translate3d(0, 610px, 0);}
 #menu.reversed {
   .base .centre, .niveau0{-webkit-transform: rotate(180deg)}
   .niveau0 {
