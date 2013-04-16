@@ -1,7 +1,8 @@
 {
 	"pays-saudiarabia" : {
 		"image" : "saudiarabia.png",
-		"texte" : "<h1>In condimentum facilisis porta. Sed nec diam eu diam viverra.</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
+		"titre" : "The Kingdom of Saudi Arabia ",
+		"texte" : "GDF SUEZ has in the KSA a power production capacity of 5.5 GW and a water production of 800 m³. Tractebel Engineering has executed consultancy contracts for Saudi Electricity Co. Suez Environment and Acwa Power Development provided management expertise for water supply and wastewater collection services for Jeddah. Degremont built 20 water treatment plants. Safege works on the supervision contract for the Jeddah North Waste-Water-lifting station. GDF SUEZ employed 515 people in the KSA in 2012.",
 		"references" : [
 			{
 				"index" : 1,
@@ -22,11 +23,19 @@
 				"photo" : "164936.jpg",
 				"alias" : "references-interconnection-of-four-gulf-states-power-systems"
 			}
+		],
+		"societes" : [
+			{ "alias" : "gdf-suez"},
+			{ "alias" : "degremont"},
+			{ "alias" : "tractebel-engineering"},
+			{ "alias" : "suez-environnement"},
+			{ "alias" : "safege"}
 		]
 	},
 	"pays-oman" : {
 		"image" : "oman.png",
-		"texte" : "<h1>In condimentum facilisis porta. Sed nec diam eu diam viverra.</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
+		"titre" : "Oman",
+		"texte" : "GDF SUEZ is active in Oman since 1994. The Group owns and/or operates 7 facilities in Oman. Tractebel Engineering is owners’ engineer for Barka 3 and Sohar 2 power plants. Degremont brought its expertise in water treatment through RO technology and environmental friendly solutions. Sita and Suez Environnement, in partnership with Omani partners, are operating in waste management.  The Group employed 436 people in Oman in 2012.",
 		"references" : [
 			{
 				"index" : 1,
@@ -55,11 +64,18 @@
 				"photo" : "229018-1.jpg",
 				"alias" : "references-barka-iii-and-sohar-ii"
 			}
+		],
+		"societes" : [
+			{ "alias" : "gdf-suez"},
+			{ "alias" : "tractebel-engineering"},
+			{ "alias" : "sita"},
+			{ "alias" : "suez-environnement"}
 		]
 	},
 	"pays-qatar" : {
 		"image" : "qatar.png",
-		"texte" : "<h1>Qatar</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
+		"titre" : "Qatar",
+		"texte" : "GDF SUEZ relations with Qatar have been developing since 2000. The Group has 40% stake in Ras Laffan B IWPP and 20% in Ras Laffan C IWPP, the two largest IWPP in Qatar. It operates the Block 4 offshore (2 exploration wells). Degremont has developed 4 waste water treatment facilities. Tractebel Engineering has a maintenance engineering contract with Qatalum. Ondeo IS is the E&P contractor for Qatargas Refinery QG1. The Group employed 85 people in Qatar in 2012.",
 		"references" : [
 			{
 				"index" : 1,
@@ -89,11 +105,18 @@
 				"photo" : "238458.jpg",
 				"alias" : "references-doha-west-wastewater-treatment-plant"
 			}
+		],
+		"societes" : [
+			{ "alias" : "gdf-suez"},
+			{ "alias" : "degremont"},
+			{ "alias" : "tractebel-engineering"},
+			{ "alias" : "ondeo-is"}
 		]
 	},
 	"pays-united-arab-emirates" : {
 		"image" : "united-arab-emirates.png",
-		"texte" : "<h1>In condimentum facilisis porta. Sed nec diam eu diam viverra.</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
+		"titre" : "UAE",
+		"texte" : "GDF SUEZ has a power capacity of 8.8 GW and a water capacity of 557 MIGD. Tractebel Engineering is a consultant for SEWA, DUBAL, TRANSCO & Mubadala. Sita  Trashco operates the waste collection management in Dubai, Sharjah & Abu Dhabi. Degremont designed, built and implemented the RO technology in Fujairah. Cofely Besix  is in charge of energy and water management in Burj Khalifa and won with Alstom the maintenance contract for Dubai’s tramway. GDF SUEZ employed 1 214 people in the UAE in 2012.",
 		"references" : [
 			{
 				"index" : 1,
@@ -119,11 +142,19 @@
 				"index" : 6,
 				"alias" : "references-al-sufouh-tramway"
 			}
+		],
+		"societes" : [
+			{ "alias" : "gdf-suez"},
+			{ "alias" : "degremont"},
+			{ "alias" : "tractebel-engineering"},
+			{ "alias" : "suez-environnement"},
+			{ "alias" : "safege"}
 		]
 	},
 	"pays-bahrain" : {
 		"image" : "bahrain.png",
-		"texte" : "<h1>In condimentum facilisis porta. Sed nec diam eu diam viverra.</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
+		"titre" : "Bahrain",
+		"texte" : "GDF SUEZ owns a net 1.3 GW of electricity capacity in Bahrain with stakes in Al Hidd, Al Ezzel and Al Dur facilities. Degremont and Tractebel Engineering provide owner’s engineer service for Al Dur IWPP. Tractebel Engineering provided owner’s engineer services for Al Ezzel IPP. The Group employed 253 people in Bahrain in 2012.",
 		"references" : [
 			{
 				"index" : 1,
@@ -135,17 +166,27 @@
 				"photo" : "164936.jpg",
 				"alias" : "references-interconnection-of-four-gulf-states-power-systems"
 			}
+		],
+		"societes" : [
+			{ "alias" : "gdf-suez"},
+			{ "alias" : "degremont"},
+			{ "alias" : "tractebel-engineering"}
 		]
 	},
 	"pays-kuwait" : {
 		"image" : "kuwait.png",
-		"texte" : "<h1>In condimentum facilisis porta. Sed nec diam eu diam viverra.</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
+		"titre" : "Kuwait",
+		"texte" : "Tractebel Enginnering is the most active business unit of GDF SUEZ in Kuwait. As part of a consortium, Tractebel Engineering realized a study on the interconnection of the power systems of four Gulf States. Bahrain, Kuwait, Qatar and Saudi Arabia.",
 		"references" : [
 			{
 				"index" : 1,
 				"photo" : "164936.jpg",
 				"alias" : "references-interconnection-of-four-gulf-states-power-systems"
 			}
+		],
+		"societes" : [
+			{ "alias" : "gdf-suez"},
+			{ "alias" : "tractebel-engineering"}
 		]
 	},
 	"capability-multi-technical-maintenance" : {
