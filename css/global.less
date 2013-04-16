@@ -717,12 +717,12 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
   .template.technologies1.active, .template.technologies2.active, .template.technologies3.active, .template.technologies4.active {
     .marker {display: block;}
   }
-  .template.panier {
+  .template.panier, .template.paniersend {
     .titre {font-size: 50px; color: @bleumarine; .bold; position: absolute; top: 96px;left: 152px; vertical-align: baseline; -webkit-opacity : 0; -webkit-transition: -webkit-opacity @pageTransitionDuration ease-out; 
       span {.lite; font-size: 36px;}
     }
     .content {width: 730px;height: 450px;background-color: #6b6c6e; position: absolute; top: 178px; left: 253px; color: #fff;font-size: 18px; overflow: hidden;-webkit-transition: -webkit-transform @pageTransitionDuration ease-out; -webkit-transform: translate3d(1000px,0,0);
-      .wrapper {margin: 30px 20px 30px 0;}
+      .wrapper {margin: 30px 20px 30px 0;
         .viewport {height: 390px;}
         dl {margin-left: 170px;
           dt {margin-top: 20px; .bold; text-transform: uppercase;}
@@ -730,6 +730,8 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
           dd {height: 22px;line-height: 22px; .lite; padding-left: 58px; background: url(../images/panier-check.png) left center no-repeat; margin-top: 5px; cursor: pointer;}
           dd.checked {background-image: url(../images/panier-check-checked.png);}
         }
+      }
+      #form_paniersend {margin: 43px 0 0 170px; }
     }
     .facettes {width: 200px;height: 132px; position: absolute; top: 337px;left: 188px; background-color: #ddd; text-align: right;-webkit-transition: -webkit-transform @pageTransitionDuration ease-out;  -webkit-transform: translate3d(-600px,100px,0);
       ul {margin-top: 40px; padding: 0 13px;
@@ -745,7 +747,7 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
       .button.clearall {background-image: url(../images/btn-clearall.png);}
     }
   }
-  .template.panier.active {
+  .template.panier.active, .template.paniersend.active {
     .titre {-webkit-opacity : 1;}
     .content, .facettes, .counter, .actions {-webkit-transform: translate3d(0,0,0);}
   }

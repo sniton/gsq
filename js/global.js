@@ -311,12 +311,12 @@ var panier = function(){
 	this.refresh = function(){
 		// Comptage des références
 		var references = Object.keys(this.panierList.reference).length
-		$('#pages .panier .facettes .references').text(references)
+		$('#pages .panier .facettes .references, #pages .paniersend .facettes .references').text(references)
 
 		// Comptage du total
 		this.totalPanierItems = references + 1
 		var totalpanier = this.totalPanierItems < 10 ? "0"+this.totalPanierItems : this.totalPanierItems ;
-		$('#pages .panier .counter').text(totalpanier)
+		$('#pages .panier .counter, #pages .paniersend .counter').text(totalpanier)
 
 		// Mise à jour de la liste des items dans le panier
 		$('#pages .panier input').attr('checked', false)
@@ -633,7 +633,6 @@ var navigation = function(){
 		$('header#header .menuLink').removeClass('active')
 	}
 	this.hideMenu = function(){
-
 		if($(menu).hasClass('isniveau1') || $(menu).hasClass('isniveau2')){
 			$(menu).addClass('hide')
 			menuIsHide = true

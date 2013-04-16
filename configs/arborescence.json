@@ -255,8 +255,9 @@
 	"paniersend" : {
 		"niveau"     : 0,
 		"template"   : "paniersend",
-		"disablemenu": true,
-		"onload"     : "onLoadPanierSend"
+		"onload"     : "onLoadPanierSend",
+		"fond"       : "white",
+		"disablemenu": true
 	},
 	"capability-multi-technical-maintenance" : {
 		"niveau"     : 0,
