@@ -75,7 +75,7 @@
 	"pays-qatar" : {
 		"image" : "qatar.png",
 		"titre" : "Qatar",
-		"texte" : "GDF SUEZ relations with Qatar have been developing since 2000. The Group has 40% stake in Ras Laffan B IWPP and 20% in Ras Laffan C IWPP, the two largest IWPP in Qatar. It operates the Block 4 offshore (2 exploration wells). Degremont has developed 4 waste water treatment facilities. Tractebel Engineering has a maintenance engineering contract with Qatalum. Ondeo IS is the E&P contractor for Qatargas Refinery QG1. The Group employed 85 people in Qatar in 2012.",
+		"texte" : "GDF SUEZ relations with Qatar have been developing since 2000. The Group has 40% stake in Ras Laffan B IWPP and 20% in Ras Laffan C IWPP, the two largest IWPP in Qatar. It operates the Block 4 offshore (2 exploration wells). Degremont has developed 4 waste water treatment facilities. Tractebel Engineering has a maintenance engineering contract with Qatalum. Degrémont IS is the E&P contractor for Qatargas Refinery QG1. The Group employed 85 people in Qatar in 2012.",
 		"references" : [
 			{
 				"index" : 1,
@@ -109,8 +109,7 @@
 		"societes" : [
 			{ "alias" : "gdf-suez"},
 			{ "alias" : "degremont"},
-			{ "alias" : "tractebel-engineering"},
-			{ "alias" : "ondeo-is"}
+			{ "alias" : "tractebel-engineering"}
 		]
 	},
 	"pays-united-arab-emirates" : {
@@ -1144,7 +1143,8 @@
 		],
 		"photos" : [
 			{
-				"image" : "piscine-2.jpg"
+				"image" : "piscine-2.jpg",
+				"legende" : "Sainte-Foy-les-Lyon aquatic center, France"
 			}
 		]
 	},
@@ -1162,7 +1162,8 @@
 		],
 		"photos" : [
 			{
-				"image" : "ol-land-1.jpg"
+				"image" : "ol-land-1.jpg",
+				"legende" : "The Olympique Lyonnais Stadium, France"
 			}
 		]
 	},
@@ -1200,7 +1201,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "PHOTO",
+				"image" : "patinoire-lorient-2.jpg",
 				"legende" : "The ice rink in Lanester, France"
 			}
 		]
@@ -1276,7 +1277,8 @@
 		],
 		"photos" : [
 			{
-				"image" : "fotolia-26234759-m.jpg"
+				"image" : "fotolia-26234759-m.jpg",
+				"legende" : "Project management in a hospital"
 			}
 		]
 	},
@@ -1296,6 +1298,25 @@
 			{
 				"image" : "sante-pld3556.jpg",
 				"legende" : "Medical equipment"
+			}
+		]
+	},
+	"references-la-timone" : {
+		"titre" : "La Timone Hospital in Marseille, France",
+		"texte" : "La Timone Hospital in Marseille enlisted GDF SUEZ's expertise to install the high-power circuits (lightning protection systems, lighting, etc.) and low-power circuits (fire detection system, security-camera system, etc.) for its medical and clinical support building.",
+		"competences" : [
+			{"alias" : "climate-engineering"}
+		],
+		"societes" : [
+			{"alias" : "gdf-suez"}
+		],
+		"pays" : [
+				{"alias" : ""}
+		],
+		"photos" : [
+			{
+				"image" : "cofely-ineo-sante.jpg",
+				"legende" : "Clinical support building"
 			}
 		]
 	},
@@ -1967,6 +1988,12 @@
 		],
 		"pays" : [
 				{"alias" : ""}
+		],
+		"photos" : [
+			{
+				"image" : "velodrom-5.jpg",
+				"legende" : "The Stade Vélodrome, Marseille, France"
+			}
 		]
 	},
 	"references-lusail-marina-district" : {
@@ -2040,8 +2067,8 @@
 		],
 		"photos" : [
 			{
-				"image" : ".jpg",
-				"legende" : ""
+				"image" : "visuel-plaquette-au.jpg",
+				"legende" : "Sustainable urban development"
 			}
 		]
 	},
@@ -2613,6 +2640,12 @@
 		],
 		"pays" : [
 				{"alias" : "abu-dhabi"}
+		],
+		"photos" : [
+			{
+				"image" : "airport-2.jpg",
+				"legende" : "Airport Facility Management"
+			}
 		]
 	},
 	"references-al-dur-iwppl-bahrain" : {
@@ -2740,6 +2773,12 @@
 		],
 		"pays" : [
 				{"alias" : "jordan"}
+		],
+		"photos" : [
+			{
+				"image" : "24345.jpg",
+				"legende" : "Seismological study"
+			}
 		]
 	},
 	"references-red-sea-dead-sea-water-canal-study-program" : {
@@ -2753,6 +2792,12 @@
 		],
 		"pays" : [
 				{"alias" : "jordan"}
+		],
+		"photos" : [
+			{
+				"image" : "se-20101120idn-075.jpg",
+				"legende" : "Team work project"
+			}
 		]
 	},
 	"references-wadi-ma-in-desalination-plant" : {
@@ -2922,6 +2967,12 @@
 		],
 		"pays" : [
 				{"alias" : "qatar"}
+		],
+		"photos" : [
+			{
+				"image" : "238461.jpg",
+				"legende" : "Control center"
+			}
 		]
 	},
 	"references-barwa-city-wastewater-treatment-plant" : {
@@ -2973,6 +3024,12 @@
 		],
 		"pays" : [
 				{"alias" : "turkey"}
+		],
+		"photos" : [
+			{
+				"image" : "76851.jpg",
+				"legende" : "Engineering study"
+			}
 		]
 	},
 	"references-12-water-treatment-and-waste-water-treatment-plant" : {
@@ -3065,7 +3122,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "PHOTO",
+				"image" : "monaco.jpg",
 				"legende" : "Spectators stands of the Formula 1 Grand Prix de Monaco"
 			}
 		]
@@ -3084,7 +3141,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "PHOTO",
+				"image" : "surveillance.jpg",
 				"legende" : "Videosurveillance in Paris"
 			}
 		]
@@ -3103,7 +3160,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "PHOTO",
+				"image" : "se-20110312esp-003.jpg",
 				"legende" : "Operations Center of Rio de Janeiro, Brazil"
 			}
 		]
@@ -3122,7 +3179,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "PHOTO",
+				"image" : "cannes.jpg",
 				"legende" : "G20 2012 in Cannes, France"
 			}
 		]
@@ -3293,66 +3350,79 @@
 	"ce-infographics" : {
 		"markers" : [
 			{
+				"index" : 1,
 				"capabilitie" : "capability-electrical-engineering",
 				"top" : 384,
 				"left" : 258
 			},
 			{
+				"index" : 2,
 				"capabilitie" : "capability-illuminations-and-giant-screens",
 				"top" : 257,
 				"left" : 307
 			},
 			{
+				"index" : 3,
 				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 248,
 				"left" : 585
 			},
 			{
+				"index" : 4,
 				"capabilitie" : "capability-climate-engineering",
 				"top" : 198,
 				"left" : 710
 			},
 			{
+				"index" : 5,
 				"capabilitie" : "capability-renewable-energies",
 				"top" : 160,
 				"left" : 726
 			},
 			{
+				"index" : 6,
 				"capabilitie" : "capability-fire-protection",
 				"top" : 209,
 				"left" : 777
 			},
 			{
+				"index" : 7,
 				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 222,
 				"left" : 938
 			},
 			{
+				"index" : 8,
 				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 357,
 				"left" : 901
 			},
 			{
+				"index" : 9,
 				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 119,
 				"left" : 875
 			},
 			{
+				"index" : 10,
 				"capabilitie" : "capability-management-and-procurement-of-resources",
 				"top" : 480,
 				"left" : 747
 			},
 			{
+				"index" : 11,
 				"capabilitie" : "capability-global-cultural-event-management",
 				"top" : 384,
 				"left" : 468
 			},
 			{
+				"index" : 12,
 				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 565,
 				"left" : 84
 			},
 			{
+				"index" : 13,
 				"capabilitie" : "capability-air-treatment",
 				"top" : 480,
 				"left" : 112
@@ -3372,71 +3442,85 @@
 	"uc-infographics" : {
 		"markers" : [
 			{
+				"index" : 1,
 				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 238,
 				"left" : 127
 			},
 			{
+				"index" : 2,
 				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 223,
 				"left" : 165
 			},
 			{
+				"index" : 3,
 				"capabilitie" : "capability-lecture-theatres-classrooms-and-information-technology-training-rooms",
 				"top" : 348,
 				"left" : 460
 			},
 			{
+				"index" : 4,
 				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 43,
 				"left" : 720
 			},
 			{
+				"index" : 5,
 				"capabilitie" : "capability-air-treatment",
 				"top" : 266,
 				"left" : 714
 			},
 			{
+				"index" : 6,
 				"capabilitie" : "capability-renewable-energies",
 				"top" : 298,
 				"left" : 831
 			},
 			{
+				"index" : 7,
 				"capabilitie" : "capability-datacenter",
 				"top" : 341,
 				"left" : 945
 			},
 			{
+				"index" : 8,
 				"capabilitie" : "capability-kitchen-refrigeration",
 				"top" : 507,
 				"left" : 939
 			},
 			{
+				"index" : 9,
 				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 552,
 				"left" : 758
 			},
 			{
+				"index" : 10,
 				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 504,
 				"left" : 739
 			},
 			{
+				"index" : 11,
 				"capabilitie" : "capability-illuminations-and-giant-screens",
 				"top" : 423,
 				"left" : 776
 			},
 			{
+				"index" : 12,
 				"capabilitie" : "capability-mobility",
 				"top" : 361,
 				"left" : 381
 			},
 			{
+				"index" : 13,
 				"capabilitie" : "capability-climate-engineering",
 				"top" : 260,
 				"left" : 160
 			},
 			{
+				"index" : 14,
 				"capabilitie" : "capability-fire-protection",
 				"top" : 209,
 				"left" : 85
@@ -3468,76 +3552,91 @@
 	"ms-infographics" : {
 		"markers" : [
 			{
+				"index" : 1,
 				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 68,
 				"left" : 100
 			},
 			{
+				"index" : 2,
 				"capabilitie" : "capability-renewable-energies",
 				"top" : 176,
 				"left" : 495
 			},
 			{
+				"index" : 3,
 				"capabilitie" : "capability-air-treatment",
 				"top" : 176,
 				"left" : 595
 			},
 			{
+				"index" : 4,
 				"capabilitie" : "capability-kitchen-refrigeration",
 				"top" : 352,
 				"left" : 768
 			},
 			{
+				"index" : 5,
 				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 320,
 				"left" : 964
 			},
 			{
+				"index" : 6,
 				"capabilitie" : "capability-management-and-procurement-of-resources",
 				"top" : 414,
 				"left" : 948
 			},
 			{
+				"index" : 7,
 				"capabilitie" : "capability-laundry-expertise",
 				"top" : 336,
 				"left" : 870
 			},
 			{
+				"index" : 8,
 				"capabilitie" : "capability-climate-engineering",
 				"top" : 418,
 				"left" : 825
 			},
 			{
+				"index" : 9,
 				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 371,
 				"left" : 819
 			},
 			{
+				"index" : 10,
 				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 517,
 				"left" : 746
 			},
 			{
+				"index" : 11,
 				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 384,
 				"left" : 512
 			},
 			{
+				"index" : 12,
 				"capabilitie" : "capability-water-purification-systems",
 				"top" : 328,
 				"left" : 408
 			},
 			{
+				"index" : 13,
 				"capabilitie" : "capability-electrical-engineering",
 				"top" : 366,
 				"left" : 411
 			},
 			{
+				"index" : 14,
 				"capabilitie" : "capability-fire-protection",
 				"top" : 339,
 				"left" : 182
 			},
 			{
+				"index" : 15,
 				"capabilitie" : "capability-interactive-terminal-for-patients",
 				"top" : 315,
 				"left" : 305
@@ -3569,66 +3668,79 @@
 	"cc-infographics" : {
 		"markers" : [
 			{
+				"index" : 1,
 				"capabilitie" : "capability-fire-protection",
 				"top" : 219,
 				"left" : 130
 			},
 			{
+				"index" : 2,
 				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 306,
 				"left" : 381
 			},
 			{
+				"index" : 3,
 				"capabilitie" : "capability-kitchen-refrigeration",
 				"top" : 368,
 				"left" : 562
 			},
 			{
+				"index" : 4,
 				"capabilitie" : "capability-air-treatment",
 				"top" : 223,
 				"left" : 599
 			},
 			{
+				"index" : 5,
 				"capabilitie" : "capability-electrical-engineering",
 				"top" : 229,
 				"left" : 794
 			},
 			{
+				"index" : 6,
 				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 540,
 				"left" : 654
 			},
 			{
+				"index" : 7,
 				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 529,
 				"left" : 539
 			},
 			{
+				"index" : 8,
 				"capabilitie" : "capability-purification-and-industrial-maintenance",
 				"top" : 534,
 				"left" : 441
 			},
 			{
+				"index" : 9,
 				"capabilitie" : "capability-management-and-procurement-of-resources",
 				"top" : 496,
 				"left" : 158
 			},
 			{
+				"index" : 10,
 				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 94,
 				"left" : 313
 			},
 			{
+				"index" : 11,
 				"capabilitie" : "capability-climate-engineering",
 				"top" : 301,
 				"left" : 126
 			},
 			{
+				"index" : 12,
 				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 294,
 				"left" : 20
 			},
 			{
+				"index" : 13,
 				"capabilitie" : "capability-renewable-energies",
 				"top" : 237,
 				"left" : 396
@@ -3666,81 +3778,97 @@
 	"sf-infographics" : {
 		"markers" : [
 			{
+				"index" : 1,
 				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 263,
 				"left" : 209
 			},
 			{
+				"index" : 2,
 				"capabilitie" : "capability-electrical-engineering",
 				"top" : 130,
 				"left" : 309
 			},
 			{
+				"index" : 3,
 				"capabilitie" : "capability-illuminations-and-giant-screens",
 				"top" : 160,
 				"left" : 372
 			},
 			{
+				"index" : 4,
 				"capabilitie" : "capability-air-treatment",
 				"top" : 352,
 				"left" : 413
 			},
 			{
+				"index" : 5,
 				"capabilitie" : "capability-renewable-energies",
 				"top" : 439,
 				"left" : 457
 			},
 			{
+				"index" : 6,
 				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 431,
 				"left" : 725
 			},
 			{
+				"index" : 7,
 				"capabilitie" : "capability-climate-engineering",
 				"top" : 431,
 				"left" : 930
 			},
 			{
+				"index" : 8,
 				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 78,
 				"left" : 656
 			},
 			{
+				"index" : 9,
 				"capabilitie" : "capability-mobile-water-supply-and-treatment-systems",
 				"top" : 565,
 				"left" : 512
 			},
 			{
+				"index" : 10,
 				"capabilitie" : "capability-management-and-procurement-of-resources",
 				"top" : 580,
 				"left" : 434
 			},
 			{
+				"index" : 11,
 				"capabilitie" : "capability-kitchen-refrigeration",
 				"top" : 495,
 				"left" : 335
 			},
 			{
+				"index" : 12,
 				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 532,
 				"left" : 168
 			},
 			{
+				"index" : 13,
 				"capabilitie" : "capability-global-cultural-event-management",
 				"top" : 364,
 				"left" : 477
 			},
 			{
+				"index" : 14,
 				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 272,
 				"left" : 60
 			},
 			{
+				"index" : 15,
 				"capabilitie" : "capability-mobility",
 				"top" : 333,
 				"left" : 209
 			},
 			{
+				"index" : 16,
 				"capabilitie" : "capability-fire-protection",
 				"top" : 154,
 				"left" : 151
@@ -3760,86 +3888,103 @@
 	"si-infographics" : {
 		"markers" : [
 			{
+				"index" : 1,
 				"capabilitie" : "capability-renewable-energies",
 				"top" : 187,
 				"left" : 74
 			},
 			{
+				"index" : 2,
 				"capabilitie" : "capability-air-treatment",
 				"top" : 209,
 				"left" : 112
 			},
 			{
+				"index" : 3,
 				"capabilitie" : "capability-ensuring-operational-fitness-and-integrated-logistic-support",
 				"top" : 364,
 				"left" : 280
 			},
 			{
+				"index" : 4,
 				"capabilitie" : "capability-smart-control-and-site-security",
 				"top" : 296,
 				"left" : 343
 			},
 			{
+				"index" : 5,
 				"capabilitie" : "capability-management-and-procurement-of-resources",
 				"top" : 221,
 				"left" : 545
 			},
 			{
+				"index" : 6,
 				"capabilitie" : "capability-mobile-water-supply-and-treatment-systems",
 				"top" : 337,
 				"left" : 630
 			},
 			{
+				"index" : 7,
 				"capabilitie" : "capability-perimeter-protection-videosurveillance-and-runway-marking",
 				"top" : 578,
 				"left" : 672
 			},
 			{
+				"index" : 8,
 				"capabilitie" : "capability-multi-technical-maintenance",
 				"top" : 373,
 				"left" : 634
 			},
 			{
+				"index" : 9,
 				"capabilitie" : "capability-sustainable-mobility-solutions",
 				"top" : 532,
 				"left" : 447
 			},
 			{
+				"index" : 10,
 				"capabilitie" : "capability-fire-protection",
 				"top" : 363,
 				"left" : 415
 			},
 			{
+				"index" : 11,
 				"capabilitie" : "capability-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives",
 				"top" : 597,
 				"left" : 252
 			},
 			{
+				"index" : 12,
 				"capabilitie" : "capability-design-construction-project-management",
 				"top" : 80,
 				"left" : 573
 			},
 			{
+				"index" : 13,
 				"capabilitie" : "capability-purification-and-industrial-maintenance",
 				"top" : 506,
 				"left" : 122
 			},
 			{
+				"index" : 14,
 				"capabilitie" : "capability-waste-sorting-and-recovery",
 				"top" : 448,
 				"left" : 124
 			},
 			{
+				"index" : 15,
 				"capabilitie" : "capability-climate-engineering",
 				"top" : 371,
 				"left" : 202
 			},
 			{
+				"index" : 16,
 				"capabilitie" : "capability-kitchen-refrigeration",
 				"top" : 264,
 				"left" : 210
 			},
 			{
+				"index" : 17,
 				"capabilitie" : "capability-communication-networks-and-dedicated-infrastructures",
 				"top" : 265,
 				"left" : 112
