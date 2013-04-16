@@ -137,6 +137,17 @@
 			}
 		]
 	},
+	"pays-kuwait" : {
+		"image" : "kuwait.png",
+		"texte" : "<h1>In condimentum facilisis porta. Sed nec diam eu diam viverra.</h1><p>Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. </p>",
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "164936.jpg",
+				"alias" : "references-interconnection-of-four-gulf-states-power-systems"
+			}
+		]
+	},
 	"capability-multi-technical-maintenance" : {
 		"titre" : "Multi-technical Maintenance ",
 		"texte" : "Through the operation and maintenance of technical facilities, GDF SUEZ has developed a global energy performance offer to guarantee long-term energy savings and reductions in emissions of pollutants and greenhouse gases for its customers.",
@@ -830,9 +841,9 @@
 				}
 			]
 	},
-	"references-cnit-et-carrousel-du-louvre-france " : {
-		"titre" : "CNIT et Carrousel du Louvre, France",
-		"texte" : "TRADUCTION",
+	"references-the-center-of-new-industrie-and-technologies-and-the-carrousel-du-louvre " : {
+		"titre" : "The Center of New Industries and Technologies and the Carrousel du Louvre, France",
+		"texte" : "GDF SUEZ delivers operational and hard FM services for CNIT (Center of New Industries and Technologies) and the Carrousel du Louvre shopping mall, with specific round-the-clock presence to ensure service continuity, personal safety and wellbeing, historic preservation and streamlined energy performance.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"}
 		],
@@ -849,9 +860,9 @@
 			}
 		]
 	},
-	"references-altarea-cogedim-centre-commerciale- " : {
-		"titre" : "Altarea Cogedim, centre commercial régional de la Bongarde à Villeneuve la Garenne, France",
-		"texte" : "TRADUCTION",
+	"references-altarea-cogedim-the-bongarde-regional-shopping-mall-in-villeneuve-la-garenne " : {
+		"titre" : "Altarea Cogedim, the Bongarde regional shopping mall in Villeneuve la Garenne, France",
+		"texte" : "GDF SUEZ installed the fire protection, heating, ventilation, air conditioning and plumbing systems in the Bongarde regional shopping mall in Villeneuve la Garenne (building designed in accordance with HQE / BREEAM green building standards).",
 		"competences" : [
 			{"alias" : "fire-protection"},
 			{"alias" : "climate-engineering"}
@@ -869,9 +880,9 @@
 			}
 		]
 	},
-	"references-mercialys-centre-commerciale- " : {
-		"titre" : "Mercialys, centre commercial Caserne de Bonne à Grenoble, France",
-		"texte" : "TRADUCTION",
+	"references-mercialys-the-caserne-de-bonne-shopping-mall-in-grenoble " : {
+		"titre" : "Mercialys, the Caserne de Bonne shopping mall in Grenoble, France",
+		"texte" : "GDF SUEZ installed the electrical systems in the Caserne de Bonne shopping mall in Grenoble, including the high-power circuits (decorative lighting, backup generator, etc.) and low-power circuits (carrier networks, etc.).",
 		"competences" : [
 			{"alias" : "electrical-engineering"}
 		],
@@ -890,7 +901,7 @@
 	},
 	"references-casino-france " : {
 		"titre" : "Casino, France",
-		"texte" : "TRADUCTION",
+		"texte" : "GDF SUEZ maintained the heating, ventilation and air conditioning systems at 85 shopping malls and superstores, with consistent service delivery, centralized management and global reporting to maintain effective control of costs. ",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -909,7 +920,7 @@
 	},
 	"references-monoprix-paris-france " : {
 		"titre" : "Monoprix, Paris, France",
-		"texte" : "TRADUCTION",
+		"texte" : "GDF SUEZ built the very first natural gas fueling station for goods delivery vehicles to cover deliveries for all Monoprix stores in Paris. ",
 		"competences" : [
 			{"alias" : "sustainable-mobility-solutions"}
 		],
@@ -922,13 +933,13 @@
 		"photos" : [
 			{
 				"image" : "monoprix-camion-gnv-42-ok",
-				"legende" : "TRADUCTION Véhicule de transport de marchandises"
+				"legende" : "Goods vehicle"
 			}
 		]
 	},
-	"references-segece-klepierre-centre-commerciale- " : {
-		"titre" : "Segece Klepierre, centre commercial de Mérignac Soleil, France",
-		"texte" : "TRADUCTION",
+	"references-segece-klepierre-the-merignac-soleil-shopping-mall " : {
+		"titre" : "Segece Klepierre, the Mérignac Soleil shopping mall, France",
+		"texte" : "GDF SUEZ installed the electrical systems in the Mérignac Soleil shopping mall during extension work to the indoor shopping arcade and the parking lots (lighting, sound system, vehicle counting system, etc.). The chosen solutions helped keep work on schedule and allowed the site to stay open while work was in progress.",
 		"competences" : [
 			{"alias" : "electrical-engineering"}
 		],
@@ -941,13 +952,13 @@
 		"photos" : [
 			{
 				"image" : "6-reseaux-electriques.jpg",
-				"legende" : "TRADUCTION Réseaux électriques"
+				"legende" : "Electrical engineering"
 			}
 		]
 	},
-	"references-centre-leclerc-de-belfort " : {
-		"titre" : "Centre Leclerc de Belfort, France",
-		"texte" : "TRADUCTION",
+	"references-the-leclerc-shopping-mall-in-belfort " : {
+		"titre" : "The Leclerc shopping mall in Belfort, France",
+		"texte" : "GDF SUEZ delivered support to the Leclerc shopping mall in Belfort in setting up systems for sorting waste at source and recovering biodegradable waste, cardboard and plastic packaging.",
 		"competences" : [
 			{"alias" : "waste-sorting-and-recovery"}
 		],
@@ -960,13 +971,13 @@
 		"photos" : [
 			{
 				"image" : "collecte-dechets-industriel-4.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Waste sorting"
 			}
 		]
 	},
-	"references-auchan-de-strasbourg-france " : {
-		"titre" : "Auchan de Strasbourg, France",
-		"texte" : "TRADUCTION",
+	"references-the-hautepierre-shopping-mall-in-strasbourg " : {
+		"titre" : "The Hautepierre shopping mall in Strasbourg, France",
+		"texte" : "GDF SUEZ manages biodegradable waste, glass recycling and industrial waste for the Hautepierre shopping mall in Strasbourg.",
 		"competences" : [
 			{"alias" : "waste-sorting-and-recovery"}
 		],
@@ -979,13 +990,13 @@
 		"photos" : [
 			{
 				"image" : "collecte-dechets-industriel-3.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Waste sorting"
 			}
 		]
 	},
-	"references-centre-commercial-carrefour-a-la-chapelle-st-luc- " : {
-		"titre" : "TRADUCTION",
-		"texte" : "",
+	"references-the-carrefour-superstore-in-chapelle-saint-luc " : {
+		"titre" : "The Carrefour superstore in Chapelle Saint Luc, France",
+		"texte" : "GDF SUEZ installed a refrigeration unit featuring 100% natural refrigerants with an ammonia refrigeration system and complete CO2 delivery for the refrigerators and freezers in the Carrefour superstore in Chapelle Saint Luc.",
 		"competences" : [
 			{"alias" : "kitchen-refrigeration"}
 		],
@@ -1002,9 +1013,9 @@
 			}
 		]
 	},
-	"references-grand-stade-du-havre " : {
-		"titre" : "Grand stade du Havre, France",
-		"texte" : "TRADUCTION",
+	"references-the-oceane-stadium-in-le-havre " : {
+		"titre" : "The Océane Stadium in Le Havre, France",
+		"texte" : "GDF SUEZ installed the lighting (indoor and outdoor), heating, ventilation, air conditioning and sanitary plumbing systems at the Océane Stadium in Le Havre. The stadium is the largest sports complex in Normandy.",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -1021,9 +1032,9 @@
 			}
 		]
 	},
-	"references-satdium-bello-horizonte-au-bresil " : {
-		"titre" : "Satdium Bello Horizonte au Brésil",
-		"texte" : "TRADUCTION",
+	"references-the-bello-horizonte-stadium " : {
+		"titre" : "The Bello Horizonte Stadium, Brazil",
+		"texte" : "GDF SUEZ is providing consultancy engineering services on the renovation of the Bello Horizonte Stadium ahead of soccer's 2018 World Cup.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1040,9 +1051,9 @@
 			}
 		]
 	},
-	"references-jeux-olympiques-de-londres " : {
-		"titre" : "Jeux Olympiques de Londres, Royaume-Uni",
-		"texte" : "TRADUCTION",
+	"references-the-2012-london-olympic-park " : {
+		"titre" : "The 2012 London Olympic Park, the United Kingdom",
+		"texte" : "GDF SUEZ built the King's Yard energy center for the 2012 London Olympic Park and designed the district heating and air conditioning system for the new Stratford district and the Olympic Park.",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -1055,13 +1066,13 @@
 		"photos" : [
 			{
 				"image" : "222111.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Inauguration of the King's Yard energy center"
 			}
 		]
 	},
 	"references-the-arab-games-in-qatar " : {
 		"titre" : "The Arab Games in Qatar",
-		"texte" : "TRADUCTION",
+		"texte" : "During the opening ceremony of the 12th Pan Arab Games at the Khalifa International Stadium in Doha, Qatar, GDF SUEZ transformed the entire pitch into a giant projection screen and created a moving stage. ",
 		"competences" : [
 			{"alias" : "illuminations-and-giant-screens"}
 		],
@@ -1079,8 +1090,8 @@
 		]
 	},
 	"references-centre-aquatique-du-champ-de-la-lune " : {
-		"titre" : "Centre aquatique du Champ de la Lune, Belgique",
-		"texte" : "A PFI has been contracted by GDF SUEZ for the conception, the construction and the commercial operation of a leisure swimming pool at the city of Braine-le-Comte in Belgium.",
+		"titre" : "Swimming pool at the city of Braine-le-Comte, Belgium",
+		"texte" : "A PFI has been awarded to GDF SUEZ for the conception, the construction and the commercial operation of a leisure swimming pool at the city of Braine-le-Comte in Belgium.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"}
 		],
@@ -1096,9 +1107,9 @@
 			}
 		]
 	},
-	"references-ol-land-france " : {
-		"titre" : "OL LAND, France",
-		"texte" : "TRADUCTION",
+	"references-the-olympique-lyonnais-soccer-club " : {
+		"titre" : "The Olympique Lyonnais soccer club, France",
+		"texte" : "GDF SUEZ is delivering an array of project management support services to architects for designing and developing their projects, such as the major stadium for the Olympique Lyonnais soccer club.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1114,9 +1125,9 @@
 			}
 		]
 	},
-	"references-stade-roland-garros " : {
-		"titre" : "Stade Roland Garros, Paris, France",
-		"texte" : "TRADUCTION",
+	"references-the-roland-garros-stadium " : {
+		"titre" : "The Roland Garros Stadium, Paris, France",
+		"texte" : "GDF SUEZ operates the waste collection service at the Roland Garros Stadium and provides the necessary resources for sorting and recovering recyclable materials.  ",
 		"competences" : [
 			{"alias" : "waste-sorting-and-recovery"}
 		],
@@ -1133,9 +1144,9 @@
 			}
 		]
 	},
-	"references-gestion-de-la-patinoire-de-lanester " : {
-		"titre" : "Gestion de la patinoire de Lanester, France",
-		"texte" : "TRADUCTION",
+	"references-the-ice-rink-in-lanester " : {
+		"titre" : "The ice rink in Lanester, France",
+		"texte" : "GDF SUEZ installed and maintains the equipment at the ice rink in Lanester.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"},
 			{"alias" : "climate-engineering"}
@@ -1149,13 +1160,13 @@
 		"photos" : [
 			{
 				"image" : "PHOTO",
-				"legende" : "TRADUCTION"
+				"legende" : "The ice rink in Lanester, France"
 			}
 		]
 	},
 	"references-the-birmimgham-hospital-the-united-kingdom " : {
 		"titre" : "The Birmingham Hospital, The United Kingdom",
-		"texte" : "TRADUCTION",
+		"texte" : "GDF SUEZ installed the hemodiafiltration water supply for 128 standard dialysis stations and 13 emergency dialysis stations at Birmingham Hospital.",
 		"competences" : [
 			{"alias" : "water-purification-systems"}
 		],
@@ -1172,9 +1183,9 @@
 			}
 		]
 	},
-	"references-centre-hospitalier-universitaire-de-nancy " : {
-		"titre" : "Centre Hospitalier Universitaire (CHU) de Nancy, France",
-		"texte" : "TRADUCTION",
+	"references-the-nancy-university-hospital " : {
+		"titre" : "The Nancy University Hospital, France",
+		"texte" : "GDF SUEZ fitted the heating, ventilation and air conditioning systems in Nancy University Hospital's medical specialties building. A specific air treatment system was designed for highly contagious patients (airborne infections).",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -1187,13 +1198,13 @@
 		"photos" : [
 			{
 				"image" : "pla-3589.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Ventilation system"
 			}
 		]
 	},
-	"references-hopital-de-valenciennes " : {
-		"titre" : "Hôpital de Valenciennes, France",
-		"texte" : "TRADUCTION",
+	"references-valenciennes-hospital " : {
+		"titre" : "Valenciennes Hospital, France",
+		"texte" : "Valenciennes Hospital has set up a solution for dynamically managing and tracking its water use. GDF SUEZ installed 22 water meters allowing reliable remote readings to be taken automatically.",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -1206,13 +1217,13 @@
 		"photos" : [
 			{
 				"image" : "se-20100426fr-017.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Water treatment plant "
 			}
 		]
 	},
-	"references-maternite-cochin-a-paris " : {
-		"titre" : "Maternité Cochin à Paris, France",
-		"texte" : "TRADUCTION",
+	"references-the-cochin-hospital-in-paris " : {
+		"titre" : "The Cochin Hospital in Paris, France",
+		"texte" : "GDF SUEZ is delivering an array of project management support services to architects for designing and developing hospital and laboratory projects. For instance, the Group partnered the design of the perinatal and pediatric center at Cochin Hospital in Paris.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1228,9 +1239,28 @@
 			}
 		]
 	},
-	"references-maison-de-retraite-marcel-paul " : {
-		"titre" : "Maison de retraite Marcel Paul à Fleury-Mérogis, France",
-		"texte" : "TRADUCTION",
+	"references-the-clinique-du-parc-in-toulouse " : {
+		"titre" : "The Clinique du Parc in Toulouse, France",
+		"texte" : "The Clinique du Parc in Toulouse awarded a global outsourcing contract to GDF SUEZ for managing all its technical and service equipment. This approach has enabled the clinic to reassign resources, while optimizing operating costs.",
+		"competences" : [
+			{"alias" : "climate-engineering"}
+		],
+		"societes" : [
+			{"alias" : "gdf-suez"}
+		],
+		"pays" : [
+				{"alias" : ""}
+		],
+		"photos" : [
+			{
+				"image" : "sante-pld3556.jpg",
+				"legende" : "Medical equipment"
+			}
+		]
+	},
+	"references-the-marcel-paul-retirement-home-in-fleurys-merogis " : {
+		"titre" : "The Marcel Paul retirement home in Fleury-Mérogis, France",
+		"texte" : "The Marcel Paul retirement home called on GDF SUEZ to renovate its heating system and install generators, which also serve the neighboring Manhès private hospital.",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -1243,13 +1273,13 @@
 		"photos" : [
 			{
 				"image" : "photo1.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Patient in a retirement home"
 			}
 		]
 	},
-	"references-centre-hospitalier-de-perigueux " : {
-		"titre" : "Centre hospitalier de Périgueux, France",
-		"texte" : "TRADUCTION",
+	"references-perigueux-hospital" : {
+		"titre" : "Périgueux Hospital, France",
+		"texte" : "After GDF SUEZ was contracted to build an energy center featuring wood-fired boilers and wood/gas combination boilers, Périgueux Hospital saw a 40% saving on its energy bills and an 8,000-ton reduction in its yearly CO2 emissions.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"}
 		],
@@ -1262,13 +1292,13 @@
 		"photos" : [
 			{
 				"image" : "cofely-02207-a5.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Périgueux Hospital, France"
 			}
 		]
 	},
-	"references-hopital-sebastopol " : {
-		"titre" : "Hôpital Sébastopol de Reims, France",
-		"texte" : "TRADUCTION",
+	"references-sebastopol-hospital-in-reims " : {
+		"titre" : "Sébastopol Hospital in Reims, France",
+		"texte" : "Sébastopol Hospital in Reims contracted GDF SUEZ to overhaul the heating, ventilation, air conditioning and plumbing systems in two of its buildings.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"}
 		],
@@ -1281,13 +1311,13 @@
 		"photos" : [
 			{
 				"image" : "hopital-sebastopol-reims.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Sébastopol Hospital in Reims, France"
 			}
 		]
 	},
-	"references-centre-hospitalier-universitaire-de-besancon " : {
-		"titre" : "Centre Hospitalier Universitaire de Besançon, France",
-		"texte" : "TRADUCTION",
+	"references-besancon-university-hospital " : {
+		"titre" : "Besançon University Hospital, France",
+		"texte" : "Since 2005, GDF SUEZ has been helping Besançon University Hospital manage all its waste with a team responsible for collecting and recovering biowaste.",
 		"competences" : [
 			{"alias" : "waste-sorting-and-recovery"}
 		],
@@ -1300,13 +1330,13 @@
 		"photos" : [
 			{
 				"image" : "chu-besancon-vue-aerienne2.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Besançon University Hospital, France"
 			}
 		]
 	},
-	"references-centre-hospitalier-henri-laborit " : {
-		"titre" : "Centre Hospitalier Henri Laborit de Poitiers, France ",
-		"texte" : "TRADUCTION",
+	"references-henri-laborit-in-poitiers " : {
+		"titre" : "Henri Laborit Hospital in Poitiers, France ",
+		"texte" : "Henri Laborit Hospital contracted GDF SUEZ to install its low-power circuits and awarded its first end-to-end design, build & operate contract for a wood-fired heating system, complete with a service level agreement for the system's performance and energy use over time.",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -1326,7 +1356,7 @@
 	},
 	"references-la-gaite-lyrique-paris-france " : {
 		"titre" : "La Gaîté Lyrique, Paris, France ",
-		"texte" : "TRADUCTION",
+		"texte" : "La Gaîté Lyrique, a digital arts and modern music center, appointed GDF SUEZ to provide an array of cultural services (artistic programming) and technical services (servicing, operations, show recordings, building maintenance).",
 		"competences" : [
 			{"alias" : "global-cultural-event-management"},
 			{"alias" : "electrical-engineering"}
@@ -1344,8 +1374,8 @@
 			}
 		]
 	},
-	"references-philarmonie-de-paris-france " : {
-		"titre" : "Philarmonie de Paris, France",
+	"references-the-philarmonie-de-paris-concert-hall " : {
+		"titre" : " The Philarmonie de Paris concert hall, France",
 		"texte" : "TRADUCTION",
 		"competences" : [
 			{"alias" : "electrical-engineering"},
@@ -1362,13 +1392,13 @@
 		"photos" : [
 			{
 				"image" : "philarmonie-6.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : " The Philarmonie de Paris concert hall, France"
 			}
 		]
 	},
-	"references-musee-de-la-mer-a-biarritz " : {
-		"titre" : "Musée de la mer à Biarritz, France",
-		"texte" : "TRADUCTION",
+	"references-musee-de-la-mer-in-biarritz " : {
+		"titre" : "The Musée de la Mer (sea life museum) in Biarritz, France",
+		"texte" : "Completely refurbished in 2011, the Musée de la Mer sea life museum in Biarritz was particularly focused on overhauling the filtration system for its aquariums. GDF SUEZ leveraged its aquatic engineering expertise to drive the project.",
 		"competences" : [
 			{"alias" : "management-and-procurement-of-resources"}
 		],
@@ -1381,13 +1411,13 @@
 		"photos" : [
 			{
 				"image" : "musee-de-la-mer-hd.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "The Musée de la Mer (sea life museum) in Biarritz, France"
 			}
 		]
 	},
-	"references-cite-de-la-musique-a-paris " : {
-		"titre" : "Cité de la musique à Paris, France",
-		"texte" : "TRADUCTION",
+	"references-the-cite-de-la-musique-concert-hall-in-paris " : {
+		"titre" : "The Cité de la Musique concert hall in Paris, France",
+		"texte" : "GDF SUEZ provides hard FM services for the installations and buildings at the Cité de la Musique concert hall in Paris.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"}
 		],
@@ -1400,13 +1430,13 @@
 		"photos" : [
 			{
 				"image" : "cite-musique-5.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "The Cité de la Musique concert hall in Paris, France"
 			}
 		]
 	},
-	"references-centre-national-de-la-danse " : {
-		"titre" : "Centre national de la danse – Pantin, France",
-		"texte" : "TRADUCTION",
+	"references-france-s-national-dance-center-in-pantin " : {
+		"titre" : "France's National Dance Center in Pantin, France",
+		"texte" : "CND, France's national dance center, called on GDF SUEZ to audit its heating system and look into the prospect of using solar energy. At the same time, GDF SUEZ completely overhauled the heat generation installation.",
 		"competences" : [
 			{"alias" : "electrical-engineering"},
 			{"alias" : "management-and-procurement-of-resources"}
@@ -1420,13 +1450,13 @@
 		"photos" : [
 			{
 				"image" : "centre-national-de-danse.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "France's National Dance Center in Pantin, France"
 			}
 		]
 	},
-	"references-cite-de-l-automobile-collection-schlumpf " : {
-		"titre" : "Cité de l’Automobile Collection Schlumpf-Mulhouse, France",
-		"texte" : "TRADUCTION",
+	"references-the-cite-de-l-automobile-collection-schlumpf " : {
+		"titre" : "The Cité de l’Automobile, Collection Schlumpf-Mulhouse, France",
+		"texte" : "Ever since 1999, GDF SUEZ has been promoting, organizing cultural activities and managing the world's largest collection of automobiles at the Cité de l’Automobile.",
 		"competences" : [
 			{"alias" : "global-cultural-event-management"}
 		],
@@ -1439,13 +1469,13 @@
 		"photos" : [
 			{
 				"image" : "p9-cite-de-l-auto-c-recoura.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "The Cité de l’Automobile, France"
 			}
 		]
 	},
-	"references-musee-des-confluences " : {
-		"titre" : "Musée des confluences, Lyon, France",
-		"texte" : "TRADUCTION",
+	"references-the-musee-des-confluences-in-lyon " : {
+		"titre" : "The Musée des Confluences in Lyon, France",
+		"texte" : "GDF SUEZ is delivering an array of project management support services to architects for designing and developing the most audacious projects, such as the Musée des Confluences in Lyon.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1458,13 +1488,13 @@
 		"photos" : [
 			{
 				"image" : "musee-des-confluences.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "The Musée des Confluences in Lyon, France"
 			}
 		]
 	},
-	"references-theatre-de-perpignan " : {
-		"titre" : "Théâtre de Perpignan, France",
-		"texte" : "TRADUCTION",
+	"references-perpignan-theater " : {
+		"titre" : "Perpignan Theater, France",
+		"texte" : "Perpignan Theater awarded GDF SUEZ a 32-year contract for maintaining and renewing its stage and technical equipment. This service also includes cleaning, green space maintenance, security and utility supplies.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"}
 		],
@@ -1477,13 +1507,13 @@
 		"photos" : [
 			{
 				"image" : "theatre-de-l-archipel-de-perpignan.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Perpignan Theater, France"
 			}
 		]
 	},
-	"references-ecole-polytechnique-france " : {
-		"titre" : "École Polytechnique, France",
-		"texte" : "TRADUCTION",
+	"references-the-ecole-polytechnique-engineering-school-france " : {
+		"titre" : "The École Polytechnique engineering school, France",
+		"texte" : "The École Polytechnique engineering school awarded its electricity supply contract to GDF SUEZ for its Palaiseau site in a bid to curb its energy expenditure.",
 		"competences" : [
 			{"alias" : "management-and-procurement-of-resources"}
 		],
@@ -1496,13 +1526,13 @@
 		"photos" : [
 			{
 				"image" : "dvlmptdurable-242771.jgp",
-				"legende" : "TRADUCTION"
+				"legende" : "Power supply"
 			}
 		]
 	},
-	"references-universite-versaille-saint-quentin-en-yvelines " : {
-		"titre" : "Université Versailles Saint-Quentin-en-Yvelines, France ",
-		"texte" : "",
+	"references-versaille-saint-quentin-en-yvelines-university " : {
+		"titre" : "Versailles Saint-Quentin-en-Yvelines University, France",
+		"texte" : "GDF SUEZ is contributing to the activities of Versailles Saint-Quentin-en-Yvelines University by creating and pioneering high-appeal services in liaison with the people involved in campus life (personnel, academics, researchers, student support services, and so on).",
 		"competences" : [
 			{"alias" : "lecture-theatres-classrooms-and-information-technology-training-rooms"}
 		],
@@ -1516,13 +1546,13 @@
 		"photos" : [
 			{
 				"image" : "campus-sciences-versailles-032.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Versailles Saint-Quentin-en-Yvelines University, France "
 			}
 		]
 	},
-	"references-ecole-normale-superieur-de-biologie " : {
-		"titre" : "École Normale Supérieure de Biologie de Lyon, France",
-		"texte" : "TRADUCTION",
+	"references-the-ecole-normale-superieur-in-lyon" : {
+		"titre" : "The École Normale Supérieure in Lyon, France",
+		"texte" : "GDF SUEZ is responsible for operating and maintaining all the air conditioning and plumbing services for the Biology Department of the École Normale Supérieure in Lyon.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"},
 			{"alias" : "climate-engineering"}
@@ -1535,14 +1565,14 @@
 		],
 		"photos" : [
 			{
-				"image" : "PHOTO",
-				"legende" : ""
+				"image" : "ens-biologie.jpg",
+				"legende" : "The École Normale Supérieure in Lyon, France"
 			}
 		]
 	},
-	"references-universite-pierre-et-marie-curie " : {
-		"titre" : "Université Pierre et Marie Curie, France",
-		"texte" : "TRADUCTION",
+	"references-pierre-et-marie-curie-university " : {
+		"titre" : "Pierre et Marie Curie University, France",
+		"texte" : "Pierre et Marie Curie University gave GDF SUEZ a mandate to reduce energy use at the Jussieu campus. GDF SUEZ has streamlined operations at the 266,000 m² site by implementing a smart metering solution for the heating, ventilation and air conditioning systems.",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -1559,9 +1589,10 @@
 			}
 		]
 	},
-	"references-universtite-numerique-pare-idf " : {
-		"titre" : "Université Numérique Paris Ile-de-France, France ",
-		"texte" : "TRADUCTION",
+	"references-cloud-computing-project " : {
+		"titre" : "Cloud computing project, Paris Ile-de-France, France ",
+		"texte" : "GDF SUEZ and one of its partners were chosen to lead a cloud computing project aimed at spawning the IT infrastructures
+of tomorrow's world in the field of teaching (\"Development of the digital economy\" program).",
 		"competences" : [
 			{"alias" : "lecture-theatres-classrooms-and-information-technology-training-rooms"}
 		],
@@ -1578,9 +1609,9 @@
 			}
 		]
 	},
-	"references-universite-paris-descartes " : {
-		"titre" : "L'Université Paris Descartes, France ",
-		"texte" : "TRADUCTION",
+	"references-paris-descartes-university " : {
+		"titre" : "Paris Descartes University , France ",
+		"texte" : "Paris Descartes University contracted GDF SUEZ, in partnership with Cisco and Dell, to design and build the Broca datacenter at the Saints-Pères university campus. The datacenter stands on the cutting edge of technology and allows 45,000 users to log in and access the massive database.",
 		"competences" : [
 			{"alias" : "datacenter"}
 		],
@@ -1593,13 +1624,13 @@
 		"photos" : [
 			{
 				"image" : "img-6476-ok-4.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Datacenter in Paris Descartes University, France"
 			}
 		]
 	},
-	"references-campus-de-luminy " : {
-		"titre" : "Campus de Luminy, France",
-		"texte" : "",
+	"references-the-luminy-campus " : {
+		"titre" : "The Luminy campus, France",
+		"texte" : "GDF SUEZ audited the underground facilities (wastewater treatment, drinking water and rainwater) with a view to engineering structures to prevent any flooding problems at the Luminy campus (spanning 98 hectares with 10 km of buried facilities).",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1616,9 +1647,9 @@
 			}
 		]
 	},
-	"references-universite-paris-diderot " : {
-		"titre" : "Université Paris Diderot, France",
-		"texte" : "TRADUCTION",
+	"references-paris-diderot-university-building " : {
+		"titre" : "Paris-Diderot University buildings, France",
+		"texte" : "GDF SUEZ was contracted to provide hard FM services for four Paris-Diderot University buildings, with the objective of achieving the \"very high energy performance\" hallmark.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"}
 		],
@@ -1635,9 +1666,9 @@
 			}
 		]
 	},
-	"references-salle-de-basket-omnisport-rhenus-a-strasbourg " : {
-		"titre" : "Salle de basket omnisport « Rhenus » à Strasbourg, France ",
-		"texte" : "TRADUCTION",
+	"references-the-rhenus-basketball-court-in-strasbourg " : {
+		"titre" : "The \"Rhenus\" basketball court in Strasbourg, France ",
+		"texte" : "GDF SUEZ renovated the \"Rhenus\" basketball court in Strasbourg.",
 		"competences" : [
 			{"alias" : "climate-engineering"},
 			{"alias" : "illuminations-and-giant-screens"}
@@ -1656,9 +1687,10 @@
 			}
 		]
 	},
-	"references-salle-de-concert-omnisport-le-zenith-a-amiens " : {
-		"titre" : "Salle de concert omnisport « Le Zénith » à Amiens, France",
-		"texte" : "TRADUCTION",
+	"references-the-zenith-concert-hall-in-amiens " : {
+		"titre" : "The \"Le Zénith\" concert hall in Amiens, France",
+		"texte" : "GDF SUEZ installed the heating, ventilation, air conditioning, smoke extraction and plumbing systems as part of the renovation of the \"Le Zénith\" concert hall in Amiens.
+",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -1675,8 +1707,8 @@
 			}
 		]
 	},
-	"references-salle-de-concert-omnisport-le-zenith-a-strasbourg " : {
-		"titre" : "Salle de concert omnisport « Le Zénith » à Strasbourg, France",
+	"references-the-zenith-concert-hall-in-strasbourg " : {
+		"titre" : "The \"Le Zénith\" concert hall in Strasbourg, France ",
 		"texte" : "TRADUCTION",
 		"competences" : [
 			{"alias" : "climate-engineering"}
@@ -1695,9 +1727,10 @@
 			}
 		]
 	},
-	"references-parc-des-expositions-arena-a-petrols-france " : {
-		"titre" : "Parc des expositions « Arena » à Perols, France",
-		"texte" : "TRADUCTION",
+	"references-the-arena-exhibition-center-and-the-petrols-ice-rink " : {
+		"titre" : "The Arena exhibition center and the Perols ice rink, France",
+		"texte" : "GDF SUEZ installed the heating, ventilation, air conditioning and plumbing systems at the Arena exhibition center and the cooling system at the Perols ice rink. 
+",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -1714,9 +1747,9 @@
 			}
 		]
 	},
-	"references-golf-national-de-guyancourt " : {
-		"titre" : "Golf National de Guyancourt, France",
-		"texte" : "TRADUCTION",
+	"references-the-golf-national-golf-course-in-guyancourt " : {
+		"titre" : "The Golf National golf course in Guyancourt, France",
+		"texte" : "GDF SUEZ delivered technical support to the Golf National golf course in Guyancourt by auditing water use, offering alternative solutions and determining the water quality of the reservoirs.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1725,11 +1758,17 @@
 		],
 		"pays" : [
 				{"alias" : ""}
+		],
+		"photos" : [
+			{
+				"image" : "golf-guyancourt.jpg",
+				"legende" : "The Golf National golf course in Guyancourt, France"
+			}
 		]
 	},
-	"references-golf-de-poitou-charentes " : {
-		"titre" : "Golfs de Poitou Charentes, France",
-		"texte" : "TRADUCTION",
+	"references-the-poitou-charentes-golf-courses " : {
+		"titre" : "The Poitou Charentes golf courses, France",
+		"texte" : "GDF SUEZ carried out a study to optimize the irrigation systems at the Poitou Charentes golf courses and find alternative resources.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1738,11 +1777,17 @@
 		],
 		"pays" : [
 				{"alias" : ""}
+		],
+		"photos" : [
+			{
+				"image" : "dscf0013.jpg",
+				"legende" : "The Poitou Charentes golf courses, France"
+			}
 		]
 	},
 	"references-water-supply-to-al-khoud-reservoir-sultanate-of-oman " : {
 		"titre" : "Water Supply to Al Khoud reservoir, Sultanate of Oman",
-		"texte" : "GDF SUEZ ensured consultancy services for design review and construction supervision of Water Supply to Al Khoud reservoir in Muscat Governorate.",
+		"texte" : "GDF SUEZ provided consultancy services for design review and construction supervision of Water Supply to Al Khoud reservoir in Muscat Governorate.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1751,11 +1796,17 @@
 		],
 		"pays" : [
 				{"alias" : "oman"}
+		],
+		"photos" : [
+			{
+				"image" : "al-khoud-reservoir.jpg",
+				"legende" : "Water Supply to Al Khoud reservoir, Sultanate of Oman"
+			}
 		]
 	},
 	"references-dams-in-sultanate-of-oman " : {
 		"titre" : "Dams in Sultanate of Oman ",
-		"texte" : "GDF SUEZ realized consultancy services for design review and construction supervision of recharge Dam in Wadi Kalboh in Dakhliyah Region.",
+		"texte" : "GDF SUEZ provided consultancy services for design review and construction supervision of recharge Dam in Wadi Kalboh in Dakhliyah Region.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1764,11 +1815,17 @@
 		],
 		"pays" : [
 				{"alias" : "oman"}
+		],
+		"photos" : [
+			{
+				"image" : "sans-titre.jpg",
+				"legende" : "Dam in Sultanate of Oman "
+			}
 		]
 	},
 	"references-dams-in-lebanon " : {
 		"titre" : "Dams in Lebanon",
-		"texte" : "GDF SUEZ assists the Client, the Ministry of Energy and Water, to review and verify the proper design of each dam.",
+		"texte" : "GDF SUEZ advised the Client, the Ministry of Energy and Water, to review and verify the proper design of each dam.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1777,11 +1834,17 @@
 		],
 		"pays" : [
 				{"alias" : "lebanon"}
+		],
+		"photos" : [
+			{
+				"image" : "barrage-chabrouh-liban-safege-2.jpg",
+				"legende" : "Chabrouh Dam, Lebanon"
+			}
 		]
 	},
-	"references-le-mont-st-michel " : {
-		"titre" : "Le Mont Saint Michel, France",
-		"texte" : "TRADUCTION",
+	"references-mont-saint-michel-bay " : {
+		"titre" : "Mont Saint Michel Bay, France",
+		"texte" : "GDF SUEZ carried out an impact study for the extension of the shellfish areas in Mont Saint Michel Bay.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1790,11 +1853,17 @@
 		],
 		"pays" : [
 				{"alias" : ""}
+		],
+		"photos" : [
+			{
+				"image" : "le-mont-saint-michel-2.jpg",
+				"legende" : "Mont Saint Michel Bay, France"
+			}
 		]
 	},
-	"references-stade-municipale-capbreton " : {
-		"titre" : "Stade municipal, Capbreton, France",
-		"texte" : "TRADUCTION",
+	"references-the-playing-fields-in-capbreton" : {
+		"titre" : "The playing fields in Capbreton, France",
+		"texte" : "GDF SUEZ conducted a feasibility study into an irrigation system for the playing fields in Capbreton (drilling, pumping stations and distribution grid).",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1803,11 +1872,17 @@
 		],
 		"pays" : [
 				{"alias" : ""}
+		],
+		"photos" : [
+			{
+				"image" : "b-007.jpg",
+				"legende" : "The playing fields in Capbreton, France"
+			}
 		]
 	},
 	"references-fishery-harbour-at-barka " : {
 		"titre" : "Fishery harbour at Barka- south Batinah Region, Oman",
-		"texte" : "GDF SUEZ is entrusted with the provision of consultancy for supervision and for additional design aspects that may arise during construction of the Barka fishery harbour in South Batinah region.",
+		"texte" : "GDF SUEZ is entrusted with the provision of consultancy for supervision and for additional design aspects which may arise during construction of the Barka fishery harbour in South Batinah region.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1816,6 +1891,12 @@
 		],
 		"pays" : [
 				{"alias" : "oman"}
+		],
+		"photos" : [
+			{
+				"image" : "fishery-harbour.jpg",
+				"legende" : "Fishery harbour at Barka- south Batinah Region, Oman"
+			}
 		]
 	},
 	"references-dam-in-jeddah " : {
@@ -1829,11 +1910,17 @@
 		],
 		"pays" : [
 				{"alias" : "saudi-arabia"}
+		],
+		"photos" : [
+			{
+				"image" : "jeddah.jpg",
+				"legende" : "Dam in Jeddah, Saudi Arabia"
+			}
 		]
 	},
-	"references-coupe-du-monde-1988 " : {
-		"titre" : "Coupe du Monde de foot 1998, France",
-		"texte" : "TRADUCTION",
+	"references-the-soccer-world-cup-in-france-1988 " : {
+		"titre" : "The soccer World Cup in France in 1998",
+		"texte" : "For the soccer World Cup in France in 1998, GDF SUEZ provided the specific installations for the event at all stadiums involved in the competition, such as press centers, partner areas and the official village.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1846,7 +1933,7 @@
 	},
 	"references-lusail-marina-district " : {
 		"titre" : "Lusail, Marina District, Qatar",
-		"texte" : "TRADUCTION",
+		"texte" : "GDF SUEZ was contracted to design the plans, define the specifications, size the structures and estimate the cost of the work in creating the new city of Lusail.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1855,11 +1942,17 @@
 		],
 		"pays" : [
 				{"alias" : "qatar"}
+		],
+		"photos" : [
+			{
+				"image" : "lusail-tunnel.jpg",
+				"legende" : "Lusail Tunnel, Qatar"
+			}
 		]
 	},
 	"references-zenith-de-st-etienne " : {
 		"titre" : "Zénith de St Etienne, France",
-		"texte" : "TRADUCTION",
+		"texte" : "GDF SUEZ carried out specific missions for the design and development of the outdoor areas at the \"Le Zénith\" concert hall in Saint-Etienne.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1878,7 +1971,7 @@
 	},
 	"references-parc-euro-disneyland " : {
 		"titre" : "Parc Euro Disneyland, France",
-		"texte" : "TRADUCTION",
+		"texte" : "GDF SUEZ provided technical and architectural support in designing the outdoor areas (not including the rides). The Group was also appointed to oversee work and provide end-to-end project management in compliance with environmental requirements.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -1887,11 +1980,36 @@
 		],
 		"pays" : [
 				{"alias" : ""}
+		],
+		"photos" : [
+			{
+				"image" : "eurodisney-1.jpg",
+				"legende" : "Euro Disneyland Paris"
+			}
 		]
 	},
-	"references-aeroport-de-roissy-charles-de-gaulle " : {
-		"titre" : "Aéroport Roissy Charles de Gaulle, France",
+	"references-eco-district-business-park " : {
+		"titre" : "Eco-district \"Business Park\", Asnières-sur-Seine, France",
 		"texte" : "GDF SUEZ realized the heating, ventilation, air conditioning, smoke extraction, fire protection, plumbing and BMS of the Roissy Charles de Gaulle Airport.",
+		"competences" : [
+			{"alias" : "climate-engineering"}
+		],
+		"societes" : [
+			{"alias" : "cofely-axima"}
+		],
+		"pays" : [
+				{"alias" : ""}
+		],
+		"photos" : [
+			{
+				"image" : ".jpg",
+				"legende" : ""
+			}
+		]
+	},
+	"references-roissy-charles-de-gaulle-airport " : {
+		"titre" : "Roissy Charles de Gaulle Airport, France",
+		"texte" : "GDF SUEZ installed the heating, ventilation, air conditioning, smoke extraction, fire protection, plumbing and BMS of the Roissy Charles de Gaulle Airport.",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -1908,9 +2026,9 @@
 			}
 		]
 	},
-	"references-grand-theatre-aix-en-provence " : {
-		"titre" : "Grand Théâtre Aix-en-Provence, France",
-		"texte" : "GDF SUEZ realized the heating, ventilation, air conditioning and smoke extraction of the Theatre of Provence.",
+	"references-the-theatre-of-provence " : {
+		"titre" : "The Theatre of Provence, France",
+		"texte" : "GDF SUEZ installed the heating, ventilation, air conditioning and smoke extraction of the Theatre of Provence.",
 		"competences" : [
 			{"alias" : "Climate Engineering"}
 		],
@@ -1927,9 +2045,9 @@
 			}
 		]
 	},
-	"references-gustave-eiffel-shopping-centre " : {
-		"titre" : "Gustave Eiffel Shopping Centre, Levallois Perret, France",
-		"texte" : "Cofely Axima realized the heating, ventilation, air conditioning, smoke evacuation, BMS and fire protection of the Gustave Eiffel Shopping Centre.",
+	"references-the-gustave-eiffel-shopping-centre " : {
+		"titre" : "The Gustave Eiffel Shopping Centre, Levallois Perret, France",
+		"texte" : "Cofely Axima installed the heating, ventilation, air conditioning, smoke evacuation, BMS and fire protection of the Gustave Eiffel Shopping Centre.",
 		"competences" : [
 			{"alias" : "climate-engineering"},
 			{"alias" : "fire-protection"}
@@ -1947,9 +2065,9 @@
 			}
 		]
 	},
-	"references-palais-des-sports-de-rouen " : {
-		"titre" : "Palais des Sports de Rouen, France",
-		"texte" : "TRADUCTION",
+	"references-the-palais-des-sports-in-rouen " : {
+		"titre" : "The Palais des Sports (sports center) in Rouen, France",
+		"texte" : "GDF SUEZ installed the heating, ventilation, air conditioning, smoke extraction and centralized technical management systems at the Palais des Sports sports center in Rouen.",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -1962,13 +2080,13 @@
 		"photos" : [
 			{
 				"image" : "rouen.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "The Palais des Sports in Rouen, France"
 			}
 		]
 	},
-	"references-palais-des-sports-de-nantes " : {
-		"titre" : "Palais des Sports de Nantes, France",
-		"texte" : "TRADUCTION",
+	"references-the-palais-des-sports-in-nantes " : {
+		"titre" : "The Palais des Sports (sports center) in Nantes, France",
+		"texte" : "GDF SUEZ provides the heating to the site via the heating network and maintains equipment at the Palais des Sports sports center in Nantes.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"},
 			{"alias" : "climate-engineering"}
@@ -1986,8 +2104,8 @@
 			}
 		]
 	},
-	"references-leo-la-grange-a-toulon " : {
-		"titre" : "Léo Lagrange à Toulon, France ",
+	"references-the-leo-la-grange-stadium-in-toulon " : {
+		"titre" : "The Léo Lagrange stadium in Toulon, France ",
 		"texte" : "TRADUCTION",
 		"competences" : [
 			{"alias" : "electrical-engineering"}
@@ -2006,8 +2124,8 @@
 		]
 	},
 	"references-centre-aquatique-a-sochaux " : {
-		"titre" : "Centre aquatique à Sochaux, France",
-		"texte" : "GDF SUEZ realized the heating, ventilation, air conditioning, smoke extraction, fire protection and plumbing of the Sochaux Aquatic Center.",
+		"titre" : "The Sochaux Aquatic Center, France",
+		"texte" : "GDF SUEZ installed the heating, ventilation, air conditioning, smoke extraction, fire protection and plumbing of the Sochaux Aquatic Center.",
 		"competences" : [
 			{"alias" : "climate-engineering"},
 			{"alias" : "fire-protection"}
@@ -2026,9 +2144,9 @@
 			}
 		]
 	},
-	"references-piscine-olympique-lucien-maylin-a-la-rochelle " : {
-		"titre" : "Piscine Olympique Lucien Maylin à La Rochelle, France",
-		"texte" : "TRADUCTION",
+	"references-the-lucien-maylin-olympic-swimming-pool-in-la-rochelle " : {
+		"titre" : "The Lucien Maylin Olympic swimming pool in La Rochelle, France",
+		"texte" : "GDF SUEZ carried out the energy installations and installed the pool at the Lucien Maylin Olympic swimming pool in La Rochelle.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"}
 		],
@@ -2041,13 +2159,13 @@
 		"photos" : [
 			{
 				"image" : "piscine.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Swimming pool"
 			}
 		]
 	},
-	"references-palais-de-la-glace-et-de-la-glisse " : {
-		"titre" : "Palais de la glace et de la glisse à Marseille, France ",
-		"texte" : "TRADUCTION",
+	"references-the-palais-de-la-glace-et-de-la-glisse " : {
+		"titre" : "The Palais de la Glace et de la Glisse in Marseille, France ",
+		"texte" : "GDF SUEZ fitted the heating, cooling, plumbing, centralized management, lighting and hydraulic distribution systems, as well as the high-power and low-power circuits at the Palais de la Glace et de la Glisse in Marseille.",
 		"competences" : [
 			{"alias" : "climate-engineering"},
 			{"alias" : "electrical-engineering"}
@@ -2067,8 +2185,8 @@
 		]
 	},
 	"references-stade-de-france-a-saint-denis " : {
-		"titre" : "Stade de France à Saint Denis, France",
-		"texte" : "TRADUCTION",
+		"titre" : "The Stade de France stadium in Saint Denis, France",
+		"texte" : "GDF SUEZ provides hard FM services, including telephony, access control, cable distribution, HVAC, electricity, plumbing, fire protection and elevators at the Stade de France stadium in Saint Denis.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"}
 		],
@@ -2085,9 +2203,9 @@
 			}
 		]
 	},
-	"references-stade-velodrome-a-marseille " : {
-		"titre" : "Stade Vélodrome à Marseille, France ",
-		"texte" : "TRADUCTION",
+	"references-the-velodrome-stadium-in-marseille " : {
+		"titre" : "The Velodrome stadium in Marseille, France",
+		"texte" : "GDF SUEZ installed the lighting and high-power systems at the Velodrome stadium in Marseille.",
 		"competences" : [
 			{"alias" : "electrical-engineering"}
 		],
@@ -2100,13 +2218,13 @@
 		"photos" : [
 			{
 				"image" : "velodrom-5.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "The Velodrome stadium in Marseille, France "
 			}
 		]
 	},
-	"references-stade-valenciennes " : {
-		"titre" : "Stade du Valenciennes Football Club, France",
-		"texte" : "TRADUCTION",
+	"references-the-valenciennes-football-club-stadium " : {
+		"titre" : "The Valenciennes Football Club stadium, France",
+		"texte" : "GDF SUEZ provides the waste collection service for the Valenciennes Football Club stadium.",
 		"competences" : [
 			{"alias" : "waste-sorting-and-recovery"}
 		],
@@ -2124,8 +2242,8 @@
 		]
 	},
 	"references-jean-bouin-rugby-stadium " : {
-		"titre" : "Jean Bouin Rugby Stadium in Paris, France",
-		"texte" : "GDF SUEZ realized the heating, ventilation, air conditioning, smoke extraction, fire protection and plumbing of the Jean Bouin Rugby Stadium in Paris.",
+		"titre" : "The Jean Bouin Rugby Stadium in Paris, France",
+		"texte" : "GDF SUEZ installed the heating, ventilation, air conditioning, smoke extraction, fire protection and plumbing systems at the Jean Bouin Rugby Stadium in Paris.",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -2143,8 +2261,8 @@
 		]
 	},
 	"references-la-timone-hospital-marseille " : {
-		"titre" : "La Timone Hospital Marseille, France",
-		"texte" : "GDF SUEZ realized the heating, ventilation, air conditioning, smoke extraction, fire protection and plumbing of the La Timone Hospital in Marseille.",
+		"titre" : "La Timone Hospital in Marseille, France",
+		"texte" : "GDF SUEZ installed the heating, ventilation, air conditioning, smoke extraction, fire protection and plumbing systems at La Timone Hospital in Marseille.",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -2162,8 +2280,8 @@
 		]
 	},
 	"references-marne-la-valle-general-hospital " : {
-		"titre" : "Marne la Vallee General Hospital Lagny – Jossigny, France",
-		"texte" : "GDF SUEZ realized the heating, ventilation, air conditioning, smoke extraction, fire protection and plumbing of the Marne la Vallee General Hospital in Lagny – Jossigny.",
+		"titre" : "Marne la Vallee General Hospital in Lagny – Jossigny, France",
+		"texte" : "GDF SUEZ installed the heating, ventilation, air conditioning, smoke extraction, fire protection and plumbing systems at Marne la Vallee General Hospital in Lagny – Jossigny.",
 		"competences" : [
 			{"alias" : "climate-engineering"}
 		],
@@ -2180,9 +2298,9 @@
 			}
 		]
 	},
-	"references-musee-jacquemart " : {
-		"titre" : "Musée Jacquemart André, Paris, France",
-		"texte" : "TRADUCTION",
+	"references-the-jacquemart-andre-museum-in-paris " : {
+		"titre" : "The Jacquemart André museum in Paris, France",
+		"texte" : "GDF SUEZ provides end-to-end cultural and economic management services for the Jacquemart André museum in Paris. ",
 		"competences" : [
 			{"alias" : "global-cultural-event-management"}
 		],
@@ -2194,14 +2312,14 @@
 		],
 		"photos" : [
 			{
-				"image" : "PHOTO",
-				"legende" : "TRADUCTION"
+				"image" : "jacquemart-andre.jpg",
+				"legende" : "The Jacquemart André museum in Paris, France"
 			}
 		]
 	},
-	"references-villa-rothschild-et-villa-kerglos " : {
-		"titre" : "Villa Rothschild et Villa Kérylos, Nice, France",
-		"texte" : "TRADUCTION",
+	"references-the-villa-rothschild-and-villa-kerylos-in-nice " : {
+		"titre" : "The Villa Rothschild and the Villa Kérylos in Nice, France",
+		"texte" : "GDF SUEZ provides end-to-end cultural and economic management services for the Villa Rothschild and the Villa Kérylos in Nice. ",
 		"competences" : [
 			{"alias" : "global-cultural-event-management"}
 		],
@@ -2213,14 +2331,14 @@
 		],
 		"photos" : [
 			{
-				"image" : "4-couv-pierre-behar",
-				"legende" : "TRADUCTION"
+				"image" : "4-couv-pierre-behar.jpg",
+				"legende" : "The Villa Rothschild and the Villa Kérylos in Nice, France"
 			}
 		]
 	},
-	"references-arene-maison-carre " : {
-		"titre" : "Arènes, Maison Carrée et Tour Magne, Nîmes, France",
-		"texte" : "TRADUCTION",
+	"references-the-arene--de-nimes-maison-carre-and-tour-magne " : {
+		"titre" : "The Arènes de Nîmes, Maison Carrée and Tour Magne, Nîmes, France",
+		"texte" : "GDF SUEZ provides end-to-end cultural and economic management services for the Arènes de Nimes, Maison Carrée and Tour Magne. ",
 		"competences" : [
 			{"alias" : "global-cultural-event-management"}
 		],
@@ -2232,14 +2350,14 @@
 		],
 		"photos" : [
 			{
-				"image" : "PHOTO",
-				"legende" : "TRADUCTION"
+				"image" : "arenes-nimes.jpg",
+				"legende" : "The Arènes de Nîmes, France"
 			}
 		]
 	},
-	"references-theatre-antique-et-musee-d-art-et-d-histoire-orange " : {
-		"titre" : "Théâtre Antique et Musée d’Art et d’Histoire, Orange, France",
-		"texte" : "TRADUCTION",
+	"references-the-theatre-antique-and-museum-of-art-and-history-orange " : {
+		"titre" : "The Théâtre Antique and the Museum of Art and History, Orange, France",
+		"texte" : "GDF SUEZ provides end-to-end cultural and economic management services for the Théâtre Antique and the Museum of Art and History in Orange. ",
 		"competences" : [
 			{"alias" : "global-cultural-event-management"}
 		],
@@ -2251,14 +2369,14 @@
 		],
 		"photos" : [
 			{
-				"image" : "PHOTO",
-				"legende" : "TRADUCTION"
+				"image" : "theatre-antique.jpg",
+				"legende" : "The Théâtre Antique in Orange, France"
 			}
 		]
 	},
-	"references-chateau-des-baux-et-carriere-de-lumiere " : {
-		"titre" : "Château des Baux et Carrières de Lumières, Baux-de-Provence, France",
-		"texte" : "TRADUCTION",
+	"references-the-chateau-des-baux-and-the-carriere-de-lumieres " : {
+		"titre" : "The Château des Baux and the Carrières de Lumières, Baux-de-Provence, France",
+		"texte" : "GDF SUEZ provides end-to-end cultural and economic management services for the Château des Baux and the Carrières de Lumières in Les Baux de Provence. ",
 		"competences" : [
 			{"alias" : "global-cultural-event-management"}
 		],
@@ -2270,8 +2388,8 @@
 		],
 		"photos" : [
 			{
-				"image" : "PHOTO",
-				"legende" : "TRADUCTION"
+				"image" : "carriere-lumieres.jpg",
+				"legende" : "The Carrières de Lumières in Les Baux-de-Provence, France"
 			}
 		]
 	},
@@ -2286,6 +2404,12 @@
 		],
 		"pays" : [
 				{"alias" : "abu-dhabi"}
+		],
+		"photos" : [
+			{
+				"image" : "mu-2.jpg",
+				"legende" : "A school, Abu Dhabi"
+			}
 		]
 	},
 	"references-burj-khalifa-client-emaar " : {
@@ -2299,11 +2423,17 @@
 		],
 		"pays" : [
 				{"alias" : "dubai"}
+		],
+		"photos" : [
+			{
+				"image" : "burjkhalifa.jpg",
+				"legende" : "Burj Khalifa, Dubaï"
+			}
 		]
 	},
 	"references-al-gurm-resort-client-aldar " : {
 		"titre" : "Al Gurm Resort – Client Aldar, Abu Dhabi",
-		"texte" : "GDF SUEZ was awarded a 3-year contract in  2010 for Total Facility Management <br> Services delivery to Al Gurm, a <br>development comprising 72 private <br> luxury homes situated on the <br>Western edge of Abu Dhabi.",
+		"texte" : "GDF SUEZ was awarded a 3-year contract in  2010 for Total Facility Management  Services delivery to Al Gurm, a  development comprising 72 private  luxury homes situated near Abu Dhabi.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"}
 		],
@@ -2312,6 +2442,12 @@
 		],
 		"pays" : [
 				{"alias" : "abu-dhabi"}
+		],
+		"photos" : [
+			{
+				"image" : "al-gurm.jpg",
+				"legende" : "Al Gurm Resort, Abu Dhabi"
+			}
 		]
 	},
 	"references-zayeed-university " : {
@@ -2325,6 +2461,12 @@
 		],
 		"pays" : [
 				{"alias" : "abu-dhabi"}
+		],
+		"photos" : [
+			{
+				"image" : "zayed-university-2.jpg",
+				"legende" : "Zayeed University, Abu Dhabi"
+			}
 		]
 	},
 	"references-al-rayyana-sorouh " : {
@@ -2338,6 +2480,12 @@
 		],
 		"pays" : [
 				{"alias" : "abu-dhabi"}
+		],
+		"photos" : [
+			{
+				"image" : "al-rayanna.jpg",
+				"legende" : "Al Rayyana Sorouh, Abu Dhabi"
+			}
 		]
 	},
 	"references-cofely-refrigeration-quantum-chillers " : {
@@ -2351,6 +2499,12 @@
 		],
 		"pays" : [
 				{"alias" : "dudai"}
+		],
+		"photos" : [
+			{
+				"image" : "cofely-sandrine-2.jpg",
+				"legende" : "Multi-technical Maintenance "
+			}
 		]
 	},
 	"references-8-boulevard-walk " : {
@@ -2364,6 +2518,12 @@
 		],
 		"pays" : [
 				{"alias" : "dubai"}
+		],
+		"photos" : [
+			{
+				"image" : "8-boulevard-2.jpg",
+				"legende" : "8 boulevard walk, Dubaï"
+			}
 		]
 	},
 	"references-al-raha-gardens " : {
@@ -2377,6 +2537,12 @@
 		],
 		"pays" : [
 				{"alias" : "abu-dhabi"}
+		],
+		"photos" : [
+			{
+				"image" : "al-raha.jpg",
+				"legende" : "Al Raha Gardens, Abu Dhabi"
+			}
 		]
 	},
 	"references-corporate-office-client-proctor-and-gamble " : {
@@ -2390,6 +2556,12 @@
 		],
 		"pays" : [
 				{"alias" : "dubai"}
+		],
+		"photos" : [
+			{
+				"image" : "cofely01108-hd.jpg",
+				"legende" : "Multi-technical Maintenance "
+			}
 		]
 	},
 	"references-baggage-handling-systems-client-adac " : {
@@ -2420,7 +2592,7 @@
 		"photos" : [
 			{
 				"image" : "se-20110319-esp-065.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Desalination plant"
 			}
 		]
 	},
@@ -2439,7 +2611,7 @@
 		"photos" : [
 			{
 				"image" : "164956.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Power station and desalination plant in  Marafiq, Saudi Arabia"
 			}
 		]
 	},
@@ -2458,7 +2630,7 @@
 		"photos" : [
 			{
 				"image" : "se-20110316-usa-069-2.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Wastewater reuse"
 			}
 		]
 	},
@@ -2477,7 +2649,7 @@
 		"photos" : [
 			{
 				"image" : "238458.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Power station and desalination plant"
 			}
 		]
 	},
@@ -2496,7 +2668,7 @@
 		"photos" : [
 			{
 				"image" : "252384-1.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Desalination plant in Fujaïrah"
 			}
 		]
 	},
@@ -2511,6 +2683,12 @@
 		],
 		"pays" : [
 				{"alias" : "irak"}
+		],
+		"photos" : [
+			{
+				"image" : "221059.jpg",
+				"legende" : "Water treatment plant"
+			}
 		]
 	},
 	"references-nuclear-power-in-jordan " : {
@@ -2528,7 +2706,7 @@
 	},
 	"references-red-sea-dead-sea-water-canal-study-program " : {
 		"titre" : "Red Sea- Dead Sea water canal study program, Jordan",
-		"texte" : "GDF SUEZ and KEMA Nederland BV in the Netherlands has won the contract for the technical-economic and environmental feasibility study for the canal project linking the Red Sea and the Dead Sea.",
+		"texte" : "GDF SUEZ and KEMA Nederland BV has won the contract for the technical-economic and environmental feasibility study for the canal project linking the Red Sea and the Dead Sea.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -2541,7 +2719,7 @@
 	},
 	"references-wadi-ma-in-desalination-plant " : {
 		"titre" : "Wadi Ma’in Desalination Plant, Jordan",
-		"texte" : "A consortium made up of GDF SUEZ and Morganti USA won the contract for Wadi Ma’in desalination plant with.  This desalination plant uses the reverse osmosis technology.",
+		"texte" : "A consortium made up of GDF SUEZ and Morganti USA won the contract for the Wadi Ma’in desalination plant.  This desalination plant uses reverse osmosis technology.",
 		"competences" : [
 			{"alias" : "management-and-procurement-of-resources"}
 		],
@@ -2554,13 +2732,13 @@
 		"photos" : [
 			{
 				"image" : "se-20110319-esp-077.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Desalination plant"
 			}
 		]
 	},
 	"references-interconnection-of-four-gulf-states-power-systems " : {
 		"titre" : "Interconnection of four Gulf states power systems",
-		"texte" : "GDF SUEZ realized a study on the interconnection of the power systems of four Gulf States: Bahrain, Kuwait, Qatar and Saudi Arabia. After having been operated independently, the utilities of the four countries were to be connected for the first time.",
+		"texte" : "GDF SUEZ carried out a study on the interconnection of the power systems of four Gulf States: Bahrain, Kuwait, Qatar and Saudi Arabia. After having been operated independently, the utilities of the four countries were to be connected for the first time.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -2576,7 +2754,7 @@
 		"photos" : [
 			{
 				"image" : "164936.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Power station and desalination plant in  Marafiq, Saudi Arabia"
 			}
 		]
 	},
@@ -2595,7 +2773,7 @@
 		"photos" : [
 			{
 				"image" : "se-20110824-chn-054-1.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Wastewater reuse"
 			}
 		]
 	},
@@ -2614,7 +2792,7 @@
 		"photos" : [
 			{
 				"image" : "se-20110824-chn-031-2.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Wastewater reuse"
 			}
 		]
 	},
@@ -2633,7 +2811,7 @@
 		"photos" : [
 			{
 				"image" : "se-20110319-esp-012.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "A seawater desalination plant"
 			}
 		]
 	},
@@ -2652,13 +2830,13 @@
 		"photos" : [
 			{
 				"image" : "228992-2.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "The electric power station Barka III plant"
 			}
 		]
 	},
 	"references-barka-ii-plant " : {
 		"titre" : "Barka II plant, Oman",
-		"texte" : "In December 2006, GDF SUEZ was awarded 47.5% stakes of the construction and operation of the electric power station and seawater desalination Barka II plant, as part of a consortium with Mubadala Development (47.5%) and National Trading Company (5%).",
+		"texte" : "In December 2006, GDF SUEZ was awarded 47.5% stakes in the construction and operation of the electric power station and seawater desalination Barka II plant, as part of a consortium with Mubadala Development (47.5%) and National Trading Company (5%).",
 		"competences" : [
 			{"alias" : "electrical-engineering"},
 			{"alias" : "management-and-procurement-of-resources"}
@@ -2672,13 +2850,13 @@
 		"photos" : [
 			{
 				"image" : "229905-1.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "The electric power station and seawater desalination Barka II plant"
 			}
 		]
 	},
 	"references-barka-iii-and-sohar-ii " : {
 		"titre" : "Barka III and Sohar II, Oman",
-		"texte" : "GDF SUEZ realized the engineering of the power plants of Barka III and Sohar II.",
+		"texte" : "GDF SUEZ performed the engineering of the power plants of Barka III and Sohar II.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -2691,7 +2869,7 @@
 		"photos" : [
 			{
 				"image" : "229018-1.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "The power plants of Barka III"
 			}
 		]
 	},
@@ -2710,7 +2888,7 @@
 	},
 	"references-barwa-city-wastewater-treatment-plant " : {
 		"titre" : "Barwa City wastewater treatment plant, Qatar",
-		"texte" : "In consortium with Butec, GDF SUEZ is developing the Barwa city wastewater treatment plant for Marafeq Qatar. The contract came into force on 4 April 2010 for a 22-month period. Treated water will be reused for irrigation.",
+		"texte" : "In consortium with Butec, GDF SUEZ is developing the Barwa city wastewater treatment plant for Marafeq Qatar. Treated water will be reused for irrigation.",
 		"competences" : [
 			{"alias" : "mobile-water-supply-and-treatment-systems"}
 		],
@@ -2723,7 +2901,7 @@
 		"photos" : [
 			{
 				"image" : "221058.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "The wastewater treatment plant in Doha West"
 			}
 		]
 	},
@@ -2761,7 +2939,7 @@
 	},
 	"references-12-water-treatment-and-waste-water-treatment-plant " : {
 		"titre" : "12 water treatment and waste water treatment plants, Turkey",
-		"texte" : "GDF SUEZ is active in Turkey through its subsidiary, Degremont, since 1990 and between 1990 and 1998 it achieved 12 water treatment and waste water treatment plants in several cities (Istanbul, Eskisehir, Gaziantep, Didim, and Marmaris).",
+		"texte" : "GDF SUEZ is active in Turkey through its subsidiary, Degremont. Between 1990 and 1998, it constructed 12 water treatment and waste water treatment plants in several cities (Istanbul, Eskisehir, Gaziantep, Didim, and Marmaris).",
 		"competences" : [
 			{"alias" : "mobile-water-supply-and-treatment-systems"}
 		],
@@ -2774,13 +2952,13 @@
 		"photos" : [
 			{
 				"image" : "se-20110319-esp-005.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Water treatment plant "
 			}
 		]
 	},
 	"references-irmal-karabuk-zonguldak-railway-line " : {
 		"titre" : "Irmak-Karabük-Zonguldak railway line, Turkey",
-		"texte" : "GDF SUEZ is in charge of the rehabilitation and signalisation of the line.",
+		"texte" : "GDF SUEZ is in charge of the rehabilitation and signalling of the line.",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
 		],
@@ -2789,11 +2967,17 @@
 		],
 		"pays" : [
 				{"alias" : "turkey"}
+		],
+		"photos" : [
+			{
+				"image" : "2013-04-13-12-24-01.jpg",
+				"legende" : "Irmak-Karabük-Zonguldak railway line, Turkey"
+			}
 		]
 	},
 	"references-al-sufouh-tramway " : {
 		"titre" : "Al-Sufouh Tramway, Dubaï",
-		"texte" : "GDF SUEZ and Alsthom won the maintenance contract for Dubai’s tramway. The first phase of the route will be 10.7km and will comprise 13 stations (over 19).<br> Cofely-Besix will be in charge of the technical maintenance of the tram stations and depot, and of the facility management.",
+		"texte" : "GDF SUEZ and Alstom won the maintenance contract for Dubai’s tramway. The first phase of the route will be 10.7km and will comprise 13 stations. <br>Cofely-Besix will be in charge of the technical maintenance of the tram stations and depot, and of the facility management.",
 		"competences" : [
 			{"alias" : "multi-technical-maintenance"}
 		],
@@ -2802,11 +2986,17 @@
 		],
 		"pays" : [
 				{"alias" : "dubai"}
+		],
+		"photos" : [
+			{
+				"image" : "226408.jpg",
+				"legende" : "Tramway tracks"
+			}
 		]
 	},
 	"references-waste-collection-management " : {
 		"titre" : "Waste collection management, Abu Dhabi",
-		"texte" : "GDF SUEZ has been operating the waste collection management for the last 30 years, first in Dubai, Sharjah and more recently in Abu Dhabi. It is dedicated to Commercial and Industrial Waste.",
+		"texte" : "GDF SUEZ has been operating waste collection management for the last 30 years in the region, first in Dubai, Sharjah and more recently in Abu Dhabi. It provides Commercial and Industrial Waste services.",
 		"competences" : [
 			{"alias" : "waste-sorting-and-recovery"}
 		],
@@ -2818,14 +3008,14 @@
 		],
 		"photos" : [
 			{
-				"image" : "collecte-dechets-industriel-3",
-				"legende" : "TRADUCTION"
+				"image" : "collecte-dechets-industriel-3.jpg",
+				"legende" : "Waste Sorting"
 			}
 		]
 	},
 	"references-the-formula-1-grand-prix-of-monaco " : {
 		"titre" : "The Formula 1 Grand Prix of Monaco ",
-		"texte" : "GDF SUEZ realized the assembling and dismantling of the tribunes and accesses in dense urban areas. ",
+		"texte" : "GDF SUEZ performed the assembling and dismantling of the spectators stands and walkways for this prestigious Grand Prix race.",
 		"competences" : [
 			{"alias" : "building-and-demolishing-facilities"}
 		],
@@ -2838,13 +3028,13 @@
 		"photos" : [
 			{
 				"image" : "PHOTO",
-				"legende" : "TRADUCTION"
+				"legende" : "Spectators stands of the Formula 1 Grand Prix de Monaco"
 			}
 		]
 	},
 	"references-1000-cameras-of-paris " : {
 		"titre" : "1 000 cameras of Paris, France",
-		"texte" : "GDF SUEZ realized the integration, exploitation and maintenance of the system during 15 years. These operations cover 260 work stations, 30 exploitation sites , 1 105 cameras and 17 years of partnership.",
+		"texte" : "GDF SUEZ provided the integration, exploitation and maintenance of the surveillance system over 15 years. These operations cover 260 work stations, 30 exploitation sites and 1 105 cameras.",
 		"competences" : [
 			{"alias" : "perimeter-protection-videosurveillance-and-runway-marking"}
 		],
@@ -2857,7 +3047,7 @@
 		"photos" : [
 			{
 				"image" : "PHOTO",
-				"legende" : ""
+				"legende" : "Videosurveillance in Paris"
 			}
 		]
 	},
@@ -2876,13 +3066,13 @@
 		"photos" : [
 			{
 				"image" : "PHOTO",
-				"legende" : ""
+				"legende" : "Operations Center of Rio de Janeiro, Brazil"
 			}
 		]
 	},
 	"references-g20-2012-closely-monitored " : {
 		"titre" : "G20 2012 closely monitored, Cannes, France",
-		"texte" : "GDF SUEZ managed the public order and was in charge of the close protection of State’s  Heads. <br>These operations cover 100 cameras including 30 3G technology cameras , digital tablets in the police vehicles and walls of images for the urban supervision centers.",
+		"texte" : "GDF SUEZ provided the security systems for the G20 meeting in Cannes.  The operations covered 100 cameras including 30 3G technology cameras , digital tablets in the police vehicles and walls of images for the urban supervision centers.",
 		"competences" : [
 			{"alias" : "perimeter-protection-videosurveillance-and-runway-marking"}
 		],
@@ -2895,13 +3085,13 @@
 		"photos" : [
 			{
 				"image" : "PHOTO",
-				"legende" : ""
+				"legende" : "G20 2012 in Cannes, France"
 			}
 		]
 	},
-	"references-audit-pyrotechnique-de-la-base-aerienne-123-orleans-bricy " : {
-		"titre" : "Audit pyrotechnique de la base aérienne 123 Orléans Bricy, France",
-		"texte" : "TRADUCTION",
+	"references-explosive-contamination-audit-at-the-orleans-bricy " : {
+		"titre" : "Explosives contamination audit at the Orléans-Bricy air base, France",
+		"texte" : "GDF SUEZ conducted an explosives contamination audit at the Orléans-Bricy air base, involving different areas with varying sizes and conditions. The sites audited were located near the air base's, as well as in old buildings rural areas.",
 		"competences" : [
 			{"alias" : "thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives"}
 		],
@@ -2914,13 +3104,13 @@
 		"photos" : [
 			{
 				"image" : "dsc03820.jpg",
-				"legende" : "TRADUCTION"
+				"legende" : "Explosives contamination audit"
 			}
 		]
 	},
-	"references-dort-d-issy-france " : {
+	"references-fort-d-issy-france " : {
 		"titre" : "Fort d'Issy, France",
-		"texte" : "TRADUCTION",
+		"texte" : "GDF SUEZ treated the explosives-contaminated soil at Fort d'Issy, thereby allowing for the removal of 3,000 rounds of ammunition dating back to the Franco-Prussian War of 1870. All targets areas were treated with the additional use of ballistic protection devices, thereby significantly reducing the affected areas both inside and outside the site.",
 		"competences" : [
 			{"alias" : "thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives"}
 		],
@@ -2937,9 +3127,9 @@
 			}
 		]
 	},
-	"references-centre-hospitalier-intercommunal-de-castres-mazamet " : {
-		"titre" : "Centre Hospitalier InterCommunal de Castres-Mazamet, France",
-		"texte" : "TRADUCTION",
+	"references-castres-mazamet-hospital " : {
+		"titre" : "Castres-Mazamet Hospital, France",
+		"texte" : "GDF SUEZ fitted out the multimedia terminal rooms at Castres-Mazamet Hospital in a move to provide patients with a bundle of new services and high-quality care, while giving medical staff new business applications for keeping track of patient records online with real-time updates. These solutions have boosted productivity at the hospital, while guaranteeing seamless traceability of all medical procedures for accurate billing.",
 		"competences" : [
 			{"alias" : "interactive-terminal-for-patients"}
 		],
@@ -2957,8 +3147,8 @@
 		]
 	},
 	"references-centre-hospitalier-sud-francilien " : {
-		"titre" : "Centre Hospitalier Sud Francilien, France",
-		"texte" : "TRADUCTION",
+		"titre" : "Sud Francilien Hospital, France, France",
+		"texte" : "GDF SUEZ supplied, deployed and commissioned 703 patient multimedia terminals at Sud Francilien Hospital. The new terminals have helped the hospital to become more productive, monitor all medical procedures and costs, improve healthcare quality and services and develop new services for generating additional revenue streams. ",
 		"competences" : [
 			{"alias" : "interactive-terminal-for-patients"}
 		],
@@ -3411,18 +3601,24 @@
 		"technologies" : [
 			{
 				"index" : 1,
+				"titre" : "Degrés Bleus® ",
+				"photo" : "edsc-0001.jpg",
+				"alias" : "technologie-degres-bleus"
+			},
+			{
+				"index" : 2,
 				"titre" : "Vigionella",
 				"photo" : "2-pilotage-intelligent-des-fluides-et-des-energies.jpg",
 				"alias" : "technologie-vigionella"
 			},
 			{
-				"index" : 2,
+				"index" : 3,
 				"titre" : "“Smart City Dashboard”",
 				"photo" : "cofely-ineo-dominique-erhard.jpg",
 				"alias" : "technologie-smart-city-dashboard"
 			},
 			{
-				"index" : 3,
+				"index" : 4,
 				"titre" : "Elena",
 				"photo" : "elena.jpg",
 				"alias" : "technologie-elena"
@@ -3513,7 +3709,7 @@
 			}
 		]
 	},
-	"sf-technologies" : {
+	"si-technologies" : {
 		"technologies" : [
 			{
 				"index" : 1,
@@ -3523,7 +3719,7 @@
 			}
 		]
 	},
-	"ms-infographics" : {
+	"si-infographics" : {
 		"markers" : [
 			{
 				"capabilitie" : "capability-renewable-energies",
