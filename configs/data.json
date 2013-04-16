@@ -1376,7 +1376,7 @@
 	},
 	"references-the-philarmonie-de-paris-concert-hall" : {
 		"titre" : " The Philarmonie de Paris concert hall, France",
-		"texte" : "TRADUCTION",
+		"texte" : "The GDF SUEZ Group is designing and building the air conditioning and electrical systems for the Philarmonie de Paris concert hall. GDF SUEZ will operate this iconic building as part of a 15-year end-to-end hard FM contract.",
 		"competences" : [
 			{"alias" : "electrical-engineering"},
 			{"alias" : "climate-engineering"}
@@ -2689,7 +2689,7 @@
 		]
 	},
 	"references-nuclear-power-in-jordan" : {
-		"titre" : "Nuclear power in Jordan ",
+		"titre" : "Nuclear power in Jordan",
 		"texte" : "In September 2009, GDF SUEZ was awarded the feasibility study for a potential nuclear site in the country, for the Jordan Atomic Energy Commission (JAEC). The study mainly consists in comprehensive geological, seismological, geophysical and geotechnical investigations of the selected site (and region around the site).",
 		"competences" : [
 			{"alias" : "design-construction-project-management"}
@@ -3011,7 +3011,7 @@
 		]
 	},
 	"references-the-formula-1-grand-prix-of-monaco" : {
-		"titre" : "The Formula 1 Grand Prix of Monaco ",
+		"titre" : "The Formula 1 Grand Prix of Monaco",
 		"texte" : "GDF SUEZ performed the assembling and dismantling of the spectators stands and walkways for this prestigious Grand Prix race.",
 		"competences" : [
 			{"alias" : "building-and-demolishing-facilities"}
