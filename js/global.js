@@ -363,9 +363,9 @@ function onLoadPanierSend(){
 	    var networkState = navigator.connection.type;
 
 	    if (networkState == Connection.NONE){
-	    	$('#pages .paniersend .etatconnexion').text("offline")
+	    	$('#pages .paniersend .etatconnexion').addClass("offline")
 	    }else{
-	    	$('#pages .paniersend .etatconnexion').text("online")
+	    	$('#pages .paniersend .etatconnexion').removeClass("offline")
 	    }
 	}
 }
@@ -441,6 +441,9 @@ var navigation = function(){
 		$('header#header .menuLink').hammer().on('tap', function(){
 			self.showMenu()
 		})
+		$('#logo').hammer().on('tap', function(){
+			self.navTo('home')
+		})
 	}
 	this.niveau1and2Events = function(){
 		$('.niveau1 .linkZone, .niveau2 .linkZone', menu).hammer().off('tap swipe').on('tap', function(){
@@ -503,11 +506,11 @@ var navigation = function(){
 		console.log("--changePage")
 		if(page != this.currentPage){
 			var virtual = this.arborescence[page].virtual
+			var onUnloadFunction = self.arborescence[this.currentPage].onunload
+			if(onUnloadFunction){
+				window[onUnloadFunction]()
+			}
 			if(!virtual){
-				var onUnloadFunction = self.arborescence[this.currentPage].onunload
-				if(onUnloadFunction){
-					window[onUnloadFunction]()
-				}
 				$('#pages .template.active').removeClass('active')
 				var template = this.arborescence[page].template
 				if(template){
@@ -532,12 +535,12 @@ var navigation = function(){
 				}
 			}
 			if(this.arborescence[page].disablemenu){
-				$(menu).addClass('disabled')
+				$(menu).addClass('disabled').removeClass('isniveau1 isniveau2')
 				$('header#header .menuLink').removeClass('active')
 			}else{
 				$(menu).removeClass('disabled')
+				this.refreshMenu(page, virtual)
 			}
-			this.refreshMenu(page, virtual)
 			this.currentPage = page
 		}
 	}
@@ -561,10 +564,11 @@ var navigation = function(){
 			$('.niveau1', menu).css('-webkit-transform', 'scale(1) rotate('+angle+'deg)')
 		}else if(niveau == 0){
 			$('.niveau2, .niveau1', menu).css('-webkit-transform', 'scale(0) rotate(0deg)')
-
 			$(menu).removeClass('isniveau1 isniveau2')
 		}else{
+			$('.niveau2, .niveau1', menu).css('-webkit-transform', 'scale(0) rotate(0deg)')
 			$(menu).removeClass('isniveau1 isniveau2 hide')
+			$('header#header .menuLink').removeClass('active')
 		}
 		if(reversemenu){
 			$(menu).addClass('reversed')
@@ -604,6 +608,11 @@ var navigation = function(){
 					},10)
 				}
 			});
+		}else{
+			$(menu).addClass('isniveau'+niveau)
+			// setTimeout(function(){
+			$('.niveau'+niveau, menu).css('-webkit-transform', 'scale(1) rotate(0deg)')
+			// },30)
 		}
 	}
 	// this.getPagesByParent = function(parent){
@@ -672,8 +681,10 @@ function contentEvents(){
 
 	$('#pages .city-of-tomorrow .marker').hammer().on('tap', function(){
 		var id = $(this).attr('data-popin')
-		console.log(id)
-		$('#pages .city-of-tomorrow .popin'+id).addClass('active').siblings().removeClass('active')
+		var popin = $('#pages .city-of-tomorrow .popin'+id)
+		var height = popin.height()
+		var margintop = - height / 2 - 60
+		popin.css('margin-top', margintop).addClass('active').siblings().removeClass('active')
 	})
 	$('#pages .city-of-tomorrow .popin').hammer().on('tap', function(){
 		$(this).removeClass('active')
@@ -737,7 +748,7 @@ var gdfsuezSlider = function(){
 
 		nbSlides = $('.slide', page).length
 
-		$(page).hammer().on('swipeleft', function(){
+		$(page).hammer().off('swipeleft swiperight').on('swipeleft', function(){
 			console.log('next')
 			self.next()
 		}).on('swiperight', function(){
@@ -773,18 +784,43 @@ var gdfsuezSlider = function(){
 	this.app()
 }
 function onLoadPays(){
-	$('#pages .pays .reference').hammer().on('tap', function(){
-		var page = $(this).attr('data-page')
-		oNavigation.navTo(page)
+	$('#pages .reference .photos .photo').hammer().off('tap').on('tap', function(){
+		$(this).toggleClass('active')
 	})
 }
 function onLoadInfographics(){
 	console.log('--onLoadInfographics')
-	$('#pages .infographics .marker').hammer().on('tap', function(){
+	$('#pages .infographics .marker').hammer().off('tap').on('tap', function(){
 		var page = $(this).attr('data-page')
-		oNavigation.navTo(page)
+		oNavigation.navTo(page, oNavigation.currentPage, "< Back to Infographics")
 	})
 }
 function onLoadTechnologies(){
-
+	console.log('--onLoadTechnologies')
+	$('#pages .technologies1 .marker, #pages .technologies2 .marker, #pages .technologies3 .marker, #pages .technologies4 .marker').hammer().off('tap').on('tap', function(){
+		var page = $(this).attr('data-page')
+		oNavigation.navTo(page, oNavigation.currentPage, "< Back to Technologies")
+	})
+}
+function onLoadReference(){
+	$('#pages .reference .photos .photo').hammer().off('tap').on('tap', function(){
+		$(this).toggleClass('active')
+	})
+}
+function onLoadVideo(){
+	console.log('--onLoadVideo')
+	$('#pages .video video').hammer().off('tap').on('tap', function(){
+		if($(this).get(0).paused){
+			$(this).get(0).play()
+			$(this).next('.play').removeClass('active')
+		}else{
+			$(this).get(0).pause()
+			$(this).next('.play').addClass('active')
+		}
+	})
+}
+function onUnloadVideo(){
+	console.log('--onUnloadVideo')
+	$('#pages .video video').get(0).pause()
+	$('#pages .video .play').addClass('active')
 }

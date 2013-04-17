@@ -50,7 +50,7 @@
 							<div class="trait"></div>
 						</div>
 					{{/references}}
-					<div class="wrapper" style="background-image: url(uploads/pays/{{image}});"></div>
+					<div class="wrapper" style="background-image: url(uploads/gulf-presence/{{image}});"></div>
 				</div>
 				<div class="right">
 					<div class="titre">{{titre}}</div>
@@ -80,7 +80,7 @@
 			</div>
 			<div class="template technologies1">
 				{{#technologies}}
-					<div class="marker marker{{index}}" data-page="{{alias}}">
+					<div class="marker marker{{index}}" data-page="{{alias}}" style="background-image: url(uploads/technologies/{{photo}});">
 						<div class="titre">{{titre}}</div>
 						<div class="cursors"></div>
 					</div>
@@ -88,7 +88,7 @@
 			</div>
 			<div class="template technologies2">
 				{{#technologies}}
-					<div class="marker marker{{index}}" data-page="{{alias}}">
+					<div class="marker marker{{index}}" data-page="{{alias}}" style="background-image: url(uploads/technologies/{{photo}});">
 						<div class="titre">{{titre}}</div>
 						<div class="cursors"></div>
 					</div>
@@ -96,7 +96,7 @@
 			</div>
 			<div class="template technologies3">
 				{{#technologies}}
-					<div class="marker marker{{index}}" data-page="{{alias}}">
+					<div class="marker marker{{index}}" data-page="{{alias}}" style="background-image: url(uploads/technologies/{{photo}});">
 						<div class="titre">{{titre}}</div>
 						<div class="cursors"></div>
 					</div>
@@ -104,11 +104,31 @@
 			</div>
 			<div class="template technologies4">
 				{{#technologies}}
-					<div class="marker marker{{index}}" data-page="{{alias}}">
+					<div class="marker marker{{index}}" data-page="{{alias}}" style="background-image: url(uploads/technologies/{{photo}});">
 						<div class="titre">{{titre}}</div>
 						<div class="cursors"></div>
 					</div>
 				{{/technologies}}
+			</div>
+			<div class="template reference">
+				<div class="titre">{{titre}}</div>
+				<div class="wrapper">
+					<div class="texte">{{{texte}}}</div>
+					<div class="photos">
+						{{#photos}}
+							<div class="photo">
+								<div class="image" style="background-image: url(uploads/references/{{image}});"></div>
+								<div class="legend">{{legende}}</div>
+								<div class="close"></div>
+							</div>
+						{{/photos}}
+					</div>
+				</div>
+			</div>
+			<div class="template video">
+				<div class="titre">{{titre}}</div>
+				<video src="uploads/videos/{{video}}" autoplay="true"></video>
+				<div class="play"></div>
 			</div>
 		</div>
 
@@ -314,7 +334,7 @@
 				<div class="content">
 					<form action="" id="form_paniersend">
 						<input type="email" class="input_email">
-						<input type="submit" value="envoyer">
+						<input type="submit" value="" class="submit">
 					</form>
 					<div class="etatconnexion"></div>
 				</div>

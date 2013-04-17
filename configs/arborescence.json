@@ -121,7 +121,7 @@
 					"niveau"     : 2,
 					"angle"      : 63,
 					"fond"       : "technologies",
-					"template"   : "technologies1",
+					"template"   : "technologies4",
 					"datas"      : "sf-technologies",
 					"onload"     : "onLoadTechnologies",
 					"reversemenu": true
@@ -244,6 +244,33 @@
 					"onload"     : "onLoadInfographics",
 					"reversemenu": true
 				},
+			"security-infrastructures" : {
+				"parent"     : "activities",
+				"niveau"     : 1,
+				"redirect"   : "si-infographics",
+				"menu"       : "security-infrastructures",
+				"reversemenu": true
+			},
+				"si-technologies" : {
+					"parent"     : "security-infrastructures",
+					"niveau"     : 2,
+					"angle"      : 63,
+					"fond"       : "technologies",
+					"template"   : "technologies1",
+					"datas"      : "si-technologies",
+					"onload"     : "onLoadTechnologies",
+					"reversemenu": true
+				},
+				"si-infographics" : {
+					"parent"     : "security-infrastructures",
+					"niveau"     : 2,
+					"angle"      : 0,
+					"fond"       : "security-infrastructures",
+					"template"   : "infographics",
+					"datas"      : "si-infographics",
+					"onload"     : "onLoadInfographics",
+					"reversemenu": true
+				},
 	"contacts" : {},
 	"panier" : {
 		"niveau"     : 0,
@@ -265,5 +292,37 @@
 		"template"   : "capability",
 		"disablemenu": true,
 		"datas"      : "capability-multi-technical-maintenance"
+	},
+	"technologie-degres-bleus" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "technology",
+		"disablemenu": true,
+		"datas"      : "technologie-degres-bleus"
+	},
+	"references-interconnection-of-four-gulf-states-power-systems" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-interconnection-of-four-gulf-states-power-systems"
+	},
+	"references-barwa-city-wastewater-treatment-plant" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-barwa-city-wastewater-treatment-plant"
+	},
+	"video-test" : {
+		"niveau"  : 0,
+		"fond"    : "white",
+		"template": "video",
+		"datas"   : "video-test",
+		"onload"  : "onLoadVideo",
+		"disablemenu": true,
+		"onunload": "onUnloadVideo"
 	}
 }
