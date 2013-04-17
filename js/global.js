@@ -39,13 +39,15 @@ function siteResfresh(){
 	}
 }
 
-var oPanier
 var oSound
+var oPanier
+var oContact
 function globalEvents(){
 	$(document).bind('touchmove', false);
 
 	oSound = new sound()
 	oPanier = new panier()	
+	oContact = new contact()
 
 
 	$('#pages .panier .actions .clearall').hammer().on('tap', function(){
@@ -191,6 +193,7 @@ var panier = function(){
 			setTimeout(function(){
 				self.opened = true
 			}, 500)
+			$('#contact').addClass('hide')
 		}
 	}
 	this.close = function(){
@@ -204,6 +207,7 @@ var panier = function(){
 			if(oNavigation.currentPage == 'panier' || oNavigation.currentPage == 'paniersend'){
 				oNavigation.navTo('home')
 			}
+			$('#contact').removeClass('hide')
 		}
 	}
 	this.lauchAction = function(item){
@@ -369,6 +373,71 @@ function onLoadPanierSend(){
 	    }
 	}
 }
+var contact = function(){
+	var self = this
+	var opened;
+	var contact
+
+	this.construct = function(){
+		this.opened = false;
+		this.contact = $('#contact')
+
+		$.ajax({
+			dataType: "json",
+			url: 'configs/contacts.json',
+			success: function(data){
+				
+				var html = '';
+				var index = 1
+				$.each(data, function(key, value){
+					console.log(value)
+					var photo = key.replace('contact-', '')
+					var adresse = value.adresse ? '<br><br>'+value.adresse : '' ;
+					html += '<div class="bloc bloc'+index+'"><div class="header"><img src="uploads/societes/'+photo+'.jpg">'+adresse+'<div class="clear"></div></div><ul>';
+					$.each(value.capabilities, function(key,value){
+						html += '<li>- '+value.titre+'</li>'
+					})
+					html += '</ul></div>'
+					index++
+				})
+				$('#pages .contacts .colright .overview').append(html)
+			}
+		})
+
+
+		// Lancement des évènements
+		$(this.contact).hammer().on("tap", function(e){
+			self.open()
+		})	
+		$('.button', this.contact).hammer().on("tap", function(e){
+			self.close()
+		})	
+
+	}
+	// UI
+	this.open = function(){
+		if(!this.opened){
+			this.contact.addClass('active')
+			oNavigation.navTo('contacts')
+			$('#pages .contacts .content .colright').tinyscrollbar({invertscroll: true});
+			setTimeout(function(){
+				self.opened = true
+			}, 500)
+		}
+	}
+	this.close = function(){
+		if(this.opened){
+			this.contact.removeClass('active')
+			oNavigation.navTo('home')
+			setTimeout(function(){
+				self.opened = false
+			}, 500)
+		}
+	}
+	
+	this.construct()
+}
+
 
 
 

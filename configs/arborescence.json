@@ -271,7 +271,12 @@
 					"onload"     : "onLoadInfographics",
 					"reversemenu": true
 				},
-	"contacts" : {},
+	"contacts" : {
+		"niveau"     : 0,
+		"template"   : "contacts",
+		"fond"       : "white",
+		"disablemenu": true
+	},
 	"panier" : {
 		"niveau"     : 0,
 		"template"   : "panier",
