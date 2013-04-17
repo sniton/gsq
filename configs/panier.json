@@ -1,7 +1,827 @@
 {
-	"fichierpdfexemple" : {
-		"title" : "Fichier PDF Exemple",
-		"file" : "fichierpdfexemple.pdf",
+	"capability-multi-technical-maintenance" : {
+		"title" : "Multi-technical Maintenance ",
+		"file" : "capability-multi-technical-maintenance.pdf",
+		"type" : "capability"
+	},
+	"capability-electrical-engineering" : {
+		"title" : "Electrical Engineering",
+		"file" : "capability-electrical-engineering.pdf",
+		"type" : "capability"
+	},
+	"capability-illuminations-and-giant-screens" : {
+		"title" : "Illuminations and giant screens",
+		"file" : "capability-illuminations-and-giant-screens.pdf",
+		"type" : "capability"
+	},
+	"capability-fire-protection" : {
+		"title" : "Fire Protection",
+		"file" : "capability-fire-protection.pdf",
+		"type" : "capability"
+	},
+	"capability-renewable-energies" : {
+		"title" : "Renewable Energies",
+		"file" : "capability-renewable-energies.pdf",
+		"type" : "capability"
+	},
+	"capability-waste-sorting-and-recovery" : {
+		"title" : "Waste Sorting and Recovery",
+		"file" : "capability-waste-sorting-and-recovery.pdf",
+		"type" : "capability"
+	},
+	"capability-climate-engineering" : {
+		"title" : "Climate Engineering",
+		"file" : "capability-climate-engineering.pdf",
+		"type" : "capability"
+	},
+	"capability-air-treatment" : {
+		"title" : "Air Treatment",
+		"file" : "capability-air-treatment.pdf",
+		"type" : "capability"
+	},
+	"capability-kitchen-refrigeration" : {
+		"title" : "Kitchen Refrigeration",
+		"file" : "capability-kitchen-refrigeration.pdf",
+		"type" : "capability"
+	},
+	"capability-smart-control-and-site-security" : {
+		"title" : "Smart control and site security",
+		"file" : "capability-smart-control-and-site-security.pdf",
+		"type" : "capability"
+	},
+	"capability-management-and-procurement-of-resources" : {
+		"title" : "Management and procurement of resources",
+		"file" : "capability-management-and-procurement-of-resources.pdf",
+		"type" : "capability"
+	},
+	"capability-sustainable-mobility-solutions" : {
+		"title" : "Sustainable Mobility Solutions",
+		"file" : "capability-sustainable-mobility-solutions.pdf",
+		"type" : "capability"
+	},
+	"capability-purification-and-industrial-maintenance" : {
+		"title" : "Purification and industrial maintenance",
+		"file" : "capability-purification-and-industrial-maintenance.pdf",
+		"type" : "capability"
+	},
+	"capability-design-construction-project-management" : {
+		"title" : "Design, construction, project management",
+		"file" : "capability-design-construction-project-management.pdf",
+		"type" : "capability"
+	},
+	"capability-ensuring-operational-fitness-and-integrated-logistic-support" : {
+		"title" : "Ensuring operational fitness and integrated logistic support",
+		"file" : "capability-ensuring-operational-fitness-and-integrated-logistic-support.pdf",
+		"type" : "capability"
+	},
+	"capability-perimeter-protection-videosurveillance-and-runway-marking" : {
+		"title" : "Perimeter protection, videosurveillance and runway marking",
+		"file" : "capability-perimeter-protection-videosurveillance-and-runway-marking.pdf",
+		"type" : "capability"
+	},
+	"capability-communication-networks-and-dedicated-infrastructures" : {
+		"title" : "Communication networks and dedicated infrastructures",
+		"file" : "capability-communication-networks-and-dedicated-infrastructures.pdf",
+		"type" : "capability"
+	},
+	"capability-lecture-theatres-classrooms-and-information-technology-training-rooms" : {
+		"title" : "Lecture theatres, classrooms and Information Technology training rooms",
+		"file" : "capability-lecture-theatres-classrooms-and-information-technology-training-rooms.pdf",
+		"type" : "capability"
+	},
+	"capability-datacenter" : {
+		"title" : "Datacenter",
+		"file" : "capability-datacenter.pdf",
+		"type" : "capability"
+	},
+	"capability-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives" : {
+		"title" : "Thermal and classical soil remediation / Deconstruction / Removal of explosives ",
+		"file" : "capability-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives.pdf",
+		"type" : "capability"
+	},
+	"capability-global-cultural-event-management" : {
+		"title" : "Global Cultural Event Management",
+		"file" : "capability-global-cultural-event-management.pdf",
+		"type" : "capability"
+	},
+	"capability-interactive-terminal-for-patients" : {
+		"title" : "Interactive Terminal for Patients",
+		"file" : "capability-interactive-terminal-for-patients.pdf",
+		"type" : "capability"
+	},
+	"capability-laundry-expertise" : {
+		"title" : "Laundry expertise",
+		"file" : "capability-laundry-expertise.pdf",
+		"type" : "capability"
+	},
+	"capability-water-purification-systems" : {
+		"title" : "Water Purification Systems ",
+		"file" : "capability-water-purification-systems.pdf",
+		"type" : "capability"
+	},
+	"capability-mobile-water-supply-and-treatment-systems" : {
+		"title" : "Mobile water supply and treatment systems",
+		"file" : "capability-mobile-water-supply-and-treatment-systems.pdf",
+		"type" : "capability"
+	},
+	"capability-mobility" : {
+		"title" : "Mobility",
+		"file" : "capability-mobility.pdf",
+		"type" : "capability"
+	},
+	"capability-building-and-demolishing-facilities" : {
+		"title" : "Building and demolishing facilities",
+		"file" : "capability-building-and-demolishing-facilities.pdf",
+		"type" : "capability"
+	},
+	"technologie-degres-bleus" : {
+		"title" : "Degrés Bleus®",
+		"file" : "technologie-degres-bleus.pdf",
+		"type" : "technologie"
+	},
+	"technologie-vigionella" : {
+		"title" : "Vigionella",
+		"file" : "technologie-vigionella.pdf",
+		"type" : "technologie"
+	},
+	"technologie-smart-city-dashboard" : {
+		"title" : "“Smart City Dashboard” ",
+		"file" : "technologie-smart-city-dashboard.pdf",
+		"type" : "technologie"
+	},
+	"technologie-elena" : {
+		"title" : "Elena",
+		"file" : "technologie-elena.pdf",
+		"type" : "technologie"
+	},
+	"technologie-bio-deconditioner" : {
+		"title" : "Bio-deconditioner",
+		"file" : "technologie-bio-deconditioner.pdf",
+		"type" : "technologie"
+	},
+	"technologie-co2-and-nh3-technologies" : {
+		"title" : "CO2 and NH3 technologies",
+		"file" : "technologie-co2-and-nh3-technologies.pdf",
+		"type" : "technologie"
+	},
+	"technologie-carbon-footprint-of-hypermarkets-and-supermarkets" : {
+		"title" : "Carbon footprint of hypermarkets and supermarkets",
+		"file" : "technologie-carbon-footprint-of-hypermarkets-and-supermarkets.pdf",
+		"type" : "technologie"
+	},
+	"technologie-multimedia-patient-terminal" : {
+		"title" : "Multimedia patient terminal",
+		"file" : "technologie-multimedia-patient-terminal.pdf",
+		"type" : "technologie"
+	},
+	"technologie-purite-limited" : {
+		"title" : "Purite Limited",
+		"file" : "technologie-purite-limited.pdf",
+		"type" : "technologie"
+	},
+	"technologie-vertuoz" : {
+		"title" : "Vertuoz",
+		"file" : "technologie-vertuoz.pdf",
+		"type" : "technologie"
+	},
+	"technologie-omobile" : {
+		"title" : "Omobile",
+		"file" : "technologie-omobile.pdf",
+		"type" : "technologie"
+	},
+	"references-the-center-of-new-industrie-and-technologies-and-the-carrousel-du-louvre" : {
+		"title" : "The Center of New Industries and Technologies and the Carrousel du Louvre, France",
+		"file" : "references-the-center-of-new-industrie-and-technologies-and-the-carrousel-du-louvre.pdf",
+		"type" : "reference"
+	},
+	"references-altarea-cogedim-the-bongarde-regional-shopping-mall-in-villeneuve-la-garenne" : {
+		"title" : "Altarea Cogedim, the Bongarde regional shopping mall in Villeneuve la Garenne, France",
+		"file" : "references-altarea-cogedim-the-bongarde-regional-shopping-mall-in-villeneuve-la-garenne.pdf",
+		"type" : "reference"
+	},
+	"references-mercialys-the-caserne-de-bonne-shopping-mall-in-grenoble" : {
+		"title" : "Mercialys, the Caserne de Bonne shopping mall in Grenoble, France",
+		"file" : "references-mercialys-the-caserne-de-bonne-shopping-mall-in-grenoble.pdf",
+		"type" : "reference"
+	},
+	"references-casino-france" : {
+		"title" : "Casino, France",
+		"file" : "references-casino-france.pdf",
+		"type" : "reference"
+	},
+	"references-monoprix-paris-france" : {
+		"title" : "Monoprix, Paris, France",
+		"file" : "references-monoprix-paris-france.pdf",
+		"type" : "reference"
+	},
+	"references-segece-klepierre-the-merignac-soleil-shopping-mall" : {
+		"title" : "Segece Klepierre, the Mérignac Soleil shopping mall, France",
+		"file" : "references-segece-klepierre-the-merignac-soleil-shopping-mall.pdf",
+		"type" : "reference"
+	},
+	"references-the-leclerc-shopping-mall-in-belfort" : {
+		"title" : "The Leclerc shopping mall in Belfort, France",
+		"file" : "references-the-leclerc-shopping-mall-in-belfort.pdf",
+		"type" : "reference"
+	},
+	"references-the-hautepierre-shopping-mall-in-strasbourg" : {
+		"title" : "The Hautepierre shopping mall in Strasbourg, France",
+		"file" : "references-the-hautepierre-shopping-mall-in-strasbourg.pdf",
+		"type" : "reference"
+	},
+	"references-the-carrefour-superstore-in-chapelle-saint-luc" : {
+		"title" : "The Carrefour superstore in Chapelle Saint Luc, France",
+		"file" : "references-the-carrefour-superstore-in-chapelle-saint-luc.pdf",
+		"type" : "reference"
+	},
+	"references-the-oceane-stadium-in-le-havre" : {
+		"title" : "The Océane Stadium in Le Havre, France",
+		"file" : "references-the-oceane-stadium-in-le-havre.pdf",
+		"type" : "reference"
+	},
+	"references-the-bello-horizonte-stadium" : {
+		"title" : "The Bello Horizonte Stadium, Brazil",
+		"file" : "references-the-bello-horizonte-stadium.pdf",
+		"type" : "reference"
+	},
+	"references-the-2012-london-olympic-park" : {
+		"title" : "The 2012 London Olympic Park, the United Kingdom",
+		"file" : "references-the-2012-london-olympic-park.pdf",
+		"type" : "reference"
+	},
+	"references-the-arab-games-in-qatar" : {
+		"title" : "The Arab Games in Qatar",
+		"file" : "references-the-arab-games-in-qatar.pdf",
+		"type" : "reference"
+	},
+	"references-centre-aquatique-du-champ-de-la-lune" : {
+		"title" : "Swimming pool at the city of Braine-le-Comte, Belgium",
+		"file" : "references-centre-aquatique-du-champ-de-la-lune.pdf",
+		"type" : "reference"
+	},
+	"references-the-olympique-lyonnais-soccer-club" : {
+		"title" : "The Olympique Lyonnais soccer club, France",
+		"file" : "references-the-olympique-lyonnais-soccer-club.pdf",
+		"type" : "reference"
+	},
+	"references-the-roland-garros-stadium" : {
+		"title" : "The Roland Garros Stadium, Paris, France",
+		"file" : "references-the-roland-garros-stadium.pdf",
+		"type" : "reference"
+	},
+	"references-the-ice-rink-in-lanester" : {
+		"title" : "The ice rink in Lanester, France",
+		"file" : "references-the-ice-rink-in-lanester.pdf",
+		"type" : "reference"
+	},
+	"references-the-birmimgham-hospital-the-united-kingdom" : {
+		"title" : "The Birmingham Hospital, The United Kingdom",
+		"file" : "references-the-birmimgham-hospital-the-united-kingdom.pdf",
+		"type" : "reference"
+	},
+	"references-the-nancy-university-hospital" : {
+		"title" : "The Nancy University Hospital, France",
+		"file" : "references-the-nancy-university-hospital.pdf",
+		"type" : "reference"
+	},
+	"references-valenciennes-hospital" : {
+		"title" : "Valenciennes Hospital, France",
+		"file" : "references-valenciennes-hospital.pdf",
+		"type" : "reference"
+	},
+	"references-the-cochin-hospital-in-paris" : {
+		"title" : "The Cochin Hospital in Paris, France",
+		"file" : "references-the-cochin-hospital-in-paris.pdf",
+		"type" : "reference"
+	},
+	"references-the-clinique-du-parc-in-toulouse" : {
+		"title" : "The Clinique du Parc in Toulouse, France",
+		"file" : "references-the-clinique-du-parc-in-toulouse.pdf",
+		"type" : "reference"
+	},
+	"references-la-timone-hospital-marseille" : {
+		"title" : "La Timone Hospital in Marseille, France",
+		"file" : "references-la-timone-hospital-marseille.pdf",
+		"type" : "reference"
+	},
+	"references-the-marcel-paul-retirement-home-in-fleurys-merogis" : {
+		"title" : "The Marcel Paul retirement home in Fleury-Mérogis, France",
+		"file" : "references-the-marcel-paul-retirement-home-in-fleurys-merogis.pdf",
+		"type" : "reference"
+	},
+	"references-perigueux-hospital" : {
+		"title" : "Périgueux Hospital, France",
+		"file" : "references-perigueux-hospital.pdf",
+		"type" : "reference"
+	},
+	"references-sebastopol-hospital-in-reims" : {
+		"title" : "Sébastopol Hospital in Reims, France",
+		"file" : "references-sebastopol-hospital-in-reims.pdf",
+		"type" : "reference"
+	},
+	"references-besancon-university-hospital" : {
+		"title" : "Besançon University Hospital, France",
+		"file" : "references-besancon-university-hospital.pdf",
+		"type" : "reference"
+	},
+	"references-henri-laborit-in-poitiers" : {
+		"title" : "Henri Laborit Hospital in Poitiers, France ",
+		"file" : "references-henri-laborit-in-poitiers.pdf",
+		"type" : "reference"
+	},
+	"references-la-gaite-lyrique-paris-france" : {
+		"title" : "La Gaîté Lyrique, Paris, France ",
+		"file" : "references-la-gaite-lyrique-paris-france.pdf",
+		"type" : "reference"
+	},
+	"references-the-philarmonie-de-paris-concert-hall" : {
+		"title" : " The Philarmonie de Paris concert hall, France",
+		"file" : "references-the-philarmonie-de-paris-concert-hall.pdf",
+		"type" : "reference"
+	},
+	"references-musee-de-la-mer-in-biarritz" : {
+		"title" : "The Musée de la Mer (sea life museum) in Biarritz, France",
+		"file" : "references-musee-de-la-mer-in-biarritz.pdf",
+		"type" : "reference"
+	},
+	"references-the-cite-de-la-musique-concert-hall-in-paris" : {
+		"title" : "The Cité de la Musique concert hall in Paris, France",
+		"file" : "references-the-cite-de-la-musique-concert-hall-in-paris.pdf",
+		"type" : "reference"
+	},
+	"references-france-s-national-dance-center-in-pantin" : {
+		"title" : "France's National Dance Center in Pantin, France",
+		"file" : "references-france-s-national-dance-center-in-pantin.pdf",
+		"type" : "reference"
+	},
+	"references-the-cite-de-l-automobile-collection-schlumpf" : {
+		"title" : "The Cité de l’Automobile, Collection Schlumpf-Mulhouse, France",
+		"file" : "references-the-cite-de-l-automobile-collection-schlumpf.pdf",
+		"type" : "reference"
+	},
+	"references-the-musee-des-confluences-in-lyon" : {
+		"title" : "The Musée des Confluences in Lyon, France",
+		"file" : "references-the-musee-des-confluences-in-lyon.pdf",
+		"type" : "reference"
+	},
+	"references-perpignan-theater" : {
+		"title" : "Perpignan Theater, France",
+		"file" : "references-perpignan-theater.pdf",
+		"type" : "reference"
+	},
+	"references-the-ecole-polytechnique-engineering-school-france" : {
+		"title" : "The École Polytechnique engineering school, France",
+		"file" : "references-the-ecole-polytechnique-engineering-school-france.pdf",
+		"type" : "reference"
+	},
+	"references-versaille-saint-quentin-en-yvelines-university" : {
+		"title" : "Versailles Saint-Quentin-en-Yvelines University, France",
+		"file" : "references-versaille-saint-quentin-en-yvelines-university.pdf",
+		"type" : "reference"
+	},
+	"references-the-ecole-normale-superieur-in-lyon" : {
+		"title" : "The École Normale Supérieure in Lyon, France",
+		"file" : "references-the-ecole-normale-superieur-in-lyon.pdf",
+		"type" : "reference"
+	},
+	"references-pierre-et-marie-curie-university" : {
+		"title" : "Pierre et Marie Curie University, France",
+		"file" : "references-pierre-et-marie-curie-university.pdf",
+		"type" : "reference"
+	},
+	"references-cloud-computing-project" : {
+		"title" : "Cloud computing project, Paris Ile-de-France, France ",
+		"file" : "references-cloud-computing-project.pdf",
+		"type" : "reference"
+	},
+	"references-paris-descartes-university" : {
+		"title" : "Paris Descartes University , France ",
+		"file" : "references-paris-descartes-university.pdf",
+		"type" : "reference"
+	},
+	"references-the-luminy-campus" : {
+		"title" : "The Luminy campus, France",
+		"file" : "references-the-luminy-campus.pdf",
+		"type" : "reference"
+	},
+	"references-paris-diderot-university-building" : {
+		"title" : "Paris-Diderot University buildings, France",
+		"file" : "references-paris-diderot-university-building.pdf",
+		"type" : "reference"
+	},
+	"references-the-rhenus-basketball-court-in-strasbourg" : {
+		"title" : "The \"Rhenus\" basketball court in Strasbourg, France ",
+		"file" : "references-the-rhenus-basketball-court-in-strasbourg.pdf",
+		"type" : "reference"
+	},
+	"references-the-zenith-concert-hall-in-amiens" : {
+		"title" : "The \"Le Zénith\" concert hall in Amiens, France",
+		"file" : "references-the-zenith-concert-hall-in-amiens.pdf",
+		"type" : "reference"
+	},
+	"references-the-zenith-concert-hall-in-strasbourg" : {
+		"title" : "The \"Le Zénith\" concert hall in Strasbourg, France ",
+		"file" : "references-the-zenith-concert-hall-in-strasbourg.pdf",
+		"type" : "reference"
+	},
+	"references-the-arena-exhibition-center-and-the-petrols-ice-rink" : {
+		"title" : "The Arena exhibition center and the Perols ice rink, France",
+		"file" : "references-the-arena-exhibition-center-and-the-petrols-ice-rink.pdf",
+		"type" : "reference"
+	},
+	"references-the-golf-national-golf-course-in-guyancourt" : {
+		"title" : "The Golf National golf course in Guyancourt, France",
+		"file" : "references-the-golf-national-golf-course-in-guyancourt.pdf",
+		"type" : "reference"
+	},
+	"references-the-poitou-charentes-golf-courses" : {
+		"title" : "The Poitou Charentes golf courses, France",
+		"file" : "references-the-poitou-charentes-golf-courses.pdf",
+		"type" : "reference"
+	},
+	"references-water-supply-to-al-khoud-reservoir-sultanate-of-oman" : {
+		"title" : "Water Supply to Al Khoud reservoir, Sultanate of Oman",
+		"file" : "references-water-supply-to-al-khoud-reservoir-sultanate-of-oman.pdf",
+		"type" : "reference"
+	},
+	"references-dams-in-sultanate-of-oman" : {
+		"title" : "Dams in Sultanate of Oman ",
+		"file" : "references-dams-in-sultanate-of-oman.pdf",
+		"type" : "reference"
+	},
+	"references-dams-in-lebanon" : {
+		"title" : "Dams in Lebanon",
+		"file" : "references-dams-in-lebanon.pdf",
+		"type" : "reference"
+	},
+	"references-mont-saint-michel-bay" : {
+		"title" : "Mont Saint Michel Bay, France",
+		"file" : "references-mont-saint-michel-bay.pdf",
+		"type" : "reference"
+	},
+	"references-the-playing-fields-in-capbreton" : {
+		"title" : "The playing fields in Capbreton, France",
+		"file" : "references-the-playing-fields-in-capbreton.pdf",
+		"type" : "reference"
+	},
+	"references-fishery-harbour-at-barka" : {
+		"title" : "Fishery harbour at Barka- south Batinah Region, Oman",
+		"file" : "references-fishery-harbour-at-barka.pdf",
+		"type" : "reference"
+	},
+	"references-dam-in-jeddah" : {
+		"title" : "Dam in Jeddah, Saudi Arabia",
+		"file" : "references-dam-in-jeddah.pdf",
+		"type" : "reference"
+	},
+	"references-the-soccer-world-cup-in-france-1988" : {
+		"title" : "The soccer World Cup in France in 1998",
+		"file" : "references-the-soccer-world-cup-in-france-1988.pdf",
+		"type" : "reference"
+	},
+	"references-lusail-marina-district" : {
+		"title" : "Lusail, Marina District, Qatar",
+		"file" : "references-lusail-marina-district.pdf",
+		"type" : "reference"
+	},
+	"references-zenith-de-st-etienne" : {
+		"title" : "Zénith de St Etienne, France",
+		"file" : "references-zenith-de-st-etienne.pdf",
+		"type" : "reference"
+	},
+	"references-parc-euro-disneyland" : {
+		"title" : "Parc Euro Disneyland, France",
+		"file" : "references-parc-euro-disneyland.pdf",
+		"type" : "reference"
+	},
+	"references-eco-district-business-park" : {
+		"title" : "Eco-district \"Business Park\", Asnières-sur-Seine, France",
+		"file" : "references-eco-district-business-park.pdf",
+		"type" : "reference"
+	},
+	"references-roissy-charles-de-gaulle-airport" : {
+		"title" : "Roissy Charles de Gaulle Airport, France",
+		"file" : "references-roissy-charles-de-gaulle-airport.pdf",
+		"type" : "reference"
+	},
+	"references-the-theatre-of-provence" : {
+		"title" : "The Theatre of Provence, France",
+		"file" : "references-the-theatre-of-provence.pdf",
+		"type" : "reference"
+	},
+	"references-the-gustave-eiffel-shopping-centre" : {
+		"title" : "The Gustave Eiffel Shopping Centre, Levallois Perret, France",
+		"file" : "references-the-gustave-eiffel-shopping-centre.pdf",
+		"type" : "reference"
+	},
+	"references-the-palais-des-sports-in-rouen" : {
+		"title" : "The Palais des Sports (sports center) in Rouen, France",
+		"file" : "references-the-palais-des-sports-in-rouen.pdf",
+		"type" : "reference"
+	},
+	"references-the-palais-des-sports-in-nantes" : {
+		"title" : "The Palais des Sports (sports center) in Nantes, France",
+		"file" : "references-the-palais-des-sports-in-nantes.pdf",
+		"type" : "reference"
+	},
+	"references-the-leo-la-grange-stadium-in-toulon" : {
+		"title" : "The Léo Lagrange stadium in Toulon, France ",
+		"file" : "references-the-leo-la-grange-stadium-in-toulon.pdf",
+		"type" : "reference"
+	},
+	"references-centre-aquatique-a-sochaux" : {
+		"title" : "The Sochaux Aquatic Center, France",
+		"file" : "references-centre-aquatique-a-sochaux.pdf",
+		"type" : "reference"
+	},
+	"references-the-lucien-maylin-olympic-swimming-pool-in-la-rochelle" : {
+		"title" : "The Lucien Maylin Olympic swimming pool in La Rochelle, France",
+		"file" : "references-the-lucien-maylin-olympic-swimming-pool-in-la-rochelle.pdf",
+		"type" : "reference"
+	},
+	"references-the-palais-de-la-glace-et-de-la-glisse" : {
+		"title" : "The Palais de la Glace et de la Glisse in Marseille, France ",
+		"file" : "references-the-palais-de-la-glace-et-de-la-glisse.pdf",
+		"type" : "reference"
+	},
+	"references-stade-de-france-a-saint-denis" : {
+		"title" : "The Stade de France stadium in Saint Denis, France",
+		"file" : "references-stade-de-france-a-saint-denis.pdf",
+		"type" : "reference"
+	},
+	"references-the-velodrome-stadium-in-marseille" : {
+		"title" : "The Velodrome stadium in Marseille, France",
+		"file" : "references-the-velodrome-stadium-in-marseille.pdf",
+		"type" : "reference"
+	},
+	"references-the-valenciennes-football-club-stadium" : {
+		"title" : "The Valenciennes Football Club stadium, France",
+		"file" : "references-the-valenciennes-football-club-stadium.pdf",
+		"type" : "reference"
+	},
+	"references-jean-bouin-rugby-stadium" : {
+		"title" : "The Jean Bouin Rugby Stadium in Paris, France",
+		"file" : "references-jean-bouin-rugby-stadium.pdf",
+		"type" : "reference"
+	},
+	"references-la-timone-hospital-in-marseille" : {
+		"title" : "La Timone Hospital in Marseille, France",
+		"file" : "references-la-timone-hospital-in-marseille.pdf",
+		"type" : "reference"
+	},
+	"references-marne-la-valle-general-hospital" : {
+		"title" : "Marne la Vallee General Hospital in Lagny – Jossigny, France",
+		"file" : "references-marne-la-valle-general-hospital.pdf",
+		"type" : "reference"
+	},
+	"references-the-jacquemart-andre-museum-in-paris" : {
+		"title" : "The Jacquemart André museum in Paris, France",
+		"file" : "references-the-jacquemart-andre-museum-in-paris.pdf",
+		"type" : "reference"
+	},
+	"references-the-villa-rothschild-and-villa-kerylos-in-nice" : {
+		"title" : "The Villa Rothschild and the Villa Kérylos in Nice, France",
+		"file" : "references-the-villa-rothschild-and-villa-kerylos-in-nice.pdf",
+		"type" : "reference"
+	},
+	"references-the-arene-de-nimes-maison-carre-and-tour-magne" : {
+		"title" : "The Arènes de Nîmes, Maison Carrée and Tour Magne, Nîmes, France",
+		"file" : "references-the-arene-de-nimes-maison-carre-and-tour-magne.pdf",
+		"type" : "reference"
+	},
+	"references-the-theatre-antique-and-museum-of-art-and-history-orange" : {
+		"title" : "The Théâtre Antique and the Museum of Art and History, Orange, France",
+		"file" : "references-the-theatre-antique-and-museum-of-art-and-history-orange.pdf",
+		"type" : "reference"
+	},
+	"references-the-chateau-des-baux-and-the-carriere-de-lumieres" : {
+		"title" : "The Château des Baux and the Carrières de Lumières, Baux-de-Provence, France",
+		"file" : "references-the-chateau-des-baux-and-the-carriere-de-lumieres.pdf",
+		"type" : "reference"
+	},
+	"references-multiple-sites-client-musanada" : {
+		"title" : "Multiple sites – Client Musanada, Abu Dhabi",
+		"file" : "references-multiple-sites-client-musanada.pdf",
+		"type" : "reference"
+	},
+	"references-burj-khalifa-client-emaar" : {
+		"title" : "Burj Khalifa – Client Emaar, Dubaï",
+		"file" : "references-burj-khalifa-client-emaar.pdf",
+		"type" : "reference"
+	},
+	"references-al-gurm-resort-client-aldar" : {
+		"title" : "Al Gurm Resort – Client Aldar, Abu Dhabi",
+		"file" : "references-al-gurm-resort-client-aldar.pdf",
+		"type" : "reference"
+	},
+	"references-zayeed-university" : {
+		"title" : "Zayeed University, Abu Dhabi",
+		"file" : "references-zayeed-university.pdf",
+		"type" : "reference"
+	},
+	"references-al-rayyana-sorouh" : {
+		"title" : "Al Rayyana Sorouh, Abu Dhabi",
+		"file" : "references-al-rayyana-sorouh.pdf",
+		"type" : "reference"
+	},
+	"references-cofely-refrigeration-quantum-chillers" : {
+		"title" : "Cofely  Refrigeration Quantum Chillers, Dubaï",
+		"file" : "references-cofely-refrigeration-quantum-chillers.pdf",
+		"type" : "reference"
+	},
+	"references-8-boulevard-walk" : {
+		"title" : "8 boulevard walk – Client Emaar, Dubaï",
+		"file" : "references-8-boulevard-walk.pdf",
+		"type" : "reference"
+	},
+	"references-al-raha-gardens" : {
+		"title" : "Al Raha Gardens – Client Aldar, Abu Dhabi",
+		"file" : "references-al-raha-gardens.pdf",
+		"type" : "reference"
+	},
+	"references-corporate-office-client-proctor-and-gamble" : {
+		"title" : "Corporate Office – Client Proctor and Gamble, Dubaï",
+		"file" : "references-corporate-office-client-proctor-and-gamble.pdf",
+		"type" : "reference"
+	},
+	"references-baggage-handling-systems-client-adac" : {
+		"title" : "Baggage Handling Systems – Client Adac , Abu Dhabi",
+		"file" : "references-baggage-handling-systems-client-adac.pdf",
+		"type" : "reference"
+	},
+	"references-al-dur-iwppl-bahrain" : {
+		"title" : "Al Dur IWPPL, Bahrain",
+		"file" : "references-al-dur-iwppl-bahrain.pdf",
+		"type" : "reference"
+	},
+	"references-water-treatment-plants" : {
+		"title" : "Water-treatment plants, Saudi Arabia",
+		"file" : "references-water-treatment-plants.pdf",
+		"type" : "reference"
+	},
+	"references-fujairahseawater-reverse-osmosis-plant" : {
+		"title" : "Fujairahseawater reverse osmosis plant, Saudi Arabia",
+		"file" : "references-fujairahseawater-reverse-osmosis-plant.pdf",
+		"type" : "reference"
+	},
+	"references-doha-west-wastewater-treatment-plant" : {
+		"title" : "Doha West - wastewater treatment plant, Qatar",
+		"file" : "references-doha-west-wastewater-treatment-plant.pdf",
+		"type" : "reference"
+	},
+	"references-lusail-qatar" : {
+		"title" : "Lusail, Qatar",
+		"file" : "references-lusail-qatar.pdf",
+		"type" : "reference"
+	},
+	"references-water-treatment-plant-in-rusafa" : {
+		"title" : "Water treatment plant in al Rusafa, Baghdad, Irak",
+		"file" : "references-water-treatment-plant-in-rusafa.pdf",
+		"type" : "reference"
+	},
+	"references-nuclear-power-in-jordan" : {
+		"title" : "Nuclear power in Jordan",
+		"file" : "references-nuclear-power-in-jordan.pdf",
+		"type" : "reference"
+	},
+	"references-red-sea-dead-sea-water-canal-study-program" : {
+		"title" : "Red Sea- Dead Sea water canal study program, Jordan",
+		"file" : "references-red-sea-dead-sea-water-canal-study-program.pdf",
+		"type" : "reference"
+	},
+	"references-wadi-ma-in-desalination-plant" : {
+		"title" : "Wadi Ma’in Desalination Plant, Jordan",
+		"file" : "references-wadi-ma-in-desalination-plant.pdf",
+		"type" : "reference"
+	},
+	"references-interconnection-of-four-gulf-states-power-systems" : {
+		"title" : "Interconnection of four Gulf states power systems",
+		"file" : "references-interconnection-of-four-gulf-states-power-systems.pdf",
+		"type" : "reference"
+	},
+	"references-chekka-waste-treatment-plant" : {
+		"title" : "Chekka Waste Water Treatment Plant, Lebanon",
+		"file" : "references-chekka-waste-treatment-plant.pdf",
+		"type" : "reference"
+	},
+	"references-batroun-waste-water-treatment-plant" : {
+		"title" : "Batroun Waste Water Treatment Plant, Lebanon",
+		"file" : "references-batroun-waste-water-treatment-plant.pdf",
+		"type" : "reference"
+	},
+	"references-jbeil-waste-water-treatment-plant" : {
+		"title" : "Jbeil Waste Water Treatment Plant, Lebanon",
+		"file" : "references-jbeil-waste-water-treatment-plant.pdf",
+		"type" : "reference"
+	},
+	"references-headquartered-in-barka" : {
+		"title" : "Headquartered in Barka, Oman",
+		"file" : "references-headquartered-in-barka.pdf",
+		"type" : "reference"
+	},
+	"references-barka-ii-plant" : {
+		"title" : "Barka II plant, Oman",
+		"file" : "references-barka-ii-plant.pdf",
+		"type" : "reference"
+	},
+	"references-barka-iii-and-sohar-ii" : {
+		"title" : "Barka III and Sohar II, Oman",
+		"file" : "references-barka-iii-and-sohar-ii.pdf",
+		"type" : "reference"
+	},
+	"references-qatalum-qatar" : {
+		"title" : "Qatalum, Qatar",
+		"file" : "references-qatalum-qatar.pdf",
+		"type" : "reference"
+	},
+	"references-barwa-city-wastewater-treatment-plant" : {
+		"title" : "Barwa City wastewater treatment plant, Qatar",
+		"file" : "references-barwa-city-wastewater-treatment-plant.pdf",
+		"type" : "reference"
+	},
+	"references-qatargas-refinery-qg1" : {
+		"title" : "Qatargas Refinery QG1, Qatar",
+		"file" : "references-qatargas-refinery-qg1.pdf",
+		"type" : "reference"
+	},
+	"references-kaletepe-bagbasi-and-buyukbahce-hepp" : {
+		"title" : "Kaletepe, Bagbasi and Buyukbahce HEPP, Turkey",
+		"file" : "references-kaletepe-bagbasi-and-buyukbahce-hepp.pdf",
+		"type" : "reference"
+	},
+	"references-12-water-treatment-and-waste-water-treatment-plant" : {
+		"title" : "12 water treatment and waste water treatment plants, Turkey",
+		"file" : "references-12-water-treatment-and-waste-water-treatment-plant.pdf",
+		"type" : "reference"
+	},
+	"references-irmal-karabuk-zonguldak-railway-line" : {
+		"title" : "Irmak-Karabük-Zonguldak railway line, Turkey",
+		"file" : "references-irmal-karabuk-zonguldak-railway-line.pdf",
+		"type" : "reference"
+	},
+	"references-al-sufouh-tramway" : {
+		"title" : "Al-Sufouh Tramway, Dubaï",
+		"file" : "references-al-sufouh-tramway.pdf",
+		"type" : "reference"
+	},
+	"references-waste-collection-management" : {
+		"title" : "Waste collection management, Abu Dhabi",
+		"file" : "references-waste-collection-management.pdf",
+		"type" : "reference"
+	},
+	"references-the-formula-1-grand-prix-of-monaco" : {
+		"title" : "The Formula 1 Grand Prix of Monaco",
+		"file" : "references-the-formula-1-grand-prix-of-monaco.pdf",
+		"type" : "reference"
+	},
+	"references-1000-cameras-of-paris" : {
+		"title" : "1 000 cameras of Paris, France",
+		"file" : "references-1000-cameras-of-paris.pdf",
+		"type" : "reference"
+	},
+	"references-operation-center-of-rio-de-janeiro" : {
+		"title" : "Operations Center of Rio de Janeiro, Brazil",
+		"file" : "references-operation-center-of-rio-de-janeiro.pdf",
+		"type" : "reference"
+	},
+	"references-g20-2012-closely-monitored" : {
+		"title" : "G20 2012 closely monitored, Cannes, France",
+		"file" : "references-g20-2012-closely-monitored.pdf",
+		"type" : "reference"
+	},
+	"references-explosive-contamination-audit-at-the-orleans-bricy" : {
+		"title" : "Explosives contamination audit at the Orléans-Bricy air base, France",
+		"file" : "references-explosive-contamination-audit-at-the-orleans-bricy.pdf",
+		"type" : "reference"
+	},
+	"references-fort-d-issy-france" : {
+		"title" : "Fort d'Issy, France",
+		"file" : "references-fort-d-issy-france.pdf",
+		"type" : "reference"
+	},
+	"references-castres-mazamet-hospital" : {
+		"title" : "Castres-Mazamet Hospital, France",
+		"file" : "references-castres-mazamet-hospital.pdf",
+		"type" : "reference"
+	},
+	"references-centre-hospitalier-sud-francilien" : {
+		"title" : "Sud Francilien Hospital, France, France",
+		"file" : "references-centre-hospitalier-sud-francilien.pdf",
+		"type" : "reference"
+	},
+	"references-princess-elisabeth-polar-station-in-antarctica" : {
+		"title" : "Princess Elisabeth, Polar Station in Antarctica ",
+		"file" : "references-princess-elisabeth-polar-station-in-antarctica.pdf",
+		"type" : "reference"
+	},
+	"references-solar-panels" : {
+		"title" : "Solar panels",
+		"file" : "references-solar-panels.pdf",
+		"type" : "reference"
+	},
+	"references-wind-turbines" : {
+		"title" : "Wind turbines",
+		"file" : "references-wind-turbines.pdf",
 		"type" : "reference"
 	}
 }
