@@ -442,7 +442,8 @@ var navigation = function(){
 			self.showMenu()
 		})
 		$('#logo').hammer().on('tap', function(){
-			self.navTo('home')
+			// self.navTo('home')
+			self.navTo('video-test')
 		})
 	}
 	this.niveau1and2Events = function(){
