@@ -293,12 +293,1072 @@
 		"disablemenu": true,
 		"datas"      : "capability-multi-technical-maintenance"
 	},
+	"capability-electrical-engineering" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-electrical-engineering"
+	},
+	"capability-illuminations-and-giant-screens" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-illuminations-and-giant-screens"
+	},
+	"capability-fire-protection" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-fire-protection"
+	},
+	"capability-renewable-energies" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-renewable-energies"
+	},
+	"capability-waste-sorting-and-recovery" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-waste-sorting-and-recovery"
+	},
+	"capability-climate-engineering" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-climate-engineering"
+	},
+	"capability-air-treatment" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-air-treatment"
+	},
+	"capability-kitchen-refrigeration" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-kitchen-refrigeration"
+	},
+	"capability-smart-control-and-site-security" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-smart-control-and-site-security"
+	},
+	"capability-management-and-procurement-of-resources" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-management-and-procurement-of-resources"
+	},
+	"capability-sustainable-mobility-solutions" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-sustainable-mobility-solutions"
+	},
+	"capability-purification-and-industrial-maintenance" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-purification-and-industrial-maintenance"
+	},
+	"capability-design-construction-project-management" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-design-construction-project-management"
+	},
+	"capability-ensuring-operational-fitness-and-integrated-logistic-support" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-ensuring-operational-fitness-and-integrated-logistic-support"
+	},
+	"capability-perimeter-protection-videosurveillance-and-runway-marking" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-perimeter-protection-videosurveillance-and-runway-marking"
+	},
+	"capability-communication-networks-and-dedicated-infrastructures" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-communication-networks-and-dedicated-infrastructures"
+	},
+	"capability-lecture-theatres-classrooms-and-information-technology-training-rooms" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-lecture-theatres-classrooms-and-information-technology-training-rooms"
+	},
+	"capability-datacenter" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-datacenter"
+	},
+	"capability-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives"
+	},
+	"capability-global-cultural-event-management" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-global-cultural-event-management"
+	},
+	"capability-interactive-terminal-for-patients" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-interactive-terminal-for-patients"
+	},
+	"capability-laundry-expertise" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-laundry-expertise"
+	},
+	"capability-water-purification-systems" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-water-purification-systems"
+	},
+	"capability-mobile-water-supply-and-treatment-systems" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-mobile-water-supply-and-treatment-systems"
+	},
+	"capability-mobility" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-mobility"
+	},
+	"capability-building-and-demolishing-facilities" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "capability",
+		"disablemenu": true,
+		"datas"      : "capability-building-and-demolishing-facilities"
+	},
 	"technologie-degres-bleus" : {
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "technology",
 		"disablemenu": true,
 		"datas"      : "technologie-degres-bleus"
+	}, 
+	"technologie-vigionella" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "technology",
+		"disablemenu": true,
+		"datas"      : "technologie-vigionella"
+	}, 
+	"technologie-smart-city-dashboard" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "technology",
+		"disablemenu": true,
+		"datas"      : "technologie-smart-city-dashboard"
+	}, 
+	"technologie-elena" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "technology",
+		"disablemenu": true,
+		"datas"      : "technologie-elena"
+	}, 
+	"technologie-bio-deconditioner" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "technology",
+		"disablemenu": true,
+		"datas"      : "technologie-bio-deconditioner"
+	}, 
+	"technologie-co2-and-nh3-technologies" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "technology",
+		"disablemenu": true,
+		"datas"      : "technologie-co2-and-nh3-technologies"
+	}, 
+	"technologie-carbon-footprint-of-hypermarkets-and-supermarkets" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "technology",
+		"disablemenu": true,
+		"datas"      : "technologie-carbon-footprint-of-hypermarkets-and-supermarkets"
+	}, 
+	"technologie-multimedia-patient-terminal" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "technology",
+		"disablemenu": true,
+		"datas"      : "technologie-multimedia-patient-terminal"
+	}, 
+	"technologie-purite-limited" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "technology",
+		"disablemenu": true,
+		"datas"      : "technologie-purite-limited"
+	}, 
+	"technologie-vertuoz" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "technology",
+		"disablemenu": true,
+		"datas"      : "technologie-vertuoz"
+	}, 
+	"technologie-omobile" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "technology",
+		"disablemenu": true,
+		"datas"      : "technologie-omobile"
+	}, 
+	"references-the-center-of-new-industrie-and-technologies-and-the-carrousel-du-louvre" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-center-of-new-industrie-and-technologies-and-the-carrousel-du-louvre"
+	},
+	"references-altarea-cogedim-the-bongarde-regional-shopping-mall-in-villeneuve-la-garenne" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-altarea-cogedim-the-bongarde-regional-shopping-mall-in-villeneuve-la-garenne"
+	},
+	"references-mercialys-the-caserne-de-bonne-shopping-mall-in-grenoble" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-mercialys-the-caserne-de-bonne-shopping-mall-in-grenoble"
+	},
+	"references-casino-france" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-casino-france"
+	},
+	"references-monoprix-paris-france" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-monoprix-paris-france"
+	},
+	"references-segece-klepierre-the-merignac-soleil-shopping-mall" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-segece-klepierre-the-merignac-soleil-shopping-mall"
+	},
+	"references-the-leclerc-shopping-mall-in-belfort" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-leclerc-shopping-mall-in-belfort"
+	},
+	"references-the-hautepierre-shopping-mall-in-strasbourg" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-hautepierre-shopping-mall-in-strasbourg"
+	},
+	"references-the-carrefour-superstore-in-chapelle-saint-luc" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-carrefour-superstore-in-chapelle-saint-luc"
+	},
+	"references-the-oceane-stadium-in-le-havre" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-oceane-stadium-in-le-havre"
+	},
+	"references-the-bello-horizonte-stadium" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-bello-horizonte-stadium"
+	},
+	"references-the-2012-london-olympic-park" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-2012-london-olympic-park"
+	},
+	"references-the-arab-games-in-qatar" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-arab-games-in-qatar"
+	},
+	"references-centre-aquatique-du-champ-de-la-lune" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-centre-aquatique-du-champ-de-la-lune"
+	},
+	"references-the-olympique-lyonnais-soccer-club" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-olympique-lyonnais-soccer-club"
+	},
+	"references-the-roland-garros-stadium" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-roland-garros-stadium"
+	},
+	"references-the-ice-rink-in-lanester" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-ice-rink-in-lanester"
+	},
+	"references-the-birmimgham-hospital-the-united-kingdom" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-birmimgham-hospital-the-united-kingdom"
+	},
+	"references-the-nancy-university-hospital" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-nancy-university-hospital"
+	},
+	"references-valenciennes-hospital" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-valenciennes-hospital"
+	},
+	"references-the-cochin-hospital-in-paris" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-cochin-hospital-in-paris"
+	},
+	"references-the-clinique-du-parc-in-toulouse" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-clinique-du-parc-in-toulouse"
+	},
+	"references-la-timone-hospital-marseille" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-la-timone-hospital-marseille"
+	},
+	"references-the-marcel-paul-retirement-home-in-fleurys-merogis" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-marcel-paul-retirement-home-in-fleurys-merogis"
+	},
+	"references-perigueux-hospital" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-perigueux-hospital"
+	},
+	"references-sebastopol-hospital-in-reims" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-sebastopol-hospital-in-reims"
+	},
+	"references-besancon-university-hospital" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-besancon-university-hospital"
+	},
+	"references-henri-laborit-in-poitiers" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-henri-laborit-in-poitiers"
+	},
+	"references-la-gaite-lyrique-paris-france" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-la-gaite-lyrique-paris-france"
+	},
+	"references-the-philarmonie-de-paris-concert-hall" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-philarmonie-de-paris-concert-hall"
+	},
+	"references-musee-de-la-mer-in-biarritz" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-musee-de-la-mer-in-biarritz"
+	},
+	"references-the-cite-de-la-musique-concert-hall-in-paris" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-cite-de-la-musique-concert-hall-in-paris"
+	},
+	"references-france-s-national-dance-center-in-pantin" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-france-s-national-dance-center-in-pantin"
+	},
+	"references-the-cite-de-l-automobile-collection-schlumpf" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-cite-de-l-automobile-collection-schlumpf"
+	},
+	"references-the-musee-des-confluences-in-lyon" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-musee-des-confluences-in-lyon"
+	},
+	"references-perpignan-theater" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-perpignan-theater"
+	},
+	"references-the-ecole-polytechnique-engineering-school-france" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-ecole-polytechnique-engineering-school-france"
+	},
+	"references-versaille-saint-quentin-en-yvelines-university" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-versaille-saint-quentin-en-yvelines-university"
+	},
+	"references-the-ecole-normale-superieur-in-lyon" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-ecole-normale-superieur-in-lyon"
+	},
+	"references-pierre-et-marie-curie-university" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-pierre-et-marie-curie-university"
+	},
+	"references-cloud-computing-project" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-cloud-computing-project"
+	},
+	"references-paris-descartes-university" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-paris-descartes-university"
+	},
+	"references-the-luminy-campus" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-luminy-campus"
+	},
+	"references-paris-diderot-university-building" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-paris-diderot-university-building"
+	},
+	"references-the-rhenus-basketball-court-in-strasbourg" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-rhenus-basketball-court-in-strasbourg"
+	},
+	"references-the-zenith-concert-hall-in-amiens" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-zenith-concert-hall-in-amiens"
+	},
+	"references-the-zenith-concert-hall-in-strasbourg" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-zenith-concert-hall-in-strasbourg"
+	},
+	"references-the-arena-exhibition-center-and-the-petrols-ice-rink" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-arena-exhibition-center-and-the-petrols-ice-rink"
+	},
+	"references-the-golf-national-golf-course-in-guyancourt" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-golf-national-golf-course-in-guyancourt"
+	},
+	"references-the-poitou-charentes-golf-courses" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-poitou-charentes-golf-courses"
+	},
+	"references-water-supply-to-al-khoud-reservoir-sultanate-of-oman" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-water-supply-to-al-khoud-reservoir-sultanate-of-oman"
+	},
+	"references-dams-in-sultanate-of-oman" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-dams-in-sultanate-of-oman"
+	},
+	"references-dams-in-lebanon" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-dams-in-lebanon"
+	},
+	"references-mont-saint-michel-bay" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-mont-saint-michel-bay"
+	},
+	"references-the-playing-fields-in-capbreton" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-playing-fields-in-capbreton"
+	},
+	"references-fishery-harbour-at-barka" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-fishery-harbour-at-barka"
+	},
+	"references-dam-in-jeddah" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-dam-in-jeddah"
+	},
+	"references-the-soccer-world-cup-in-france-1988" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-soccer-world-cup-in-france-1988"
+	},
+	"references-lusail-marina-district" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-lusail-marina-district"
+	},
+	"references-zenith-de-st-etienne" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-zenith-de-st-etienne"
+	},
+	"references-parc-euro-disneyland" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-parc-euro-disneyland"
+	},
+	"references-eco-district-business-park" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-eco-district-business-park"
+	},
+	"references-roissy-charles-de-gaulle-airport" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-roissy-charles-de-gaulle-airport"
+	},
+	"references-the-theatre-of-provence" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-theatre-of-provence"
+	},
+	"references-the-gustave-eiffel-shopping-centre" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-gustave-eiffel-shopping-centre"
+	},
+	"references-the-palais-des-sports-in-rouen" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-palais-des-sports-in-rouen"
+	},
+	"references-the-palais-des-sports-in-nantes" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-palais-des-sports-in-nantes"
+	},
+	"references-the-leo-la-grange-stadium-in-toulon" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-leo-la-grange-stadium-in-toulon"
+	},
+	"references-centre-aquatique-a-sochaux" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-centre-aquatique-a-sochaux"
+	},
+	"references-the-lucien-maylin-olympic-swimming-pool-in-la-rochelle" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-lucien-maylin-olympic-swimming-pool-in-la-rochelle"
+	},
+	"references-the-palais-de-la-glace-et-de-la-glisse" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-palais-de-la-glace-et-de-la-glisse"
+	},
+	"references-stade-de-france-a-saint-denis" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-stade-de-france-a-saint-denis"
+	},
+	"references-the-velodrome-stadium-in-marseille" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-velodrome-stadium-in-marseille"
+	},
+	"references-the-valenciennes-football-club-stadium" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-valenciennes-football-club-stadium"
+	},
+	"references-jean-bouin-rugby-stadium" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-jean-bouin-rugby-stadium"
+	},
+	"references-la-timone-hospital-in-marseille" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-la-timone-hospital-in-marseille"
+	},
+	"references-marne-la-valle-general-hospital" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-marne-la-valle-general-hospital"
+	},
+	"references-the-jacquemart-andre-museum-in-paris" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-jacquemart-andre-museum-in-paris"
+	},
+	"references-the-villa-rothschild-and-villa-kerylos-in-nice" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-villa-rothschild-and-villa-kerylos-in-nice"
+	},
+	"references-the-arene--de-nimes-maison-carre-and-tour-magne" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-arene--de-nimes-maison-carre-and-tour-magne"
+	},
+	"references-the-theatre-antique-and-museum-of-art-and-history-orange" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-theatre-antique-and-museum-of-art-and-history-orange"
+	},
+	"references-the-chateau-des-baux-and-the-carriere-de-lumieres" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-chateau-des-baux-and-the-carriere-de-lumieres"
+	},
+	"references-multiple-sites-client-musanada" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-multiple-sites-client-musanada"
+	},
+	"references-burj-khalifa-client-emaar" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-burj-khalifa-client-emaar"
+	},
+	"references-al-gurm-resort-client-aldar" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-al-gurm-resort-client-aldar"
+	},
+	"references-zayeed-university" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-zayeed-university"
+	},
+	"references-al-rayyana-sorouh" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-al-rayyana-sorouh"
+	},
+	"references-cofely-refrigeration-quantum-chillers" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-cofely-refrigeration-quantum-chillers"
+	},
+	"references-8-boulevard-walk" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-8-boulevard-walk"
+	},
+	"references-al-raha-gardens" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-al-raha-gardens"
+	},
+	"references-corporate-office-client-proctor-and-gamble" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-corporate-office-client-proctor-and-gamble"
+	},
+	"references-baggage-handling-systems-client-adac" :{
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-baggage-handling-systems-client-adac"
+	},
+	"references-al-dur-iwppl-bahrain" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-al-dur-iwppl-bahrain"
+	},
+	"references-water-treatment-plants" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-water-treatment-plants"
+	},
+	"references-fujairahseawater-reverse-osmosis-plant" :{
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-fujairahseawater-reverse-osmosis-plant"
+	},
+	"references-doha-west-wastewater-treatment-plant" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-doha-west-wastewater-treatment-plant"
+	},
+	"references-lusail-qatar" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-lusail-qatar"
+	},
+	"references-water-treatment-plant-in-rusafa" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-water-treatment-plant-in-rusafa"
+	},
+	"references-nuclear-power-in-jordan" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-nuclear-power-in-jordan"
+	},
+	"references-red-sea-dead-sea-water-canal-study-program" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-red-sea-dead-sea-water-canal-study-program"
+	},
+	"references-wadi-ma-in-desalination-plant" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-wadi-ma-in-desalination-plant"
 	},
 	"references-interconnection-of-four-gulf-states-power-systems" : {
 		"niveau"     : 0,
@@ -308,6 +1368,62 @@
 		"onload"     : "onLoadReference",
 		"datas"      : "references-interconnection-of-four-gulf-states-power-systems"
 	},
+	"references-chekka-waste-treatment-plant" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-chekka-waste-treatment-plant"
+	},
+	"references-batroun-waste-water-treatment-plant" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-batroun-waste-water-treatment-plant"
+	},
+	"references-jbeil-waste-water-treatment-plant" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-jbeil-waste-water-treatment-plant"
+	},
+	"references-headquartered-in-barka" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-headquartered-in-barka"
+	},
+	"references-barka-ii-plant" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-barka-ii-plant"
+	},
+	"references-barka-iii-and-sohar-ii" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-barka-iii-and-sohar-ii"
+	},
+	"references-qatalum-qatar" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-qatalum-qatar"
+	},
 	"references-barwa-city-wastewater-treatment-plant" : {
 		"niveau"     : 0,
 		"fond"       : "white",
@@ -315,6 +1431,142 @@
 		"disablemenu": true,
 		"onload"     : "onLoadReference",
 		"datas"      : "references-barwa-city-wastewater-treatment-plant"
+	},
+	"references-qatargas-refinery-qg1" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-qatargas-refinery-qg1"
+	},
+	"references-kaletepe-bagbasi-and-buyukbahce-hepp" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-kaletepe-bagbasi-and-buyukbahce-hepp"
+	},
+	"references-12-water-treatment-and-waste-water-treatment-plant" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-12-water-treatment-and-waste-water-treatment-plant"
+	},
+	"references-irmal-karabuk-zonguldak-railway-line" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-irmal-karabuk-zonguldak-railway-line"
+	},
+	"references-al-sufouh-tramway" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-al-sufouh-tramway"
+	},
+	"references-waste-collection-management" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-waste-collection-management"
+	},
+	"references-the-formula-1-grand-prix-of-monaco" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-the-formula-1-grand-prix-of-monaco"
+	},
+	"references-1000-cameras-of-paris" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-1000-cameras-of-paris"
+	},
+	"references-operation-center-of-rio-de-janeiro" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-operation-center-of-rio-de-janeiro"
+	},
+	"references-g20-2012-closely-monitored" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-g20-2012-closely-monitored"
+	},
+	"references-explosive-contamination-audit-at-the-orleans-bricy" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-explosive-contamination-audit-at-the-orleans-bricy"
+	},
+	"references-fort-d-issy-france" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-fort-d-issy-france"
+	},
+	"references-castres-mazamet-hospital" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-castres-mazamet-hospital"
+	},
+	"references-centre-hospitalier-sud-francilien" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-centre-hospitalier-sud-francilien"
+	},
+	"references-princess-elisabeth-polar-station-in-antarctica" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-princess-elisabeth-polar-station-in-antarctica"
+	},
+	"references-solar-panels" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-solar-panels"
+	},
+	"references-wind-turbines" : {
+		"niveau"     : 0,
+		"fond"       : "white",
+		"template"   : "reference",
+		"disablemenu": true,
+		"onload"     : "onLoadReference",
+		"datas"      : "references-wind-turbines"
 	},
 	"video-test" : {
 		"niveau"  : 0,
