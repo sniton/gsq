@@ -35,7 +35,7 @@
 			"pays-saudiarabia" : {
 				"parent"  : "gulf-presence",
 				"niveau"  : 2,
-				"angle"   : 112,
+				"angle"   : 141,
 				"fond"    : "saudiarabia",
 				"template": "pays",
 				"onload"  : "onLoadPays",
