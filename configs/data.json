@@ -120,7 +120,7 @@
 	},
 	"pays-united-arab-emirates" : {
 		"image" : "united-arab-emirates.png",
-		"titre" : "UAE",
+		"titre" : "United Arab Emirates",
 		"texte" : "GDF SUEZ has a power capacity of 8.8 GW and a water capacity of 557 MIGD. Tractebel Engineering is a consultant for SEWA, DUBAL, TRANSCO & Mubadala. Sita  Trashco operates the waste collection management in Dubai, Sharjah & Abu Dhabi. Degremont designed, built and implemented the RO technology in Fujairah. Cofely Besix  is in charge of energy and water management in Burj Khalifa and won with Alstom the maintenance contract for Dubai’s tramway. GDF SUEZ employed 1 214 people in the UAE in 2012.",
 		"references" : [
 			{
@@ -219,6 +219,123 @@
 				"image" : "grand-stade-photo-1-ere-page.jpg",
 				"legende" : "Large stadium in Le Havre, France" 
 			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "cofely-01108-hd.jpg",
+				"alias" : "references-the-center-of-new-industrie-and-technologies-and-the-carrousel-du-louvre"
+			},
+			{
+				"index" : 2,
+				"photo" : "piscine-2.jpg",
+				"alias" : "references-centre-aquatique-du-champ-de-la-lune"
+			},
+			{
+				"index" : 3,
+				"photo" : "patinoire-lorient-2.jpg",
+				"alias" : "references-the-ice-rink-in-lanester"
+			},
+			{
+				"index" : 4,
+				"photo" : "sante-pld3556.jpg",
+				"alias" : "references-the-clinique-du-parc-in-toulouse"
+			},
+			{
+				"index" : 5,
+				"photo" : "cofely-02207-a5.jpg",
+				"alias" : "references-perigueux-hospital"
+			},
+			{
+				"index" : 6,
+				"photo" : "cite-musique-5.jpg",
+				"alias" : "references-the-cite-de-la-musique-concert-hall-in-paris"
+			},
+			{
+				"index" : 7,
+				"photo" : "theatre-de-l-archipel-de-perpignan.jpg",
+				"alias" : "references-perpignan-theater"
+			},
+			{
+				"index" : 8,
+				"photo" : "ens-biologie.jpg",
+				"alias" : "references-the-ecole-normale-superieur-in-lyon"
+			},
+			{
+				"index" : 9,
+				"photo" : "cofely-00365.jpg",
+				"alias" : "references-paris-diderot-university-building"
+			},
+			{
+				"index" : 10,
+				"photo" : "cofely-00365.jpg",
+				"alias" : "references-the-palais-des-sports-in-nantes"
+			},
+			{
+				"index" : 11,
+				"photo" : "piscine.jpg",
+				"alias" : "references-the-lucien-maylin-olympic-swimming-pool-in-la-rochelle"
+			},
+			{
+				"index" : 12,
+				"photo" : "cofely-01108-hd.jpg",
+				"alias" : "references-stade-de-france-a-saint-denis"
+			},
+			{
+				"index" : 13,
+				"photo" : "mu-2.jpg",
+				"alias" : "references-multiple-sites-client-musanada"
+			},
+			{
+				"index" : 14,
+				"photo" : "burjkhalifa.jpg",
+				"alias" : "references-burj-khalifa-client-emaar"
+			},
+			{
+				"index" : 15,
+				"photo" : "al-gurm.jpg",
+				"alias" : "references-al-gurm-resort-client-aldar"
+			},
+			{
+				"index" : 16,
+				"photo" : "zayed-university-2.jpg",
+				"alias" : "references-zayeed-university"
+			},
+			{
+				"index" : 17,
+				"photo" : "al-rayanna.jpg",
+				"alias" : "references-al-rayyana-sorouh"
+			},
+			{
+				"index" : 18,
+				"photo" : "cofely-sandrine-2.jpg",
+				"alias" : "references-cofely-refrigeration-quantum-chillers"
+			},
+			{
+				"index" : 19,
+				"photo" : "8-boulevard-2.jpg",
+				"alias" : "references-8-boulevard-walk"
+			},
+			{
+				"index" : 20,
+				"photo" : "al-raha.jpg",
+				"alias" : "references-al-raha-gardens"
+			},
+			{
+				"index" : 21,
+				"photo" : "cofely01108-hd.jpg",
+				"alias" : "references-corporate-office-client-proctor-and-gamble"
+			},
+			{
+				"index" : 22,
+				"photo" : "airport-2.jpg",
+				"alias" : "references-baggage-handling-systems-client-adac"
+			},
+			{
+				"index" : 23,
+				"photo" : "226408.jpg",
+				"alias" : "references-al-sufouh-tramway"
+			}
 		]
 	},
 	"capability-electrical-engineering" : {
@@ -231,12 +348,64 @@
 		],
 		"photos" : [
 			{
-				"image" : "velodrom-5.jpg",
+				"image" : "velodrome-5.jpg",
 				"legende" : "The Velodrome Stadium in Marseille, France"
 			},
 			{
 				"image" : "cofely-ineo-bertrand-holsnyder.jpg",
 				"legende" : "La Gaîté Lyrique, Paris, France"
+			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "ineo-dijon-067.jpg",
+				"alias" : "references-mercialys-the-caserne-de-bonne-shopping-mall-in-grenoble"
+			},
+			{
+				"index" : 2,
+				"photo" : "6-reseaux-electriques.jpg",
+				"alias" : "references-segece-klepierre-the-merignac-soleil-shopping-mall"
+			},
+			{
+				"index" : 3,
+				"photo" : "cofely-ineo-sante.jpg",
+				"alias" : "references-la-timone-hospital-marseille"
+			},
+			{
+				"index" : 4,
+				"photo" : "cofely-ineo-bertrand-holsnyder.jpg",
+				"alias" : "references-la-gaite-lyrique-paris-france"
+			},
+			{
+				"index" : 5,
+				"photo" : "philarmonie-6.jpg",
+				"alias" : "references-the-philarmonie-de-paris-concert-hall"
+			},
+			{
+				"index" : 6,
+				"photo" : "centre-national-de-danse.jpg",
+				"alias" : "references-france-s-national-dance-center-in-pantin"
+			},
+			{
+				"index" : 7,
+				"photo" : "ineo-dijon-071.jpg",
+				"alias" : "references-the-leo-la-grange-stadium-in-toulon"
+			},
+			{
+				"index" : 8,
+				"photo" : "034-225.jpg",
+				"alias" : "references-the-palais-de-la-glace-et-de-la-glisse"
+			},
+			{
+				"index" : 9,
+				"photo" : "velodrom-5.jpg",
+				"alias" : "references-the-velodrome-stadium-in-marseille"
+			},
+			{
+				"index" : 10,
+				"photo" : "229905-1.jpg",
+				"alias" : "references-barka-ii-plant"
 			}
 		]
 	},
@@ -256,6 +425,18 @@
 				"image" : "beaune.jpg",
 				"legende" : "Management of the lighting plan in the town of Beaune, France"
 			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "arab-games-2012-doha.jpg",
+				"alias" : "references-the-arab-games-in-qatar"
+			},
+			{
+				"index" : 2,
+				"photo" : "ineo-dijon-078.jpg",
+				"alias" : "references-the-rhenus-basketball-court-in-strasbourg"
+			}
 		]
 	},
 	"capability-fire-protection" : {
@@ -273,6 +454,23 @@
 				"image" : "219671.jpg",
 				"legende" : "Fire protection system"
 			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "219652.jpg",
+				"alias" : "references-altarea-cogedim-the-bongarde-regional-shopping-mall-in-villeneuve-la-garenne"
+			},
+			{
+				"index" : 2,
+				"photo" : "img-0092.jpg",
+				"alias" : "references-the-gustave-eiffel-shopping-centre"
+			},
+			{
+				"index" : 3,
+				"photo" : "4-protection-incendie.jpg",
+				"alias" : "references-centre-aquatique-a-sochaux"
+			}
 		]
 	},
 	"capability-renewable-energies" : {
@@ -289,8 +487,25 @@
 				"legende" : "Photovoltaic panels"
 			},
 			{
-				"image" : "1-fourniture-de-l-energie.jpg",
+				"image" : "fourniture-de-l-energie.jpg",
 				"legende" : "Dam"
+			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "princess-elisabeth-antartique-dsc-0148-1.jpg",
+				"alias" : "references-princess-elisabeth-polar-station-in-antarctica"
+			},
+			{
+				"index" : 2,
+				"photo" : "solar-panels-20120427-laborelec-013-1.jpg",
+				"alias" : "references-solar-panels"
+			},
+			{
+				"index" : 3,
+				"photo" : "wind-turbines-5465.jpg",
+				"alias" : "references-wind-turbines"
 			}
 		]
 	},
@@ -302,12 +517,44 @@
 		],
 		"photos" : [
 			{
-				"image" : "collecte-dechets-industriel-3.jpg",
+				"image" : "collecte-dechets-industriels-3.jpg",
 				"legende" : "Industrial waste sorting"
 			},
 			{
-				"image" : "collecte-dechets-industriel-5.jpg",
+				"image" : "collecte-dechets-industriels-5.jpg",
 				"legende" : "Industrial waste sorting"
+			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "collecte-dechets-industriel-4.jpg",
+				"alias" : "references-the-leclerc-shopping-mall-in-belfort"
+			},
+			{
+				"index" : 2,
+				"photo" : "collecte-dechets-industriel-3.jpg",
+				"alias" : "references-the-hautepierre-shopping-mall-in-strasbourg"
+			},
+			{
+				"index" : 3,
+				"photo" : "dsc-6569.jpg",
+				"alias" : "references-the-roland-garros-stadium"
+			},
+			{
+				"index" : 4,
+				"photo" : "chu-besancon-vue-aerienne2.jpg",
+				"alias" : "references-besancon-university-hospital"
+			},
+			{
+				"index" : 5,
+				"photo" : "se-20120412nld-010.jpg",
+				"alias" : "references-the-valenciennes-football-club-stadium"
+			},
+			{
+				"index" : 6,
+				"photo" : "collecte-dechets-industriel-3.jpg",
+				"alias" : "references-waste-collection-management"
 			}
 		]
 	},
@@ -320,12 +567,144 @@
 		],
 		"photos" : [
 			{
-				"image" : "centre-national-de-danse.jpg",
+				"image" : "centre-nationale-de-danse.jpg",
 				"legende" : "The National Danse Center in Pantin, France"
 			},
 			{
 				"image" : "philharmonie-6.jpg",
 				"legende" : "The Philarmonie of Paris, France"
+			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "219652.jpg",
+				"alias" : "references-altarea-cogedim-the-bongarde-regional-shopping-mall-in-villeneuve-la-garenne"
+			},
+			{
+				"index" : 2,
+				"photo" : "034-225.jpg",
+				"alias" : "references-casino-france"
+			},
+			{
+				"index" : 3,
+				"photo" : "grand-stade-photo-1-ere-page.jpg",
+				"alias" : "references-the-oceane-stadium-in-le-havre"
+			},
+			{
+				"index" : 4,
+				"photo" : "222111.jpg",
+				"alias" : "references-the-2012-london-olympic-park"
+			},
+			{
+				"index" : 5,
+				"photo" : "patinoire-lorient-2.jpg",
+				"alias" : "references-the-ice-rink-in-lanester"
+			},
+			{
+				"index" : 6,
+				"photo" : "pla-3589.jpg",
+				"alias" : "references-the-nancy-university-hospital"
+			},
+			{
+				"index" : 7,
+				"photo" : "photo1.jpg",
+				"alias" : "references-the-marcel-paul-retirement-home-in-fleurys-merogis"
+			},
+			{
+				"index" : 8,
+				"photo" : "hopital-sebastopol-reims.jpg",
+				"alias" : "references-sebastopol-hospital-in-reims"
+			},
+			{
+				"index" : 9,
+				"photo" : "pld-3602.jpg",
+				"alias" : "references-henri-laborit-in-poitiers"
+			},
+			{
+				"index" : 10,
+				"photo" : "philarmonie-6.jpg",
+				"alias" : "references-the-philarmonie-de-paris-concert-hall"
+			},
+			{
+				"index" : 11,
+				"photo" : "ens-biologie.jpg",
+				"alias" : "references-the-ecole-normale-superieur-in-lyon"
+			},
+			{
+				"index" : 12,
+				"photo" : "034-225.jpg",
+				"alias" : "references-pierre-et-marie-curie-university"
+			},
+			{
+				"index" : 13,
+				"photo" : "ineo-dijon-078.jpg",
+				"alias" : "references-the-rhenus-basketball-court-in-strasbourg"
+			},
+			{
+				"index" : 14,
+				"photo" : "img-0039.jpg",
+				"alias" : "references-the-zenith-concert-hall-in-amiens"
+			},
+			{
+				"index" : 15,
+				"photo" : "al-gurm.jpg",
+				"alias" : "references-the-zenith-concert-hall-in-strasbourg"
+			},
+			{
+				"index" : 16,
+				"photo" : "img-0184-a.jpg",
+				"alias" : "references-the-arena-exhibition-center-and-the-petrols-ice-rink"
+			},
+			{
+				"index" : 17,
+				"photo" : "img-0254a.jpg",
+				"alias" : "references-roissy-charles-de-gaulle-airport"
+			},
+			{
+				"index" : 18,
+				"photo" : "img-0254a.jpg",
+				"alias" : "references-the-theatre-of-provence"
+			},
+			{
+				"index" : 19,
+				"photo" : "img-0092.jpg",
+				"alias" : "references-the-gustave-eiffel-shopping-centre"
+			},
+			{
+				"index" : 20,
+				"photo" : "rouen.jpg",
+				"alias" : "references-the-palais-des-sports-in-rouen"
+			},
+			{
+				"index" : 21,
+				"photo" : "cofely-00365.jpg",
+				"alias" : "references-the-palais-des-sports-in-nantes"
+			},
+			{
+				"index" : 22,
+				"photo" : "4-protection-incendie.jpg",
+				"alias" : "references-centre-aquatique-a-sochaux"
+			},
+			{
+				"index" : 23,
+				"photo" : "034-225.jpg",
+				"alias" : "references-the-palais-de-la-glace-et-de-la-glisse"
+			},
+			{
+				"index" : 24,
+				"photo" : "img-5230.jpg",
+				"alias" : "references-jean-bouin-rugby-stadium"
+			},
+			{
+				"index" : 25,
+				"photo" : "img-5233.jpg",
+				"alias" : "references-la-timone-hospital-in-marseille"
+			},
+			{
+				"index" : 26,
+				"photo" : "img-0071.jpg",
+				"alias" : "references-marne-la-valle-general-hospital"
 			}
 		]
 	},
@@ -362,6 +741,13 @@
 				"image" : "3-refrigeration-commerciale-3.jpg",
 				"legende" : "Kitchen refrigeration system"
 			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "img-0371.jpg",
+				"alias" : "references-the-carrefour-superstore-in-chapelle-saint-luc"
+			}
 		]
 	},
 	"capability-smart-control-and-site-security" : {
@@ -396,6 +782,43 @@
 				"image" : "musee-de-la-mer-aquarium-biarritz.jpg",
 				"legende" : "The Museum of the Sea in Biarritz, France"
 			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "se-20100426fr-017.jpg",
+				"alias" : "references-valenciennes-hospital"
+			},
+			{
+				"index" : 2,
+				"photo" : "musee-de-la-mer-hd.jpg",
+				"alias" : "references-musee-de-la-mer-in-biarritz"
+			},
+			{
+				"index" : 3,
+				"photo" : "centre-national-de-danse.jpg",
+				"alias" : "references-france-s-national-dance-center-in-pantin"
+			},
+			{
+				"index" : 4,
+				"photo" : "dvlmptdurable-242771.jpg",
+				"alias" : "references-the-ecole-polytechnique-engineering-school-france"
+			},
+			{
+				"index" : 5,
+				"photo" : "se-20110319-esp-077.jpg",
+				"alias" : "references-wadi-ma-in-desalination-plant"
+			},
+			{
+				"index" : 6,
+				"photo" : "se-20110824-chn-054-1.jpg",
+				"alias" : "references-chekka-waste-treatment-plant"
+			},
+			{
+				"index" : 7,
+				"photo" : "229905-1.jpg",
+				"alias" : "references-barka-ii-plant"
+			}
 		]
 	},
 	"capability-sustainable-mobility-solutions" : {
@@ -413,6 +836,13 @@
 			{
 				"image" : "bercy-la-nuit.jpg",
 				"legende" : "Distribution of natural gas fuel"
+			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "monoprix-camion-gnv-42-ok.jpg",
+				"alias" : "references-monoprix-paris-france"
 			}
 		]
 	},
@@ -445,6 +875,143 @@
 				"image" : "zenith-st-etienne.jpg",
 				"legende" : "St-Etienne's Zenith, France"
 			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "png-8695.jpg",
+				"alias" : "references-the-bello-horizonte-stadium"
+			},
+			{
+				"index" : 2,
+				"photo" : "ol-land-1.jpg",
+				"alias" : "references-the-olympique-lyonnais-soccer-club"
+			},
+			{
+				"index" : 3,
+				"photo" : "fotolia-26234759-m.jpg",
+				"alias" : "references-the-cochin-hospital-in-paris"
+			},
+			{
+				"index" : 4,
+				"photo" : "musee-des-confluences.jpg",
+				"alias" : "references-the-musee-des-confluences-in-lyon"
+			},
+			{
+				"index" : 5,
+				"photo" : "mg-3996.jpg",
+				"alias" : "references-the-luminy-campus"
+			},
+			{
+				"index" : 6,
+				"photo" : "golf-guyancourt.jpg",
+				"alias" : "references-the-golf-national-golf-course-in-guyancourt"
+			},
+			{
+				"index" : 7,
+				"photo" : "dscf0013.jpg",
+				"alias" : "references-the-poitou-charentes-golf-courses"
+			},
+			{
+				"index" : 8,
+				"photo" : "al-khoud-reservoir.jpg",
+				"alias" : "references-water-supply-to-al-khoud-reservoir-sultanate-of-oman"
+			},
+			{
+				"index" : 9,
+				"photo" : "sans-titre.jpg",
+				"alias" : "references-dams-in-sultanate-of-oman"
+			},
+			{
+				"index" : 10,
+				"photo" : "barrage-chabrouh-liban-safege-2.jpg",
+				"alias" : "references-dams-in-lebanon"
+			},
+			{
+				"index" : 11,
+				"photo" : "le-mont-saint-michel-2.jpg",
+				"alias" : "references-mont-saint-michel-bay"
+			},
+			{
+				"index" : 12,
+				"photo" : "b-007.jpg",
+				"alias" : "references-the-playing-fields-in-capbreton"
+			},
+			{
+				"index" : 13,
+				"photo" : "fishery-harbour.jpg",
+				"alias" : "references-fishery-harbour-at-barka"
+			},
+			{
+				"index" : 14,
+				"photo" : "jeddah.jpg",
+				"alias" : "references-dam-in-jeddah"
+			},
+			{
+				"index" : 15,
+				"photo" : "velodrom-5.jpg",
+				"alias" : "references-the-soccer-world-cup-in-france-1988"
+			},
+			{
+				"index" : 16,
+				"photo" : "lusail-tunnel.jpg",
+				"alias" : "references-lusail-marina-district"
+			},
+			{
+				"index" : 17,
+				"photo" : "zenith-st-etienne.jpg",
+				"alias" : "references-zenith-de-st-etienne"
+			},
+			{
+				"index" : 18,
+				"photo" : "eurodisney-1.jpg",
+				"alias" : "references-parc-euro-disneyland"
+			},
+			{
+				"index" : 19,
+				"photo" : "visuel-plaquette-au.jpg",
+				"alias" : "references-eco-district-business-park"
+			},
+			{
+				"index" : 20,
+				"photo" : "24345.jpg",
+				"alias" : "references-nuclear-power-in-jordan"
+			},
+			{
+				"index" : 21,
+				"photo" : "se-20101120idn-075.jpg",
+				"alias" : "references-red-sea-dead-sea-water-canal-study-program"
+			},
+			{
+				"index" : 22,
+				"photo" : "164936.jpg",
+				"alias" : "references-interconnection-of-four-gulf-states-power-systems"
+			},
+			{
+				"index" : 23,
+				"photo" : "228992-2.jpg",
+				"alias" : "references-headquartered-in-barka"
+			},
+			{
+				"index" : 24,
+				"photo" : "229018-1.jpg",
+				"alias" : "references-barka-iii-and-sohar-ii"
+			},
+			{
+				"index" : 25,
+				"photo" : "238461.jpg",
+				"alias" : "references-qatalum-qatar"
+			},
+			{
+				"index" : 26,
+				"photo" : "76851.jpg",
+				"alias" : "references-kaletepe-bagbasi-and-buyukbahce-hepp"
+			},
+			{
+				"index" : 27,
+				"photo" : "img-0071.jpg",
+				"alias" : "references-irmal-karabuk-zonguldak-railway-line"
+			}
 		]
 	},
 	"capability-ensuring-operational-fitness-and-integrated-logistic-support" : {
@@ -455,11 +1022,11 @@
 		],
 		"photos" : [
 			{
-				"image" : "img-1158.jgp",
+				"image" : "img-1158.jpg",
 				"legende" : "Surveillance systems"
 			},
 			{
-				"image" : "pxr-photo-092.jgp",
+				"image" : "pxr-photo-092.jpg",
 				"legende" : "Operational support (supply of spare parts)"
 			}
 		]
@@ -474,6 +1041,18 @@
 			{
 				"image" : "balisage-1.jpg",
 				"legende" : "Runway marking"
+			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "surveillance.jpg",
+				"alias" : "references-1000-cameras-of-paris"
+			},
+			{
+				"index" : 2,
+				"photo" : "cannes.jpg",
+				"alias" : "references-g20-2012-closely-monitored"
 			}
 		]
 	},
@@ -492,6 +1071,13 @@
 				"image" : "furet-mob-2002-2.jpg",
 				"legende" : "Mobile operational support"
 			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "se-20110312esp-003.jpg",
+				"alias" : "references-operation-center-of-rio-de-janeiro"
+			}
 		]
 	},
 	"capability-lecture-theatres-classrooms-and-information-technology-training-rooms" : {
@@ -508,6 +1094,18 @@
 			{
 				"image" : "mg-3996.jpg",
 				"legende" : "Students in a lecture theatre"
+			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "campus-sciences-versailles-032.jpg",
+				"alias" : "references-versaille-saint-quentin-en-yvelines-university"
+			},
+			{
+				"index" : 2,
+				"photo" : "universite-de-bordeaux.jpg",
+				"alias" : "references-cloud-computing-project"
 			}
 		]
 	},
@@ -527,6 +1125,13 @@
 				"image" : "20.jpg",
 				"legende" : "Datacenter"
 			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "img-6476-ok-4.jpg",
+				"alias" : "references-paris-descartes-university"
+			}
 		]
 	},
 	"capability-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives" : {
@@ -543,6 +1148,18 @@
 			{
 				"image" : "dsc03820.jpg",
 				"legende" : "Thermal soil remediation"
+			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "dsc03820.jpg",
+				"alias" : "references-explosive-contamination-audit-at-the-orleans-bricy"
+			},
+			{
+				"index" : 2,
+				"photo" : "dscn2036-2-2.jpg",
+				"alias" : "references-fort-d-issy-france"
 			}
 		]
 	},
@@ -562,6 +1179,43 @@
 				"image" : "cite-de-l-auto-c-recoura.jpg",
 				"legende" : "Cité de l’Automobile, Schlumpf-Mulhouse, France"
 			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "cofely-ineo-bertrand-holsnyder.jpg",
+				"alias" : "references-la-gaite-lyrique-paris-france"
+			},
+			{
+				"index" : 2,
+				"photo" : "p9-cite-de-l-auto-c-recoura.jpg",
+				"alias" : "references-the-cite-de-l-automobile-collection-schlumpf"
+			},
+			{
+				"index" : 3,
+				"photo" : "jacquemart-andre.jpg",
+				"alias" : "references-the-jacquemart-andre-museum-in-paris"
+			},
+			{
+				"index" : 4,
+				"photo" : "4-couv-pierre-behar.jpg",
+				"alias" : "references-the-villa-rothschild-and-villa-kerylos-in-nice"
+			},
+			{
+				"index" : 5,
+				"photo" : "arenes-nimes.jpg",
+				"alias" : "references-the-arene-de-nimes-maison-carre-and-tour-magne"
+			},
+			{
+				"index" : 6,
+				"photo" : "theatre-antique.jpg",
+				"alias" : "references-the-theatre-antique-and-museum-of-art-and-history-orange"
+			},
+			{
+				"index" : 7,
+				"photo" : "carriere-lumieres.jpg",
+				"alias" : "references-the-chateau-des-baux-and-the-carriere-de-lumieres"
+			}
 		]
 	},
 	"capability-interactive-terminal-for-patients" : {
@@ -578,6 +1232,18 @@
 			{
 				"image" : "viadesign-portal-adult.jpg",
 				"legende" : "Interactive Terminal for Patients"
+			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "398.jpg",
+				"alias" : "references-castres-mazamet-hospital"
+			},
+			{
+				"index" : 2,
+				"photo" : "313.jpg",
+				"alias" : "references-centre-hospitalier-sud-francilien"
 			}
 		]
 	},
@@ -609,6 +1275,13 @@
 				"image" : "unit-for-home-dialysis.jpg",
 				"legende" : "Water Purification System"
 			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "birmingham-hospital.jpg",
+				"alias" : "references-the-birmimgham-hospital-the-united-kingdom"
+			}
 		]
 	},
 	"capability-mobile-water-supply-and-treatment-systems" : {
@@ -626,6 +1299,63 @@
 			{
 				"image" : "caen-carpiquet-041.jpg",
 				"legende" : "Air-transportable military container"
+			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "se-20110319-esp-065.jpg",
+				"alias" : "references-al-dur-iwppl-bahrain"
+			},
+			{
+				"index" : 2,
+				"photo" : "164956.jpg",
+				"alias" : "references-water-treatment-plants"
+			},
+			{
+				"index" : 3,
+				"photo" : "se-20110316-usa-069-2.jpg",
+				"alias" : "references-fujairahseawater-reverse-osmosis-plant"
+			},
+			{
+				"index" : 4,
+				"photo" : "238458.jpg",
+				"alias" : "references-doha-west-wastewater-treatment-plant"
+			},
+			{
+				"index" : 5,
+				"photo" : "252384-1.jpg",
+				"alias" : "references-lusail-qatar"
+			},
+			{
+				"index" : 6,
+				"photo" : "221059.jpg",
+				"alias" : "references-water-treatment-plant-in-rusafa"
+			},
+			{
+				"index" : 7,
+				"photo" : "se-20110824-chn-031-2.jpg",
+				"alias" : "references-batroun-waste-water-treatment-plant"
+			},
+			{
+				"index" : 8,
+				"photo" : "se-20110319-esp-012.jpg",
+				"alias" : "references-jbeil-waste-water-treatment-plant"
+			},
+			{
+				"index" : 9,
+				"photo" : "221058.jpg",
+				"alias" : "references-barwa-city-wastewater-treatment-plant"
+			},
+			{
+				"index" : 10,
+				"photo" : "06-096-02.jpg",
+				"alias" : "references-qatargas-refinery-qg1"
+			},
+			{
+				"index" : 11,
+				"photo" : "se-20110319-esp-005.jpg",
+				"alias" : "references-12-water-treatment-and-waste-water-treatment-plant"
 			}
 		]
 	},
@@ -656,6 +1386,13 @@
 			{
 				"image" : "monaco2.jpg",
 				"legende" : "Grand prix de Monaco"
+			}
+		],
+		"references" : [
+			{
+				"index" : 1,
+				"photo" : "monaco.jpg",
+				"alias" : "references-the-formula-1-grand-prix-of-monaco"
 			}
 		]
 	},
@@ -1599,7 +2336,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "dvlmptdurable-242771.jgp",
+				"image" : "dvlmptdurable-242771.jpg",
 				"legende" : "Power supply"
 			}
 		]
@@ -2413,7 +3150,7 @@
 			}
 		]
 	},
-	"references-the-arene--de-nimes-maison-carre-and-tour-magne" : {
+	"references-the-arene-de-nimes-maison-carre-and-tour-magne" : {
 		"titre" : "The Arènes de Nîmes, Maison Carrée and Tour Magne, Nîmes, France",
 		"texte" : "GDF SUEZ provides end-to-end cultural and economic management services for the Arènes de Nimes, Maison Carrée and Tour Magne.",
 		"competences" : [
