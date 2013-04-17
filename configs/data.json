@@ -6,6 +6,7 @@
 		"references" : [
 			{
 				"index" : 1,
+				"photo" : "jeddah.jpg",
 				"alias" : "references-dam-in-jeddah"
 			},
 			{
@@ -39,14 +40,17 @@
 		"references" : [
 			{
 				"index" : 1,
+				"photo" : "al-khoud-reservoir.jpg",
 				"alias" : "references-water-supply-to-al-khoud-reservoir-sultanate-of-oman"
 			},
 			{
 				"index" : 2,
+				"photo" : "sans-titre.jpg",
 				"alias" : "references-dams-in-sultanate-of-oman"
 			},
 			{
 				"index" : 3,
+				"photo" : "fishery-harbour.jpg",
 				"alias" : "references-fishery-harbour-at-barka"
 			},
 			{
@@ -79,6 +83,7 @@
 		"references" : [
 			{
 				"index" : 1,
+				"photo" : "lusail-tunnel.jpg",
 				"alias" : "references-lusail-marina-district"
 			},
 			{
@@ -88,6 +93,7 @@
 			},
 			{
 				"index" : 3,
+				"photo" : "238461.jpg",
 				"alias" : "references-qatalum-qatar"
 			},
 			{
@@ -119,26 +125,32 @@
 		"references" : [
 			{
 				"index" : 1,
+				"photo" : "al-gurm.jpg",
 				"alias" : "references-al-gurm-resort-client-aldar"
 			},
 			{
 				"index" : 2,
+				"photo" : "al-raha.jpg",
 				"alias" : "references-al-raha-gardens"
 			},
 			{
 				"index" : 3,
+				"photo" : "airport-2.jpg",
 				"alias" : "references-baggage-handling-systems-client-adac"
 			},
 			{
 				"index" : 4,
+				"photo" : "burjkhalifa.jpg",
 				"alias" : "references-burj-khalifa-client-emaar"
 			},
 			{
 				"index" : 5,
+				"photo" : "8-boulevard-2.jpg",
 				"alias" : "references-8-boulevard-walk"
 			},
 			{
 				"index" : 6,
+				"photo" : "226408.jpg",
 				"alias" : "references-al-sufouh-tramway"
 			}
 		],
@@ -490,7 +502,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "univesite-bordeaux",
+				"image" : "universite-bordeaux.jpg",
 				"legende" : "Students at the University"
 			},
 			{
@@ -638,11 +650,11 @@
 		],
 		"photos" : [
 			{
-				"image" : "photo1",
+				"image" : "monaco.jpg",
 				"legende" : "Grand prix de Monaco"
 			},
 			{
-				"image" : "photo2",
+				"image" : "monaco2.jpg",
 				"legende" : "Grand prix de Monaco"
 			}
 		]
@@ -768,13 +780,13 @@
 			"photos" : [
 				{
 					"image" : "page10-techno2.jpg",
-					"legende" : ""
+					"legende" : "CO2 and NH3 technologies"
 				}
 			]
 	},
 	"technologie-carbon-footprint-of-hypermarkets-and-supermarkets" : {
 		"titre" : "Carbon footprint of hypermarkets and supermarkets",
-		"texte" : "Energy and environmental performance<br> GDF SUEZ provides an integrated services solution from a unique territorial network and a combination of key expertise, ranging from cooling, air conditioning and heating, to lighting, energy management and the reuse of waste. A tailor-made approach, managed by a multidisciplinary project team, covering audits, measurement and analysis tools, multi-year work plans, controls, energy supplies and support. A contractually guaranteed reduction in energy consumption and CO2 emissions, while making the stores more comfortable for both customers and staff.",
+		"texte" : "Energy and environmental performance<br>GDF SUEZ provides an integrated services solution from a unique territorial network and a combination of key expertise, ranging from cooling, air conditioning and heating, to lighting, energy management and the reuse of waste. A tailor-made approach, managed by a multidisciplinary project team, covering audits, measurement and analysis tools, multi-year work plans, controls, energy supplies and support. A contractually guaranteed reduction in energy consumption and CO2 emissions, while making the stores more comfortable for both customers and staff.",
 		"chiffre-cles" : [
 			{
 				"chiffres" : "250 kWh/year/m2",
@@ -972,7 +984,7 @@
 		],
 		"photos" : [
 			{
-				"image" : "monoprix-camion-gnv-42-ok",
+				"image" : "monoprix-camion-gnv-42-ok.jpg",
 				"legende" : "Goods vehicle"
 			}
 		]
@@ -1301,7 +1313,7 @@
 			}
 		]
 	},
-	"references-la-timone" : {
+	"references-la-timone-hospital-marseille" : {
 		"titre" : "La Timone Hospital in Marseille, France",
 		"texte" : "La Timone Hospital in Marseille enlisted GDF SUEZ's expertise to install the high-power circuits (lightning protection systems, lighting, etc.) and low-power circuits (fire detection system, security-camera system, etc.) for its medical and clinical support building.",
 		"competences" : [
@@ -2325,7 +2337,7 @@
 			}
 		]
 	},
-	"references-la-timone-hospital-marseille" : {
+	"references-la-timone-hospital-in-marseille" : {
 		"titre" : "La Timone Hospital in Marseille, France",
 		"texte" : "GDF SUEZ installed the heating, ventilation, air conditioning, smoke extraction, fire protection and plumbing systems at La Timone Hospital in Marseille.",
 		"competences" : [
@@ -3991,7 +4003,284 @@
 			}
 		]
 	},
-	"video-test" : {
+	"contact-cofely-axima" : {
+		"titre" : "Cofely Axima",
+		"capabilities" : [
+			{
+				"alias" : "multi-technical-maintenance",
+				"titre" : "Multi-technical Maintenance"
+			},
+			{
+				"alias" : "fire-protection",
+				"titre" : "Fire Protection"
+			},
+			{
+				"alias" : "climate-engineering",
+				"titre" : "Climate Engineering"
+			},
+			{
+				"alias" : "kitchen-refrigeration",
+				"titre" : "Kitchen Refrigeration"
+			}
+		]
+	},
+	"contact-cofely-besix" : {
+		"titre" : "Cofelix Besix",
+		"adresse" : "Mark Saberton-Business Development Manager- Mob: +974 33190741-msaberton@cofely-besix.com",
+		"capabilities" : [
+			{
+				"alias" : "facility-management",
+				"titre" : "Facility Management"
+			}
+		]
+	},
+	"contact-cofely-endel" : {
+		"titre" : "Cofely Endel",
+		"capabilities" : [
+			{
+				"alias" : "building-and-demolishing-facilities",
+				"titre" : "Building and demolishing facilities"
+			}
+		]
+	},
+	"contact-ineo" : {
+		"titre" : "Cofely Ineo",
+		"capabilities" : [
+			{
+				"alias" : "multi-technical-maintenance",
+				"titre" : "Multi-technical Maintenance"
+			},
+			{
+				"alias" : "electrical-engineering",
+				"titre" : "Electrical Engineering"
+			},
+			{
+				"alias" : "illuminations-and-giant-screens",
+				"titre" : "Illuminations and giant screens"
+			},
+			{
+				"alias" : "global-cultural-event-management",
+				"titre" : "Global Cultural Event Management"
+			},
+			{
+				"alias" : "air-treatment",
+				"titre" : "Air Treatment"
+			},
+			{
+				"alias" : "smart-control-and-site-security",
+				"titre" : "Smart control and site security"
+			},
+			{
+				"alias" : "sustainable-mobility-solutions",
+				"titre" : "Sustainable Mobility Solutions"
+			},
+			{
+				"alias" : "ensuring-operational-fitness-and-integrated-logistic-support",
+				"titre" : "Ensuring operational fitness and integrated logistic support"
+			},
+			{
+				"alias" : "perimeter-protection-videosurveillance-and-runway-marking",
+				"titre" : "Perimeter protection, videosurveillance and runway marking"
+			},
+			{
+				"alias" : "communication-networks-and-dedicated-infrastructures",
+				"titre" : "Communication networks and dedicated infrastructures"
+			},
+			{
+				"alias" : "lecture-theatres-classrooms-and-information-technology-training-rooms",
+				"titre" : "Lecture theatres, classrooms and Information Technology training rooms"
+			},
+			{
+				"alias" : "datacenter",
+				"titre" : "Datacenter"
+			},
+			{
+				"alias" : "interactive-terminal-for-patients",
+				"titre" : "Interactive Terminal for Patients"
+			}
+		]
+	},
+	"contact-cofely-services" : {
+		"titre" : "Cofely Services",
+		"capabilities" : [
+			{
+				"alias" : "multi-technical-maintenance",
+				"titre" : "Multi-technical Maintenance "
+			},
+			{
+				"alias" : "electrical-engineering",
+				"titre" : "Electrical Engineering"
+			},
+			{
+				"alias" : "lecture-theatres-classrooms-and-information-technology-training-rooms",
+				"titre" : "Lecture theatres, classrooms and Information Technology training rooms"
+			},
+			{
+				"alias" : "renewable-energies",
+				"titre" : "Renewable Energies"
+			},
+			{
+				"alias" : "climate-engineering",
+				"titre" : "Climate Engineering"
+			},
+			{
+				"alias" : "air-treatment",
+				"titre" : "Air Treatment"
+			},
+			{
+				"alias" : "smart-control-and-site-security",
+				"titre" : "Smart control and site security"
+			},
+			{
+				"alias" : "datacenter",
+				"titre" : "Datacenter"
+			},
+			{
+				"alias" : "laundry-expertise",
+				"titre" : "Laundry expertise"
+			}
+		]
+	},
+	"contact-culturespaces" : {
+		"titre" : "Culturespaces",
+		"capabilities" : [
+			{
+				"alias" : "global-cultural-event-management",
+				"titre" : "Global Cultural Event Management"
+			}
+		]
+	},
+	"contact-degremont" : {
+		"titre" : "Degrémont",
+		"capabilities" : [
+			{
+				"alias" : "management-and-procurement-of-resources",
+				"titre" : "Management and procurement of resources"
+			},
+			{
+				"alias" : "mobile-water-supply-and-treatment-systems",
+				"titre" : "Mobile water supply and treatment systems"
+			}
+		]
+	},
+	"contact-etc" : {
+		"titre" : "ETC",
+		"capabilities" : [
+			{
+				"alias" : "illuminations-and-giant-screens",
+				"titre" : "Illuminations and giant screens"
+			},
+			{
+				"alias" : "global-cultural-event-management",
+				"titre" : "Global Cultural Event Management"
+			}
+		]
+	},
+	"contact-gnvert" : {
+		"titre" : "GNVert",
+		"capabilities" : [
+			{
+				"alias" : "sustainable-mobility-solutions",
+				"titre" : "Sustainable Mobility Solutions"
+			}
+		]
+	},
+	"contact-laborelec" : {
+		"titre" : "Laborélec",
+		"capabilities" : [
+			{
+				"alias" : "renewable-energies",
+				"titre" : "Renewable Energies"
+			}
+		]
+	},
+	"contact-ondeo-is" : {
+		"titre" : "Ondeo IS",
+		"capabilities" : [
+			{
+				"alias" : "management-and-procurement-of-resources",
+				"titre" : "Management and procurement of resources"
+			},
+			{
+				"alias" : "mobile-water-supply-and-treatment-systems",
+				"titre" : "Mobile water supply and treatment systems"
+			}
+		]
+	},
+	"contact-purite-limited" : {
+		"titre" : "Purite Limited",
+		"capabilities" : [
+			{
+				"alias" : "management-and-procurement-of-resources",
+				"titre" : "Management and procurement of resources"
+			},
+			{
+				"alias" : "water-purification-systems",
+				"titre" : "Water Purification Systems "
+			}
+		]
+	},
+	"contact-safege" : {
+		"titre" : "Safege",
+		"capabilities" : [
+			{
+				"alias" : "design-construction-project-management",
+				"titre" : "Design, construction, project management"
+			}
+		]
+	},
+	"contact-sita" : {
+		"titre" : "Sita",
+		"capabilities" : [
+			{
+				"alias" : "waste-sorting-and-recovery",
+				"titre" : "Waste Sorting and Recovery"
+			},
+			{
+				"alias" : "purification-and-industrial-maintenance",
+				"titre" : "Purification and industrial maintenance"
+			},
+			{
+				"alias" : "thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives",
+				"titre" : "Thermal and classical soil remediation / Deconstruction / Removal of explosives"
+			}
+		]
+	},
+	"contact-suez-environnement" : {
+		"titre" : "",
+		"capabilities" : [
+			{
+				"alias" : "multi-technical-maintenance",
+				"titre" : "Multi-technical Maintenance "
+			},
+			{
+				"alias" : "management-and-procurement-of-resources",
+				"titre" : "Management and procurement of resources"
+			}
+		]
+	},
+	"contact-tractebel-engineering" : {
+		"titre" : "Tractebel Engineering",
+		"capabilities" : [
+			{
+				"alias" : "electrical-engineering",
+				"titre" : "Electrical Engineering"
+			},
+			{
+				"alias" : "renewable-energies",
+				"titre" : "Renewable Energies"
+			},
+			{
+				"alias" : "design-construction-project-management",
+				"titre" : "Design, construction, project management"
+			},
+			{
+				"alias" : "mobility",
+				"titre" : "Mobility"
+			}
+		]
+	},
+		"video-test" : {
 		"titre" : "tiroje oieri kdfjlhg df",
 		"video" : "test.mp4"
 	}
