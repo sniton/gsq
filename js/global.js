@@ -154,8 +154,7 @@ var panier = function(){
 
 				// Lancement des évènements
 				$('#pages .panier .content .liste .item:not(.disabled)').hammer().on('tap', function(){
-					console.log('check panier item')
-					$('#log').append('<br>check panier item')
+					// console.log('check panier item')
 					var item = $(this).attr('data-item')
 					$(this).toggleClass('checked')
 					if($(this).hasClass('checked')){
@@ -246,7 +245,7 @@ var panier = function(){
  		var item = this.availableItems[availableItem]
 		var type = item.type
 		this.panierList[type][availableItem] = item
-		console.log(this.panierList)
+		// console.log(this.panierList)
 		this.refresh()
 	}
 	this.removeToPanier = function(availableItem){
@@ -254,7 +253,7 @@ var panier = function(){
  		var item = this.availableItems[availableItem]
  		var type = item.type
 		delete this.panierList[type][availableItem]
-		console.log(this.panierList)
+		// console.log(this.panierList)
 		this.refresh()
 	}
 	this.seePanier = function(){
@@ -267,12 +266,12 @@ var panier = function(){
 	this.emptyPanier = function(){
 		if(confirm("Voulez-vous vider le panier ?")){
 			this.panierList = {'reference': {}, 'video' : {}}
-			console.log(this.panierList)
+			// console.log(this.panierList)
 			this.refresh()
 		}
 	}
 	this.send = function(destinataire){
-		console.log('--send')
+		// console.log('--send')
 		if (navigator.connection) {
 		    var networkState = navigator.connection.type;
 
@@ -287,9 +286,9 @@ var panier = function(){
 						callback.items.push(key)
 					})
 				})
-				console.log(callback)
+				// console.log(callback)
 				var jsonpCallback = JSON.stringify(callback)
-				console.log(jsonpCallback)
+				// console.log(jsonpCallback)
 				$.ajax({
 					url : "http://test.kromi.fr/gdfqatarserveur/index.php",
 					contentType: "application/json",
@@ -326,7 +325,7 @@ var panier = function(){
 		$('#pages .panier input').attr('checked', false)
 		$.each(this.panierList, function(key, type){
 			$.each(type, function(key, value){
-				console.log('check '+key)
+				// console.log('check '+key)
 				$('#pages .panier #panierItem'+key).attr('checked', true)
 			})
 		})
@@ -359,7 +358,7 @@ var panier = function(){
 	this.construct()
 }
 function onLoadPanier(){
-	console.log('--onLoadPanier')
+	// console.log('--onLoadPanier')
 	oPanier.refresh()
 }
 function onLoadPanierSend(){
@@ -390,7 +389,7 @@ var contact = function(){
 				var html = '';
 				var index = 1
 				$.each(data, function(key, value){
-					console.log(value)
+					// console.log(value)
 					var photo = key.replace('contact-', '')
 					var adresse = value.adresse ? '<br><br>'+value.adresse : '' ;
 					html += '<div class="bloc bloc'+index+'"><div class="header"><img src="uploads/societes/'+photo+'.jpg">'+adresse+'<div class="clear"></div></div><ul>';
@@ -419,10 +418,12 @@ var contact = function(){
 		if(!this.opened){
 			this.contact.addClass('active')
 			oNavigation.navTo('contacts')
-			$('#pages .contacts .content .colright').tinyscrollbar({invertscroll: true});
 			setTimeout(function(){
 				self.opened = true
 			}, 500)
+			setTimeout(function(){
+				$('#pages .contacts .content .colright').tinyscrollbar({invertscroll: true});
+			}, 5000)
 		}
 	}
 	this.close = function(){
@@ -475,7 +476,7 @@ var navigation = function(){
 			url: 'configs/arborescence.json',
 			success: function(data){
 				self.arborescence = data
-				console.log(data)
+				// console.log(data)
 			}
 		});
 	}
@@ -484,7 +485,6 @@ var navigation = function(){
 			if(!inNavAction){
 				inNavAction = true;
 				var page = $(this).attr('data-page')
-				$('#log').append('<br>niveau0 event + '+page)
 				self.navTo(page)	
 				setTimeout(function(){
 					inNavAction = false;
@@ -493,8 +493,7 @@ var navigation = function(){
 
 		})
 		$(menu).hammer().on('swipe', function(e){
-			console.log('swipe on menu')
-			$('#log').append('<br>swipe on menu')
+			// console.log('swipe on menu')
 			var direction = e.gesture.direction
 			if(direction == 'down'){
 				self.hideMenu()
@@ -525,10 +524,9 @@ var navigation = function(){
 			},300)
 		}).on('swipe', function(e){
 			if(menuIsHide){
-				console.log('swipe on nav')
-				$('#log').append('<br>swipe on nav')
-				console.log(menuIsHide)
-				console.log(this)
+				// console.log('swipe on nav')
+				// console.log(menuIsHide)
+				// console.log(this)
 				var direction = e.gesture.direction
 				var index = $(this).attr('data-index')
 				if(direction == 'left'){
@@ -537,20 +535,17 @@ var navigation = function(){
 					index--
 				}
 				if(direction == 'left' || direction =='right'){
-					console.log($(this).parent().find('.linkZone[data-index='+index+']'))
+					// console.log($(this).parent().find('.linkZone[data-index='+index+']'))
 					var page = $(this).parent().find('.linkZone[data-index='+index+']').attr('data-page')
 					self.navTo(page)
 				}
 			}
 		})
-		$('.niveau2 .linkZone', menu).mouseover(function(){
-			console.log('over')
-		})
 	}
 	this.navTo = function(page, backLink, backLinkText){
-		console.log('--navTo')
-		console.log(page)
-		console.log(this.arborescence[page])
+		// console.log('--navTo')
+		// console.log(page)
+		// console.log(this.arborescence[page])
 		var redirect = this.arborescence[page].redirect
 		if(redirect){
 			this.navTo(redirect)
@@ -564,8 +559,8 @@ var navigation = function(){
 		}
 	}
 	this.changeFond = function(fond){
-		console.log('--changeFond')
-		console.log(fond+' ' +this.currentFond)
+		// console.log('--changeFond')
+		// console.log(fond+' ' +this.currentFond)
 		if(fond && fond != this.currentFond){
 			$('#fonds .fond.active').removeClass('active')
 			$('#fonds .fond.'+fond).addClass('active')
@@ -573,7 +568,7 @@ var navigation = function(){
 		}
 	}
 	this.changePage = function(page){
-		console.log("--changePage")
+		// console.log("--changePage")
 		if(page != this.currentPage){
 			var virtual = this.arborescence[page].virtual
 			var onUnloadFunction = self.arborescence[this.currentPage].onunload
@@ -585,15 +580,15 @@ var navigation = function(){
 				var template = this.arborescence[page].template
 				if(template){
 					if(!$('#pages .template[data-page='+page+']').length){	
-						console.log("la page n'existe pas, il faut la charger")
+						// console.log("la page n'existe pas, il faut la charger")
 						var datas = self.arborescence[page].datas
 						if(datas){
 							oDatas.pushDatasToTemplate(datas, template)
 						}
 					}
 					setTimeout(function(){
-						console.log('add class active to page')
-						console.log($('#pages .template[data-page='+page+']'))
+						// console.log('add class active to page')
+						// console.log($('#pages .template[data-page='+page+']'))
 						$('#pages .template[data-page='+page+']').addClass('active')
 						var onLoadFunction = self.arborescence[page].onload
 						if(onLoadFunction){
@@ -601,7 +596,7 @@ var navigation = function(){
 						}
 					}, 700)
 				}else{
-					console.log("error: le template n'existe pas")
+					// console.log("error: le template n'existe pas")
 				}
 			}
 			if(this.arborescence[page].disablemenu){
@@ -615,13 +610,13 @@ var navigation = function(){
 		}
 	}
 	this.refreshMenu = function(page, virtual){
-		console.log("--refreshMenu")
+		// console.log("--refreshMenu")
 		var niveau = this.arborescence[page].niveau
 		var angle = this.arborescence[page].angle
 		var reversemenu = this.arborescence[page].reversemenu
-		console.log(niveau)
-		console.log(angle)
-		console.log(reversemenu)
+		// console.log(niveau)
+		// console.log(angle)
+		// console.log(reversemenu)
 		if(niveau == 2){
 			$(menu).addClass('isniveau1 isniveau2')
 			this.loadMenu(this.arborescence[page].parent)
@@ -642,10 +637,8 @@ var navigation = function(){
 		}
 		if(reversemenu){
 			$(menu).addClass('reversed')
-			$('#log').append('<br>add reversed class')
 		}else{
 			$(menu).removeClass('reversed')
-			$('#log').append('<br>remove reversed class')
 		}
 		if(virtual){
 			this.loadMenu(page)
@@ -656,10 +649,10 @@ var navigation = function(){
 		}
 	}
 	this.loadMenu = function(page){
-		console.log('--loadMenu')
+		// console.log('--loadMenu')
 		var menuName = this.arborescence[page].menu
 		var niveau = this.arborescence[page].niveau+1
-		console.log(menuName+' '+niveau)
+		// console.log(menuName+' '+niveau)
 		if(self.currentMenus[niveau-1] != menuName){
 			$.ajax({
 				url: 'configs/menus/'+menuName+'.html',
@@ -674,7 +667,7 @@ var navigation = function(){
 							$('.niveau'+niveau, menu).css('-webkit-transform', 'scale(1) rotate(0deg)')
 						},10)
 						self.currentMenus[niveau-1] = menuName
-						console.log(self.currentMenus)
+						// console.log(self.currentMenus)
 					},10)
 				}
 			});
@@ -685,26 +678,6 @@ var navigation = function(){
 			// },30)
 		}
 	}
-	// this.getPagesByParent = function(parent){
-	// 	console.log(parent)
-	// 	var niveau = this.arborescence[parent].niveau+1
-	// 	if(currentMenuLinks[niveau] != parent){
-	// 		console.log("--getPagesByParent")
-	// 		var pages = new Array;
-	// 		var index = 1
-	// 		$.each(this.arborescence, function(page, data){
-	// 			if(data.parent == parent){
-	// 				console.log("page enfant trouvée")
-	// 				console.log(page)
-	// 				$('.niveau'+niveau+' .linkZone.item'+index, self.menu).attr('data-page', page).text(page)
-	// 				index++
-	// 			}
-	// 		})
-	// 		currentMenuLinks[niveau] = parent
-	// 		console.log(currentMenuLinks)
-	// 	}
-	// 	$(menu).addClass('isniveau'+niveau)
-	// }
 	this.showMenu = function(){
 		$(menu).removeClass('hide')
 		menuIsHide = false
@@ -774,22 +747,22 @@ var datas = function(){
 	var loadedDatas
 
 	this.loadDatas = function(){
-		console.log('--loadDatas')
+		// console.log('--loadDatas')
 		$.ajax({
 			dataType: "json",
 			url: 'configs/data.json',
 			success: function(data){
-				console.log('success load datas')
+				// console.log('success load datas')
 				// console.log(data)
 				self.loadedDatas = data
 			}
 		});
 	}
 	this.pushDatasToTemplate = function(page, template){
-		console.log("--pushDatasToTemplate")
-		console.log(page)
-		console.log(this.loadedDatas)
-		console.log(this.loadedDatas[page])
+		// console.log("--pushDatasToTemplate")
+		// console.log(page)
+		// console.log(this.loadedDatas)
+		// console.log(this.loadedDatas[page])
 		var view = $('#templates .template.'+template).html()
 		var output = Mustache.render(view, this.loadedDatas[page])
 		var page = $('<div class="template '+template+'" data-page="'+page+'"></div>').html(output).appendTo('#pages')
@@ -819,10 +792,10 @@ var gdfsuezSlider = function(){
 		nbSlides = $('.slide', page).length
 
 		$(page).hammer().off('swipeleft swiperight').on('swipeleft', function(){
-			console.log('next')
+			// console.log('next')
 			self.next()
 		}).on('swiperight', function(){
-			console.log('prev')
+			// console.log('prev')
 			self.prev()
 		})
 	}
@@ -854,21 +827,21 @@ var gdfsuezSlider = function(){
 	this.app()
 }
 function onLoadPays(){
-	console.log('--onLoadPays')
+	// console.log('--onLoadPays')
 	$('#pages .pays .reference').hammer().off('tap').on('tap', function(){
 		var page = $(this).attr('data-page')
 		oNavigation.navTo(page, oNavigation.currentPage, "< Back to State")
 	})
 }
 function onLoadInfographics(){
-	console.log('--onLoadInfographics')
+	// console.log('--onLoadInfographics')
 	$('#pages .infographics .marker').hammer().off('tap').on('tap', function(){
 		var page = $(this).attr('data-page')
 		oNavigation.navTo(page, oNavigation.currentPage, "< Back to Infographics")
 	})
 }
 function onLoadTechnologies(){
-	console.log('--onLoadTechnologies')
+	// console.log('--onLoadTechnologies')
 	$('#pages .technologies1 .marker, #pages .technologies2 .marker, #pages .technologies3 .marker, #pages .technologies4 .marker').hammer().off('tap').on('tap', function(){
 		var page = $(this).attr('data-page')
 		oNavigation.navTo(page, oNavigation.currentPage, "< Back to Technologies")
@@ -880,7 +853,7 @@ function onLoadReference(){
 	})
 }
 function onLoadVideo(){
-	console.log('--onLoadVideo')
+	// console.log('--onLoadVideo')
 	$('#pages .video video').hammer().off('tap').on('tap', function(){
 		if($(this).get(0).paused){
 			$(this).get(0).play()
@@ -892,7 +865,7 @@ function onLoadVideo(){
 	})
 }
 function onUnloadVideo(){
-	console.log('--onUnloadVideo')
+	// console.log('--onUnloadVideo')
 	$('#pages .video video').get(0).pause()
 	$('#pages .video .play').addClass('active')
 }
