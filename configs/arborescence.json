@@ -140,6 +140,17 @@
 					"onload"     : "onLoadInfographics",
 					"reversemenu": true
 				},
+				"sf-video" : {
+					"parent"     : "sports-facilities",
+					"niveau"     : 2,
+					"angle"      : -45,
+					"fond"       : "white",
+					"template"   : "video",
+					"datas"      : "sf-video",
+					"onload"     : "onLoadVideo",
+					"reversemenu": true,
+					"onunload"   : "onUnloadVideo"
+				},
 			"university-campus" : {
 				"parent"     : "activities",
 				"niveau"     : 1,
@@ -166,6 +177,17 @@
 					"datas"      : "uc-infographics",
 					"onload"     : "onLoadInfographics",
 					"reversemenu": true
+				},
+				"uc-video" : {
+					"parent"     : "university-campus",
+					"niveau"     : 2,
+					"angle"      : -45,
+					"fond"       : "white",
+					"template"   : "video",
+					"datas"      : "uc-video",
+					"onload"     : "onLoadVideo",
+					"reversemenu": true,
+					"onunload"   : "onUnloadVideo"
 				},
 			"medical-services" : {
 				"parent"     : "activities",
@@ -194,6 +216,17 @@
 					"onload"     : "onLoadInfographics",
 					"reversemenu": true
 				},
+				"ms-video" : {
+					"parent"     : "medical-services",
+					"niveau"     : 2,
+					"angle"      : -45,
+					"fond"       : "white",
+					"template"   : "video",
+					"datas"      : "ms-video",
+					"onload"     : "onLoadVideo",
+					"reversemenu": true,
+					"onunload"   : "onUnloadVideo"
+				},
 			"commercial-centers" : {
 				"parent"     : "activities",
 				"niveau"     : 1,
@@ -220,6 +253,17 @@
 					"datas"      : "cc-infographics",
 					"onload"     : "onLoadInfographics",
 					"reversemenu": true
+				},
+				"cc-video" : {
+					"parent"     : "commercial-centers",
+					"niveau"     : 2,
+					"angle"      : -45,
+					"fond"       : "white",
+					"template"   : "video",
+					"datas"      : "cc-video",
+					"onload"     : "onLoadVideo",
+					"reversemenu": true,
+					"onunload"   : "onUnloadVideo"
 				},
 			"cultural-equipment" : {
 				"parent"     : "activities",
@@ -248,6 +292,17 @@
 					"onload"     : "onLoadInfographics",
 					"reversemenu": true
 				},
+				"ce-video" : {
+					"parent"     : "cultural-equipment",
+					"niveau"     : 2,
+					"angle"      : -45,
+					"fond"       : "white",
+					"template"   : "video",
+					"datas"      : "ce-video",
+					"onload"     : "onLoadVideo",
+					"reversemenu": true,
+					"onunload"   : "onUnloadVideo"
+				},
 			"security-infrastructures" : {
 				"parent"     : "activities",
 				"niveau"     : 1,
@@ -275,6 +330,17 @@
 					"onload"     : "onLoadInfographics",
 					"reversemenu": true
 				},
+				"si-video" : {
+					"parent"     : "security-infrastructures",
+					"niveau"     : 2,
+					"angle"      : -45,
+					"fond"       : "white",
+					"template"   : "video",
+					"datas"      : "si-video",
+					"onload"     : "onLoadVideo",
+					"reversemenu": true,
+					"onunload"   : "onUnloadVideo"
+				},
 	"contacts" : {
 		"niveau"     : 0,
 		"template"   : "contacts",
@@ -299,6 +365,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-multi-technical-maintenance"
 	},
@@ -306,6 +373,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-electrical-engineering"
 	},
@@ -313,6 +381,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-illuminations-and-giant-screens"
 	},
@@ -320,6 +389,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-fire-protection"
 	},
@@ -327,6 +397,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-renewable-energies"
 	},
@@ -334,6 +405,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-waste-sorting-and-recovery"
 	},
@@ -341,6 +413,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-climate-engineering"
 	},
@@ -348,6 +421,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-air-treatment"
 	},
@@ -355,6 +429,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-kitchen-refrigeration"
 	},
@@ -362,6 +437,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-smart-control-and-site-security"
 	},
@@ -369,6 +445,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-management-and-procurement-of-resources"
 	},
@@ -376,6 +453,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-sustainable-mobility-solutions"
 	},
@@ -383,6 +461,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-purification-and-industrial-maintenance"
 	},
@@ -390,6 +469,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-design-construction-project-management"
 	},
@@ -397,6 +477,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-ensuring-operational-fitness-and-integrated-logistic-support"
 	},
@@ -404,6 +485,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-perimeter-protection-videosurveillance-and-runway-marking"
 	},
@@ -411,6 +493,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-communication-networks-and-dedicated-infrastructures"
 	},
@@ -418,6 +501,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-lecture-theatres-classrooms-and-information-technology-training-rooms"
 	},
@@ -425,6 +509,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-datacenter"
 	},
@@ -432,6 +517,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-thermal-and-classical-soil-remediation-deconstruction-removal-of-explosives"
 	},
@@ -439,6 +525,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-global-cultural-event-management"
 	},
@@ -446,6 +533,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-interactive-terminal-for-patients"
 	},
@@ -453,6 +541,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-laundry-expertise"
 	},
@@ -460,6 +549,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-water-purification-systems"
 	},
@@ -467,6 +557,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-mobile-water-supply-and-treatment-systems"
 	},
@@ -474,6 +565,7 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-mobility"
 	},
@@ -481,84 +573,96 @@
 		"niveau"     : 0,
 		"fond"       : "white",
 		"template"   : "capability",
+		"onload"     : "onLoadCapability",
 		"disablemenu": true,
 		"datas"      : "capability-building-and-demolishing-facilities"
 	},
 	"technologie-degres-bleus" : {
 		"niveau"     : 0,
 		"fond"       : "white",
-		"template"   : "technology",
+		"template"   : "reference-technology",
 		"disablemenu": true,
+		"onload"     : "onLoadReferenceTechnology",
 		"datas"      : "technologie-degres-bleus"
 	}, 
 	"technologie-vigionella" : {
 		"niveau"     : 0,
 		"fond"       : "white",
-		"template"   : "technology",
+		"template"   : "reference-technology",
 		"disablemenu": true,
+		"onload"     : "onLoadReferenceTechnology",
 		"datas"      : "technologie-vigionella"
 	}, 
 	"technologie-smart-city-dashboard" : {
 		"niveau"     : 0,
 		"fond"       : "white",
-		"template"   : "technology",
+		"template"   : "reference-technology",
 		"disablemenu": true,
+		"onload"     : "onLoadReferenceTechnology",
 		"datas"      : "technologie-smart-city-dashboard"
 	}, 
 	"technologie-elena" : {
 		"niveau"     : 0,
 		"fond"       : "white",
-		"template"   : "technology",
+		"template"   : "reference-technology",
 		"disablemenu": true,
+		"onload"     : "onLoadReferenceTechnology",
 		"datas"      : "technologie-elena"
 	}, 
 	"technologie-bio-deconditioner" : {
 		"niveau"     : 0,
 		"fond"       : "white",
-		"template"   : "technology",
+		"template"   : "reference-technology",
 		"disablemenu": true,
+		"onload"     : "onLoadReferenceTechnology",
 		"datas"      : "technologie-bio-deconditioner"
 	}, 
 	"technologie-co2-and-nh3-technologies" : {
 		"niveau"     : 0,
 		"fond"       : "white",
-		"template"   : "technology",
+		"template"   : "reference-technology",
 		"disablemenu": true,
+		"onload"     : "onLoadReferenceTechnology",
 		"datas"      : "technologie-co2-and-nh3-technologies"
 	}, 
 	"technologie-carbon-footprint-of-hypermarkets-and-supermarkets" : {
 		"niveau"     : 0,
 		"fond"       : "white",
-		"template"   : "technology",
+		"template"   : "reference-technology",
 		"disablemenu": true,
+		"onload"     : "onLoadReferenceTechnology",
 		"datas"      : "technologie-carbon-footprint-of-hypermarkets-and-supermarkets"
 	}, 
 	"technologie-multimedia-patient-terminal" : {
 		"niveau"     : 0,
 		"fond"       : "white",
-		"template"   : "technology",
+		"template"   : "reference-technology",
 		"disablemenu": true,
+		"onload"     : "onLoadReferenceTechnology",
 		"datas"      : "technologie-multimedia-patient-terminal"
 	}, 
 	"technologie-purite-limited" : {
 		"niveau"     : 0,
 		"fond"       : "white",
-		"template"   : "technology",
+		"template"   : "reference-technology",
 		"disablemenu": true,
+		"onload"     : "onLoadReferenceTechnology",
 		"datas"      : "technologie-purite-limited"
 	}, 
 	"technologie-vertuoz" : {
 		"niveau"     : 0,
 		"fond"       : "white",
-		"template"   : "technology",
+		"template"   : "reference-technology",
 		"disablemenu": true,
+		"onload"     : "onLoadReferenceTechnology",
 		"datas"      : "technologie-vertuoz"
 	}, 
 	"technologie-omobile" : {
 		"niveau"     : 0,
 		"fond"       : "white",
-		"template"   : "technology",
+		"template"   : "reference-technology",
 		"disablemenu": true,
+		"onload"     : "onLoadReferenceTechnology",
 		"datas"      : "technologie-omobile"
 	}, 
 	"references-the-center-of-new-industrie-and-technologies-and-the-carrousel-du-louvre" : {
@@ -1577,11 +1681,47 @@
 		"onload"     : "onLoadReference",
 		"datas"      : "references-wind-turbines"
 	},
-	"video-test" : {
+	"success-stories" : {
 		"niveau"  : 0,
 		"fond"    : "white",
 		"template": "video",
-		"datas"   : "video-test",
+		"datas"   : "success-stories",
+		"onload"  : "onLoadVideo",
+		"disablemenu": true,
+		"onunload": "onUnloadVideo"
+	},
+	"urban-foresight" : {
+		"niveau"  : 0,
+		"fond"    : "white",
+		"template": "video",
+		"datas"   : "urban-foresight",
+		"onload"  : "onLoadVideo",
+		"disablemenu": true,
+		"onunload": "onUnloadVideo"
+	},
+	"our-ceo" : {
+		"niveau"  : 0,
+		"fond"    : "white",
+		"template": "video",
+		"datas"   : "our-ceo",
+		"onload"  : "onLoadVideo",
+		"disablemenu": true,
+		"onunload": "onUnloadVideo"
+	},
+	"my-city" : {
+		"niveau"  : 0,
+		"fond"    : "white",
+		"template": "video",
+		"datas"   : "my-city",
+		"onload"  : "onLoadVideo",
+		"disablemenu": true,
+		"onunload": "onUnloadVideo"
+	},
+	"high-performance" : {
+		"niveau"  : 0,
+		"fond"    : "white",
+		"template": "video",
+		"datas"   : "high-performance",
 		"onload"  : "onLoadVideo",
 		"disablemenu": true,
 		"onunload": "onUnloadVideo"

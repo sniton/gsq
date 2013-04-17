@@ -4178,6 +4178,10 @@
 			}
 		]
 	},
+	"ce-video" : {
+		"titre" : "Cultural equipment",
+		"video" : "ZoomCulture.mp4"
+	},
 	"uc-technologies" : {
 		"technologies" : [
 			{
@@ -4275,6 +4279,10 @@
 				"left" : 85
 			}
 		]
+	},
+	"uc-video" : {
+		"titre" : "University campus",
+		"video" : "ZoomCampus.mp4"
 	},
 	"ms-technologies" : {
 		"technologies" : [
@@ -4392,6 +4400,10 @@
 			}
 		]
 	},
+	"ms-video" : {
+		"titre" : "Medical services",
+		"video" : "ZoomSante.mp4"
+	},
 	"cc-technologies" : {
 		"technologies" : [
 			{
@@ -4495,6 +4507,10 @@
 				"left" : 396
 			}
 		]
+	},
+	"cc-video" : {
+		"titre" : "Commercial centers",
+		"video" : "ZoomCommerciaux.mp4"
 	},
 	"sf-technologies" : {
 		"technologies" : [
@@ -4624,6 +4640,10 @@
 			}
 		]
 	},
+	"sf-video" : {
+		"titre" : "Sport Facilities",
+		"video" : "ZoomSport.mp4"
+	},
 	"si-technologies" : {
 		"technologies" : [
 			{
@@ -4740,8 +4760,28 @@
 			}
 		]
 	},
-	"video-test" : {
-		"titre" : "tiroje oieri kdfjlhg df",
-		"video" : "test.mp4"
+	"si-video" : {
+		"titre" : "Security infrastructures",
+		"video" : "ZoomSecurite.mp4"
+	},
+	"success-stories" : {
+		"titre" : "Success stories",
+		"video" : "success-stories.mp4"
+	},
+	"urban-foresight" : {
+		"titre" : "Urban foresight",
+		"video" : "urban-foresight.mp4"
+	},
+	"our-ceo" : {
+		"titre" : "Our CEO's vision",
+		"video" : "our-ceo.mp4"
+	},
+	"my-city" : {
+		"titre" : "My City",
+		"video" : "my-city.mp4"
+	},
+	"high-performance" : {
+		"titre" : "High performance district cooling network",
+		"video" : "high-performance.mp4"
 	}
 }

@@ -385,8 +385,8 @@ nav .pagination a {font-size:16px; padding:8px 12px; }
 .tinyscrollbar .disable{ display: none; }
 .noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
 
-
-
+.videoLink {position: absolute; width: 148px;height: 148px; cursor: pointer;-webkit-opacity : 0;-webkit-transition: -webkit-opacity 300ms linear;}
+.template.active .videoLink {-webkit-opacity : 1;}
 
 
 body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', 'Arial', 'sans-serif';}
@@ -521,9 +521,18 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
         .photo:nth-child(1) {border-color: @bleuciel; top: -24px;left: -140px; z-index: 102; width: 278px;height: 278px;}
         .photo:nth-child(2) {border-color: #fff; bottom: -18px;left: -158px;width: 180px;height: 180px;}
       }
+      .references {position: absolute; top: 225px; left: 184px;width: 510px;
+        .reference { width: 134px;height: 134px; .border-radius(50%); cursor: pointer; background-color: #f00; -webkit-background-size: cover; background-size: cover; float: left; margin-right: 34px; position: relative;
+          .cursors {width: 149px;height: 22px; background: url(../images/capabilities-cursors.png) center center no-repeat; position: absolute; top: 50%;left: 50%;margin: -11px 0 0 -75px; pointer-events:none;-webkit-animation: cursors 7s ease infinite;}
+        }
+        .reference:nth-child(2) .cursors {-webkit-animation: cursors 9s ease infinite;}
+        .reference:nth-child(3) .cursors {-webkit-animation: cursors 5s ease infinite;}
+      }
       .societes {background-color: @bleumarine; padding: 10px; position: absolute;bottom: -65px;right: -47px;
         .container {width: 217px;height: 104px; overflow: hidden;
-          .slider {height: 104px; -webkit-transition: -webkit-transform 300ms ease;}
+          .slider {height: 104px; -webkit-transition: margin-left 300ms ease;
+            img {float: left; margin: 0; pointer-events:none;}
+          }
         }
       }
     }
@@ -540,7 +549,9 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
     .slide.prev {-webkit-transform: translate3d(-100%, 0, 0);}
     .slide.next {-webkit-transform: translate3d(100%, 0, 0);}
     .slide1 {background-image: url(../uploads/gdfsuez/slide1.jpg);}
-    .slide2 {background-image: url(../uploads/gdfsuez/slide2.jpg);}
+    .slide2 {background-image: url(../uploads/gdfsuez/slide2.jpg);
+      .high-performance {top: 260px;left: 30px; background-image: url(../uploads/videos/high-performance.png);}
+    }
     .slide3 {background-image: url(../uploads/gdfsuez/slide3.jpg);
       .marker {width: 48px;height: 48px;.border-radius(50%); position: absolute; background: @vert url(../images/asterisk.png) center center no-repeat; cursor: pointer; top: 50%;left: 50%; margin: -24px 0 0 -24px;-webkit-transition: all 300ms ease}
       .marker.active {width: 382px; height: 382px; margin: -191px 0 0 -191px; z-index: 101;}
@@ -591,6 +602,8 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
       .texte {color: #464749; font-size: 24px;}
     }
     .popin.active {-webkit-transform: translate3d(0,0,0); }
+    .our-ceo {top: 352px;left: 329px; background-image: url(../uploads/videos/our-ceo.png);}
+    .my-city {top: 352px;left: 533px; background-image: url(../uploads/videos/my-city.png);}
   }
   .template.city-of-tomorrow.active {
     .marker {-webkit-transform: translate3d(0,0,0); -webkit-opacity : 1;}
@@ -667,6 +680,8 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
       &.medical-services {width: 171px;height: 236px;background-image: url(../uploads/activities/marker-medical-services.png);top: 196px;left: 256px;}
       &.university-campus {width: 171px;height: 276px;background-image: url(../uploads/activities/marker-university-campus.png);top: 86px;left: 138px;}
     }
+    .success-stories {top: 518px;left: 180px; background-image: url(../uploads/videos/success-stories.png);}
+    .urban-foresight {top: 530px;left: 814px; background-image: url(../uploads/videos/urban-foresight.png);}
   }
   .template.activities.active {
     .marker {-webkit-transform: translate3d(0,0,0); -webkit-opacity : 1; 

@@ -220,7 +220,7 @@ var panier = function(){
 				self.opened = false
 			}, 500)
 			if(oNavigation.currentPage == 'panier' || oNavigation.currentPage == 'paniersend'){
-				oNavigation.navTo('home')
+				oNavigation.back()
 			}
 			$('#contact').removeClass('hide')
 		}
@@ -280,7 +280,7 @@ var panier = function(){
 		oNavigation.navTo('paniersend')
 	}
 	this.emptyPanier = function(){
-		if(confirm("Voulez-vous vider le panier ?")){
+		if(confirm("EMPTY THE SHOPPING BASKET\r\nAre you sure you want to empty the basket? All the contents will be immediately deleted. This action is irreversible.")){
 			this.panierList = {'reference': {}, 'video' : {}, 'capability' : {}, 'technologie' : {}, 'plaquette' : {}}
 			console.log(this.panierList)
 			this.refresh()
@@ -312,6 +312,7 @@ var panier = function(){
 		        	jsonpCallback : jsonpCallback
 				})
 		        alert("L'e-mail a été envoyé avec succès")
+		        this.emptyPanier()
 		    }
 		}
 	}
@@ -463,7 +464,7 @@ var contact = function(){
 	this.close = function(){
 		if(this.opened){
 			this.contact.removeClass('active')
-			oNavigation.navTo('home')
+			oNavigation.back()
 			setTimeout(function(){
 				self.opened = false
 			}, 500)
@@ -494,6 +495,7 @@ function navEvents(){
 var navigation = function(){
 	var self = this
 	var currentPage
+	var lastPage
 	var arborescence
 	var currentFond;
 	var menu = $('#menu')
@@ -536,16 +538,16 @@ var navigation = function(){
 			}
 		})
 		$('header#header .backLink').hammer().on('tap', function(){
-			var page = $(this).attr('data-page')
+			// var page = $(this).attr('data-page')
 			$(this).attr('data-page', '').removeClass('active')
-			self.navTo(page)
+			// self.navTo(page)
+			self.back()
 		})
 		$('header#header .menuLink').hammer().on('tap', function(){
 			self.showMenu()
 		})
 		$('#logo').hammer().on('tap', function(){
-			// self.navTo('home')
-			self.navTo('video-test')
+			self.navTo('home')
 		})
 	}
 	this.niveau1and2Events = function(){
@@ -640,11 +642,19 @@ var navigation = function(){
 			if(this.arborescence[page].disablemenu){
 				$(menu).addClass('disabled').removeClass('isniveau1 isniveau2')
 				$('header#header .menuLink').removeClass('active')
+				this.lastPage = !this.lastPage ? this.currentPage : this.lastPage
 			}else{
 				$(menu).removeClass('disabled')
 				this.refreshMenu(page, virtual)
+				this.lastPage = null
 			}
+			console.log('lastpage = '+this.lastPage)
 			this.currentPage = page
+		}
+	}
+	this.back = function(){
+		if(this.lastPage){
+			this.navTo(this.lastPage)
 		}
 	}
 	this.refreshMenu = function(page, virtual){
@@ -782,15 +792,91 @@ var datas = function(){
 	this.loadDatas()
 }
 
+$.fn.carouselSocietes = function(options) { 
+       
+    var defaults = {
+        width       : 217,
+        duration	: 2000
+    };   
+    var opts = $.extend(defaults, options);
+
+    return this.each(function(){
+    	var self = $(this)
+    	var nbSlides = 0
+    	var currentSlide = 1
+    	var margin = 0
+
+		function app(){
+			console.log(self)
+			// On compte le nombre de slide pour fixer la taille du slider
+			nbSlides = $('.slider img', self).length
+			$('.slider', self).width(opts.width * nbSlides)
+
+			// // Déclaration des évènements sur les boutons
+			// $(self).hammer().on('swipeleft', function(){
+			// 	console.log('swipeleft')
+			// 	next()
+			// })
+			// $(self).hammer().on('swiperight', function(){
+			// 	prev()
+			// })
+    		setTimeout(function(){
+    			next()
+    		}, opts.duration)
+		}    	
+
+		function next(){
+			// On controle si ce n'est pas la dernière slide
+			if(currentSlide < nbSlides){
+				currentSlide++
+				margin = - ((currentSlide - 1) * opts.width)
+				move()
+			}else{
+				currentSlide = 1
+				margin = 0
+				move()
+			}
+		}
+		// function prev(){
+		// 	// On controle si ce n'est pas la dernière slide
+		// 	if(currentSlide > 1){
+		// 		currentSlide--
+		// 		margin = - ((currentSlide - 1) * opts.width)
+		// 		move()
+		// 	}
+		// }
+
+		function move(){
+			$('.slider', self).css('margin-left', margin)
+			setTimeout(function(){
+    			next()
+    		}, opts.duration)
+		}
+
+
+		app()
+    })
+}
+
+
 function onLoadCapabilities(){
 	$('#pages .capabilities .marker').hammer().off('tap').on('tap', function(){
 		var page = $(this).attr('data-page')
 		oNavigation.navTo(page, 'capabilities', "< Back to Capabilities")
 	})
 }
+function onLoadCapability(){
+	console.log('--onLoadCapability')
+	$('#pages .capability .societes').carouselSocietes()
+	$('#pages .capability .references .reference').hammer().off('tap').on('tap', function(){
+		var page = $(this).attr('data-page')
+		oNavigation.navTo(page, 'capabilities', "< Back to Capabilities")
+	})
+}
+
 var oGdfsuezSlider = null
 function onLoadGdfsuez(){
-	if(!oGdfsuezSlider)	oGdfsuezSlider = new gdfsuezSlider()
+	oGdfsuezSlider = new gdfsuezSlider()
 	oGdfsuezSlider.next()
 }
 function onUnloadGdfsuez(){
@@ -816,7 +902,11 @@ var gdfsuezSlider = function(){
 			self.prev()
 		})
 
-		$('.slide3 .marker', page).hammer().on('tap', function(){
+		$('.slide2 .videoLink', page).hammer().off('tap').on('tap', function(){
+			var page = $(this).attr('data-page')
+			oNavigation.navTo(page, oNavigation.currentPage, "< Back to City of Tomorrow")
+		})
+		$('.slide3 .marker', page).hammer().off('tap').on('tap', function(){
 			$(this).toggleClass('active').siblings().removeClass('active')
 		})
 	}
@@ -878,11 +968,19 @@ function onLoadCityofTomorrow(){
 	$('#pages .city-of-tomorrow .popin').hammer().off('tap').on('tap', function(){
 		$(this).removeClass('active')
 	})
+	$('#pages .city-of-tomorrow .videoLink').hammer().off('tap').on('tap', function(){
+		var page = $(this).attr('data-page')
+		oNavigation.navTo(page, oNavigation.currentPage, "< Back to City of Tomorrow")
+	})
 }
 function onLoadActivities(){
 	$('#pages .activities .marker').hammer().off('tap').on('tap', function(){
 		var page = $(this).attr('data-page')
 		oNavigation.navTo(page)
+	})
+	$('#pages .activities .videoLink').hammer().off('tap').on('tap', function(){
+		var page = $(this).attr('data-page')
+		oNavigation.navTo(page, oNavigation.currentPage, "< Back to Activities")
 	})
 }
 function onLoadTechnologies(){
@@ -893,9 +991,12 @@ function onLoadTechnologies(){
 	})
 }
 function onLoadReference(){
-	$('#pages .reference .photos .photo').hammer().off('tap').on('tap', function(){
+	$('#pages .reference-technology .photos .photo').hammer().off('tap').on('tap', function(){
 		$(this).toggleClass('active')
 	})
+}
+function onLoadReferenceTechnology(){
+	$('#pages .reference-technology .societes').carouselSocietes()
 }
 function onLoadVideo(){
 	console.log('--onLoadVideo')

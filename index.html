@@ -18,9 +18,9 @@
 
 
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
-    <!--<link rel="stylesheet/less" type="text/css" href="css/global.less" />
-    <script src="js/less-1.3.3.min.js"></script>-->
-    <link href="css/global.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet/less" type="text/css" href="css/global.less" />
+    <script src="js/less-1.3.3.min.js"></script>
+    <!-- <link href="css/global.css" rel="stylesheet" type="text/css" /> -->
     
 
     <script src="phonegap.js"></script>
@@ -75,7 +75,9 @@
 			</div>
     	<div class="template gdfsuez">
     		<div class="slide next slide1"></div>
-    		<div class="slide next slide2"></div>
+    		<div class="slide next slide2">
+    			<div class="videoLink high-performance" data-page="high-performance"></div>
+    		</div>
     		<div class="slide next slide3">
     			<div class="marker marker1"></div>
     			<div class="marker marker2"></div>
@@ -170,6 +172,8 @@
 					<div class="titre">Engineering</div>
 					<div class="texte">An overall energy and environmental performance approach for current and planned equipment.<br>Consideration of technical, economic, financial, and social aspects.<br>Offers favoring the growth of the circular economy and “usage value”.</div>
 				</div>
+				<div class="videoLink our-ceo" data-page="our-ceo"></div>
+				<div class="videoLink my-city" data-page="my-city"></div>
 			</div>
 			<div class="template activities">
 				<div class="marker security-infrastructures" data-page="security-infrastructures"></div>
@@ -178,9 +182,11 @@
 				<div class="marker cultural-equipment" data-page="cultural-equipment"></div>
 				<div class="marker medical-services" data-page="medical-services"></div>
 				<div class="marker university-campus" data-page="university-campus"></div>
+				<div class="videoLink success-stories" data-page="success-stories"></div>
+				<div class="videoLink urban-foresight" data-page="urban-foresight"></div>
 			</div>
 			<div class="template contacts">
-				<div class="titre"><span class="small">Your</span>Contacts</div>
+				<div class="titre"><span class="small">Your</span> Contacts</div>
 				<div class="content">
 					<div class="colleft">
 						<div class="soustitre"><span class="small">Your</span> Contacts<br><span class="small">in</span> Gulf States</div>
@@ -247,11 +253,13 @@
 							<div class="photo" style="background-image: url(uploads/capabilities/{{image}});"></div>
 						{{/photos}}
 					</div>
-					<!-- {{#references}}
+					<div class="references">
+					{{#references}}
 						<div class="reference reference{{index}}" style="background-image: url(uploads/references/{{photo}});" data-page="{{alias}}">
 							<div class="cursors"></div>
 						</div>
-					{{/references}} -->
+					{{/references}}
+					</div>
 					<div class="societes">
 						<div class="container">
 							<div class="slider">
@@ -509,8 +517,8 @@
 	<script src="js/jquery.hammer.min.js"></script>
 	<script src="js/mustache.js"></script>
 	<script src="js/jquery.tinyscrollbar.min.js"></script>
-	<!-- // <script src="js/global.js"></script> -->
-	<script src="js/global.min.js"></script>
+	<script src="js/global.js"></script>
+	<!-- // <script src="js/global.min.js"></script> -->
   
 
 </body>
