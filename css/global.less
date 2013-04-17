@@ -605,7 +605,7 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
     .zoomqatar {position: absolute; width: 248px;height: 248px; background: #c6c6c6 url(../uploads/gulf-presence/qatar.png) center center no-repeat; .border-radius(50%); top: 310px;left: 540px;-webkit-transform: scale(0); -webkit-transition: -webkit-transform 300ms; cursor: pointer;}
     .marker {position: absolute; -webkit-transform: translate3D(0,-150px,0); -webkit-opacity : 0; -webkit-transition: -webkit-opacity 300ms linear, -webkit-transform 300ms ease-out; cursor: pointer;}
     .marker.qatar {bottom: 306px; left: 634px;width: 125px;height: 263px;  background-image: url(../uploads/gulf-presence/marker-qatar.png);}
-    .marker.saudiarabia {bottom: 258px; left: 285px;width: 116px;height: 114px; background-image: url(../uploads/gulf-presence/marker-saudiarabia.png);}
+    .marker.saudiarabia {bottom: 258px; left: 285px;width: 115px;height: 114px; background-image: url(../uploads/gulf-presence/marker-saudiarabia.png);}
     .marker.kuwait {bottom: 582px; left: 408px;width: 81px;height: 96px; background-image: url(../uploads/gulf-presence/marker-kuwait.png);}
     .marker.bahrain {bottom: 421px; left: 539px;width: 89px;height: 119px; background-image: url(../uploads/gulf-presence/marker-bahrain.png); }
     .marker.unitedarabemirates {bottom: 381px; left: 803px;width: 169px;height: 192px; background-image: url(../uploads/gulf-presence/marker-unitedarabemirates.png);}
@@ -677,6 +677,23 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
   }
   .template.infographics.active {
     .marker {display: block;-webkit-animation: reticul 7s ease infinite;}
+    .marker1 {-webkit-animation: reticul 8s ease infinite;}
+    .marker2 {-webkit-animation: reticul 9s ease infinite;}
+    .marker3 {-webkit-animation: reticul 6s ease infinite;}
+    .marker4 {-webkit-animation: reticul 10s ease infinite;}
+    .marker5 {-webkit-animation: reticul 11s ease infinite;}
+    .marker6 {-webkit-animation: reticul 12s ease infinite;}
+    .marker7 {-webkit-animation: reticul 8s ease infinite;}
+    .marker8 {-webkit-animation: reticul 9s ease infinite;}
+    .marker9 {-webkit-animation: reticul 6s ease infinite;}
+    .marker10 {-webkit-animation: reticul 10s ease infinite;}
+    .marker11 {-webkit-animation: reticul 11s ease infinite;}
+    .marker12 {-webkit-animation: reticul 8s ease infinite;}
+    .marker13 {-webkit-animation: reticul 9s ease infinite;}
+    .marker14 {-webkit-animation: reticul 6s ease infinite;}
+    .marker15 {-webkit-animation: reticul 10s ease infinite;}
+    .marker16 {-webkit-animation: reticul 11s ease infinite;}
+    .marker17 {-webkit-animation: reticul 12s ease infinite;}
   }
   @-webkit-keyframes reticul{
     0% {-webkit-transform: rotate(0deg);}
@@ -754,16 +771,12 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
       .texte {margin: 20px 20px 0 274px; font-size: 18px;color: #fff;}
       .photos {
         .photo {position: absolute; -webkit-transform:scale(0); -webkit-transition: -webkit-transform 300ms ease; position: absolute; top: 50%;left: 50%; margin: -187px 0 0 -187px;
-          .image {width: 375px;height: 375px; -webkit-transition: -webkit-transform 300ms ease; -webkit-background-size: cover; background-size: cover;}
+          .image {width: 375px;height: 375px; /*-webkit-transition: -webkit-transform 300ms ease;*/ -webkit-background-size: cover; background-size: cover;}
           .legend {display: none; font-size: 16px;color: #fff; padding-top: 5px; width: 375px;}
           .close {width: 26px;height: 26px; .border-radius(50%); border: solid 2px #464749; position: absolute; top: 20px; right: 20px; background: url(../images/icon-close.png) center center no-repeat; display: none;}
         }
-        .photo:nth-child(1) {-webkit-transform:translate3d(-280px, -78px,0);
-          .image {-webkit-transform: scale(0.7) }
-        }
-        .photo:nth-child(2) {-webkit-transform: translate3d(0,0,0);
-          .image {-webkit-transform: scale(0.5) }
-        }
+        .photo:nth-child(1) {-webkit-transform:translate3d(-280px, -78px,0) scale(0.7) }
+        .photo:nth-child(2) {-webkit-transform: translate3d(0,0,0) scale(0.5) }
         .photo.active {-webkit-transform: translate3d(0,-30px,0); padding: 10px; background-color: #6b6c6e;
           .image {-webkit-transform: scale(1)}
           .legend {display: block;}

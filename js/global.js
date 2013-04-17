@@ -784,8 +784,10 @@ var gdfsuezSlider = function(){
 	this.app()
 }
 function onLoadPays(){
-	$('#pages .reference .photos .photo').hammer().off('tap').on('tap', function(){
-		$(this).toggleClass('active')
+	console.log('--onLoadPays')
+	$('#pages .pays .reference').hammer().off('tap').on('tap', function(){
+		var page = $(this).attr('data-page')
+		oNavigation.navTo(page, oNavigation.currentPage, "< Back to State")
 	})
 }
 function onLoadInfographics(){
