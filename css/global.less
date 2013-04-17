@@ -821,7 +821,7 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
         dl {margin-left: 170px;
           dt {margin-top: 20px; .bold; text-transform: uppercase;}
           dt:first-child {margin-top: 0;}
-          dd {height: 22px;line-height: 22px; .lite; padding-left: 58px; background: url(../images/panier-check.png) left center no-repeat; margin-top: 5px; cursor: pointer;}
+          dd {min-height: 22px;line-height: 22px; .lite; padding-left: 58px; background: url(../images/panier-check.png) left top no-repeat; margin-top: 5px; cursor: pointer;}
           dd.checked {background-image: url(../images/panier-check-checked.png);}
         }
       }
@@ -832,8 +832,8 @@ body {font-family: 'HelveticaNeueLTStd55Roman', 'Helvetica Neue', 'helvetica', '
       .etatconnexion {margin: 113px 0 0 234px; width: 365px;height: 56px; background: url(../images/wifi-state.png) left top no-repeat; float: left;clear: both;}
       .etatconnexion.offline {background-position: bottom;}
     }
-    .facettes {width: 200px;height: 132px; position: absolute; top: 337px;left: 188px; background-color: #ddd; text-align: right;-webkit-transition: -webkit-transform @pageTransitionDuration ease-out;  -webkit-transform: translate3d(-600px,100px,0);
-      ul {margin-top: 40px; padding: 0 13px;
+    .facettes {width: 200px;height: 153px; position: absolute; top: 337px;left: 188px; background-color: #ddd; text-align: right;-webkit-transition: -webkit-transform @pageTransitionDuration ease-out;  -webkit-transform: translate3d(-600px,100px,0);
+      ul {margin-top: 40px; padding: 0 13px 0 0;
         li {font-size: 18px; .lite; color: #6b6b6d; line-height: 0.7em;
           span {.bold; display: inline-block; width: 30px; }
         }

@@ -13,7 +13,8 @@
 			"niveau"  : 1,
 			"angle"   : 67,
 			"fond"    : "capabilities",
-			"template": "capabilites"
+			"template": "capabilities",
+			"onload"  : "onLoadCapabilities"
 		},
 		"gdfsuez" : {
 			"parent"  : "group",
@@ -30,7 +31,8 @@
 			"niveau"  : 1,
 			"angle"   : -70,
 			"fond"    : "gulf-presence",
-			"template": "gulf-presence"
+			"template": "gulf-presence",
+			"onload"  : "onLoadGulfPresence"
 		},
 			"pays-saudiarabia" : {
 				"parent"  : "gulf-presence",
@@ -94,20 +96,22 @@
 		"reversemenu": true
 	},
 		"city-of-tomorrow" : {
-			"parent"    : "savoirfaire",
-			"niveau"    : 1,
-			"angle"     : 30,
-			"fond"      : "city-of-tomorrow",
-			"template"  : "city-of-tomorrow",
-			"reversemenu": true
+			"parent"     : "savoirfaire",
+			"niveau"     : 1,
+			"angle"      : 30,
+			"fond"       : "city-of-tomorrow",
+			"template"   : "city-of-tomorrow",
+			"reversemenu": true,
+			"onload"     : "onLoadCityofTomorrow"
 		},
 		"activities" : {
-			"parent"    : "savoirfaire",
-			"niveau"    : 1,
-			"angle"     : -50,
-			"fond"      : "activities",
-			"template"  : "activities",
-			"reversemenu": true
+			"parent"     : "savoirfaire",
+			"niveau"     : 1,
+			"angle"      : -50,
+			"fond"       : "activities",
+			"template"   : "activities",
+			"reversemenu": true,
+			"onload"     : "onLoadActivities"
 		},
 			"sports-facilities" : {
 				"parent"     : "activities",
